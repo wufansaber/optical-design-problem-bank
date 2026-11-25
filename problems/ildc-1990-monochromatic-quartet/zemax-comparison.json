@@ -1,0 +1,480 @@
+{
+  "optiwork": {
+    "selected": "mfg_rear_clearance_fit_fit",
+    "nominalRmsUm": 2.2492262641964054,
+    "targetUm": 2.25,
+    "targetReached": true,
+    "focalLengthMm": 100.00024778193205,
+    "fNumber": 3.000007433457961,
+    "trackMm": 356.0663061185171,
+    "bflMm": 1.9110653684680436,
+    "minimumImagePlaneClearanceMm": 1.5982578997248067,
+    "maxChiefDistortionPercent": 0.26940879849557875,
+    "maxCentroidDistortionPercent": 0.26888614868989524,
+    "fullSampledPupil": true,
+    "nominalManufacturingGeometry": "passed",
+    "fabrication": {
+      "lenses": [
+        {
+          "lens": 1,
+          "finishedDiameterMm": 132.1384,
+          "centerThicknessMm": 4.799621262521926,
+          "proposedCylindricalBlankDiameterMm": 133.1384,
+          "proposedBlankLengthMm": 35.23445621650625,
+          "oversizeUnfinishedEdgeThicknessMm": 16.51048607702224,
+          "minimumFinishedThicknessMm": 4.799621262521926,
+          "nearestFinishedFaceDistanceMm": 4.799621262521926
+        },
+        {
+          "lens": 2,
+          "finishedDiameterMm": 125.5558,
+          "centerThicknessMm": 221.86980360128265,
+          "proposedCylindricalBlankDiameterMm": 126.5558,
+          "proposedBlankLengthMm": 223.86980360128265,
+          "oversizeUnfinishedEdgeThicknessMm": 194.61503083264748,
+          "minimumFinishedThicknessMm": 195.06466661964117,
+          "nearestFinishedFaceDistanceMm": 195.06466661964117
+        },
+        {
+          "lens": 3,
+          "finishedDiameterMm": 48.6192,
+          "centerThicknessMm": 97.5290240218061,
+          "proposedCylindricalBlankDiameterMm": 49.6192,
+          "proposedBlankLengthMm": 99.5290240218061,
+          "oversizeUnfinishedEdgeThicknessMm": 92.57977724114261,
+          "minimumFinishedThicknessMm": 92.7838785396844,
+          "nearestFinishedFaceDistanceMm": 92.7838785396844
+        },
+        {
+          "lens": 4,
+          "finishedDiameterMm": 53.478077616794124,
+          "centerThicknessMm": 2.5858068925602993,
+          "proposedCylindricalBlankDiameterMm": 54.478077616794124,
+          "proposedBlankLengthMm": 14.828710148156611,
+          "oversizeUnfinishedEdgeThicknessMm": 12.828710148156611,
+          "minimumFinishedThicknessMm": 2.5858068925602993,
+          "nearestFinishedFaceDistanceMm": 2.5858068925602993
+        }
+      ],
+      "seatConcept": [
+        {
+          "left": 2,
+          "right": 3,
+          "rearContactRadiusMm": 62.3892,
+          "frontContactRadiusMm": 62.3778,
+          "vertexGapMm": 16.777596135130093,
+          "contactPlaneSeparationMm": 5.119193819540982,
+          "concept": "independent or stepped annular seats"
+        },
+        {
+          "left": 4,
+          "right": 6,
+          "rearContactRadiusMm": 16.0583,
+          "frontContactRadiusMm": 15.0693,
+          "vertexGapMm": 0.74114623201159,
+          "contactPlaneSeparationMm": 3.3042098704383474,
+          "concept": "independent or stepped annular seats"
+        },
+        {
+          "left": 7,
+          "right": 8,
+          "rearContactRadiusMm": 23.9095,
+          "frontContactRadiusMm": 23.922100000000004,
+          "vertexGapMm": 9.852242604736414,
+          "contactPlaneSeparationMm": 2.6959741754327076,
+          "concept": "independent or stepped annular seats"
+        }
+      ],
+      "blankBasis": "https://www.schott.com/en-us/products/optical-glass",
+      "finishedSphereBasis": "https://media.schott.com/api/public/content/4458fe0487604d478e7f924c572364d2?download=true&v=5fc613d7"
+    },
+    "supplierStatus": "Published capability and calculated blank requests. Individual supplier quotation and acceptance pending.",
+    "rejectedFinalists": []
+  },
+  "zemax": {
+    "software": "Zemax OpticStudio 2022 R2.02",
+    "nativeVersion": "22.2",
+    "effectiveFocalLengthMm": 100.00024778193195,
+    "realEntrancePupilDiameterMm": 33.33333577178759,
+    "paraxialEntrancePupilDiameterMm": 33.47487199394796,
+    "fNumberFromRealEntrance": 3.0000072139965477,
+    "fNumberFromParaxialEntrance": 2.9873227834899967,
+    "nAtDLine": 1.5168001097398938,
+    "nativeFile": "quartet_crosscheck.zmx",
+    "maximumCentroidDistortionPercent": 0.2688861492039729,
+    "maximumChiefDistortionPercent": 0.2694087984952964,
+    "fields": [
+      {
+        "fieldDeg": 0.0,
+        "samples": 1409,
+        "spotRmsUm": 2.8780467572326836,
+        "rayErrors": 0,
+        "vignetted": 0,
+        "centroidDistortionPercent": 0.0,
+        "centroidDistortionWithMeasuredEflPercent": 0.0,
+        "chiefDistortionPercent": 0.0
+      },
+      {
+        "fieldDeg": 0.5,
+        "samples": 1409,
+        "spotRmsUm": 2.873665107160715,
+        "rayErrors": 0,
+        "vignetted": 0,
+        "centroidDistortionPercent": -0.1532826118841646,
+        "centroidDistortionWithMeasuredEflPercent": -0.15353001339647454,
+        "chiefDistortionPercent": -0.1660541033988161
+      },
+      {
+        "fieldDeg": 1.0,
+        "samples": 1409,
+        "spotRmsUm": 2.860549529920715,
+        "rayErrors": 0,
+        "vignetted": 0,
+        "centroidDistortionPercent": -0.15317017349211204,
+        "centroidDistortionWithMeasuredEflPercent": -0.15341757528303246,
+        "chiefDistortionPercent": -0.165859576607863
+      },
+      {
+        "fieldDeg": 1.5,
+        "samples": 1409,
+        "spotRmsUm": 2.838782276612793,
+        "rayErrors": 0,
+        "vignetted": 0,
+        "centroidDistortionPercent": -0.15299063226130727,
+        "centroidDistortionWithMeasuredEflPercent": -0.15323803449708295,
+        "chiefDistortionPercent": -0.16554356935125636
+      },
+      {
+        "fieldDeg": 2.0,
+        "samples": 1409,
+        "spotRmsUm": 2.8084812117665687,
+        "rayErrors": 0,
+        "vignetted": 0,
+        "centroidDistortionPercent": -0.1527557671461066,
+        "centroidDistortionWithMeasuredEflPercent": -0.153003169963839,
+        "chiefDistortionPercent": -0.16511839088936275
+      },
+      {
+        "fieldDeg": 2.5,
+        "samples": 1409,
+        "spotRmsUm": 2.7697727137383463,
+        "rayErrors": 0,
+        "vignetted": 0,
+        "centroidDistortionPercent": -0.15248205669469161,
+        "centroidDistortionWithMeasuredEflPercent": -0.15272946019062594,
+        "chiefDistortionPercent": -0.16460126204949077
+      },
+      {
+        "fieldDeg": 3.0,
+        "samples": 1409,
+        "spotRmsUm": 2.7227573363804236,
+        "rayErrors": 0,
+        "vignetted": 0,
+        "centroidDistortionPercent": -0.15219066800159498,
+        "centroidDistortionWithMeasuredEflPercent": -0.15243807221955175,
+        "chiefDistortionPercent": -0.1640143372225622
+      },
+      {
+        "fieldDeg": 3.5,
+        "samples": 1409,
+        "spotRmsUm": 2.6674718847968,
+        "rayErrors": 0,
+        "vignetted": 0,
+        "centroidDistortionPercent": -0.151907438165666,
+        "centroidDistortionWithMeasuredEflPercent": -0.15215484308540583,
+        "chiefDistortionPercent": -0.16338468926966332
+      },
+      {
+        "fieldDeg": 4.0,
+        "samples": 1409,
+        "spotRmsUm": 2.603852944343254,
+        "rayErrors": 0,
+        "vignetted": 0,
+        "centroidDistortionPercent": -0.15166285036478655,
+        "centroidDistortionWithMeasuredEflPercent": -0.15191025589056384,
+        "chiefDistortionPercent": -0.16274430945268925
+      },
+      {
+        "fieldDeg": 4.5,
+        "samples": 1409,
+        "spotRmsUm": 2.5317080462348622,
+        "rayErrors": 0,
+        "vignetted": 0,
+        "centroidDistortionPercent": -0.15149200145337938,
+        "centroidDistortionWithMeasuredEflPercent": -0.1517394074024958,
+        "chiefDistortionPercent": -0.1621301008275955
+      },
+      {
+        "fieldDeg": 5.0,
+        "samples": 1409,
+        "spotRmsUm": 2.450701970750897,
+        "rayErrors": 0,
+        "vignetted": 0,
+        "centroidDistortionPercent": -0.15143455909397696,
+        "centroidDistortionWithMeasuredEflPercent": -0.15168196518541288,
+        "chiefDistortionPercent": -0.16158386690013904
+      },
+      {
+        "fieldDeg": 5.5,
+        "samples": 1409,
+        "spotRmsUm": 2.3603669951177144,
+        "rayErrors": 0,
+        "vignetted": 0,
+        "centroidDistortionPercent": -0.1515347059789396,
+        "centroidDistortionWithMeasuredEflPercent": -0.15178211182222956,
+        "chiefDistortionPercent": -0.16115229378975693
+      },
+      {
+        "fieldDeg": 6.0,
+        "samples": 1409,
+        "spotRmsUm": 2.2601475938636257,
+        "rayErrors": 0,
+        "vignetted": 0,
+        "centroidDistortionPercent": -0.15184106795128605,
+        "centroidDistortionWithMeasuredEflPercent": -0.15208847303547213,
+        "chiefDistortionPercent": -0.16088692379541136
+      },
+      {
+        "fieldDeg": 6.5,
+        "samples": 1409,
+        "spotRmsUm": 2.149492843950854,
+        "rayErrors": 0,
+        "vignetted": 0,
+        "centroidDistortionPercent": -0.15240662214627276,
+        "centroidDistortionWithMeasuredEflPercent": -0.15265402582912424,
+        "chiefDistortionPercent": -0.1608441178531428
+      },
+      {
+        "fieldDeg": 7.0,
+        "samples": 1409,
+        "spotRmsUm": 2.0280150475771097,
+        "rayErrors": 0,
+        "vignetted": 0,
+        "centroidDistortionPercent": -0.15328858064947992,
+        "centroidDistortionWithMeasuredEflPercent": -0.1535359821470017,
+        "chiefDistortionPercent": -0.16108500390537017
+      },
+      {
+        "fieldDeg": 7.5,
+        "samples": 1409,
+        "spotRmsUm": 1.8957434699528586,
+        "rayErrors": 0,
+        "vignetted": 0,
+        "centroidDistortionPercent": -0.15454824405870538,
+        "centroidDistortionWithMeasuredEflPercent": -0.15479564243501276,
+        "chiefDistortionPercent": -0.1616754076485316
+      },
+      {
+        "fieldDeg": 8.0,
+        "samples": 1409,
+        "spotRmsUm": 1.753522316675102,
+        "rayErrors": 0,
+        "vignetted": 0,
+        "centroidDistortionPercent": -0.15625081838309685,
+        "centroidDistortionWithMeasuredEflPercent": -0.15649821254074547,
+        "chiefDistortionPercent": -0.16268576147082658
+      },
+      {
+        "fieldDeg": 8.5,
+        "samples": 1409,
+        "spotRmsUm": 1.6036382887309433,
+        "rayErrors": 0,
+        "vignetted": 0,
+        "centroidDistortionPercent": -0.15846518706003065,
+        "centroidDistortionWithMeasuredEflPercent": -0.15871257573087938,
+        "chiefDistortionPercent": -0.16419098661124565
+      },
+      {
+        "fieldDeg": 9.0,
+        "samples": 1409,
+        "spotRmsUm": 1.4508171317180907,
+        "rayErrors": 0,
+        "vignetted": 0,
+        "centroidDistortionPercent": -0.1612636283548574,
+        "centroidDistortionWithMeasuredEflPercent": -0.16151101009169722,
+        "chiefDistortionPercent": -0.1662703426282497
+      },
+      {
+        "fieldDeg": 9.5,
+        "samples": 1409,
+        "spotRmsUm": 1.3037567604242517,
+        "rayErrors": 0,
+        "vignetted": 0,
+        "centroidDistortionPercent": -0.1647214661509966,
+        "centroidDistortionWithMeasuredEflPercent": -0.16496883931996775,
+        "chiefDistortionPercent": -0.1690072370996054
+      },
+      {
+        "fieldDeg": 10.0,
+        "samples": 1409,
+        "spotRmsUm": 1.1771157947688893,
+        "rayErrors": 0,
+        "vignetted": 0,
+        "centroidDistortionPercent": -0.1689166394137187,
+        "centroidDistortionWithMeasuredEflPercent": -0.16916400218782712,
+        "chiefDistortionPercent": -0.17248898729302908
+      },
+      {
+        "fieldDeg": 10.5,
+        "samples": 1409,
+        "spotRmsUm": 1.092553378511135,
+        "rayErrors": 0,
+        "vignetted": 0,
+        "centroidDistortionPercent": -0.17392917219728465,
+        "centroidDistortionWithMeasuredEflPercent": -0.17417652255128369,
+        "chiefDistortionPercent": -0.1768065230782323
+      },
+      {
+        "fieldDeg": 11.0,
+        "samples": 1409,
+        "spotRmsUm": 1.0745034716224529,
+        "rayErrors": 0,
+        "vignetted": 0,
+        "centroidDistortionPercent": -0.1798405216492105,
+        "centroidDistortionWithMeasuredEflPercent": -0.18008785735600386,
+        "chiefDistortionPercent": -0.18205401973196977
+      },
+      {
+        "fieldDeg": 11.5,
+        "samples": 1409,
+        "spotRmsUm": 1.1375608141954792,
+        "rayErrors": 0,
+        "vignetted": 0,
+        "centroidDistortionPercent": -0.18673277581138237,
+        "centroidDistortionWithMeasuredEflPercent": -0.1869800944404365,
+        "chiefDistortionPercent": -0.1883284447372624
+      },
+      {
+        "fieldDeg": 12.0,
+        "samples": 1409,
+        "spotRmsUm": 1.2761294048578387,
+        "rayErrors": 0,
+        "vignetted": 0,
+        "centroidDistortionPercent": -0.19468766564382234,
+        "centroidDistortionWithMeasuredEflPercent": -0.19493496456215453,
+        "chiefDistortionPercent": -0.1957290008420265
+      },
+      {
+        "fieldDeg": 12.5,
+        "samples": 1409,
+        "spotRmsUm": 1.4699457681907626,
+        "rayErrors": 0,
+        "vignetted": 0,
+        "centroidDistortionPercent": -0.20378534593945563,
+        "centroidDistortionWithMeasuredEflPercent": -0.20403262231544206,
+        "chiefDistortionPercent": -0.20435644264292785
+      },
+      {
+        "fieldDeg": 13.0,
+        "samples": 1409,
+        "spotRmsUm": 1.696656402938556,
+        "rayErrors": 0,
+        "vignetted": 0,
+        "centroidDistortionPercent": -0.214102887027523,
+        "centroidDistortionWithMeasuredEflPercent": -0.21435013783854817,
+        "chiefDistortionPercent": -0.21431223873606964
+      },
+      {
+        "fieldDeg": 13.5,
+        "samples": 1409,
+        "spotRmsUm": 1.9393582049966607,
+        "rayErrors": 0,
+        "vignetted": 0,
+        "centroidDistortionPercent": -0.22571240178060892,
+        "centroidDistortionWithMeasuredEflPercent": -0.22595962382544466,
+        "chiefDistortionPercent": -0.22569754445203039
+      },
+      {
+        "fieldDeg": 14.0,
+        "samples": 1409,
+        "spotRmsUm": 2.190660011253418,
+        "rayErrors": 0,
+        "vignetted": 0,
+        "centroidDistortionPercent": -0.2386787091213205,
+        "centroidDistortionWithMeasuredEflPercent": -0.23892589903805606,
+        "chiefDistortionPercent": -0.23861194107941408
+      },
+      {
+        "fieldDeg": 14.5,
+        "samples": 1409,
+        "spotRmsUm": 2.4585652769590762,
+        "rayErrors": 0,
+        "vignetted": 0,
+        "centroidDistortionPercent": -0.25305640274596586,
+        "centroidDistortionWithMeasuredEflPercent": -0.2533035570374653,
+        "chiefDistortionPercent": -0.25315188551994217
+      },
+      {
+        "fieldDeg": 15.0,
+        "samples": 1409,
+        "spotRmsUm": 2.7770800778299254,
+        "rayErrors": 0,
+        "vignetted": 0,
+        "centroidDistortionPercent": -0.2688861492039729,
+        "centroidDistortionWithMeasuredEflPercent": -0.2691332642723254,
+        "chiefDistortionPercent": -0.2694087984952964
+      }
+    ],
+    "scoreFields": [
+      {
+        "fieldDeg": 0.0,
+        "rmsUm": 2.878046756995118,
+        "centroidYmm": 2.1619787894241216e-12,
+        "failedRays": 0
+      },
+      {
+        "fieldDeg": 10.5,
+        "rmsUm": 1.0925533787850983,
+        "centroidYmm": 18.50166862649253,
+        "failedRays": 0
+      },
+      {
+        "fieldDeg": 15.0,
+        "rmsUm": 2.777080078388394,
+        "centroidYmm": 26.72287141657778,
+        "failedRays": 0
+      }
+    ],
+    "allRaysPass": true
+  },
+  "pairedScoreFields": [
+    {
+      "fieldDeg": 0.0,
+      "rmsUm": 2.878046756995118,
+      "centroidYmm": 2.1619787894241216e-12,
+      "failedRays": 0,
+      "optiworkRmsUm": 2.8780461867560123,
+      "optiworkCentroidYmm": -1.5269853369402397e-17,
+      "zemaxMinusOptiworkRmsUm": 5.702391057127443e-07
+    },
+    {
+      "fieldDeg": 10.5,
+      "rmsUm": 1.0925533787850983,
+      "centroidYmm": 18.50166862649253,
+      "failedRays": 0,
+      "optiworkRmsUm": 1.0925531290490451,
+      "optiworkCentroidYmm": 18.50166862655771,
+      "zemaxMinusOptiworkRmsUm": 2.4973605317057945e-07
+    },
+    {
+      "fieldDeg": 15.0,
+      "rmsUm": 2.777080078388394,
+      "centroidYmm": 26.72287141657778,
+      "failedRays": 0,
+      "optiworkRmsUm": 2.777079476784159,
+      "optiworkCentroidYmm": 26.72287141671489,
+      "zemaxMinusOptiworkRmsUm": 6.0160423531741e-07
+    }
+  ],
+  "zemaxMeanRmsUm": 2.2492267380562034,
+  "zemaxMinusOptiworkMeanRmsUm": 4.7385979806691125e-07,
+  "matchingNominalPrescription": true,
+  "refocusApplied": false,
+  "exactPupilSamples": {
+    "scoreOrder": 32,
+    "scoreAzimuths": 128,
+    "auditOrder": 20,
+    "auditAzimuths": 64,
+    "auditRim": 128
+  }
+}

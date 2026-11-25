@@ -4,9 +4,9 @@
 
 ## 已复验
 
-题目完成 Optiwork 复验后在此登记。额外练习目标和赛题硬性要求以单题说明为准。
+题目完成 Optiwork 和 Zemax 同处方复验后在此登记。额外练习目标和赛题硬性要求以单题说明为准。
 
-- [ILDC 1990 单色四片式](problems/ildc-1990-monochromatic-quartet/README.md) · Optiwork 复验，三场平均 2.2492 µm，制造几何初审通过。
+- [ILDC 1990 单色四片式](problems/ildc-1990-monochromatic-quartet/README.md) · Optiwork / Zemax 三场平均 2.2492 / 2.2492 µm，制造几何初审通过。
 
 ## 题目索引
 
@@ -23,5 +23,10 @@
 | IODC 2021 Down Under Lens | 验证原向与按指定规则翻转后的系统 | [赛事题面](https://iodc.info/2020/09/the-2021-iodc-shafer-cup-competition/) |
 | IODC 2023 Yin Yang Lens | 在两组波长约束下设计同一套光学系统 | [赛事题面](https://iodc.info/2022/08/the-2023-iodc-shafer-cup-competition/) |
 | IODC 2027 Schoenberg Lens | 每片镜的四项尺寸各用 0–9 一次，再最大化入瞳直径与半视场的乘积 | [赛事题面](https://iodc.info/2026/09/the-2027-iodc-shafer-cup-competition/) |
+| 2013 中国镜头设计题 | 共轭变焦，待核对完整规格 | [Optica 会议论文](https://opg.optica.org/abstract.cfm?uri=IODC-2014-ITu1A.5) |
+| Optiland 多色点斑优化 | 50 mm、F/4、3–6 片，五场共质心多色 RMS | [赛事题面](https://www.optiland.org/competitions) · [共同规则](https://www.optiland.org/competitions/rules) |
+| Optiland 中等广角 | 待核对分题的约束与分数定义 | [赛事入口](https://www.optiland.org/competitions) |
+| Optiland 消色差双片 | 待核对分题的约束与分数定义 | [赛事入口](https://www.optiland.org/competitions) |
+| Nonimaging 2026 Square Peg | 将立方光源发出的光反射到圆形开口 | [赛事题面和名次](https://nonimaging-conference.org/competition-2026/) |
 
 历届照明题另见 [IODC 照明题目录](https://iodc.info/category/illumination-problem/) 和 [2027 非成像联合竞赛](https://nonimaging-conference.org/competition-2027/)。
