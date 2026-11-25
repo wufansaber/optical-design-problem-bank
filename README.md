@@ -13,6 +13,8 @@
 
 - [Optiland 50 mm F/4 多色点斑](problems/optiland-50mm-rms/README.md) · 双软件评分 0.23598 / 0.23598，全场通光。
 
+- [Optiland 24 mm F/4 广角](problems/optiland-24mm-wide-angle/README.md) · 双软件多色 FFT MTF 评分 0.58708 / 0.58847，全场通光。
+
 ## 题目索引
 
 | 题目 | 设计要点 | 题源 |

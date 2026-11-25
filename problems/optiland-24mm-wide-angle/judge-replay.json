@@ -1,0 +1,2130 @@
+{
+  "evaluator_version": "2.1.0",
+  "challenge": "wide_angle",
+  "eligible": true,
+  "official": false,
+  "status": "eligible",
+  "score": null,
+  "violations": [],
+  "constraints": [
+    {
+      "name": "EFL_mm",
+      "value": 24.163962678813345,
+      "minimum": 23.52,
+      "maximum": 24.48,
+      "passed": true
+    },
+    {
+      "name": "F_number",
+      "value": 4.065059708858038,
+      "minimum": 3.8,
+      "maximum": 4.2,
+      "passed": true
+    },
+    {
+      "name": "element_count",
+      "value": 6,
+      "minimum": 5,
+      "maximum": 8,
+      "passed": true
+    },
+    {
+      "name": "BFD_mm",
+      "value": 24.920324899997148,
+      "minimum": 12,
+      "maximum": null,
+      "passed": true
+    },
+    {
+      "name": "total_track_mm",
+      "value": 70.30259202151117,
+      "minimum": 0,
+      "maximum": 80,
+      "passed": true
+    },
+    {
+      "name": "minimum_center_thickness_mm",
+      "value": 2.199868502003052,
+      "minimum": 2.0,
+      "maximum": null,
+      "passed": true
+    },
+    {
+      "name": "minimum_edge_thickness_mm",
+      "value": 1.7309749964355157,
+      "minimum": 1.0,
+      "maximum": null,
+      "passed": true
+    },
+    {
+      "name": "maximum_absolute_distortion_fraction",
+      "value": 0.010913595378637786,
+      "minimum": 0,
+      "maximum": 0.02,
+      "passed": true
+    }
+  ],
+  "environment_warnings": [
+    "Optiland source/catalog bytes differ from the published engine lock.",
+    "numpy version differs from the published engine lock.",
+    "scipy version differs from the published engine lock."
+  ],
+  "settings": {
+    "wavelengths_um": [
+      0.4861327,
+      0.5875618,
+      0.6562725
+    ],
+    "spectral_weights": [
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333
+    ],
+    "fields_deg": [
+      0,
+      10,
+      20,
+      30
+    ],
+    "field_weights": [
+      0.25,
+      0.25,
+      0.25,
+      0.25
+    ],
+    "pupil_rings": 16,
+    "pupil_spokes": 64,
+    "verification_rim_spokes": 256,
+    "verification_rim_radius": 0.999999,
+    "stop_aim_residual_tolerance_mm": 1e-07,
+    "vignetting_policy": "No blocked, missing, TIR, backward, or mis-aimed test rays",
+    "focus_policy": "One submitted flat sensor; no refocusing",
+    "verification_fields_deg": [
+      0,
+      1.0,
+      2.0,
+      3.0,
+      4.0,
+      5.0,
+      6.0,
+      7.0,
+      8.0,
+      9.0,
+      10,
+      11.0,
+      12.0,
+      13.0,
+      14.0,
+      15.0,
+      16.0,
+      17.0,
+      18.0,
+      19.0,
+      20,
+      21.0,
+      22.0,
+      23.0,
+      24.0,
+      25.0,
+      26.0,
+      27.0,
+      28.0,
+      29.0,
+      30
+    ]
+  },
+  "engine": {
+    "expected_commit": "61f096bbf038b29a19681aabda5a061bf839b40c",
+    "source_catalog_sha256": "de5c0359f65e3c064f02f3f127a33747ab4fcbe5ff2fd0a99bdd513a5f9993e9",
+    "hashed_files": 3887,
+    "versions": {
+      "optiland": "0.6.2.post234+ga9e544a2",
+      "numpy": "2.3.5",
+      "scipy": "1.16.3"
+    },
+    "mismatch": [
+      "Optiland source/catalog bytes differ from the published engine lock.",
+      "numpy version differs from the published engine lock.",
+      "scipy version differs from the published engine lock."
+    ]
+  },
+  "input_format": "optiland",
+  "conversion_notes": [
+    "Ignored from the file: fields (the judge sets these).",
+    "Ignored from the file: wavelengths (the judge sets these).",
+    "Ignored from the file: ray_tracer (the judge sets these).",
+    "Ignored from the file: solves (the judge sets these)."
+  ],
+  "prescription": {
+    "surfaces": [
+      {
+        "radius_mm": 43.493638049264796,
+        "thickness_after_mm": 2.4247133934974268,
+        "material_after": {
+          "catalog": "SCHOTT",
+          "name": "N-SK16"
+        },
+        "clear_radius_mm": 14.20098009319844
+      },
+      {
+        "radius_mm": 16.115856758767894,
+        "thickness_after_mm": 9.707134584760066,
+        "material_after": "AIR",
+        "clear_radius_mm": 14.20098009319844
+      },
+      {
+        "radius_mm": 52.63950859788523,
+        "thickness_after_mm": 3.0381791135006866,
+        "material_after": {
+          "catalog": "SCHOTT",
+          "name": "N-SK16"
+        },
+        "clear_radius_mm": 10.67086453865977
+      },
+      {
+        "radius_mm": 21.45701539977677,
+        "thickness_after_mm": 5.9687761436255675,
+        "material_after": "AIR",
+        "clear_radius_mm": 10.67086453865977
+      },
+      {
+        "radius_mm": 32.20528040095521,
+        "thickness_after_mm": 4.977667074099815,
+        "material_after": {
+          "catalog": "SCHOTT",
+          "name": "N-BASF2"
+        },
+        "clear_radius_mm": 9.831626155536565
+      },
+      {
+        "radius_mm": -47.17034421349028,
+        "thickness_after_mm": 1.9142824524315598,
+        "material_after": "AIR",
+        "clear_radius_mm": 9.831626155536565
+      },
+      {
+        "radius_mm": 13.482209990897239,
+        "thickness_after_mm": 4.689730734695289,
+        "material_after": {
+          "catalog": "SCHOTT",
+          "name": "N-FK5"
+        },
+        "clear_radius_mm": 7.668315102973465
+      },
+      {
+        "radius_mm": -52.266501673449966,
+        "thickness_after_mm": 2.3808753739307735,
+        "material_after": "AIR",
+        "clear_radius_mm": 7.668315102973465
+      },
+      {
+        "radius_mm": null,
+        "thickness_after_mm": 0.7997829508194024,
+        "material_after": "AIR",
+        "clear_radius_mm": 3.389673817425588
+      },
+      {
+        "radius_mm": -31.586657815504225,
+        "thickness_after_mm": 2.199868502003052,
+        "material_after": {
+          "catalog": "SCHOTT",
+          "name": "N-SF15"
+        },
+        "clear_radius_mm": 4.183521473722136
+      },
+      {
+        "radius_mm": 12.015151993258494,
+        "thickness_after_mm": 3.6457529521811636,
+        "material_after": "AIR",
+        "clear_radius_mm": 4.183521473722136
+      },
+      {
+        "radius_mm": 110.66503279690922,
+        "thickness_after_mm": 3.6355038459692244,
+        "material_after": {
+          "catalog": "SCHOTT",
+          "name": "N-LAK12"
+        },
+        "clear_radius_mm": 7.141436012154513
+      },
+      {
+        "radius_mm": -16.48402375898335,
+        "thickness_after_mm": 24.920324899997148,
+        "material_after": "AIR",
+        "clear_radius_mm": 7.141436012154513
+      }
+    ],
+    "stop_surface": 8,
+    "stop_radius_mm": 3.389673817425588,
+    "name": "Optiland 24 mm F/4 (organizer)"
+  },
+  "geometry": {
+    "element_count": 6,
+    "elements": [
+      {
+        "front_surface": 0,
+        "back_surface": 1,
+        "center_thickness_mm": 2.4247133934974268,
+        "edge_thickness_mm": 8.53763877585682,
+        "mechanical_radius_mm": 14.20098009319844,
+        "material": {
+          "catalog": "SCHOTT",
+          "name": "N-SK16"
+        },
+        "catalog_file": "glass/schott/N-SK16.yml",
+        "refractive_indices_FdC": [
+          1.6275563487810216,
+          1.620409965080894,
+          1.6172716598778427
+        ],
+        "abbe_number": 60.32364915667316,
+        "isolated_power_per_mm": -0.023410779790024264
+      },
+      {
+        "front_surface": 2,
+        "back_surface": 3,
+        "center_thickness_mm": 3.0381791135006866,
+        "edge_thickness_mm": 4.786790065662915,
+        "mechanical_radius_mm": 10.67086453865977,
+        "material": {
+          "catalog": "SCHOTT",
+          "name": "N-SK16"
+        },
+        "catalog_file": "glass/schott/N-SK16.yml",
+        "refractive_indices_FdC": [
+          1.6275563487810216,
+          1.620409965080894,
+          1.6172716598778427
+        ],
+        "abbe_number": 60.32364915667316,
+        "isolated_power_per_mm": -0.016489124254387675
+      },
+      {
+        "front_surface": 4,
+        "back_surface": 5,
+        "center_thickness_mm": 4.977667074099815,
+        "edge_thickness_mm": 2.404302542053742,
+        "mechanical_radius_mm": 9.831626155536565,
+        "material": {
+          "catalog": "SCHOTT",
+          "name": "N-BASF2"
+        },
+        "catalog_file": "glass/schott/N-BASF2.yml",
+        "refractive_indices_FdC": [
+          1.6775116054490944,
+          1.6644601934840138,
+          1.6590547023981161
+        ],
+        "abbe_number": 36.00063302325231,
+        "isolated_power_per_mm": 0.03384927429344164
+      },
+      {
+        "front_surface": 6,
+        "back_surface": 7,
+        "center_thickness_mm": 4.689730734695289,
+        "edge_thickness_mm": 1.7309749964355157,
+        "mechanical_radius_mm": 7.668315102973465,
+        "material": {
+          "catalog": "SCHOTT",
+          "name": "N-FK5"
+        },
+        "catalog_file": "glass/schott/N-FK5.yml",
+        "refractive_indices_FdC": [
+          1.4922694632945221,
+          1.4874900036786896,
+          1.4853454569873066
+        ],
+        "abbe_number": 70.40577117479975,
+        "isolated_power_per_mm": 0.04442176230786362
+      },
+      {
+        "front_surface": 9,
+        "back_surface": 10,
+        "center_thickness_mm": 2.199868502003052,
+        "edge_thickness_mm": 3.2299868775246163,
+        "mechanical_radius_mm": 4.183521473722136,
+        "material": {
+          "catalog": "SCHOTT",
+          "name": "N-SF15"
+        },
+        "catalog_file": "glass/schott/N-SF15.yml",
+        "refractive_indices_FdC": [
+          1.715358943472177,
+          1.6989203009828977,
+          1.6922165956378818
+        ],
+        "abbe_number": 30.200924555595556,
+        "isolated_power_per_mm": -0.08196363922907873
+      },
+      {
+        "front_surface": 11,
+        "back_surface": 12,
+        "center_thickness_mm": 3.6355038459692244,
+        "edge_thickness_mm": 1.7775610980275396,
+        "mechanical_radius_mm": 7.141436012154513,
+        "material": {
+          "catalog": "SCHOTT",
+          "name": "N-LAK12"
+        },
+        "catalog_file": "glass/schott/N-LAK12.yml",
+        "refractive_indices_FdC": [
+          1.686467038789227,
+          1.677900050649259,
+          1.67418614414449
+        ],
+        "abbe_number": 55.199565687974754,
+        "isolated_power_per_mm": 0.046704535616489504
+      }
+    ],
+    "total_track_mm": 70.30259202151117,
+    "sensor_distance_from_last_interface_mm": 24.920324899997148,
+    "bfd_mm": 24.920324899997148,
+    "minimum_center_thickness_mm": 2.199868502003052,
+    "minimum_edge_thickness_mm": 1.7309749964355157,
+    "stop_vertex_mm": 35.10135887054118,
+    "stop_radius_mm": 3.389673817425588,
+    "vertex_positions_mm": [
+      0.0,
+      2.4247133934974268,
+      12.131847978257493,
+      15.170027091758179,
+      21.138803235383747,
+      26.11647030948356,
+      28.03075276191512,
+      32.72048349661041,
+      35.10135887054118,
+      35.90114182136059,
+      38.10101032336364,
+      41.7467632755448,
+      45.382267121514026
+    ],
+    "mechanical_radii_mm": [
+      14.20098009319844,
+      14.20098009319844,
+      10.67086453865977,
+      10.67086453865977,
+      9.831626155536565,
+      9.831626155536565,
+      7.668315102973465,
+      7.668315102973465,
+      3.389673817425588,
+      4.183521473722136,
+      4.183521473722136,
+      7.141436012154513,
+      7.141436012154513
+    ]
+  },
+  "paraxial": {
+    "efl_mm": 24.163962678813345,
+    "entrance_pupil_diameter_mm": 5.94430694982375,
+    "f_number": 4.065059708858038,
+    "focus_offsets_from_sensor_mm": [
+      0.09508675248222453,
+      0.403351346941839,
+      0.5538528196576084
+    ],
+    "axial_FC_mm": 0.4587660671753838
+  },
+  "ray_checks": [
+    {
+      "launched_rays": 1281,
+      "valid_rays": 1281,
+      "failed_rays": 0,
+      "backward_rays": 0,
+      "wrong_spherical_cap_rays": 0,
+      "maximum_stop_aim_residual_mm": 9.574352372130406e-10,
+      "field_deg": 0,
+      "wavelength_um": 0.4861327
+    },
+    {
+      "launched_rays": 1281,
+      "valid_rays": 1281,
+      "failed_rays": 0,
+      "backward_rays": 0,
+      "wrong_spherical_cap_rays": 0,
+      "maximum_stop_aim_residual_mm": 9.7837189773753e-10,
+      "field_deg": 0,
+      "wavelength_um": 0.5875618
+    },
+    {
+      "launched_rays": 1281,
+      "valid_rays": 1281,
+      "failed_rays": 0,
+      "backward_rays": 0,
+      "wrong_spherical_cap_rays": 0,
+      "maximum_stop_aim_residual_mm": 9.853404065883945e-10,
+      "field_deg": 0,
+      "wavelength_um": 0.6562725
+    },
+    {
+      "launched_rays": 1281,
+      "valid_rays": 1281,
+      "failed_rays": 0,
+      "backward_rays": 0,
+      "wrong_spherical_cap_rays": 0,
+      "maximum_stop_aim_residual_mm": 5.980385076043149e-10,
+      "field_deg": 1.0,
+      "wavelength_um": 0.4861327
+    },
+    {
+      "launched_rays": 1281,
+      "valid_rays": 1281,
+      "failed_rays": 0,
+      "backward_rays": 0,
+      "wrong_spherical_cap_rays": 0,
+      "maximum_stop_aim_residual_mm": 6.360429127827416e-10,
+      "field_deg": 1.0,
+      "wavelength_um": 0.5875618
+    },
+    {
+      "launched_rays": 1281,
+      "valid_rays": 1281,
+      "failed_rays": 0,
+      "backward_rays": 0,
+      "wrong_spherical_cap_rays": 0,
+      "maximum_stop_aim_residual_mm": 5.893845411719667e-10,
+      "field_deg": 1.0,
+      "wavelength_um": 0.6562725
+    },
+    {
+      "launched_rays": 1281,
+      "valid_rays": 1281,
+      "failed_rays": 0,
+      "backward_rays": 0,
+      "wrong_spherical_cap_rays": 0,
+      "maximum_stop_aim_residual_mm": 6.94629243014333e-10,
+      "field_deg": 2.0,
+      "wavelength_um": 0.4861327
+    },
+    {
+      "launched_rays": 1281,
+      "valid_rays": 1281,
+      "failed_rays": 0,
+      "backward_rays": 0,
+      "wrong_spherical_cap_rays": 0,
+      "maximum_stop_aim_residual_mm": 6.944116393015065e-10,
+      "field_deg": 2.0,
+      "wavelength_um": 0.5875618
+    },
+    {
+      "launched_rays": 1281,
+      "valid_rays": 1281,
+      "failed_rays": 0,
+      "backward_rays": 0,
+      "wrong_spherical_cap_rays": 0,
+      "maximum_stop_aim_residual_mm": 6.926264006779093e-10,
+      "field_deg": 2.0,
+      "wavelength_um": 0.6562725
+    },
+    {
+      "launched_rays": 1281,
+      "valid_rays": 1281,
+      "failed_rays": 0,
+      "backward_rays": 0,
+      "wrong_spherical_cap_rays": 0,
+      "maximum_stop_aim_residual_mm": 8.143414831351947e-10,
+      "field_deg": 3.0,
+      "wavelength_um": 0.4861327
+    },
+    {
+      "launched_rays": 1281,
+      "valid_rays": 1281,
+      "failed_rays": 0,
+      "backward_rays": 0,
+      "wrong_spherical_cap_rays": 0,
+      "maximum_stop_aim_residual_mm": 8.100147219636256e-10,
+      "field_deg": 3.0,
+      "wavelength_um": 0.5875618
+    },
+    {
+      "launched_rays": 1281,
+      "valid_rays": 1281,
+      "failed_rays": 0,
+      "backward_rays": 0,
+      "wrong_spherical_cap_rays": 0,
+      "maximum_stop_aim_residual_mm": 8.062288614496538e-10,
+      "field_deg": 3.0,
+      "wavelength_um": 0.6562725
+    },
+    {
+      "launched_rays": 1281,
+      "valid_rays": 1281,
+      "failed_rays": 0,
+      "backward_rays": 0,
+      "wrong_spherical_cap_rays": 0,
+      "maximum_stop_aim_residual_mm": 9.58157997388298e-10,
+      "field_deg": 4.0,
+      "wavelength_um": 0.4861327
+    },
+    {
+      "launched_rays": 1281,
+      "valid_rays": 1281,
+      "failed_rays": 0,
+      "backward_rays": 0,
+      "wrong_spherical_cap_rays": 0,
+      "maximum_stop_aim_residual_mm": 9.413509971523126e-10,
+      "field_deg": 4.0,
+      "wavelength_um": 0.5875618
+    },
+    {
+      "launched_rays": 1281,
+      "valid_rays": 1281,
+      "failed_rays": 0,
+      "backward_rays": 0,
+      "wrong_spherical_cap_rays": 0,
+      "maximum_stop_aim_residual_mm": 9.32082411253532e-10,
+      "field_deg": 4.0,
+      "wavelength_um": 0.6562725
+    },
+    {
+      "launched_rays": 1281,
+      "valid_rays": 1281,
+      "failed_rays": 0,
+      "backward_rays": 0,
+      "wrong_spherical_cap_rays": 0,
+      "maximum_stop_aim_residual_mm": 9.966777537794236e-10,
+      "field_deg": 5.0,
+      "wavelength_um": 0.4861327
+    },
+    {
+      "launched_rays": 1281,
+      "valid_rays": 1281,
+      "failed_rays": 0,
+      "backward_rays": 0,
+      "wrong_spherical_cap_rays": 0,
+      "maximum_stop_aim_residual_mm": 9.93878777503426e-10,
+      "field_deg": 5.0,
+      "wavelength_um": 0.5875618
+    },
+    {
+      "launched_rays": 1281,
+      "valid_rays": 1281,
+      "failed_rays": 0,
+      "backward_rays": 0,
+      "wrong_spherical_cap_rays": 0,
+      "maximum_stop_aim_residual_mm": 9.980172526140057e-10,
+      "field_deg": 5.0,
+      "wavelength_um": 0.6562725
+    },
+    {
+      "launched_rays": 1281,
+      "valid_rays": 1281,
+      "failed_rays": 0,
+      "backward_rays": 0,
+      "wrong_spherical_cap_rays": 0,
+      "maximum_stop_aim_residual_mm": 9.971818866085074e-10,
+      "field_deg": 6.0,
+      "wavelength_um": 0.4861327
+    },
+    {
+      "launched_rays": 1281,
+      "valid_rays": 1281,
+      "failed_rays": 0,
+      "backward_rays": 0,
+      "wrong_spherical_cap_rays": 0,
+      "maximum_stop_aim_residual_mm": 9.944305468714543e-10,
+      "field_deg": 6.0,
+      "wavelength_um": 0.5875618
+    },
+    {
+      "launched_rays": 1281,
+      "valid_rays": 1281,
+      "failed_rays": 0,
+      "backward_rays": 0,
+      "wrong_spherical_cap_rays": 0,
+      "maximum_stop_aim_residual_mm": 9.928808522839942e-10,
+      "field_deg": 6.0,
+      "wavelength_um": 0.6562725
+    },
+    {
+      "launched_rays": 1281,
+      "valid_rays": 1281,
+      "failed_rays": 0,
+      "backward_rays": 0,
+      "wrong_spherical_cap_rays": 0,
+      "maximum_stop_aim_residual_mm": 9.990481648749681e-10,
+      "field_deg": 7.0,
+      "wavelength_um": 0.4861327
+    },
+    {
+      "launched_rays": 1281,
+      "valid_rays": 1281,
+      "failed_rays": 0,
+      "backward_rays": 0,
+      "wrong_spherical_cap_rays": 0,
+      "maximum_stop_aim_residual_mm": 9.981088512216531e-10,
+      "field_deg": 7.0,
+      "wavelength_um": 0.5875618
+    },
+    {
+      "launched_rays": 1281,
+      "valid_rays": 1281,
+      "failed_rays": 0,
+      "backward_rays": 0,
+      "wrong_spherical_cap_rays": 0,
+      "maximum_stop_aim_residual_mm": 9.966091308242511e-10,
+      "field_deg": 7.0,
+      "wavelength_um": 0.6562725
+    },
+    {
+      "launched_rays": 1281,
+      "valid_rays": 1281,
+      "failed_rays": 0,
+      "backward_rays": 0,
+      "wrong_spherical_cap_rays": 0,
+      "maximum_stop_aim_residual_mm": 9.873145644327968e-10,
+      "field_deg": 8.0,
+      "wavelength_um": 0.4861327
+    },
+    {
+      "launched_rays": 1281,
+      "valid_rays": 1281,
+      "failed_rays": 0,
+      "backward_rays": 0,
+      "wrong_spherical_cap_rays": 0,
+      "maximum_stop_aim_residual_mm": 9.74327711499598e-10,
+      "field_deg": 8.0,
+      "wavelength_um": 0.5875618
+    },
+    {
+      "launched_rays": 1281,
+      "valid_rays": 1281,
+      "failed_rays": 0,
+      "backward_rays": 0,
+      "wrong_spherical_cap_rays": 0,
+      "maximum_stop_aim_residual_mm": 9.96801023850922e-10,
+      "field_deg": 8.0,
+      "wavelength_um": 0.6562725
+    },
+    {
+      "launched_rays": 1281,
+      "valid_rays": 1281,
+      "failed_rays": 0,
+      "backward_rays": 0,
+      "wrong_spherical_cap_rays": 0,
+      "maximum_stop_aim_residual_mm": 9.979521987832505e-10,
+      "field_deg": 9.0,
+      "wavelength_um": 0.4861327
+    },
+    {
+      "launched_rays": 1281,
+      "valid_rays": 1281,
+      "failed_rays": 0,
+      "backward_rays": 0,
+      "wrong_spherical_cap_rays": 0,
+      "maximum_stop_aim_residual_mm": 9.983063770475908e-10,
+      "field_deg": 9.0,
+      "wavelength_um": 0.5875618
+    },
+    {
+      "launched_rays": 1281,
+      "valid_rays": 1281,
+      "failed_rays": 0,
+      "backward_rays": 0,
+      "wrong_spherical_cap_rays": 0,
+      "maximum_stop_aim_residual_mm": 9.973561617459132e-10,
+      "field_deg": 9.0,
+      "wavelength_um": 0.6562725
+    },
+    {
+      "launched_rays": 1281,
+      "valid_rays": 1281,
+      "failed_rays": 0,
+      "backward_rays": 0,
+      "wrong_spherical_cap_rays": 0,
+      "maximum_stop_aim_residual_mm": 9.969854214840836e-10,
+      "field_deg": 10,
+      "wavelength_um": 0.4861327
+    },
+    {
+      "launched_rays": 1281,
+      "valid_rays": 1281,
+      "failed_rays": 0,
+      "backward_rays": 0,
+      "wrong_spherical_cap_rays": 0,
+      "maximum_stop_aim_residual_mm": 9.986548851889816e-10,
+      "field_deg": 10,
+      "wavelength_um": 0.5875618
+    },
+    {
+      "launched_rays": 1281,
+      "valid_rays": 1281,
+      "failed_rays": 0,
+      "backward_rays": 0,
+      "wrong_spherical_cap_rays": 0,
+      "maximum_stop_aim_residual_mm": 9.999092754219526e-10,
+      "field_deg": 10,
+      "wavelength_um": 0.6562725
+    },
+    {
+      "launched_rays": 1281,
+      "valid_rays": 1281,
+      "failed_rays": 0,
+      "backward_rays": 0,
+      "wrong_spherical_cap_rays": 0,
+      "maximum_stop_aim_residual_mm": 9.991238794345425e-10,
+      "field_deg": 11.0,
+      "wavelength_um": 0.4861327
+    },
+    {
+      "launched_rays": 1281,
+      "valid_rays": 1281,
+      "failed_rays": 0,
+      "backward_rays": 0,
+      "wrong_spherical_cap_rays": 0,
+      "maximum_stop_aim_residual_mm": 9.88061471707546e-10,
+      "field_deg": 11.0,
+      "wavelength_um": 0.5875618
+    },
+    {
+      "launched_rays": 1281,
+      "valid_rays": 1281,
+      "failed_rays": 0,
+      "backward_rays": 0,
+      "wrong_spherical_cap_rays": 0,
+      "maximum_stop_aim_residual_mm": 9.992108147777307e-10,
+      "field_deg": 11.0,
+      "wavelength_um": 0.6562725
+    },
+    {
+      "launched_rays": 1281,
+      "valid_rays": 1281,
+      "failed_rays": 0,
+      "backward_rays": 0,
+      "wrong_spherical_cap_rays": 0,
+      "maximum_stop_aim_residual_mm": 9.94371467524622e-10,
+      "field_deg": 12.0,
+      "wavelength_um": 0.4861327
+    },
+    {
+      "launched_rays": 1281,
+      "valid_rays": 1281,
+      "failed_rays": 0,
+      "backward_rays": 0,
+      "wrong_spherical_cap_rays": 0,
+      "maximum_stop_aim_residual_mm": 9.981359449733816e-10,
+      "field_deg": 12.0,
+      "wavelength_um": 0.5875618
+    },
+    {
+      "launched_rays": 1281,
+      "valid_rays": 1281,
+      "failed_rays": 0,
+      "backward_rays": 0,
+      "wrong_spherical_cap_rays": 0,
+      "maximum_stop_aim_residual_mm": 9.969499609667727e-10,
+      "field_deg": 12.0,
+      "wavelength_um": 0.6562725
+    },
+    {
+      "launched_rays": 1281,
+      "valid_rays": 1281,
+      "failed_rays": 0,
+      "backward_rays": 0,
+      "wrong_spherical_cap_rays": 0,
+      "maximum_stop_aim_residual_mm": 9.995764901050487e-10,
+      "field_deg": 13.0,
+      "wavelength_um": 0.4861327
+    },
+    {
+      "launched_rays": 1281,
+      "valid_rays": 1281,
+      "failed_rays": 0,
+      "backward_rays": 0,
+      "wrong_spherical_cap_rays": 0,
+      "maximum_stop_aim_residual_mm": 9.900321628003154e-10,
+      "field_deg": 13.0,
+      "wavelength_um": 0.5875618
+    },
+    {
+      "launched_rays": 1281,
+      "valid_rays": 1281,
+      "failed_rays": 0,
+      "backward_rays": 0,
+      "wrong_spherical_cap_rays": 0,
+      "maximum_stop_aim_residual_mm": 9.891786774709712e-10,
+      "field_deg": 13.0,
+      "wavelength_um": 0.6562725
+    },
+    {
+      "launched_rays": 1281,
+      "valid_rays": 1281,
+      "failed_rays": 0,
+      "backward_rays": 0,
+      "wrong_spherical_cap_rays": 0,
+      "maximum_stop_aim_residual_mm": 9.99090244640116e-10,
+      "field_deg": 14.0,
+      "wavelength_um": 0.4861327
+    },
+    {
+      "launched_rays": 1281,
+      "valid_rays": 1281,
+      "failed_rays": 0,
+      "backward_rays": 0,
+      "wrong_spherical_cap_rays": 0,
+      "maximum_stop_aim_residual_mm": 9.88668818594752e-10,
+      "field_deg": 14.0,
+      "wavelength_um": 0.5875618
+    },
+    {
+      "launched_rays": 1281,
+      "valid_rays": 1281,
+      "failed_rays": 0,
+      "backward_rays": 0,
+      "wrong_spherical_cap_rays": 0,
+      "maximum_stop_aim_residual_mm": 9.976822426009686e-10,
+      "field_deg": 14.0,
+      "wavelength_um": 0.6562725
+    },
+    {
+      "launched_rays": 1281,
+      "valid_rays": 1281,
+      "failed_rays": 0,
+      "backward_rays": 0,
+      "wrong_spherical_cap_rays": 0,
+      "maximum_stop_aim_residual_mm": 9.531346866359973e-10,
+      "field_deg": 15.0,
+      "wavelength_um": 0.4861327
+    },
+    {
+      "launched_rays": 1281,
+      "valid_rays": 1281,
+      "failed_rays": 0,
+      "backward_rays": 0,
+      "wrong_spherical_cap_rays": 0,
+      "maximum_stop_aim_residual_mm": 9.959607900696293e-10,
+      "field_deg": 15.0,
+      "wavelength_um": 0.5875618
+    },
+    {
+      "launched_rays": 1281,
+      "valid_rays": 1281,
+      "failed_rays": 0,
+      "backward_rays": 0,
+      "wrong_spherical_cap_rays": 0,
+      "maximum_stop_aim_residual_mm": 9.88094612575465e-10,
+      "field_deg": 15.0,
+      "wavelength_um": 0.6562725
+    },
+    {
+      "launched_rays": 1281,
+      "valid_rays": 1281,
+      "failed_rays": 0,
+      "backward_rays": 0,
+      "wrong_spherical_cap_rays": 0,
+      "maximum_stop_aim_residual_mm": 9.854658315537892e-10,
+      "field_deg": 16.0,
+      "wavelength_um": 0.4861327
+    },
+    {
+      "launched_rays": 1281,
+      "valid_rays": 1281,
+      "failed_rays": 0,
+      "backward_rays": 0,
+      "wrong_spherical_cap_rays": 0,
+      "maximum_stop_aim_residual_mm": 9.80546460012385e-10,
+      "field_deg": 16.0,
+      "wavelength_um": 0.5875618
+    },
+    {
+      "launched_rays": 1281,
+      "valid_rays": 1281,
+      "failed_rays": 0,
+      "backward_rays": 0,
+      "wrong_spherical_cap_rays": 0,
+      "maximum_stop_aim_residual_mm": 9.86967884284876e-10,
+      "field_deg": 16.0,
+      "wavelength_um": 0.6562725
+    },
+    {
+      "launched_rays": 1281,
+      "valid_rays": 1281,
+      "failed_rays": 0,
+      "backward_rays": 0,
+      "wrong_spherical_cap_rays": 0,
+      "maximum_stop_aim_residual_mm": 9.75031766982386e-10,
+      "field_deg": 17.0,
+      "wavelength_um": 0.4861327
+    },
+    {
+      "launched_rays": 1281,
+      "valid_rays": 1281,
+      "failed_rays": 0,
+      "backward_rays": 0,
+      "wrong_spherical_cap_rays": 0,
+      "maximum_stop_aim_residual_mm": 9.568888505555573e-10,
+      "field_deg": 17.0,
+      "wavelength_um": 0.5875618
+    },
+    {
+      "launched_rays": 1281,
+      "valid_rays": 1281,
+      "failed_rays": 0,
+      "backward_rays": 0,
+      "wrong_spherical_cap_rays": 0,
+      "maximum_stop_aim_residual_mm": 9.927072497362133e-10,
+      "field_deg": 17.0,
+      "wavelength_um": 0.6562725
+    },
+    {
+      "launched_rays": 1281,
+      "valid_rays": 1281,
+      "failed_rays": 0,
+      "backward_rays": 0,
+      "wrong_spherical_cap_rays": 0,
+      "maximum_stop_aim_residual_mm": 9.940332463805008e-10,
+      "field_deg": 18.0,
+      "wavelength_um": 0.4861327
+    },
+    {
+      "launched_rays": 1281,
+      "valid_rays": 1281,
+      "failed_rays": 0,
+      "backward_rays": 0,
+      "wrong_spherical_cap_rays": 0,
+      "maximum_stop_aim_residual_mm": 9.826367818881528e-10,
+      "field_deg": 18.0,
+      "wavelength_um": 0.5875618
+    },
+    {
+      "launched_rays": 1281,
+      "valid_rays": 1281,
+      "failed_rays": 0,
+      "backward_rays": 0,
+      "wrong_spherical_cap_rays": 0,
+      "maximum_stop_aim_residual_mm": 9.749543394832472e-10,
+      "field_deg": 18.0,
+      "wavelength_um": 0.6562725
+    },
+    {
+      "launched_rays": 1281,
+      "valid_rays": 1281,
+      "failed_rays": 0,
+      "backward_rays": 0,
+      "wrong_spherical_cap_rays": 0,
+      "maximum_stop_aim_residual_mm": 9.639729533948233e-10,
+      "field_deg": 19.0,
+      "wavelength_um": 0.4861327
+    },
+    {
+      "launched_rays": 1281,
+      "valid_rays": 1281,
+      "failed_rays": 0,
+      "backward_rays": 0,
+      "wrong_spherical_cap_rays": 0,
+      "maximum_stop_aim_residual_mm": 9.846494940303169e-10,
+      "field_deg": 19.0,
+      "wavelength_um": 0.5875618
+    },
+    {
+      "launched_rays": 1281,
+      "valid_rays": 1281,
+      "failed_rays": 0,
+      "backward_rays": 0,
+      "wrong_spherical_cap_rays": 0,
+      "maximum_stop_aim_residual_mm": 9.880215397299722e-10,
+      "field_deg": 19.0,
+      "wavelength_um": 0.6562725
+    },
+    {
+      "launched_rays": 1281,
+      "valid_rays": 1281,
+      "failed_rays": 0,
+      "backward_rays": 0,
+      "wrong_spherical_cap_rays": 0,
+      "maximum_stop_aim_residual_mm": 9.735959518939561e-10,
+      "field_deg": 20,
+      "wavelength_um": 0.4861327
+    },
+    {
+      "launched_rays": 1281,
+      "valid_rays": 1281,
+      "failed_rays": 0,
+      "backward_rays": 0,
+      "wrong_spherical_cap_rays": 0,
+      "maximum_stop_aim_residual_mm": 9.742199856667074e-10,
+      "field_deg": 20,
+      "wavelength_um": 0.5875618
+    },
+    {
+      "launched_rays": 1281,
+      "valid_rays": 1281,
+      "failed_rays": 0,
+      "backward_rays": 0,
+      "wrong_spherical_cap_rays": 0,
+      "maximum_stop_aim_residual_mm": 9.871563591424454e-10,
+      "field_deg": 20,
+      "wavelength_um": 0.6562725
+    },
+    {
+      "launched_rays": 1281,
+      "valid_rays": 1281,
+      "failed_rays": 0,
+      "backward_rays": 0,
+      "wrong_spherical_cap_rays": 0,
+      "maximum_stop_aim_residual_mm": 9.95129288668828e-10,
+      "field_deg": 21.0,
+      "wavelength_um": 0.4861327
+    },
+    {
+      "launched_rays": 1281,
+      "valid_rays": 1281,
+      "failed_rays": 0,
+      "backward_rays": 0,
+      "wrong_spherical_cap_rays": 0,
+      "maximum_stop_aim_residual_mm": 9.826412357817163e-10,
+      "field_deg": 21.0,
+      "wavelength_um": 0.5875618
+    },
+    {
+      "launched_rays": 1281,
+      "valid_rays": 1281,
+      "failed_rays": 0,
+      "backward_rays": 0,
+      "wrong_spherical_cap_rays": 0,
+      "maximum_stop_aim_residual_mm": 9.720186663228356e-10,
+      "field_deg": 21.0,
+      "wavelength_um": 0.6562725
+    },
+    {
+      "launched_rays": 1281,
+      "valid_rays": 1281,
+      "failed_rays": 0,
+      "backward_rays": 0,
+      "wrong_spherical_cap_rays": 0,
+      "maximum_stop_aim_residual_mm": 9.922671428908089e-10,
+      "field_deg": 22.0,
+      "wavelength_um": 0.4861327
+    },
+    {
+      "launched_rays": 1281,
+      "valid_rays": 1281,
+      "failed_rays": 0,
+      "backward_rays": 0,
+      "wrong_spherical_cap_rays": 0,
+      "maximum_stop_aim_residual_mm": 9.573556155451082e-10,
+      "field_deg": 22.0,
+      "wavelength_um": 0.5875618
+    },
+    {
+      "launched_rays": 1281,
+      "valid_rays": 1281,
+      "failed_rays": 0,
+      "backward_rays": 0,
+      "wrong_spherical_cap_rays": 0,
+      "maximum_stop_aim_residual_mm": 9.496305246381615e-10,
+      "field_deg": 22.0,
+      "wavelength_um": 0.6562725
+    },
+    {
+      "launched_rays": 1281,
+      "valid_rays": 1281,
+      "failed_rays": 0,
+      "backward_rays": 0,
+      "wrong_spherical_cap_rays": 0,
+      "maximum_stop_aim_residual_mm": 9.542135219505793e-10,
+      "field_deg": 23.0,
+      "wavelength_um": 0.4861327
+    },
+    {
+      "launched_rays": 1281,
+      "valid_rays": 1281,
+      "failed_rays": 0,
+      "backward_rays": 0,
+      "wrong_spherical_cap_rays": 0,
+      "maximum_stop_aim_residual_mm": 9.90750315746856e-10,
+      "field_deg": 23.0,
+      "wavelength_um": 0.5875618
+    },
+    {
+      "launched_rays": 1281,
+      "valid_rays": 1281,
+      "failed_rays": 0,
+      "backward_rays": 0,
+      "wrong_spherical_cap_rays": 0,
+      "maximum_stop_aim_residual_mm": 9.553325811862872e-10,
+      "field_deg": 23.0,
+      "wavelength_um": 0.6562725
+    },
+    {
+      "launched_rays": 1281,
+      "valid_rays": 1281,
+      "failed_rays": 0,
+      "backward_rays": 0,
+      "wrong_spherical_cap_rays": 0,
+      "maximum_stop_aim_residual_mm": 9.904115785708578e-10,
+      "field_deg": 24.0,
+      "wavelength_um": 0.4861327
+    },
+    {
+      "launched_rays": 1281,
+      "valid_rays": 1281,
+      "failed_rays": 0,
+      "backward_rays": 0,
+      "wrong_spherical_cap_rays": 0,
+      "maximum_stop_aim_residual_mm": 9.974667284524342e-10,
+      "field_deg": 24.0,
+      "wavelength_um": 0.5875618
+    },
+    {
+      "launched_rays": 1281,
+      "valid_rays": 1281,
+      "failed_rays": 0,
+      "backward_rays": 0,
+      "wrong_spherical_cap_rays": 0,
+      "maximum_stop_aim_residual_mm": 9.469362095094336e-10,
+      "field_deg": 24.0,
+      "wavelength_um": 0.6562725
+    },
+    {
+      "launched_rays": 1281,
+      "valid_rays": 1281,
+      "failed_rays": 0,
+      "backward_rays": 0,
+      "wrong_spherical_cap_rays": 0,
+      "maximum_stop_aim_residual_mm": 9.759497150794073e-10,
+      "field_deg": 25.0,
+      "wavelength_um": 0.4861327
+    },
+    {
+      "launched_rays": 1281,
+      "valid_rays": 1281,
+      "failed_rays": 0,
+      "backward_rays": 0,
+      "wrong_spherical_cap_rays": 0,
+      "maximum_stop_aim_residual_mm": 9.590958278488671e-10,
+      "field_deg": 25.0,
+      "wavelength_um": 0.5875618
+    },
+    {
+      "launched_rays": 1281,
+      "valid_rays": 1281,
+      "failed_rays": 0,
+      "backward_rays": 0,
+      "wrong_spherical_cap_rays": 0,
+      "maximum_stop_aim_residual_mm": 9.943578742019492e-10,
+      "field_deg": 25.0,
+      "wavelength_um": 0.6562725
+    },
+    {
+      "launched_rays": 1281,
+      "valid_rays": 1281,
+      "failed_rays": 0,
+      "backward_rays": 0,
+      "wrong_spherical_cap_rays": 0,
+      "maximum_stop_aim_residual_mm": 9.485386992819403e-10,
+      "field_deg": 26.0,
+      "wavelength_um": 0.4861327
+    },
+    {
+      "launched_rays": 1281,
+      "valid_rays": 1281,
+      "failed_rays": 0,
+      "backward_rays": 0,
+      "wrong_spherical_cap_rays": 0,
+      "maximum_stop_aim_residual_mm": 8.738507007049861e-10,
+      "field_deg": 26.0,
+      "wavelength_um": 0.5875618
+    },
+    {
+      "launched_rays": 1281,
+      "valid_rays": 1281,
+      "failed_rays": 0,
+      "backward_rays": 0,
+      "wrong_spherical_cap_rays": 0,
+      "maximum_stop_aim_residual_mm": 9.903765905026855e-10,
+      "field_deg": 26.0,
+      "wavelength_um": 0.6562725
+    },
+    {
+      "launched_rays": 1281,
+      "valid_rays": 1281,
+      "failed_rays": 0,
+      "backward_rays": 0,
+      "wrong_spherical_cap_rays": 0,
+      "maximum_stop_aim_residual_mm": 9.528590683808348e-10,
+      "field_deg": 27.0,
+      "wavelength_um": 0.4861327
+    },
+    {
+      "launched_rays": 1281,
+      "valid_rays": 1281,
+      "failed_rays": 0,
+      "backward_rays": 0,
+      "wrong_spherical_cap_rays": 0,
+      "maximum_stop_aim_residual_mm": 9.894067167824184e-10,
+      "field_deg": 27.0,
+      "wavelength_um": 0.5875618
+    },
+    {
+      "launched_rays": 1281,
+      "valid_rays": 1281,
+      "failed_rays": 0,
+      "backward_rays": 0,
+      "wrong_spherical_cap_rays": 0,
+      "maximum_stop_aim_residual_mm": 9.627684220903412e-10,
+      "field_deg": 27.0,
+      "wavelength_um": 0.6562725
+    },
+    {
+      "launched_rays": 1281,
+      "valid_rays": 1281,
+      "failed_rays": 0,
+      "backward_rays": 0,
+      "wrong_spherical_cap_rays": 0,
+      "maximum_stop_aim_residual_mm": 9.142678455126934e-10,
+      "field_deg": 28.0,
+      "wavelength_um": 0.4861327
+    },
+    {
+      "launched_rays": 1281,
+      "valid_rays": 1281,
+      "failed_rays": 0,
+      "backward_rays": 0,
+      "wrong_spherical_cap_rays": 0,
+      "maximum_stop_aim_residual_mm": 9.368036591352677e-10,
+      "field_deg": 28.0,
+      "wavelength_um": 0.5875618
+    },
+    {
+      "launched_rays": 1281,
+      "valid_rays": 1281,
+      "failed_rays": 0,
+      "backward_rays": 0,
+      "wrong_spherical_cap_rays": 0,
+      "maximum_stop_aim_residual_mm": 9.795091400294548e-10,
+      "field_deg": 28.0,
+      "wavelength_um": 0.6562725
+    },
+    {
+      "launched_rays": 1281,
+      "valid_rays": 1281,
+      "failed_rays": 0,
+      "backward_rays": 0,
+      "wrong_spherical_cap_rays": 0,
+      "maximum_stop_aim_residual_mm": 9.971985382516842e-10,
+      "field_deg": 29.0,
+      "wavelength_um": 0.4861327
+    },
+    {
+      "launched_rays": 1281,
+      "valid_rays": 1281,
+      "failed_rays": 0,
+      "backward_rays": 0,
+      "wrong_spherical_cap_rays": 0,
+      "maximum_stop_aim_residual_mm": 9.872385001761966e-10,
+      "field_deg": 29.0,
+      "wavelength_um": 0.5875618
+    },
+    {
+      "launched_rays": 1281,
+      "valid_rays": 1281,
+      "failed_rays": 0,
+      "backward_rays": 0,
+      "wrong_spherical_cap_rays": 0,
+      "maximum_stop_aim_residual_mm": 9.608164917689707e-10,
+      "field_deg": 29.0,
+      "wavelength_um": 0.6562725
+    },
+    {
+      "launched_rays": 1281,
+      "valid_rays": 1281,
+      "failed_rays": 0,
+      "backward_rays": 0,
+      "wrong_spherical_cap_rays": 0,
+      "maximum_stop_aim_residual_mm": 9.492637141782858e-10,
+      "field_deg": 30,
+      "wavelength_um": 0.4861327
+    },
+    {
+      "launched_rays": 1281,
+      "valid_rays": 1281,
+      "failed_rays": 0,
+      "backward_rays": 0,
+      "wrong_spherical_cap_rays": 0,
+      "maximum_stop_aim_residual_mm": 9.67399676262127e-10,
+      "field_deg": 30,
+      "wavelength_um": 0.5875618
+    },
+    {
+      "launched_rays": 1281,
+      "valid_rays": 1281,
+      "failed_rays": 0,
+      "backward_rays": 0,
+      "wrong_spherical_cap_rays": 0,
+      "maximum_stop_aim_residual_mm": 9.629800626402331e-10,
+      "field_deg": 30,
+      "wavelength_um": 0.6562725
+    }
+  ],
+  "field_metrics": [
+    {
+      "rms_mm": 0.03429940508876257,
+      "centroid_xy_mm": [
+        -1.1039662745881047e-18,
+        -4.416115678932648e-17
+      ],
+      "monochromatic_centroid_xy_mm": [
+        [
+          1.452830911130576e-17,
+          -2.913666283612705e-17
+        ],
+        [
+          -1.836536836236774e-17,
+          3.8654772064423623e-17
+        ],
+        [
+          5.251604272976662e-19,
+          -1.4200157959627603e-16
+        ]
+      ],
+      "monochromatic_rms_about_own_centroid_mm": [
+        0.04937713831890035,
+        0.026424749655333774,
+        0.019823682438392057
+      ],
+      "centroid_lateral_colour_FC_mm": 1.137302844819347e-16,
+      "field_deg": 0,
+      "distortion_fraction": 0.0,
+      "distortion_percent": 0.0,
+      "chief_image_xy_mm": [
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0
+        ]
+      ],
+      "chief_lateral_colour_FC_mm": 0.0
+    },
+    {
+      "rms_mm": 0.034860708440231196,
+      "centroid_xy_mm": [
+        -4.462169566135654e-18,
+        4.221784037930682
+      ],
+      "monochromatic_centroid_xy_mm": [
+        [
+          -4.9361692034191607e-17,
+          4.225489107619902
+        ],
+        [
+          5.2392375919467493e-17,
+          4.220507482182001
+        ],
+        [
+          -1.641719258368285e-17,
+          4.219355523990145
+        ]
+      ],
+      "monochromatic_rms_about_own_centroid_mm": [
+        0.050461592609216045,
+        0.026380934701642107,
+        0.019550604045211955
+      ],
+      "centroid_lateral_colour_FC_mm": 0.006133583629757133,
+      "field_deg": 10,
+      "distortion_fraction": -0.010211439594317362,
+      "distortion_percent": -1.0211439594317362,
+      "chief_image_xy_mm": [
+        [
+          0.0,
+          4.221188686234533
+        ],
+        [
+          0.0,
+          4.217250102230243
+        ],
+        [
+          0.0,
+          4.216494604584895
+        ]
+      ],
+      "chief_lateral_colour_FC_mm": 0.004694081649637916
+    },
+    {
+      "rms_mm": 0.03784314686244597,
+      "centroid_xy_mm": [
+        1.728003681261923e-17,
+        8.760330826630092
+      ],
+      "monochromatic_centroid_xy_mm": [
+        [
+          1.9759584593548318e-17,
+          8.771217920746281
+        ],
+        [
+          6.437450399132683e-19,
+          8.756834184216348
+        ],
+        [
+          3.14367808043961e-17,
+          8.752940374927647
+        ]
+      ],
+      "monochromatic_rms_about_own_centroid_mm": [
+        0.05217552488811788,
+        0.027803015945194843,
+        0.02481217639643537
+      ],
+      "centroid_lateral_colour_FC_mm": 0.018277545818634167,
+      "field_deg": 20,
+      "distortion_fraction": -0.006369399288020494,
+      "distortion_percent": -0.6369399288020494,
+      "chief_image_xy_mm": [
+        [
+          0.0,
+          8.750280978074088
+        ],
+        [
+          0.0,
+          8.738944524937054
+        ],
+        [
+          0.0,
+          8.736197972231682
+        ]
+      ],
+      "chief_lateral_colour_FC_mm": 0.014083005842405072
+    },
+    {
+      "rms_mm": 0.09790906261254168,
+      "centroid_xy_mm": [
+        9.744919946443647e-18,
+        14.16914229255002
+      ],
+      "monochromatic_centroid_xy_mm": [
+        [
+          9.837440649411444e-18,
+          14.201446568892706
+        ],
+        [
+          -4.754395932938388e-18,
+          14.15955941719255
+        ],
+        [
+          2.4151715122857883e-17,
+          14.146420891564803
+        ]
+      ],
+      "monochromatic_rms_about_own_centroid_mm": [
+        0.1039495479857469,
+        0.08846292648844094,
+        0.09206354274514623
+      ],
+      "centroid_lateral_colour_FC_mm": 0.055025677327902756,
+      "field_deg": 30,
+      "distortion_fraction": 0.008263621832319323,
+      "distortion_percent": 0.8263621832319323,
+      "chief_image_xy_mm": [
+        [
+          0.0,
+          14.096337855972621
+        ],
+        [
+          0.0,
+          14.06635672688977
+        ],
+        [
+          0.0,
+          14.057580613082504
+        ]
+      ],
+      "chief_lateral_colour_FC_mm": 0.03875724289011728
+    }
+  ],
+  "rms_convergence": {
+    "dense_rings": 32,
+    "dense_spokes": 128,
+    "dense_rms_mm": [
+      0.034299405086178396,
+      0.03486070844045533,
+      0.03784314686249687,
+      0.09790906261208707
+    ],
+    "absolute_change_mm": [
+      2.584175928799226e-12,
+      2.2413321199010738e-13,
+      5.089678678515952e-14,
+      4.5460857300838597e-13
+    ],
+    "allowed_change_mm": [
+      3.42994050861784e-05,
+      3.486070844045533e-05,
+      3.7843146862496865e-05,
+      9.790906261208707e-05
+    ],
+    "passed": true
+  },
+  "mtf": {
+    "method": "Optiland scalar FFT; complex OTF sum with chief-ray colour registration",
+    "expected_optiland_commit": "61f096bbf038b29a19681aabda5a061bf839b40c",
+    "frequency_lpmm": 20.0,
+    "fields_normalized": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        0.3333333333333333
+      ],
+      [
+        0.0,
+        0.6666666666666666
+      ],
+      [
+        0.0,
+        1.0
+      ]
+    ],
+    "wavelengths_um": [
+      0.4861327,
+      0.5875618,
+      0.6562725
+    ],
+    "wavelength_weights": [
+      0.3333333333333333,
+      0.3333333333333333,
+      0.3333333333333333
+    ],
+    "pupil_samples": 256,
+    "fft_size": 1024,
+    "reference_wavelength_um": 0.5875618,
+    "reference_chief_image_xy_mm": [
+      [
+        0.0,
+        0.0
+      ],
+      [
+        0.0,
+        4.217250102230243
+      ],
+      [
+        0.0,
+        8.738944524937054
+      ],
+      [
+        0.0,
+        14.06635672688977
+      ]
+    ],
+    "tangential": [
+      0.31186551326593936,
+      0.3204569108374761,
+      0.2131196799343203,
+      0.039144990334530755
+    ],
+    "sagittal": [
+      0.31186551326593936,
+      0.32360004953014837,
+      0.34697263656256416,
+      0.07726339081330719
+    ],
+    "per_wavelength": [
+      {
+        "wavelength_um": 0.4861327,
+        "weight": 0.3333333333333333,
+        "chief_image_xy_mm": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            4.221188686234533
+          ],
+          [
+            0.0,
+            8.750280978074088
+          ],
+          [
+            0.0,
+            14.096337855972621
+          ]
+        ],
+        "chief_shift_tangential_sagittal_mm": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0039385840042900355,
+            0.0
+          ],
+          [
+            0.011336453137033686,
+            0.0
+          ],
+          [
+            0.029981129082850444,
+            0.0
+          ]
+        ],
+        "fft_to_physical_axis_orientation": [
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ]
+        ],
+        "otf_tangential_real_imag": [
+          [
+            0.2543050350619987,
+            -8.322949558573234e-14
+          ],
+          [
+            0.2586234329102724,
+            0.001927617930593497
+          ],
+          [
+            0.42933256627570476,
+            -0.08367767202470847
+          ],
+          [
+            0.006609770478171303,
+            -0.06934732287443361
+          ]
+        ],
+        "otf_sagittal_real_imag": [
+          [
+            0.2543050350619987,
+            -8.322381220950065e-14
+          ],
+          [
+            0.22251304802055652,
+            4.074529833901801e-13
+          ],
+          [
+            0.22538070494820978,
+            5.07936537496275e-13
+          ],
+          [
+            0.0740215216197253,
+            1.8333807039863768e-13
+          ]
+        ]
+      },
+      {
+        "wavelength_um": 0.5875618,
+        "weight": 0.3333333333333333,
+        "chief_image_xy_mm": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            4.217250102230243
+          ],
+          [
+            0.0,
+            8.738944524937054
+          ],
+          [
+            0.0,
+            14.06635672688977
+          ]
+        ],
+        "chief_shift_tangential_sagittal_mm": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            0.0
+          ]
+        ],
+        "fft_to_physical_axis_orientation": [
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ]
+        ],
+        "otf_tangential_real_imag": [
+          [
+            0.38936618285918606,
+            5.877753141724999e-14
+          ],
+          [
+            0.4143143933765121,
+            -0.01375118684364327
+          ],
+          [
+            0.05261113922252822,
+            -0.24403151904986278
+          ],
+          [
+            0.019208044917414336,
+            -0.06529901274743388
+          ]
+        ],
+        "otf_sagittal_real_imag": [
+          [
+            0.38936618285918606,
+            5.878227208888891e-14
+          ],
+          [
+            0.4166859536935232,
+            -2.919832949578363e-13
+          ],
+          [
+            0.4802523072389663,
+            -2.9087921961143416e-13
+          ],
+          [
+            0.10760183946241846,
+            3.867638877622142e-13
+          ]
+        ]
+      },
+      {
+        "wavelength_um": 0.6562725,
+        "weight": 0.3333333333333333,
+        "chief_image_xy_mm": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            0.0,
+            4.216494604584895
+          ],
+          [
+            0.0,
+            8.736197972231682
+          ],
+          [
+            0.0,
+            14.057580613082504
+          ]
+        ],
+        "chief_shift_tangential_sagittal_mm": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            -0.0007554976453478801,
+            0.0
+          ],
+          [
+            -0.0027465527053713856,
+            0.0
+          ],
+          [
+            -0.008776113807266839,
+            0.0
+          ]
+        ],
+        "fft_to_physical_axis_orientation": [
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ],
+          [
+            1.0,
+            1.0
+          ]
+        ],
+        "otf_tangential_real_imag": [
+          [
+            0.29192532187663334,
+            2.732094100449709e-14
+          ],
+          [
+            0.2984177356539672,
+            -0.06474537795141366
+          ],
+          [
+            0.07497774682259256,
+            0.024738889163777873
+          ],
+          [
+            0.05134937420980508,
+            -0.04236448621511929
+          ]
+        ],
+        "otf_sagittal_real_imag": [
+          [
+            0.29192532187663334,
+            2.7322930413881778e-14
+          ],
+          [
+            0.33160114687636555,
+            1.368868311534917e-14
+          ],
+          [
+            0.3352848975005164,
+            6.379698282273835e-14
+          ],
+          [
+            0.0501668113577778,
+            6.952849998039484e-13
+          ]
+        ]
+      }
+    ]
+  },
+  "fft_ray_checks": [
+    {
+      "launched_rays": 51040,
+      "valid_rays": 51040,
+      "failed_rays": 0,
+      "backward_rays": 0,
+      "wrong_spherical_cap_rays": 0,
+      "maximum_stop_aim_residual_mm": 9.93162929138269e-10
+    },
+    {
+      "launched_rays": 51040,
+      "valid_rays": 51040,
+      "failed_rays": 0,
+      "backward_rays": 0,
+      "wrong_spherical_cap_rays": 0,
+      "maximum_stop_aim_residual_mm": 9.99926931669363e-10
+    },
+    {
+      "launched_rays": 51040,
+      "valid_rays": 51040,
+      "failed_rays": 0,
+      "backward_rays": 0,
+      "wrong_spherical_cap_rays": 0,
+      "maximum_stop_aim_residual_mm": 9.99643324667547e-10
+    },
+    {
+      "launched_rays": 51040,
+      "valid_rays": 51040,
+      "failed_rays": 0,
+      "backward_rays": 0,
+      "wrong_spherical_cap_rays": 0,
+      "maximum_stop_aim_residual_mm": 9.994946275789792e-10
+    },
+    {
+      "launched_rays": 51040,
+      "valid_rays": 51040,
+      "failed_rays": 0,
+      "backward_rays": 0,
+      "wrong_spherical_cap_rays": 0,
+      "maximum_stop_aim_residual_mm": 9.693275794947006e-10
+    },
+    {
+      "launched_rays": 51040,
+      "valid_rays": 51040,
+      "failed_rays": 0,
+      "backward_rays": 0,
+      "wrong_spherical_cap_rays": 0,
+      "maximum_stop_aim_residual_mm": 9.999746033358765e-10
+    },
+    {
+      "launched_rays": 51040,
+      "valid_rays": 51040,
+      "failed_rays": 0,
+      "backward_rays": 0,
+      "wrong_spherical_cap_rays": 0,
+      "maximum_stop_aim_residual_mm": 9.99788359089857e-10
+    },
+    {
+      "launched_rays": 51040,
+      "valid_rays": 51040,
+      "failed_rays": 0,
+      "backward_rays": 0,
+      "wrong_spherical_cap_rays": 0,
+      "maximum_stop_aim_residual_mm": 9.993238943847115e-10
+    },
+    {
+      "launched_rays": 51040,
+      "valid_rays": 51040,
+      "failed_rays": 0,
+      "backward_rays": 0,
+      "wrong_spherical_cap_rays": 0,
+      "maximum_stop_aim_residual_mm": 9.76203324716193e-10
+    },
+    {
+      "launched_rays": 51040,
+      "valid_rays": 51040,
+      "failed_rays": 0,
+      "backward_rays": 0,
+      "wrong_spherical_cap_rays": 0,
+      "maximum_stop_aim_residual_mm": 9.999177250916736e-10
+    },
+    {
+      "launched_rays": 51040,
+      "valid_rays": 51040,
+      "failed_rays": 0,
+      "backward_rays": 0,
+      "wrong_spherical_cap_rays": 0,
+      "maximum_stop_aim_residual_mm": 9.996861836992872e-10
+    },
+    {
+      "launched_rays": 51040,
+      "valid_rays": 51040,
+      "failed_rays": 0,
+      "backward_rays": 0,
+      "wrong_spherical_cap_rays": 0,
+      "maximum_stop_aim_residual_mm": 9.997158115626752e-10
+    },
+    {
+      "launched_rays": 205012,
+      "valid_rays": 205012,
+      "failed_rays": 0,
+      "backward_rays": 0,
+      "wrong_spherical_cap_rays": 0,
+      "maximum_stop_aim_residual_mm": 9.569783490537524e-10
+    },
+    {
+      "launched_rays": 205012,
+      "valid_rays": 205012,
+      "failed_rays": 0,
+      "backward_rays": 0,
+      "wrong_spherical_cap_rays": 0,
+      "maximum_stop_aim_residual_mm": 9.99822542898473e-10
+    },
+    {
+      "launched_rays": 205012,
+      "valid_rays": 205012,
+      "failed_rays": 0,
+      "backward_rays": 0,
+      "wrong_spherical_cap_rays": 0,
+      "maximum_stop_aim_residual_mm": 9.999944009754833e-10
+    },
+    {
+      "launched_rays": 205012,
+      "valid_rays": 205012,
+      "failed_rays": 0,
+      "backward_rays": 0,
+      "wrong_spherical_cap_rays": 0,
+      "maximum_stop_aim_residual_mm": 9.99578341478559e-10
+    },
+    {
+      "launched_rays": 205012,
+      "valid_rays": 205012,
+      "failed_rays": 0,
+      "backward_rays": 0,
+      "wrong_spherical_cap_rays": 0,
+      "maximum_stop_aim_residual_mm": 9.771942030448232e-10
+    },
+    {
+      "launched_rays": 205012,
+      "valid_rays": 205012,
+      "failed_rays": 0,
+      "backward_rays": 0,
+      "wrong_spherical_cap_rays": 0,
+      "maximum_stop_aim_residual_mm": 9.999434820560494e-10
+    },
+    {
+      "launched_rays": 205012,
+      "valid_rays": 205012,
+      "failed_rays": 0,
+      "backward_rays": 0,
+      "wrong_spherical_cap_rays": 0,
+      "maximum_stop_aim_residual_mm": 9.999861891766988e-10
+    },
+    {
+      "launched_rays": 205012,
+      "valid_rays": 205012,
+      "failed_rays": 0,
+      "backward_rays": 0,
+      "wrong_spherical_cap_rays": 0,
+      "maximum_stop_aim_residual_mm": 9.99976206212161e-10
+    },
+    {
+      "launched_rays": 205012,
+      "valid_rays": 205012,
+      "failed_rays": 0,
+      "backward_rays": 0,
+      "wrong_spherical_cap_rays": 0,
+      "maximum_stop_aim_residual_mm": 9.841608620794549e-10
+    },
+    {
+      "launched_rays": 205012,
+      "valid_rays": 205012,
+      "failed_rays": 0,
+      "backward_rays": 0,
+      "wrong_spherical_cap_rays": 0,
+      "maximum_stop_aim_residual_mm": 1.0000009991256926e-09
+    },
+    {
+      "launched_rays": 205012,
+      "valid_rays": 205012,
+      "failed_rays": 0,
+      "backward_rays": 0,
+      "wrong_spherical_cap_rays": 0,
+      "maximum_stop_aim_residual_mm": 9.99887897728959e-10
+    },
+    {
+      "launched_rays": 205012,
+      "valid_rays": 205012,
+      "failed_rays": 0,
+      "backward_rays": 0,
+      "wrong_spherical_cap_rays": 0,
+      "maximum_stop_aim_residual_mm": 9.995561724233655e-10
+    }
+  ],
+  "mtf_convergence": {
+    "dense_pupil_samples": 512,
+    "dense_fft_size": 2048,
+    "maximum_absolute_change": 0.00020107317357723198,
+    "allowed_change": 0.005,
+    "passed": true,
+    "dense_tangential": [
+      0.311676818546162,
+      0.3204530954353122,
+      0.21291860676074306,
+      0.039140384467021436
+    ],
+    "dense_sagittal": [
+      0.311676818546162,
+      0.32351619669954884,
+      0.3470034223629762,
+      0.07738988638260579
+    ]
+  },
+  "diagnostic_optical_score": 0.5858330527158702,
+  "unofficial_score": 0.5858330527158702
+}

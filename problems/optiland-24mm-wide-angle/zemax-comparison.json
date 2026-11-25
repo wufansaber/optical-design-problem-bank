@@ -1,0 +1,1178 @@
+{
+  "selected": "reference-focus",
+  "software": "Zemax OpticStudio 2022 R2.02",
+  "version": "22.2",
+  "matchingPrescription": true,
+  "sameFixedImagePlane": true,
+  "firstOrder": {
+    "eflMm": 24.163962678813327,
+    "epdMm": 5.944306949823765,
+    "bfdMm": 24.9203248999971,
+    "focusOffsetsMm": [
+      0.09508675248223654,
+      0.40335134694181285,
+      0.5538528196575231
+    ],
+    "axialFcMm": 0.45876606717528656,
+    "pieces": [
+      {
+        "glass": "SCHOTT:N-SK16",
+        "indexFdc": [
+          1.6275563487810216,
+          1.6204099650808939,
+          1.6172716598778425
+        ],
+        "abbe": 60.323649156671834,
+        "powerPerMm": -0.023410779790024254
+      },
+      {
+        "glass": "SCHOTT:N-SK16",
+        "indexFdc": [
+          1.6275563487810216,
+          1.6204099650808939,
+          1.6172716598778425
+        ],
+        "abbe": 60.323649156671834,
+        "powerPerMm": -0.016489124254387668
+      },
+      {
+        "glass": "SCHOTT:N-BASF2",
+        "indexFdc": [
+          1.6775116054490944,
+          1.6644601934840138,
+          1.6590547023981161
+        ],
+        "abbe": 36.00063302325231,
+        "powerPerMm": 0.03384927429344164
+      },
+      {
+        "glass": "SCHOTT:N-FK5",
+        "indexFdc": [
+          1.4922694632945221,
+          1.4874900036786896,
+          1.4853454569873066
+        ],
+        "abbe": 70.40577117479975,
+        "powerPerMm": 0.04442176230786362
+      },
+      {
+        "glass": "SCHOTT:N-SF15",
+        "indexFdc": [
+          1.715358943472177,
+          1.6989203009828977,
+          1.6922165956378818
+        ],
+        "abbe": 30.200924555595556,
+        "powerPerMm": -0.08196363922907873
+      },
+      {
+        "glass": "SCHOTT:N-LAK12",
+        "indexFdc": [
+          1.686467038789227,
+          1.6779000506492587,
+          1.67418614414449
+        ],
+        "abbe": 55.19956568797473,
+        "powerPerMm": 0.04670453561648949
+      }
+    ],
+    "fNumber": 4.065059708858025,
+    "glassPieces": 6,
+    "trackMm": 70.30259202151112
+  },
+  "materialComparison": [
+    {
+      "glass": "SCHOTT:N-SK16",
+      "optiworkIndexFdc": [
+        1.6275563487810216,
+        1.620409965080894,
+        1.6172716598778427
+      ],
+      "zemaxIndexFdc": [
+        1.6275563487810216,
+        1.6204099650808939,
+        1.6172716598778425
+      ],
+      "largestIndexDifference": 2.220446049250313e-16
+    },
+    {
+      "glass": "SCHOTT:N-SK16",
+      "optiworkIndexFdc": [
+        1.6275563487810216,
+        1.620409965080894,
+        1.6172716598778427
+      ],
+      "zemaxIndexFdc": [
+        1.6275563487810216,
+        1.6204099650808939,
+        1.6172716598778425
+      ],
+      "largestIndexDifference": 2.220446049250313e-16
+    },
+    {
+      "glass": "SCHOTT:N-BASF2",
+      "optiworkIndexFdc": [
+        1.6775116054490944,
+        1.6644601934840138,
+        1.6590547023981161
+      ],
+      "zemaxIndexFdc": [
+        1.6775116054490944,
+        1.6644601934840138,
+        1.6590547023981161
+      ],
+      "largestIndexDifference": 0.0
+    },
+    {
+      "glass": "SCHOTT:N-FK5",
+      "optiworkIndexFdc": [
+        1.4922694632945221,
+        1.4874900036786896,
+        1.4853454569873066
+      ],
+      "zemaxIndexFdc": [
+        1.4922694632945221,
+        1.4874900036786896,
+        1.4853454569873066
+      ],
+      "largestIndexDifference": 0.0
+    },
+    {
+      "glass": "SCHOTT:N-SF15",
+      "optiworkIndexFdc": [
+        1.715358943472177,
+        1.6989203009828977,
+        1.6922165956378818
+      ],
+      "zemaxIndexFdc": [
+        1.715358943472177,
+        1.6989203009828977,
+        1.6922165956378818
+      ],
+      "largestIndexDifference": 0.0
+    },
+    {
+      "glass": "SCHOTT:N-LAK12",
+      "optiworkIndexFdc": [
+        1.686467038789227,
+        1.6779000506492587,
+        1.67418614414449
+      ],
+      "zemaxIndexFdc": [
+        1.686467038789227,
+        1.6779000506492587,
+        1.67418614414449
+      ],
+      "largestIndexDifference": 0.0
+    }
+  ],
+  "verificationFields": [
+    {
+      "fieldDeg": 0.0,
+      "dLineChiefYmm": 0.0,
+      "distortionPercent": 0.0,
+      "waves": [
+        {
+          "waveNm": 486.1327,
+          "coarseSamples": 1281,
+          "denseSamples": 4096,
+          "failed": 0
+        },
+        {
+          "waveNm": 587.5618,
+          "coarseSamples": 1281,
+          "denseSamples": 4096,
+          "failed": 0
+        },
+        {
+          "waveNm": 656.2725,
+          "coarseSamples": 1281,
+          "denseSamples": 4096,
+          "failed": 0
+        }
+      ]
+    },
+    {
+      "fieldDeg": 1.0,
+      "dLineChiefYmm": 0.41718036260631086,
+      "distortionPercent": -1.0913595402243237,
+      "waves": [
+        {
+          "waveNm": 486.1327,
+          "coarseSamples": 1281,
+          "denseSamples": 4096,
+          "failed": 0
+        },
+        {
+          "waveNm": 587.5618,
+          "coarseSamples": 1281,
+          "denseSamples": 4096,
+          "failed": 0
+        },
+        {
+          "waveNm": 656.2725,
+          "coarseSamples": 1281,
+          "denseSamples": 4096,
+          "failed": 0
+        }
+      ]
+    },
+    {
+      "fieldDeg": 2.0,
+      "dLineChiefYmm": 0.8346299735088121,
+      "distortionPercent": -1.0895868504742001,
+      "waves": [
+        {
+          "waveNm": 486.1327,
+          "coarseSamples": 1281,
+          "denseSamples": 4096,
+          "failed": 0
+        },
+        {
+          "waveNm": 587.5618,
+          "coarseSamples": 1281,
+          "denseSamples": 4096,
+          "failed": 0
+        },
+        {
+          "waveNm": 656.2725,
+          "coarseSamples": 1281,
+          "denseSamples": 4096,
+          "failed": 0
+        }
+      ]
+    },
+    {
+      "fieldDeg": 3.0,
+      "dLineChiefYmm": 1.252619336014793,
+      "distortionPercent": -1.086584655479217,
+      "waves": [
+        {
+          "waveNm": 486.1327,
+          "coarseSamples": 1281,
+          "denseSamples": 4096,
+          "failed": 0
+        },
+        {
+          "waveNm": 587.5618,
+          "coarseSamples": 1281,
+          "denseSamples": 4096,
+          "failed": 0
+        },
+        {
+          "waveNm": 656.2725,
+          "coarseSamples": 1281,
+          "denseSamples": 4096,
+          "failed": 0
+        }
+      ]
+    },
+    {
+      "fieldDeg": 4.0,
+      "dLineChiefYmm": 1.6714214785203274,
+      "distortionPercent": -1.0822808480143054,
+      "waves": [
+        {
+          "waveNm": 486.1327,
+          "coarseSamples": 1281,
+          "denseSamples": 4096,
+          "failed": 0
+        },
+        {
+          "waveNm": 587.5618,
+          "coarseSamples": 1281,
+          "denseSamples": 4096,
+          "failed": 0
+        },
+        {
+          "waveNm": 656.2725,
+          "coarseSamples": 1281,
+          "denseSamples": 4096,
+          "failed": 0
+        }
+      ]
+    },
+    {
+      "fieldDeg": 5.0,
+      "dLineChiefYmm": 2.091313255050718,
+      "distortionPercent": -1.076573389817559,
+      "waves": [
+        {
+          "waveNm": 486.1327,
+          "coarseSamples": 1281,
+          "denseSamples": 4096,
+          "failed": 0
+        },
+        {
+          "waveNm": 587.5618,
+          "coarseSamples": 1281,
+          "denseSamples": 4096,
+          "failed": 0
+        },
+        {
+          "waveNm": 656.2725,
+          "coarseSamples": 1281,
+          "denseSamples": 4096,
+          "failed": 0
+        }
+      ]
+    },
+    {
+      "fieldDeg": 6.0,
+      "dLineChiefYmm": 2.5125766923451414,
+      "distortionPercent": -1.069329199399549,
+      "waves": [
+        {
+          "waveNm": 486.1327,
+          "coarseSamples": 1281,
+          "denseSamples": 4096,
+          "failed": 0
+        },
+        {
+          "waveNm": 587.5618,
+          "coarseSamples": 1281,
+          "denseSamples": 4096,
+          "failed": 0
+        },
+        {
+          "waveNm": 656.2725,
+          "coarseSamples": 1281,
+          "denseSamples": 4096,
+          "failed": 0
+        }
+      ]
+    },
+    {
+      "fieldDeg": 7.0,
+      "dLineChiefYmm": 2.9355004006166996,
+      "distortionPercent": -1.0603826869728716,
+      "waves": [
+        {
+          "waveNm": 486.1327,
+          "coarseSamples": 1281,
+          "denseSamples": 4096,
+          "failed": 0
+        },
+        {
+          "waveNm": 587.5618,
+          "coarseSamples": 1281,
+          "denseSamples": 4096,
+          "failed": 0
+        },
+        {
+          "waveNm": 656.2725,
+          "coarseSamples": 1281,
+          "denseSamples": 4096,
+          "failed": 0
+        }
+      ]
+    },
+    {
+      "fieldDeg": 8.0,
+      "dLineChiefYmm": 3.360381067080337,
+      "distortionPercent": -1.0495338939549015,
+      "waves": [
+        {
+          "waveNm": 486.1327,
+          "coarseSamples": 1281,
+          "denseSamples": 4096,
+          "failed": 0
+        },
+        {
+          "waveNm": 587.5618,
+          "coarseSamples": 1281,
+          "denseSamples": 4096,
+          "failed": 0
+        },
+        {
+          "waveNm": 656.2725,
+          "coarseSamples": 1281,
+          "denseSamples": 4096,
+          "failed": 0
+        }
+      ]
+    },
+    {
+      "fieldDeg": 9.0,
+      "dLineChiefYmm": 3.787525049913548,
+      "distortionPercent": -1.0365462874663445,
+      "waves": [
+        {
+          "waveNm": 486.1327,
+          "coarseSamples": 1281,
+          "denseSamples": 4096,
+          "failed": 0
+        },
+        {
+          "waveNm": 587.5618,
+          "coarseSamples": 1281,
+          "denseSamples": 4096,
+          "failed": 0
+        },
+        {
+          "waveNm": 656.2725,
+          "coarseSamples": 1281,
+          "denseSamples": 4096,
+          "failed": 0
+        }
+      ]
+    },
+    {
+      "fieldDeg": 10.0,
+      "dLineChiefYmm": 4.217250102230176,
+      "distortionPercent": -1.021143959433235,
+      "waves": [
+        {
+          "waveNm": 486.1327,
+          "coarseSamples": 1281,
+          "denseSamples": 4096,
+          "failed": 0
+        },
+        {
+          "waveNm": 587.5618,
+          "coarseSamples": 1281,
+          "denseSamples": 4096,
+          "failed": 0
+        },
+        {
+          "waveNm": 656.2725,
+          "coarseSamples": 1281,
+          "denseSamples": 4096,
+          "failed": 0
+        }
+      ]
+    },
+    {
+      "fieldDeg": 11.0,
+      "dLineChiefYmm": 4.649887243754822,
+      "distortionPercent": -1.0030084401588812,
+      "waves": [
+        {
+          "waveNm": 486.1327,
+          "coarseSamples": 1281,
+          "denseSamples": 4096,
+          "failed": 0
+        },
+        {
+          "waveNm": 587.5618,
+          "coarseSamples": 1281,
+          "denseSamples": 4096,
+          "failed": 0
+        },
+        {
+          "waveNm": 656.2725,
+          "coarseSamples": 1281,
+          "denseSamples": 4096,
+          "failed": 0
+        }
+      ]
+    },
+    {
+      "fieldDeg": 12.0,
+      "dLineChiefYmm": 5.0857828158148894,
+      "distortionPercent": -0.9817748703547236,
+      "waves": [
+        {
+          "waveNm": 486.1327,
+          "coarseSamples": 1281,
+          "denseSamples": 4096,
+          "failed": 0
+        },
+        {
+          "waveNm": 587.5618,
+          "coarseSamples": 1281,
+          "denseSamples": 4096,
+          "failed": 0
+        },
+        {
+          "waveNm": 656.2725,
+          "coarseSamples": 1281,
+          "denseSamples": 4096,
+          "failed": 0
+        }
+      ]
+    },
+    {
+      "fieldDeg": 13.0,
+      "dLineChiefYmm": 5.525300751837179,
+      "distortionPercent": -0.9570275254118021,
+      "waves": [
+        {
+          "waveNm": 486.1327,
+          "coarseSamples": 1281,
+          "denseSamples": 4096,
+          "failed": 0
+        },
+        {
+          "waveNm": 587.5618,
+          "coarseSamples": 1281,
+          "denseSamples": 4096,
+          "failed": 0
+        },
+        {
+          "waveNm": 656.2725,
+          "coarseSamples": 1281,
+          "denseSamples": 4096,
+          "failed": 0
+        }
+      ]
+    },
+    {
+      "fieldDeg": 14.0,
+      "dLineChiefYmm": 5.968825103784155,
+      "distortionPercent": -0.9282945844904855,
+      "waves": [
+        {
+          "waveNm": 486.1327,
+          "coarseSamples": 1281,
+          "denseSamples": 4096,
+          "failed": 0
+        },
+        {
+          "waveNm": 587.5618,
+          "coarseSamples": 1281,
+          "denseSamples": 4096,
+          "failed": 0
+        },
+        {
+          "waveNm": 656.2725,
+          "coarseSamples": 1281,
+          "denseSamples": 4096,
+          "failed": 0
+        }
+      ]
+    },
+    {
+      "fieldDeg": 15.0,
+      "dLineChiefYmm": 6.4167628715213905,
+      "distortionPercent": -0.8950420303519335,
+      "waves": [
+        {
+          "waveNm": 486.1327,
+          "coarseSamples": 1281,
+          "denseSamples": 4096,
+          "failed": 0
+        },
+        {
+          "waveNm": 587.5618,
+          "coarseSamples": 1281,
+          "denseSamples": 4096,
+          "failed": 0
+        },
+        {
+          "waveNm": 656.2725,
+          "coarseSamples": 1281,
+          "denseSamples": 4096,
+          "failed": 0
+        }
+      ]
+    },
+    {
+      "fieldDeg": 16.0,
+      "dLineChiefYmm": 6.869547190555782,
+      "distortionPercent": -0.8566665433722753,
+      "waves": [
+        {
+          "waveNm": 486.1327,
+          "coarseSamples": 1281,
+          "denseSamples": 4096,
+          "failed": 0
+        },
+        {
+          "waveNm": 587.5618,
+          "coarseSamples": 1281,
+          "denseSamples": 4096,
+          "failed": 0
+        },
+        {
+          "waveNm": 656.2725,
+          "coarseSamples": 1281,
+          "denseSamples": 4096,
+          "failed": 0
+        }
+      ]
+    },
+    {
+      "fieldDeg": 17.0,
+      "dLineChiefYmm": 7.3276409438438534,
+      "distortionPercent": -0.8124872271144445,
+      "waves": [
+        {
+          "waveNm": 486.1327,
+          "coarseSamples": 1281,
+          "denseSamples": 4096,
+          "failed": 0
+        },
+        {
+          "waveNm": 587.5618,
+          "coarseSamples": 1281,
+          "denseSamples": 4096,
+          "failed": 0
+        },
+        {
+          "waveNm": 656.2725,
+          "coarseSamples": 1281,
+          "denseSamples": 4096,
+          "failed": 0
+        }
+      ]
+    },
+    {
+      "fieldDeg": 18.0,
+      "dLineChiefYmm": 7.791540875828482,
+      "distortionPercent": -0.7617359722597805,
+      "waves": [
+        {
+          "waveNm": 486.1327,
+          "coarseSamples": 1281,
+          "denseSamples": 4096,
+          "failed": 0
+        },
+        {
+          "waveNm": 587.5618,
+          "coarseSamples": 1281,
+          "denseSamples": 4096,
+          "failed": 0
+        },
+        {
+          "waveNm": 656.2725,
+          "coarseSamples": 1281,
+          "denseSamples": 4096,
+          "failed": 0
+        }
+      ]
+    },
+    {
+      "fieldDeg": 19.0,
+      "dLineChiefYmm": 8.261782301939263,
+      "distortionPercent": -0.7035462303572437,
+      "waves": [
+        {
+          "waveNm": 486.1327,
+          "coarseSamples": 1281,
+          "denseSamples": 4096,
+          "failed": 0
+        },
+        {
+          "waveNm": 587.5618,
+          "coarseSamples": 1281,
+          "denseSamples": 4096,
+          "failed": 0
+        },
+        {
+          "waveNm": 656.2725,
+          "coarseSamples": 1281,
+          "denseSamples": 4096,
+          "failed": 0
+        }
+      ]
+    },
+    {
+      "fieldDeg": 20.0,
+      "dLineChiefYmm": 8.738944524937784,
+      "distortionPercent": -0.6369399287936672,
+      "waves": [
+        {
+          "waveNm": 486.1327,
+          "coarseSamples": 1281,
+          "denseSamples": 4096,
+          "failed": 0
+        },
+        {
+          "waveNm": 587.5618,
+          "coarseSamples": 1281,
+          "denseSamples": 4096,
+          "failed": 0
+        },
+        {
+          "waveNm": 656.2725,
+          "coarseSamples": 1281,
+          "denseSamples": 4096,
+          "failed": 0
+        }
+      ]
+    },
+    {
+      "fieldDeg": 21.0,
+      "dLineChiefYmm": 9.223657091121636,
+      "distortionPercent": -0.5608122146527394,
+      "waves": [
+        {
+          "waveNm": 486.1327,
+          "coarseSamples": 1281,
+          "denseSamples": 4096,
+          "failed": 0
+        },
+        {
+          "waveNm": 587.5618,
+          "coarseSamples": 1281,
+          "denseSamples": 4096,
+          "failed": 0
+        },
+        {
+          "waveNm": 656.2725,
+          "coarseSamples": 1281,
+          "denseSamples": 4096,
+          "failed": 0
+        }
+      ]
+    },
+    {
+      "fieldDeg": 22.0,
+      "dLineChiefYmm": 9.716607044833738,
+      "distortionPercent": -0.4739136699361879,
+      "waves": [
+        {
+          "waveNm": 486.1327,
+          "coarseSamples": 1281,
+          "denseSamples": 4096,
+          "failed": 0
+        },
+        {
+          "waveNm": 587.5618,
+          "coarseSamples": 1281,
+          "denseSamples": 4096,
+          "failed": 0
+        },
+        {
+          "waveNm": 656.2725,
+          "coarseSamples": 1281,
+          "denseSamples": 4096,
+          "failed": 0
+        }
+      ]
+    },
+    {
+      "fieldDeg": 23.0,
+      "dLineChiefYmm": 10.218547368705309,
+      "distortionPercent": -0.37482960129818776,
+      "waves": [
+        {
+          "waveNm": 486.1327,
+          "coarseSamples": 1281,
+          "denseSamples": 4096,
+          "failed": 0
+        },
+        {
+          "waveNm": 587.5618,
+          "coarseSamples": 1281,
+          "denseSamples": 4096,
+          "failed": 0
+        },
+        {
+          "waveNm": 656.2725,
+          "coarseSamples": 1281,
+          "denseSamples": 4096,
+          "failed": 0
+        }
+      ]
+    },
+    {
+      "fieldDeg": 24.0,
+      "dLineChiefYmm": 10.730306828617302,
+      "distortionPercent": -0.2619559850539188,
+      "waves": [
+        {
+          "waveNm": 486.1327,
+          "coarseSamples": 1281,
+          "denseSamples": 4096,
+          "failed": 0
+        },
+        {
+          "waveNm": 587.5618,
+          "coarseSamples": 1281,
+          "denseSamples": 4096,
+          "failed": 0
+        },
+        {
+          "waveNm": 656.2725,
+          "coarseSamples": 1281,
+          "denseSamples": 4096,
+          "failed": 0
+        }
+      ]
+    },
+    {
+      "fieldDeg": 25.0,
+      "dLineChiefYmm": 11.252801473999526,
+      "distortionPercent": -0.13347166244987996,
+      "waves": [
+        {
+          "waveNm": 486.1327,
+          "coarseSamples": 1281,
+          "denseSamples": 4096,
+          "failed": 0
+        },
+        {
+          "waveNm": 587.5618,
+          "coarseSamples": 1281,
+          "denseSamples": 4096,
+          "failed": 0
+        },
+        {
+          "waveNm": 656.2725,
+          "coarseSamples": 1281,
+          "denseSamples": 4096,
+          "failed": 0
+        }
+      ]
+    },
+    {
+      "fieldDeg": 26.0,
+      "dLineChiefYmm": 11.787048064993497,
+      "distortionPercent": 0.012693488081483295,
+      "waves": [
+        {
+          "waveNm": 486.1327,
+          "coarseSamples": 1281,
+          "denseSamples": 4096,
+          "failed": 0
+        },
+        {
+          "waveNm": 587.5618,
+          "coarseSamples": 1281,
+          "denseSamples": 4096,
+          "failed": 0
+        },
+        {
+          "waveNm": 656.2725,
+          "coarseSamples": 1281,
+          "denseSamples": 4096,
+          "failed": 0
+        }
+      ]
+    },
+    {
+      "fieldDeg": 27.0,
+      "dLineChiefYmm": 12.334179702408484,
+      "distortionPercent": 0.17889442429845914,
+      "waves": [
+        {
+          "waveNm": 486.1327,
+          "coarseSamples": 1281,
+          "denseSamples": 4096,
+          "failed": 0
+        },
+        {
+          "waveNm": 587.5618,
+          "coarseSamples": 1281,
+          "denseSamples": 4096,
+          "failed": 0
+        },
+        {
+          "waveNm": 656.2725,
+          "coarseSamples": 1281,
+          "denseSamples": 4096,
+          "failed": 0
+        }
+      ]
+    },
+    {
+      "fieldDeg": 28.0,
+      "dLineChiefYmm": 12.895463873823564,
+      "distortionPercent": 0.3678101675024914,
+      "waves": [
+        {
+          "waveNm": 486.1327,
+          "coarseSamples": 1281,
+          "denseSamples": 4096,
+          "failed": 0
+        },
+        {
+          "waveNm": 587.5618,
+          "coarseSamples": 1281,
+          "denseSamples": 4096,
+          "failed": 0
+        },
+        {
+          "waveNm": 656.2725,
+          "coarseSamples": 1281,
+          "denseSamples": 4096,
+          "failed": 0
+        }
+      ]
+    },
+    {
+      "fieldDeg": 29.0,
+      "dLineChiefYmm": 13.472322951865264,
+      "distortionPercent": 0.582484349366652,
+      "waves": [
+        {
+          "waveNm": 486.1327,
+          "coarseSamples": 1281,
+          "denseSamples": 4096,
+          "failed": 0
+        },
+        {
+          "waveNm": 587.5618,
+          "coarseSamples": 1281,
+          "denseSamples": 4096,
+          "failed": 0
+        },
+        {
+          "waveNm": 656.2725,
+          "coarseSamples": 1281,
+          "denseSamples": 4096,
+          "failed": 0
+        }
+      ]
+    },
+    {
+      "fieldDeg": 30.0,
+      "dLineChiefYmm": 14.066356726890373,
+      "distortionPercent": 0.8263621832363288,
+      "waves": [
+        {
+          "waveNm": 486.1327,
+          "coarseSamples": 1281,
+          "denseSamples": 4096,
+          "failed": 0
+        },
+        {
+          "waveNm": 587.5618,
+          "coarseSamples": 1281,
+          "denseSamples": 4096,
+          "failed": 0
+        },
+        {
+          "waveNm": 656.2725,
+          "coarseSamples": 1281,
+          "denseSamples": 4096,
+          "failed": 0
+        }
+      ]
+    }
+  ],
+  "maximumDistortionPercent": 1.0913595402243237,
+  "settings": {
+    "frequencyLpMm": 20.0,
+    "method": "Native polychromatic FFT MTF",
+    "pupilSampling": [
+      256,
+      512
+    ],
+    "polarization": false
+  },
+  "mtfNormal": [
+    {
+      "field": 0.0,
+      "description": "Field: 0.00 (deg)",
+      "labels": [
+        "Tangential",
+        "Sagittal"
+      ],
+      "frequencyBracketLpMm": [
+        19.933110367892976,
+        20.066889632107024
+      ],
+      "tangential": [
+        0.3103011827638487
+      ],
+      "sagittal": [
+        0.3103011827638487
+      ]
+    },
+    {
+      "field": 10.0,
+      "description": "Field: 10.00 (deg)",
+      "labels": [
+        "Tangential",
+        "Sagittal"
+      ],
+      "frequencyBracketLpMm": [
+        19.933110367892976,
+        20.066889632107024
+      ],
+      "tangential": [
+        0.3192071089711898
+      ],
+      "sagittal": [
+        0.32222475126561545
+      ]
+    },
+    {
+      "field": 20.0,
+      "description": "Field: 20.00 (deg)",
+      "labels": [
+        "Tangential",
+        "Sagittal"
+      ],
+      "frequencyBracketLpMm": [
+        19.933110367892976,
+        20.066889632107024
+      ],
+      "tangential": [
+        0.2098813024685357
+      ],
+      "sagittal": [
+        0.34442689041255137
+      ]
+    },
+    {
+      "field": 30.0,
+      "description": "Field: 30.00 (deg)",
+      "labels": [
+        "Tangential",
+        "Sagittal"
+      ],
+      "frequencyBracketLpMm": [
+        19.933110367892976,
+        20.066889632107024
+      ],
+      "tangential": [
+        0.03889994107610108
+      ],
+      "sagittal": [
+        0.07493806223571556
+      ]
+    }
+  ],
+  "mtfDense": [
+    {
+      "field": 0.0,
+      "description": "Field: 0.00 (deg)",
+      "labels": [
+        "Tangential",
+        "Sagittal"
+      ],
+      "frequencyBracketLpMm": [
+        19.933110367892976,
+        20.066889632107024
+      ],
+      "tangential": [
+        0.3106272780946665
+      ],
+      "sagittal": [
+        0.3106272780946665
+      ]
+    },
+    {
+      "field": 10.0,
+      "description": "Field: 10.00 (deg)",
+      "labels": [
+        "Tangential",
+        "Sagittal"
+      ],
+      "frequencyBracketLpMm": [
+        19.933110367892976,
+        20.066889632107024
+      ],
+      "tangential": [
+        0.3195821871328829
+      ],
+      "sagittal": [
+        0.32252205838415204
+      ]
+    },
+    {
+      "field": 20.0,
+      "description": "Field: 20.00 (deg)",
+      "labels": [
+        "Tangential",
+        "Sagittal"
+      ],
+      "frequencyBracketLpMm": [
+        19.933110367892976,
+        20.066889632107024
+      ],
+      "tangential": [
+        0.21035688839383748
+      ],
+      "sagittal": [
+        0.34486003693984985
+      ]
+    },
+    {
+      "field": 30.0,
+      "description": "Field: 30.00 (deg)",
+      "labels": [
+        "Tangential",
+        "Sagittal"
+      ],
+      "frequencyBracketLpMm": [
+        19.933110367892976,
+        20.066889632107024
+      ],
+      "tangential": [
+        0.03913560307791554
+      ],
+      "sagittal": [
+        0.07530056568337598
+      ]
+    }
+  ],
+  "mtfPointOperand256": [
+    {
+      "field": 0.0,
+      "tangential": [
+        0.3116036380262216
+      ],
+      "sagittal": [
+        0.3116036037987851
+      ]
+    },
+    {
+      "field": 10.0,
+      "tangential": [
+        0.3205974957725731
+      ],
+      "sagittal": [
+        0.32326125908262415
+      ]
+    },
+    {
+      "field": 20.0,
+      "tangential": [
+        0.21131324609857927
+      ],
+      "sagittal": [
+        0.3454594712258477
+      ]
+    },
+    {
+      "field": 30.0,
+      "tangential": [
+        0.03551302852752147
+      ],
+      "sagittal": [
+        0.07513914247424228
+      ]
+    }
+  ],
+  "score": 0.5884679669291155,
+  "checks": {
+    "effectiveFocalLength": true,
+    "fNumber": true,
+    "glassElements": true,
+    "backFocalDistance": true,
+    "totalTrack": true,
+    "distortion": true,
+    "fullPupil": true,
+    "mtfConverges": true,
+    "sameCatalogIndices": true
+  },
+  "passes": true,
+  "optiworkScore": 0.587078865238843,
+  "zemaxMinusOptiwork": [
+    {
+      "field": 0.0,
+      "tangential": -0.001271254217706852,
+      "sagittal": -0.0012712542177356068
+    },
+    {
+      "field": 10.0,
+      "tangential": -0.0011382145782681818,
+      "sagittal": -0.0010818981756759438
+    },
+    {
+      "field": 20.0,
+      "tangential": -0.0012619481712626834,
+      "sagittal": -0.001096690487606855
+    },
+    {
+      "field": 30.0,
+      "tangential": -6.047751460114964e-05,
+      "sagittal": -0.000567426288938716
+    }
+  ]
+}
