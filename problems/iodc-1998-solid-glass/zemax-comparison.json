@@ -1,0 +1,385 @@
+{
+  "software": "Zemax OpticStudio 2022 R2.02",
+  "version": "22.2",
+  "matchingPrescription": true,
+  "sameFixedImagePlane": true,
+  "firstOrder": {
+    "eflMm": 86.88084139305492,
+    "epdMm": 48.2671341072528,
+    "bfdMm": 46.3367082247503,
+    "focusOffsetsMm": [
+      3.44010669970924,
+      3.966806771497762,
+      4.21839615657069
+    ],
+    "axialFcMm": 0.77828945686145,
+    "pieces": [
+      {
+        "glass": "SCHOTT:N-FK58",
+        "indexFdc": [
+          1.4594804525082095,
+          1.4559993666187845,
+          1.4544619437069932
+        ],
+        "abbe": 90.86351836391577,
+        "powerPerMm": -1.1026115138097413e-05
+      },
+      {
+        "glass": "SCHOTT:N-LASF44",
+        "indexFdc": [
+          1.8163078717916998,
+          1.8041965061599254,
+          1.7990064871767248
+        ],
+        "abbe": 46.48162699440041,
+        "powerPerMm": 0.009225711271391684
+      },
+      {
+        "glass": "SCHOTT:N-FK58",
+        "indexFdc": [
+          1.4594804525082095,
+          1.4559993666187845,
+          1.4544619437069932
+        ],
+        "abbe": 90.86351836391577,
+        "powerPerMm": -0.006591483574602937
+      },
+      {
+        "glass": "SCHOTT:N-SF57",
+        "indexFdc": [
+          1.8721112951784293,
+          1.8466531524500007,
+          1.8364923780877973
+        ],
+        "abbe": 23.769761172011464,
+        "powerPerMm": -0.006517400515165436
+      },
+      {
+        "glass": "SCHOTT:N-FK58",
+        "indexFdc": [
+          1.4594804525082095,
+          1.4559993666187845,
+          1.4544619437069932
+        ],
+        "abbe": 90.86351836391577,
+        "powerPerMm": 0.008951570386973147
+      },
+      {
+        "glass": "SCHOTT:N-PSK53A",
+        "indexFdc": [
+          1.6247844349813587,
+          1.617998176063521,
+          1.6150313007402897
+        ],
+        "abbe": 63.36405926427416,
+        "powerPerMm": -0.005807020993322955
+      },
+      {
+        "glass": "SCHOTT:N-LAK12",
+        "indexFdc": [
+          1.6864707155235614,
+          1.6778976335930365,
+          1.674184873952444
+        ],
+        "abbe": 55.177142702759504,
+        "powerPerMm": 0.016109748246513282
+      }
+    ],
+    "fNumber": 1.7999999999999976
+  },
+  "materialComparison": [
+    {
+      "glass": "SCHOTT:N-FK58",
+      "optiworkIndices": [
+        1.4594804525082095,
+        1.4559993666187845,
+        1.4544619437069932
+      ],
+      "zemaxIndices": [
+        1.4594804525082095,
+        1.4559993666187845,
+        1.4544619437069932
+      ],
+      "maximumDifference": 0.0
+    },
+    {
+      "glass": "SCHOTT:N-LASF44",
+      "optiworkIndices": [
+        1.8163078717916998,
+        1.8041965061599254,
+        1.7990064871767248
+      ],
+      "zemaxIndices": [
+        1.8163078717916998,
+        1.8041965061599254,
+        1.7990064871767248
+      ],
+      "maximumDifference": 0.0
+    },
+    {
+      "glass": "SCHOTT:N-FK58",
+      "optiworkIndices": [
+        1.4594804525082095,
+        1.4559993666187845,
+        1.4544619437069932
+      ],
+      "zemaxIndices": [
+        1.4594804525082095,
+        1.4559993666187845,
+        1.4544619437069932
+      ],
+      "maximumDifference": 0.0
+    },
+    {
+      "glass": "SCHOTT:N-SF57",
+      "optiworkIndices": [
+        1.8721112951784293,
+        1.8466531524500007,
+        1.8364923780877973
+      ],
+      "zemaxIndices": [
+        1.8721112951784293,
+        1.8466531524500007,
+        1.8364923780877973
+      ],
+      "maximumDifference": 0.0
+    },
+    {
+      "glass": "SCHOTT:N-FK58",
+      "optiworkIndices": [
+        1.4594804525082095,
+        1.4559993666187845,
+        1.4544619437069932
+      ],
+      "zemaxIndices": [
+        1.4594804525082095,
+        1.4559993666187845,
+        1.4544619437069932
+      ],
+      "maximumDifference": 0.0
+    },
+    {
+      "glass": "SCHOTT:N-PSK53A",
+      "optiworkIndices": [
+        1.6247844349813587,
+        1.617998176063521,
+        1.6150313007402897
+      ],
+      "zemaxIndices": [
+        1.6247844349813587,
+        1.617998176063521,
+        1.6150313007402897
+      ],
+      "maximumDifference": 0.0
+    },
+    {
+      "glass": "SCHOTT:N-LAK12",
+      "optiworkIndices": [
+        1.6864707155235614,
+        1.6778976335930365,
+        1.674184873952444
+      ],
+      "zemaxIndices": [
+        1.6864707155235614,
+        1.6778976335930365,
+        1.674184873952444
+      ],
+      "maximumDifference": 0.0
+    }
+  ],
+  "imageRadiiMm": [
+    0.0,
+    17.499999992774686,
+    19.99999996981824,
+    24.999999618979068
+  ],
+  "illumination": [
+    {
+      "relativeIllumination": 0.9041292114323297,
+      "rimAzimuths": 80,
+      "perWave": [
+        {
+          "wavelengthNm": 486.1,
+          "failedRimRays": 0,
+          "projectedAreas": [
+            0.2591660009120284,
+            0.23398518412850042
+          ],
+          "ratio": 0.9028390425637837
+        },
+        {
+          "wavelengthNm": 587.6,
+          "failedRimRays": 0,
+          "projectedAreas": [
+            0.25611332965440003,
+            0.23165526471033987
+          ],
+          "ratio": 0.9045029597754091
+        },
+        {
+          "wavelengthNm": 656.3,
+          "failedRimRays": 0,
+          "projectedAreas": [
+            0.25464309036828703,
+            0.23046890246493434
+          ],
+          "ratio": 0.9050663897127942
+        }
+      ]
+    },
+    {
+      "relativeIllumination": 0.9041297560747468,
+      "rimAzimuths": 160,
+      "perWave": [
+        {
+          "wavelengthNm": 486.1,
+          "failedRimRays": 0,
+          "projectedAreas": [
+            0.25936596266963674,
+            0.23416586503465237
+          ],
+          "ratio": 0.9028396117377877
+        },
+        {
+          "wavelengthNm": 587.6,
+          "failedRimRays": 0,
+          "projectedAreas": [
+            0.25631093609723743,
+            0.23183413794847177
+          ],
+          "ratio": 0.9045034967236832
+        },
+        {
+          "wavelengthNm": 656.3,
+          "failedRimRays": 0,
+          "projectedAreas": [
+            0.25483956243535477,
+            0.23064685713522412
+          ],
+          "ratio": 0.9050669171264661
+        }
+      ]
+    }
+  ],
+  "nativeReliPerWave": [
+    0.8852780563736521,
+    0.8862859136208973,
+    0.8866133287792786
+  ],
+  "nativeReliSampling": 80,
+  "nativeReliFieldNumber": 4,
+  "geometry": {
+    "clearMassG": 957.9252984934433,
+    "finishedMassG": 984.5144988390318,
+    "calculatedClearMassG": 957.9252984936899,
+    "calculatedFinishedMassG": 984.4506254449993
+  },
+  "spots": [
+    {
+      "fieldDeg": 0.0,
+      "targetImageRadiusMm": 0.0,
+      "rmsUm": 303.33385009368095,
+      "centroidMm": [
+        -4.131219204877311e-12,
+        -4.131200789719293e-12
+      ],
+      "failed": 0,
+      "rays": 3072
+    },
+    {
+      "fieldDeg": 11.789108917964068,
+      "targetImageRadiusMm": 17.5,
+      "rmsUm": 206.92839099467864,
+      "centroidMm": [
+        -5.551076637336791e-12,
+        17.528040451579418
+      ],
+      "failed": 0,
+      "rays": 3072
+    },
+    {
+      "fieldDeg": 13.451400430192988,
+      "targetImageRadiusMm": 20.0,
+      "rmsUm": 217.96812561204092,
+      "centroidMm": [
+        -5.954938521186403e-12,
+        20.045463118243557
+      ],
+      "failed": 0,
+      "rays": 3072
+    },
+    {
+      "fieldDeg": 16.744588338668468,
+      "targetImageRadiusMm": 25.0,
+      "rmsUm": 293.42720812868953,
+      "centroidMm": [
+        -6.85896688566983e-12,
+        25.10216122904437
+      ],
+      "failed": 0,
+      "rays": 3072
+    }
+  ],
+  "denseSpots": [
+    {
+      "fieldDeg": 0.0,
+      "targetImageRadiusMm": 0.0,
+      "rmsUm": 303.33385009368095,
+      "centroidMm": [
+        -4.131126517688253e-12,
+        -4.131136729019502e-12
+      ],
+      "failed": 0,
+      "rays": 12288
+    },
+    {
+      "fieldDeg": 11.789108917964068,
+      "targetImageRadiusMm": 17.5,
+      "rmsUm": 206.9283909946787,
+      "centroidMm": [
+        -5.550889503194787e-12,
+        17.528040451579475
+      ],
+      "failed": 0,
+      "rays": 12288
+    },
+    {
+      "fieldDeg": 13.451400430192988,
+      "targetImageRadiusMm": 20.0,
+      "rmsUm": 217.96812561204092,
+      "centroidMm": [
+        -5.954944876474606e-12,
+        20.045463118243543
+      ],
+      "failed": 0,
+      "rays": 12288
+    },
+    {
+      "fieldDeg": 16.744588338668468,
+      "targetImageRadiusMm": 25.0,
+      "rmsUm": 293.42720812868976,
+      "centroidMm": [
+        -6.85902796606269e-12,
+        25.10216122904448
+      ],
+      "failed": 0,
+      "rays": 12288
+    }
+  ],
+  "weightedRmsUm": 874.9439707647452,
+  "optiworkWeightedRmsUm": 874.9439708124776,
+  "maximumRmsDifferenceUm": 2.9888383323850576e-08,
+  "relativeIlluminationDifference": 8.958389585700388e-13,
+  "checks": {
+    "sphericalAndCemented": true,
+    "nominalFNumber": true,
+    "requiredImageRadii": true,
+    "positiveImageSpace": true,
+    "glassCatalog": true,
+    "nativeMassByClear": true,
+    "fullFieldRelativeIllumination": true,
+    "nativeReli": true,
+    "scoringRays": true
+  },
+  "passes": true
+}
