@@ -7,6 +7,7 @@
 题目完成 Optiwork 和 Zemax 同处方复验后在此登记。额外练习目标和赛题硬性要求以单题说明为准。
 
 - [ILDC 1990 单色四片式](problems/ildc-1990-monochromatic-quartet/README.md) · Optiwork / Zemax 三场平均 2.2492 / 2.2492 µm，制造几何初审通过。
+- [IODC 2017 百年镜头](problems/iodc-2017-centennial/README.md) · 合题基础解，Optiwork / Zemax 最大 RMS 波前均约 0.069982 波。
 
 ## 题目索引
 

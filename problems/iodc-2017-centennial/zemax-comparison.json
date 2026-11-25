@@ -1,0 +1,248 @@
+{
+  "summary": {
+    "software": "Zemax OpticStudio 2022 R2.02",
+    "version": "22.2",
+    "matchingPrescription": true,
+    "commonImageGapMm": 37.96105597482842,
+    "fields": 31,
+    "semiFieldDeg": 2.5834,
+    "minimumRmsWaves": 0.03158868971634054,
+    "maximumRmsWaves": 0.06998181075455433,
+    "allRaysPass": true,
+    "marginalHeightsMm": [
+      1.3249999999951705,
+      0.4216525908997025,
+      0.19518235485358712,
+      -1.1294706033409596
+    ],
+    "chiefHeightsMm": [
+      0.6135540934852264,
+      1.3823543298147225,
+      1.3487453749626586,
+      0.25541088778966486
+    ],
+    "zemaxScoreMmSquared": 1.8316194869978313,
+    "optiworkScoreMmSquared": 1.8316194870045066,
+    "limitWaves": 0.07,
+    "passes": true
+  },
+  "fields": [
+    {
+      "fieldDeg": 0.0,
+      "zemaxRmsWaves": 0.06978829768297716,
+      "failedRays": 0,
+      "optiworkRmsWaves": 0.06978829769470328,
+      "differenceWaves": -1.1726120074939672e-11
+    },
+    {
+      "fieldDeg": 0.08611333333333333,
+      "zemaxRmsWaves": 0.06966558366008194,
+      "failedRays": 0,
+      "optiworkRmsWaves": 0.06966558366411485,
+      "differenceWaves": -4.032912892526497e-12
+    },
+    {
+      "fieldDeg": 0.17222666666666667,
+      "zemaxRmsWaves": 0.06929776633567761,
+      "failedRays": 0,
+      "optiworkRmsWaves": 0.06929776633774454,
+      "differenceWaves": -2.0669299605202696e-12
+    },
+    {
+      "fieldDeg": 0.25834,
+      "zemaxRmsWaves": 0.06868583810933523,
+      "failedRays": 0,
+      "optiworkRmsWaves": 0.06868583811205507,
+      "differenceWaves": -2.7198382435145163e-12
+    },
+    {
+      "fieldDeg": 0.34445333333333333,
+      "zemaxRmsWaves": 0.06783151515727456,
+      "failedRays": 0,
+      "optiworkRmsWaves": 0.06783151515760927,
+      "differenceWaves": -3.3470448634886907e-13
+    },
+    {
+      "fieldDeg": 0.43056666666666665,
+      "zemaxRmsWaves": 0.06673733692491664,
+      "failedRays": 0,
+      "optiworkRmsWaves": 0.0667373369318209,
+      "differenceWaves": -6.904268823326731e-12
+    },
+    {
+      "fieldDeg": 0.51668,
+      "zemaxRmsWaves": 0.06540681894051441,
+      "failedRays": 0,
+      "optiworkRmsWaves": 0.06540681894474877,
+      "differenceWaves": -4.2343628603447314e-12
+    },
+    {
+      "fieldDeg": 0.6027933333333333,
+      "zemaxRmsWaves": 0.06384467452919894,
+      "failedRays": 0,
+      "optiworkRmsWaves": 0.06384467453176942,
+      "differenceWaves": -2.570485491126817e-12
+    },
+    {
+      "fieldDeg": 0.6889066666666667,
+      "zemaxRmsWaves": 0.06205712971529599,
+      "failedRays": 0,
+      "optiworkRmsWaves": 0.062057129721159426,
+      "differenceWaves": -5.863434737740647e-12
+    },
+    {
+      "fieldDeg": 0.77502,
+      "zemaxRmsWaves": 0.060052367320135094,
+      "failedRays": 0,
+      "optiworkRmsWaves": 0.06005236732196931,
+      "differenceWaves": -1.834213336771029e-12
+    },
+    {
+      "fieldDeg": 0.8611333333333333,
+      "zemaxRmsWaves": 0.05784115448539384,
+      "failedRays": 0,
+      "optiworkRmsWaves": 0.05784115448979592,
+      "differenceWaves": -4.402075926002169e-12
+    },
+    {
+      "fieldDeg": 0.9472466666666667,
+      "zemaxRmsWaves": 0.05543773487024137,
+      "failedRays": 0,
+      "optiworkRmsWaves": 0.05543773487592646,
+      "differenceWaves": -5.6850912866224235e-12
+    },
+    {
+      "fieldDeg": 1.03336,
+      "zemaxRmsWaves": 0.05286110688237693,
+      "failedRays": 0,
+      "optiworkRmsWaves": 0.05286110688331178,
+      "differenceWaves": -9.348494200978053e-13
+    },
+    {
+      "fieldDeg": 1.1194733333333333,
+      "zemaxRmsWaves": 0.0501368685725862,
+      "failedRays": 0,
+      "optiworkRmsWaves": 0.05013686856873884,
+      "differenceWaves": 3.8473599306421136e-12
+    },
+    {
+      "fieldDeg": 1.2055866666666666,
+      "zemaxRmsWaves": 0.04729989091676191,
+      "failedRays": 0,
+      "optiworkRmsWaves": 0.04729989092091274,
+      "differenceWaves": -4.150832455529496e-12
+    },
+    {
+      "fieldDeg": 1.2917,
+      "zemaxRmsWaves": 0.04439817843347702,
+      "failedRays": 0,
+      "optiworkRmsWaves": 0.04439817843642764,
+      "differenceWaves": -2.950618915864567e-12
+    },
+    {
+      "fieldDeg": 1.3778133333333333,
+      "zemaxRmsWaves": 0.041498343449567376,
+      "failedRays": 0,
+      "optiworkRmsWaves": 0.041498343447989715,
+      "differenceWaves": 1.577661612461867e-12
+    },
+    {
+      "fieldDeg": 1.4639266666666666,
+      "zemaxRmsWaves": 0.03869300448765966,
+      "failedRays": 0,
+      "optiworkRmsWaves": 0.03869300448355575,
+      "differenceWaves": 4.1039116549512755e-12
+    },
+    {
+      "fieldDeg": 1.55004,
+      "zemaxRmsWaves": 0.036109705474680294,
+      "failedRays": 0,
+      "optiworkRmsWaves": 0.036109705476876176,
+      "differenceWaves": -2.1958823648304815e-12
+    },
+    {
+      "fieldDeg": 1.6361533333333333,
+      "zemaxRmsWaves": 0.03391880318618225,
+      "failedRays": 0,
+      "optiworkRmsWaves": 0.03391880318992096,
+      "differenceWaves": -3.738710729894734e-12
+    },
+    {
+      "fieldDeg": 1.7222666666666666,
+      "zemaxRmsWaves": 0.032333313009569285,
+      "failedRays": 0,
+      "optiworkRmsWaves": 0.03233331301203774,
+      "differenceWaves": -2.4684559951637652e-12
+    },
+    {
+      "fieldDeg": 1.80838,
+      "zemaxRmsWaves": 0.03158868971634054,
+      "failedRays": 0,
+      "optiworkRmsWaves": 0.03158868971669115,
+      "differenceWaves": -3.5060843117662444e-13
+    },
+    {
+      "fieldDeg": 1.8944933333333334,
+      "zemaxRmsWaves": 0.0318942941358659,
+      "failedRays": 0,
+      "optiworkRmsWaves": 0.0318942941258708,
+      "differenceWaves": 9.995101968307551e-12
+    },
+    {
+      "fieldDeg": 1.9806066666666666,
+      "zemaxRmsWaves": 0.03337210343365936,
+      "failedRays": 0,
+      "optiworkRmsWaves": 0.03337210342399199,
+      "differenceWaves": 9.667371070332109e-12
+    },
+    {
+      "fieldDeg": 2.06672,
+      "zemaxRmsWaves": 0.03602435037921637,
+      "failedRays": 0,
+      "optiworkRmsWaves": 0.036024350367978186,
+      "differenceWaves": 1.123818399451082e-11
+    },
+    {
+      "fieldDeg": 2.152833333333333,
+      "zemaxRmsWaves": 0.03975522110383503,
+      "failedRays": 0,
+      "optiworkRmsWaves": 0.0397552210887485,
+      "differenceWaves": 1.5086529248087288e-11
+    },
+    {
+      "fieldDeg": 2.2389466666666666,
+      "zemaxRmsWaves": 0.0444234523590971,
+      "failedRays": 0,
+      "optiworkRmsWaves": 0.0444234523430296,
+      "differenceWaves": 1.6067501495964365e-11
+    },
+    {
+      "fieldDeg": 2.32506,
+      "zemaxRmsWaves": 0.049887299414900256,
+      "failedRays": 0,
+      "optiworkRmsWaves": 0.049887299397052415,
+      "differenceWaves": 1.7847841260465458e-11
+    },
+    {
+      "fieldDeg": 2.411173333333333,
+      "zemaxRmsWaves": 0.056026706390099594,
+      "failedRays": 0,
+      "optiworkRmsWaves": 0.056026706367981446,
+      "differenceWaves": 2.211814759123243e-11
+    },
+    {
+      "fieldDeg": 2.4972866666666667,
+      "zemaxRmsWaves": 0.06274819141237509,
+      "failedRays": 0,
+      "optiworkRmsWaves": 0.0627481913790403,
+      "differenceWaves": 3.333479325906552e-11
+    },
+    {
+      "fieldDeg": 2.5834,
+      "zemaxRmsWaves": 0.06998181075455433,
+      "failedRays": 0,
+      "optiworkRmsWaves": 0.06998181071953181,
+      "differenceWaves": 3.502251266773726e-11
+    }
+  ]
+}
