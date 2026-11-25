@@ -17,6 +17,8 @@
 
 - [IODC 1998 实心胶合镜头](problems/iodc-1998-solid-glass/README.md) · 七片基础解，清口径玻璃质量 957.93 g，满场相对照度 90.41%，完成双软件复验。
 
+- [IODC 2010 Green Lens](problems/iodc-2010-green-lens/README.md) · 共用球面半径，双软件已复验得分 48.536 mm·°。
+
 ## 题目索引
 
 | 题目 | 设计要点 | 题源 |
