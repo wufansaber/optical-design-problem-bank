@@ -25,6 +25,8 @@
 
 - [IODC 2023 Yin-Yang Lens](problems/iodc-2023-yin-yang-lens/README.md) · 两波长共焦，Zemax 50 × 50 网格复算得分 1.90064 mm·°·波。
 
+- [IODC 2002 Diffractive Simulator](problems/iodc-2002-diffractive-simulator/README.md) · 15 波长双软件复验，公开 EFL 口径得分 1.16467 mm，另列后焦距结果。
+
 ## 题目索引
 
 | 题目 | 设计要点 | 题源 |
