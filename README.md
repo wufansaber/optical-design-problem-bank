@@ -31,7 +31,7 @@
 
 - [IODC 2027 Schoenberg Lens](problems/iodc-2027-schoenberg/README.md) · 双片逐面数字核对和双软件复验通过，得分 18.000 mm·°。
 
-- [IODC 1994 Rochester](problems/iodc-1994-rochester/README.md) · 6 片方案，成品包络 27.500 cm³，完成 Optiwork 和 Zemax 复验。
+- [IODC 1994 Rochester](problems/iodc-1994-rochester/README.md) · 10 片方案，成品包络 14.435 cm³，完成 Optiwork 和 Zemax 复验。
 
 ## 题目索引
 
@@ -49,6 +49,10 @@
 | IODC 2023 Yin Yang Lens | 在两组波长约束下设计同一套光学系统 | [赛事题面](https://iodc.info/2022/08/the-2023-iodc-shafer-cup-competition/) |
 | IODC 2027 Schoenberg Lens | 每片镜的四项尺寸各用 0–9 一次，再最大化入瞳直径与半视场的乘积 | [赛事题面](https://iodc.info/2026/09/the-2027-iodc-shafer-cup-competition/) |
 | 2013 中国镜头设计题 | 共轭变焦，待核对完整规格 | [Optica 会议论文](https://opg.optica.org/abstract.cfm?uri=IODC-2014-ITu1A.5) |
+| 第十三届全国大学生光电设计竞赛 · 水浸物镜 | 785/810/850 nm，NA ≥ 0.9，4.75 mm 焦距，水层、盖玻片、色差和全场波前 | [赛题细则，第 4 页](https://cos.hdu.edu.cn/_upload/article/files/f8/b5/302410984f48a2fb1aa51a218265/5da01fea-82ab-43a6-9365-f3185b71f3c1.pdf#page=4) |
+| 第十三届全国大学生光电设计竞赛 · 微单镜头 | 全画幅 18 mm F/2，16.5 mm 以上后焦，40 lp/mm 多色 MTF | [赛题细则，第 5 页](https://cos.hdu.edu.cn/_upload/article/files/f8/b5/302410984f48a2fb1aa51a218265/5da01fea-82ab-43a6-9365-f3185b71f3c1.pdf#page=5) |
+| 第十四届全国大学生光电设计竞赛 · 微光观察物镜 | F/1.2、60°、近至 254 mm 与无穷远，含温度组态、公差和杂散光 | [赛题细则，第 4 页](https://wdy.nuist.edu.cn/_upload/article/files/e8/cb/f2ed60c748e28c0254c5523a259e/a507a594-be6c-49c3-8c08-6c356e178e6e.pdf#page=4) |
+| 第十四届全国大学生光电设计竞赛 · AR 眼镜镜头 | F/1.8、φ7.8 mm 像面、总长 ≤ 15 mm，焦距、重量和高频 MTF | [赛题细则，第 5 页起](https://wdy.nuist.edu.cn/_upload/article/files/e8/cb/f2ed60c748e28c0254c5523a259e/a507a594-be6c-49c3-8c08-6c356e178e6e.pdf#page=5) |
 | Optiland 多色点斑优化 | 50 mm、F/4、3–6 片，五场共质心多色 RMS | [赛事题面](https://www.optiland.org/competitions) · [共同规则](https://www.optiland.org/competitions/rules) |
 | Optiland 中等广角 | 24 mm、F/4、全视场 60°，以 20 lp/mm 多色 MTF 评分 | [裁判规则](https://github.com/optiland/challenges-eval/blob/main/RULES.md) |
 | Optiland 消色差双片 | 100 mm、F/8、EPD 12.5 mm，两片与三场多色 RMS | [裁判规则](https://github.com/optiland/challenges-eval/blob/main/RULES.md) |

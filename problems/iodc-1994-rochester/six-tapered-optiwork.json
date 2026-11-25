@@ -1,0 +1,650 @@
+{
+  "label": "six-tapered",
+  "software": "Optiwork v1.2",
+  "owxSha256": "b3331e7c412b46573f50726f2560aaeb569119d7c32a32c05ee3b58357b54b95",
+  "eflMm": 31.95660030825161,
+  "entrancePupilMm": 20.292441195739762,
+  "imageGapMm": 0.0010000007027579985,
+  "paraxialImageNa": 0.31749999999999984,
+  "paraxialImageHeightMm": 12.598425000000004,
+  "measuredImageNa": 0.305052778915422,
+  "realChiefHeightMm": 12.828111263172685,
+  "invariantMm": 3.9999999374999997,
+  "measuredNaTimesChiefHeightMm": 3.913250989067052,
+  "maxPistonTiltRemovedRmsWaves": 0.0652116609089842,
+  "fieldResults": [
+    {
+      "fieldDeg": 0.0,
+      "optiworkRawWfeWaves": 0.2365473185152391,
+      "optiworkPistonTiltRemovedWfeWaves": 0.06465895970256928,
+      "quadratureErrorWaves": 6.323191970025732e-12,
+      "throughput": 1.0,
+      "failedBoundaryRays": 0
+    },
+    {
+      "fieldDeg": 0.5379029320925532,
+      "optiworkRawWfeWaves": 0.23651471911642594,
+      "optiworkPistonTiltRemovedWfeWaves": 0.06464349780361414,
+      "quadratureErrorWaves": 2.8506363936031676e-13,
+      "throughput": 1.0,
+      "failedBoundaryRays": 0
+    },
+    {
+      "fieldDeg": 1.0758058641851065,
+      "optiworkRawWfeWaves": 0.2364123163745779,
+      "optiworkPistonTiltRemovedWfeWaves": 0.06460140390435866,
+      "quadratureErrorWaves": -3.456679387170425e-13,
+      "throughput": 1.0,
+      "failedBoundaryRays": 0
+    },
+    {
+      "fieldDeg": 1.6137087962776597,
+      "optiworkRawWfeWaves": 0.23622649942620835,
+      "optiworkPistonTiltRemovedWfeWaves": 0.06454480863527495,
+      "quadratureErrorWaves": -1.4387518953995482e-12,
+      "throughput": 1.0,
+      "failedBoundaryRays": 0
+    },
+    {
+      "fieldDeg": 2.151611728370213,
+      "optiworkRawWfeWaves": 0.23593525347236438,
+      "optiworkPistonTiltRemovedWfeWaves": 0.06449151437162946,
+      "quadratureErrorWaves": 3.740896481474465e-13,
+      "throughput": 1.0,
+      "failedBoundaryRays": 0
+    },
+    {
+      "fieldDeg": 2.689514660462766,
+      "optiworkRawWfeWaves": 0.23550912791899056,
+      "optiworkPistonTiltRemovedWfeWaves": 0.06446161690454652,
+      "quadratureErrorWaves": 3.4647285040989573e-13,
+      "throughput": 1.0,
+      "failedBoundaryRays": 0
+    },
+    {
+      "fieldDeg": 3.2274175925553195,
+      "optiworkRawWfeWaves": 0.23491252379464617,
+      "optiworkPistonTiltRemovedWfeWaves": 0.06447329154153007,
+      "quadratureErrorWaves": -1.6091711296795097e-12,
+      "throughput": 1.0,
+      "failedBoundaryRays": 0
+    },
+    {
+      "fieldDeg": 3.7653205246478727,
+      "optiworkRawWfeWaves": 0.23410523344021977,
+      "optiworkPistonTiltRemovedWfeWaves": 0.06453828751459392,
+      "quadratureErrorWaves": 1.770639190823431e-12,
+      "throughput": 1.0,
+      "failedBoundaryRays": 0
+    },
+    {
+      "fieldDeg": 4.303223456740426,
+      "optiworkRawWfeWaves": 0.23304415176849846,
+      "optiworkPistonTiltRemovedWfeWaves": 0.0646577996016815,
+      "quadratureErrorWaves": 1.0979411824152407e-12,
+      "throughput": 1.0,
+      "failedBoundaryRays": 0
+    },
+    {
+      "fieldDeg": 4.841126388832979,
+      "optiworkRawWfeWaves": 0.23168506477917486,
+      "optiworkPistonTiltRemovedWfeWaves": 0.06481940580738571,
+      "quadratureErrorWaves": -1.2659734371922582e-12,
+      "throughput": 1.0,
+      "failedBoundaryRays": 0
+    },
+    {
+      "fieldDeg": 5.379029320925532,
+      "optiworkRawWfeWaves": 0.2299844071443952,
+      "optiworkPistonTiltRemovedWfeWaves": 0.06499563288114583,
+      "quadratureErrorWaves": -6.968176036181717e-13,
+      "throughput": 1.0,
+      "failedBoundaryRays": 0
+    },
+    {
+      "fieldDeg": 5.916932253018086,
+      "optiworkRawWfeWaves": 0.22790086929504572,
+      "optiworkPistonTiltRemovedWfeWaves": 0.06514444927033394,
+      "quadratureErrorWaves": 6.555450626777315e-13,
+      "throughput": 1.0,
+      "failedBoundaryRays": 0
+    },
+    {
+      "fieldDeg": 6.454835185110639,
+      "optiworkRawWfeWaves": 0.22539672253405676,
+      "optiworkPistonTiltRemovedWfeWaves": 0.0652116609089842,
+      "quadratureErrorWaves": -2.401079335356826e-12,
+      "throughput": 1.0,
+      "failedBoundaryRays": 0
+    },
+    {
+      "fieldDeg": 6.992738117203192,
+      "optiworkRawWfeWaves": 0.22243872356397498,
+      "optiworkPistonTiltRemovedWfeWaves": 0.06513490051260115,
+      "quadratureErrorWaves": -1.301292407163146e-12,
+      "throughput": 1.0,
+      "failedBoundaryRays": 0
+    },
+    {
+      "fieldDeg": 7.530641049295745,
+      "optiworkRawWfeWaves": 0.2189984556219547,
+      "optiworkPistonTiltRemovedWfeWaves": 0.06484873541392647,
+      "quadratureErrorWaves": -2.8618774017274973e-13,
+      "throughput": 1.0,
+      "failedBoundaryRays": 0
+    },
+    {
+      "fieldDeg": 8.068543981388299,
+      "optiworkRawWfeWaves": 0.21505197553565983,
+      "optiworkPistonTiltRemovedWfeWaves": 0.06429039499204893,
+      "quadratureErrorWaves": 1.3180567748349858e-12,
+      "throughput": 1.0,
+      "failedBoundaryRays": 0
+    },
+    {
+      "fieldDeg": 8.606446913480852,
+      "optiworkRawWfeWaves": 0.21057866180313714,
+      "optiworkPistonTiltRemovedWfeWaves": 0.06340570560075366,
+      "quadratureErrorWaves": 3.9016012642889564e-13,
+      "throughput": 1.0,
+      "failedBoundaryRays": 0
+    },
+    {
+      "fieldDeg": 9.144349845573405,
+      "optiworkRawWfeWaves": 0.2055592188889618,
+      "optiworkPistonTiltRemovedWfeWaves": 0.06215496171766224,
+      "quadratureErrorWaves": 1.883493361276578e-12,
+      "throughput": 1.0,
+      "failedBoundaryRays": 0
+    },
+    {
+      "fieldDeg": 9.682252777665958,
+      "optiworkRawWfeWaves": 0.19997288675134048,
+      "optiworkPistonTiltRemovedWfeWaves": 0.06051860507824919,
+      "quadratureErrorWaves": 1.1956199919005428e-12,
+      "throughput": 1.0,
+      "failedBoundaryRays": 0
+    },
+    {
+      "fieldDeg": 10.220155709758512,
+      "optiworkRawWfeWaves": 0.19379404922280552,
+      "optiworkPistonTiltRemovedWfeWaves": 0.05850269178054569,
+      "quadratureErrorWaves": 2.7624638687662184e-12,
+      "throughput": 1.0,
+      "failedBoundaryRays": 0
+    },
+    {
+      "fieldDeg": 10.758058641851065,
+      "optiworkRawWfeWaves": 0.1869886291892252,
+      "optiworkPistonTiltRemovedWfeWaves": 0.056144170467876814,
+      "quadratureErrorWaves": -6.105393968169892e-13,
+      "throughput": 1.0,
+      "failedBoundaryRays": 0
+    },
+    {
+      "fieldDeg": 11.295961573943618,
+      "optiworkRawWfeWaves": 0.17951090827875976,
+      "optiworkPistonTiltRemovedWfeWaves": 0.05351591848955867,
+      "quadratureErrorWaves": 4.555869570488369e-13,
+      "throughput": 1.0,
+      "failedBoundaryRays": 0
+    },
+    {
+      "fieldDeg": 11.833864506036171,
+      "optiworkRawWfeWaves": 0.17130170348168505,
+      "optiworkPistonTiltRemovedWfeWaves": 0.05073116385059281,
+      "quadratureErrorWaves": -1.3327602910173653e-12,
+      "throughput": 1.0,
+      "failedBoundaryRays": 0
+    },
+    {
+      "fieldDeg": 12.371767438128725,
+      "optiworkRawWfeWaves": 0.16228918528663422,
+      "optiworkPistonTiltRemovedWfeWaves": 0.04794611620961388,
+      "quadratureErrorWaves": 9.524603328259218e-13,
+      "throughput": 1.0,
+      "failedBoundaryRays": 0
+    },
+    {
+      "fieldDeg": 12.909670370221278,
+      "optiworkRawWfeWaves": 0.15239407170502595,
+      "optiworkPistonTiltRemovedWfeWaves": 0.04535802669592182,
+      "quadratureErrorWaves": -1.2151044059827143e-12,
+      "throughput": 1.0,
+      "failedBoundaryRays": 0
+    },
+    {
+      "fieldDeg": 13.447573302313831,
+      "optiworkRawWfeWaves": 0.14154161766744291,
+      "optiworkPistonTiltRemovedWfeWaves": 0.043193572504303994,
+      "quadratureErrorWaves": 3.131522818833332e-13,
+      "throughput": 1.0,
+      "failedBoundaryRays": 0
+    },
+    {
+      "fieldDeg": 13.985476234406384,
+      "optiworkRawWfeWaves": 0.1296841405040962,
+      "optiworkPistonTiltRemovedWfeWaves": 0.04168121820504451,
+      "quadratureErrorWaves": -9.75101943634371e-13,
+      "throughput": 1.0,
+      "failedBoundaryRays": 0
+    },
+    {
+      "fieldDeg": 14.523379166498938,
+      "optiworkRawWfeWaves": 0.11684069459787691,
+      "optiworkPistonTiltRemovedWfeWaves": 0.04100579470901609,
+      "quadratureErrorWaves": -1.6290024884568766e-12,
+      "throughput": 1.0,
+      "failedBoundaryRays": 0
+    },
+    {
+      "fieldDeg": 15.06128209859149,
+      "optiworkRawWfeWaves": 0.10316712954861042,
+      "optiworkPistonTiltRemovedWfeWaves": 0.041257573763677426,
+      "quadratureErrorWaves": -1.6600193442073419e-12,
+      "throughput": 1.0,
+      "failedBoundaryRays": 0
+    },
+    {
+      "fieldDeg": 15.599185030684044,
+      "optiworkRawWfeWaves": 0.08908458824787405,
+      "optiworkPistonTiltRemovedWfeWaves": 0.042401991186910466,
+      "quadratureErrorWaves": -5.183770079852934e-13,
+      "throughput": 1.0,
+      "failedBoundaryRays": 0
+    },
+    {
+      "fieldDeg": 16.137087962776597,
+      "optiworkRawWfeWaves": 0.07552088544190773,
+      "optiworkPistonTiltRemovedWfeWaves": 0.04428843593738309,
+      "quadratureErrorWaves": 9.60148627271451e-13,
+      "throughput": 1.0,
+      "failedBoundaryRays": 0
+    },
+    {
+      "fieldDeg": 16.67499089486915,
+      "optiworkRawWfeWaves": 0.06431050633713002,
+      "optiworkPistonTiltRemovedWfeWaves": 0.04668744193629735,
+      "quadratureErrorWaves": 1.0316816845268306e-12,
+      "throughput": 1.0,
+      "failedBoundaryRays": 0
+    },
+    {
+      "fieldDeg": 17.212893826961704,
+      "optiworkRawWfeWaves": 0.05841284112360597,
+      "optiworkPistonTiltRemovedWfeWaves": 0.04932732177764974,
+      "quadratureErrorWaves": -9.684822388500436e-13,
+      "throughput": 1.0,
+      "failedBoundaryRays": 0
+    },
+    {
+      "fieldDeg": 17.750796759054257,
+      "optiworkRawWfeWaves": 0.060457432364912855,
+      "optiworkPistonTiltRemovedWfeWaves": 0.05191065430288402,
+      "quadratureErrorWaves": -7.718270467194088e-13,
+      "throughput": 1.0,
+      "failedBoundaryRays": 0
+    },
+    {
+      "fieldDeg": 18.28869969114681,
+      "optiworkRawWfeWaves": 0.06981959874975752,
+      "optiworkPistonTiltRemovedWfeWaves": 0.05411181350405908,
+      "quadratureErrorWaves": 2.0660209654188577e-12,
+      "throughput": 1.0,
+      "failedBoundaryRays": 0
+    },
+    {
+      "fieldDeg": 18.826602623239364,
+      "optiworkRawWfeWaves": 0.08310557055358032,
+      "optiworkPistonTiltRemovedWfeWaves": 0.05557466226402529,
+      "quadratureErrorWaves": 5.870998132095906e-14,
+      "throughput": 1.0,
+      "failedBoundaryRays": 0
+    },
+    {
+      "fieldDeg": 19.364505555331917,
+      "optiworkRawWfeWaves": 0.09680257720292983,
+      "optiworkPistonTiltRemovedWfeWaves": 0.055952130624302786,
+      "quadratureErrorWaves": -1.4218140553801106e-12,
+      "throughput": 1.0,
+      "failedBoundaryRays": 0
+    },
+    {
+      "fieldDeg": 19.90240848742447,
+      "optiworkRawWfeWaves": 0.10816125937349323,
+      "optiworkPistonTiltRemovedWfeWaves": 0.05508574508364962,
+      "quadratureErrorWaves": 1.5527093499834166e-12,
+      "throughput": 1.0,
+      "failedBoundaryRays": 0
+    },
+    {
+      "fieldDeg": 20.440311419517023,
+      "optiworkRawWfeWaves": 0.11536027898511174,
+      "optiworkPistonTiltRemovedWfeWaves": 0.053573973613399044,
+      "quadratureErrorWaves": 1.8854084959940565e-12,
+      "throughput": 1.0,
+      "failedBoundaryRays": 0
+    },
+    {
+      "fieldDeg": 20.978214351609576,
+      "optiworkRawWfeWaves": 0.11856102514869488,
+      "optiworkPistonTiltRemovedWfeWaves": 0.054182603574386076,
+      "quadratureErrorWaves": -2.2763041451767663e-13,
+      "throughput": 1.0,
+      "failedBoundaryRays": 0
+    },
+    {
+      "fieldDeg": 21.51611728370213,
+      "optiworkRawWfeWaves": 0.12324436249922198,
+      "optiworkPistonTiltRemovedWfeWaves": 0.06342223979164918,
+      "quadratureErrorWaves": 7.736172813466169e-13,
+      "throughput": 1.0,
+      "failedBoundaryRays": 0
+    }
+  ],
+  "glassIndices": {
+    "AIR": 1.0,
+    "ROCHESTER94:FK54": 1.4359769945105365,
+    "ROCHESTER94:LASF35": 2.0149314728567362
+  },
+  "opticalChecks": {
+    "invariant": true,
+    "wavefront": true,
+    "completePupil": true,
+    "quadrature": true
+  },
+  "nominalGeometryChecks": [
+    true
+  ],
+  "nominalGeometry": {
+    "method": "Analytic spherical-cap and conical-edge profiles, matched radial domains",
+    "lenses": [
+      {
+        "front": 1,
+        "rear": 2,
+        "frontFinishedRadiusMm": 12.635651414952898,
+        "rearFinishedRadiusMm": 11.869455066352554,
+        "minimumCommonThicknessMm": 2.005475500211772,
+        "minimumCommonThicknessRadiusMm": 11.869455066352554,
+        "minimumTaperCapSeparationMm": 0.0,
+        "sidewallAxialSpanMm": 1.5933915112091928,
+        "minimumRayConeEndpointClearanceMm": 0.06002234016052288
+      },
+      {
+        "front": 3,
+        "rear": 4,
+        "frontFinishedRadiusMm": 11.734828771284763,
+        "rearFinishedRadiusMm": 9.719403768747563,
+        "minimumCommonThicknessMm": 4.08248952133,
+        "minimumCommonThicknessRadiusMm": 0.0,
+        "minimumTaperCapSeparationMm": -3.552713678800501e-15,
+        "sidewallAxialSpanMm": 6.927464121386283,
+        "minimumRayConeEndpointClearanceMm": 0.0915246414613593
+      },
+      {
+        "front": 6,
+        "rear": 7,
+        "frontFinishedRadiusMm": 10.085904755609066,
+        "rearFinishedRadiusMm": 10.233975353142302,
+        "minimumCommonThicknessMm": 1.7765855841011486,
+        "minimumCommonThicknessRadiusMm": 10.085904755609066,
+        "minimumTaperCapSeparationMm": 7.105427357601002e-15,
+        "sidewallAxialSpanMm": 1.7500825055351648,
+        "minimumRayConeEndpointClearanceMm": 0.32208347560447237
+      },
+      {
+        "front": 8,
+        "rear": 9,
+        "frontFinishedRadiusMm": 10.101072257200393,
+        "rearFinishedRadiusMm": 10.624230481933568,
+        "minimumCommonThicknessMm": 1.0,
+        "minimumCommonThicknessRadiusMm": 0.0,
+        "minimumTaperCapSeparationMm": -3.552713678800501e-15,
+        "sidewallAxialSpanMm": 1.6275697418366377,
+        "minimumRayConeEndpointClearanceMm": 0.10126996132659372
+      },
+      {
+        "front": 10,
+        "rear": 11,
+        "frontFinishedRadiusMm": 11.340457657157865,
+        "rearFinishedRadiusMm": 11.162036322581109,
+        "minimumCommonThicknessMm": 12.54480302094521,
+        "minimumCommonThicknessRadiusMm": 11.162036322581109,
+        "minimumTaperCapSeparationMm": -2.842170943040401e-14,
+        "sidewallAxialSpanMm": 12.476374065033284,
+        "minimumRayConeEndpointClearanceMm": 1.9532149956581364
+      },
+      {
+        "front": 12,
+        "rear": 13,
+        "frontFinishedRadiusMm": 11.157993969617214,
+        "rearFinishedRadiusMm": 12.395041680465495,
+        "minimumCommonThicknessMm": 1.0,
+        "minimumCommonThicknessRadiusMm": 0.0,
+        "minimumTaperCapSeparationMm": 0.0,
+        "sidewallAxialSpanMm": 3.8704468712348756,
+        "minimumRayConeEndpointClearanceMm": 0.09195149639938904
+      }
+    ],
+    "gaps": [
+      {
+        "leftLens": 1,
+        "rightLens": 2,
+        "minimumGapMm": 0.10334009427016344,
+        "atRadiusMm": 11.734828771284763
+      },
+      {
+        "leftLens": 1,
+        "rightLens": 3,
+        "minimumGapMm": 11.753710797651,
+        "atRadiusMm": 0.0
+      },
+      {
+        "leftLens": 1,
+        "rightLens": 4,
+        "minimumGapMm": 24.757765404701857,
+        "atRadiusMm": 10.101072257200393
+      },
+      {
+        "leftLens": 1,
+        "rightLens": 5,
+        "minimumGapMm": 29.248044070630996,
+        "atRadiusMm": 0.0
+      },
+      {
+        "leftLens": 1,
+        "rightLens": 6,
+        "minimumGapMm": 43.5199091094499,
+        "atRadiusMm": 11.157993969617214
+      },
+      {
+        "leftLens": 2,
+        "rightLens": 3,
+        "minimumGapMm": 5.796742831839403,
+        "atRadiusMm": 9.719403768747563
+      },
+      {
+        "leftLens": 2,
+        "rightLens": 4,
+        "minimumGapMm": 17.888557865759754,
+        "atRadiusMm": 9.719403768747563
+      },
+      {
+        "leftLens": 2,
+        "rightLens": 5,
+        "minimumGapMm": 23.386763520858516,
+        "atRadiusMm": 9.719403768747563
+      },
+      {
+        "leftLens": 2,
+        "rightLens": 6,
+        "minimumGapMm": 37.46436595365859,
+        "atRadiusMm": 9.719403768747563
+      },
+      {
+        "leftLens": 3,
+        "rightLens": 4,
+        "minimumGapMm": 9.946227041843915,
+        "atRadiusMm": 10.101072257200393
+      },
+      {
+        "leftLens": 3,
+        "rightLens": 5,
+        "minimumGapMm": 13.269693321299997,
+        "atRadiusMm": 0.0
+      },
+      {
+        "leftLens": 3,
+        "rightLens": 6,
+        "minimumGapMm": 29.465825613295422,
+        "atRadiusMm": 10.233975353142302
+      },
+      {
+        "leftLens": 4,
+        "rightLens": 5,
+        "minimumGapMm": 0.04999999999999716,
+        "atRadiusMm": 0.0
+      },
+      {
+        "leftLens": 4,
+        "rightLens": 6,
+        "minimumGapMm": 17.594802110276383,
+        "atRadiusMm": 10.624230481933568
+      },
+      {
+        "leftLens": 5,
+        "rightLens": 6,
+        "minimumGapMm": 0.012764651598857313,
+        "atRadiusMm": 11.157993969617214
+      }
+    ],
+    "stopPlaneClearanceMm": [
+      4.317937234376583,
+      0.27938164489099826
+    ],
+    "checks": {
+      "sphericalCapAndTaperDomains": true,
+      "rayContainmentWithinCones": true,
+      "solidGap": true,
+      "stopPlaneClearance": true,
+      "positiveImageClearance": true
+    },
+    "passed": true
+  },
+  "cylinder": {
+    "clearApertureCylinder": {
+      "radiusMm": 12.828111263172685,
+      "lengthMm": 53.19335318897376,
+      "frontZMm": 0.0,
+      "rearZMm": 53.19335318897376,
+      "volumeCm3": 27.49999893274472
+    },
+    "finishedPartsCylinder": {
+      "radiusMm": 12.828111263172685,
+      "lengthMm": 53.19335318897376,
+      "frontZMm": 0.0,
+      "rearZMm": 53.19335318897376,
+      "volumeCm3": 27.49999893274472
+    },
+    "surfaces": [
+      {
+        "surface": 1,
+        "vertexZMm": 0.0,
+        "clearRadiusMm": 12.607651414952898,
+        "finishedRadiusMm": 12.635651414952898,
+        "clearRimZMm": 3.279947563565514,
+        "finishedRimZMm": 3.2955966337228553
+      },
+      {
+        "surface": 2,
+        "vertexZMm": 4.50885300844,
+        "clearRadiusMm": 11.841455066352554,
+        "finishedRadiusMm": 11.869455066352554,
+        "clearRimZMm": 4.887194955034846,
+        "finishedRimZMm": 4.888988144932048
+      },
+      {
+        "surface": 3,
+        "vertexZMm": 5.96658953517,
+        "clearRadiusMm": 11.706828771284762,
+        "finishedRadiusMm": 11.734828771284763,
+        "clearRimZMm": 4.988462952161778,
+        "finishedRimZMm": 4.98374536423994
+      },
+      {
+        "surface": 4,
+        "vertexZMm": 10.0490790565,
+        "clearRadiusMm": 9.691403768747563,
+        "finishedRadiusMm": 9.719403768747563,
+        "clearRimZMm": 11.900090249049628,
+        "finishedRimZMm": 11.911209485626223
+      },
+      {
+        "surface": 6,
+        "vertexZMm": 16.262563806091,
+        "clearRadiusMm": 10.057904755609066,
+        "finishedRadiusMm": 10.085904755609066,
+        "clearRimZMm": 17.812872321595336,
+        "finishedRimZMm": 17.8217276749774
+      },
+      {
+        "surface": 7,
+        "vertexZMm": 20.487203757771,
+        "clearRadiusMm": 10.205975353142302,
+        "finishedRadiusMm": 10.233975353142302,
+        "clearRimZMm": 19.57685245328219,
+        "finishedRimZMm": 19.571810180512564
+      },
+      {
+        "surface": 8,
+        "vertexZMm": 32.706897079071,
+        "clearRadiusMm": 10.073072257200392,
+        "finishedRadiusMm": 10.101072257200393,
+        "clearRimZMm": 29.561261144196298,
+        "finishedRimZMm": 29.541843799656817
+      },
+      {
+        "surface": 9,
+        "vertexZMm": 33.706897079071,
+        "clearRadiusMm": 10.596230481933567,
+        "finishedRadiusMm": 10.624230481933568,
+        "clearRimZMm": 31.183574191302167,
+        "finishedRimZMm": 31.169413541493455
+      },
+      {
+        "surface": 10,
+        "vertexZMm": 33.756897079070995,
+        "clearRadiusMm": 11.312457657157864,
+        "finishedRadiusMm": 11.340457657157865,
+        "clearRimZMm": 35.86400906602523,
+        "finishedRimZMm": 35.87483016150989
+      },
+      {
+        "surface": 11,
+        "vertexZMm": 49.287807574470996,
+        "clearRadiusMm": 11.134036322581109,
+        "finishedRadiusMm": 11.162036322581109,
+        "clearRimZMm": 48.35593038545385,
+        "finishedRimZMm": 48.351204226543175
+      },
+      {
+        "surface": 12,
+        "vertexZMm": 52.192353188271,
+        "clearRadiusMm": 11.129993969617214,
+        "finishedRadiusMm": 11.157993969617214,
+        "clearRimZMm": 48.38638096034382,
+        "finishedRimZMm": 48.36465194658633
+      },
+      {
+        "surface": 13,
+        "vertexZMm": 53.192353188271,
+        "clearRadiusMm": 12.367041680465494,
+        "finishedRadiusMm": 12.395041680465495,
+        "clearRimZMm": 52.23944454813396,
+        "finishedRimZMm": 52.2350988178212
+      }
+    ],
+    "imageRadiusMm": 12.828111263172685
+  },
+  "passes": true
+}
