@@ -23,6 +23,8 @@
 
 - [IODC 2021 Down Under Lens](problems/iodc-2021-down-under-lens/README.md) · 同半径符号反转，正反向双软件复验，公共得分 57.000 mm·°。
 
+- [IODC 2023 Yin-Yang Lens](problems/iodc-2023-yin-yang-lens/README.md) · 两波长共焦，Zemax 50 × 50 网格复算得分 1.90064 mm·°·波。
+
 ## 题目索引
 
 | 题目 | 设计要点 | 题源 |
