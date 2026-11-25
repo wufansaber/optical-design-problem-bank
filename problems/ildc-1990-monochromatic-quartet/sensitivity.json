@@ -1,0 +1,3548 @@
+{
+  "assumptions": {
+    "mode": "sensitivity",
+    "rows": [
+      {
+        "surface": 1,
+        "parameter": "thickness",
+        "min": -0.05,
+        "max": 0.05
+      },
+      {
+        "surface": 3,
+        "parameter": "thickness",
+        "min": -0.05,
+        "max": 0.05
+      },
+      {
+        "surface": 6,
+        "parameter": "thickness",
+        "min": -0.05,
+        "max": 0.05
+      },
+      {
+        "surface": 8,
+        "parameter": "thickness",
+        "min": -0.05,
+        "max": 0.05
+      },
+      {
+        "surface": 2,
+        "parameter": "thickness",
+        "min": -0.025,
+        "max": 0.025
+      },
+      {
+        "surface": 4,
+        "parameter": "thickness",
+        "min": -0.025,
+        "max": 0.025
+      },
+      {
+        "surface": 7,
+        "parameter": "thickness",
+        "min": -0.025,
+        "max": 0.025
+      }
+    ],
+    "radialOrder": 8,
+    "azimuths": 40,
+    "workers": 2,
+    "compensator": {
+      "mode": "image_gap",
+      "min": -0.12,
+      "max": 0.12,
+      "iterations": 13,
+      "objective": "rms_spot"
+    }
+  },
+  "nominal": {
+    "selected": "mfg_rear_clearance_fit_fit",
+    "nominalRmsUm": 2.2492262641964054,
+    "targetUm": 2.25,
+    "targetReached": true,
+    "focalLengthMm": 100.00024778193205,
+    "fNumber": 3.000007433457961,
+    "trackMm": 356.0663061185171,
+    "bflMm": 1.9110653684680436,
+    "minimumImagePlaneClearanceMm": 1.5982578997248067,
+    "maxChiefDistortionPercent": 0.26940879849557875,
+    "maxCentroidDistortionPercent": 0.26888614868989524,
+    "fullSampledPupil": true,
+    "nominalManufacturingGeometry": "passed",
+    "fabrication": {
+      "lenses": [
+        {
+          "lens": 1,
+          "finishedDiameterMm": 132.1384,
+          "centerThicknessMm": 4.799621262521926,
+          "proposedCylindricalBlankDiameterMm": 133.1384,
+          "proposedBlankLengthMm": 35.23445621650625,
+          "oversizeUnfinishedEdgeThicknessMm": 16.51048607702224,
+          "minimumFinishedThicknessMm": 4.799621262521926,
+          "nearestFinishedFaceDistanceMm": 4.799621262521926
+        },
+        {
+          "lens": 2,
+          "finishedDiameterMm": 125.5558,
+          "centerThicknessMm": 221.86980360128265,
+          "proposedCylindricalBlankDiameterMm": 126.5558,
+          "proposedBlankLengthMm": 223.86980360128265,
+          "oversizeUnfinishedEdgeThicknessMm": 194.61503083264748,
+          "minimumFinishedThicknessMm": 195.06466661964117,
+          "nearestFinishedFaceDistanceMm": 195.06466661964117
+        },
+        {
+          "lens": 3,
+          "finishedDiameterMm": 48.6192,
+          "centerThicknessMm": 97.5290240218061,
+          "proposedCylindricalBlankDiameterMm": 49.6192,
+          "proposedBlankLengthMm": 99.5290240218061,
+          "oversizeUnfinishedEdgeThicknessMm": 92.57977724114261,
+          "minimumFinishedThicknessMm": 92.7838785396844,
+          "nearestFinishedFaceDistanceMm": 92.7838785396844
+        },
+        {
+          "lens": 4,
+          "finishedDiameterMm": 53.478077616794124,
+          "centerThicknessMm": 2.5858068925602993,
+          "proposedCylindricalBlankDiameterMm": 54.478077616794124,
+          "proposedBlankLengthMm": 14.828710148156611,
+          "oversizeUnfinishedEdgeThicknessMm": 12.828710148156611,
+          "minimumFinishedThicknessMm": 2.5858068925602993,
+          "nearestFinishedFaceDistanceMm": 2.5858068925602993
+        }
+      ],
+      "seatConcept": [
+        {
+          "left": 2,
+          "right": 3,
+          "rearContactRadiusMm": 62.3892,
+          "frontContactRadiusMm": 62.3778,
+          "vertexGapMm": 16.777596135130093,
+          "contactPlaneSeparationMm": 5.119193819540982,
+          "concept": "independent or stepped annular seats"
+        },
+        {
+          "left": 4,
+          "right": 6,
+          "rearContactRadiusMm": 16.0583,
+          "frontContactRadiusMm": 15.0693,
+          "vertexGapMm": 0.74114623201159,
+          "contactPlaneSeparationMm": 3.3042098704383474,
+          "concept": "independent or stepped annular seats"
+        },
+        {
+          "left": 7,
+          "right": 8,
+          "rearContactRadiusMm": 23.9095,
+          "frontContactRadiusMm": 23.922100000000004,
+          "vertexGapMm": 9.852242604736414,
+          "contactPlaneSeparationMm": 2.6959741754327076,
+          "concept": "independent or stepped annular seats"
+        }
+      ],
+      "blankBasis": "https://www.schott.com/en-us/products/optical-glass",
+      "finishedSphereBasis": "https://media.schott.com/api/public/content/4458fe0487604d478e7f924c572364d2?download=true&v=5fc613d7"
+    },
+    "supplierStatus": "Published capability and calculated blank requests. Individual supplier quotation and acceptance pending.",
+    "rejectedFinalists": []
+  },
+  "report": {
+    "kind": "tolerance_analysis",
+    "status": "complete",
+    "projectFingerprint": "07a65cbe83b5e74131f2f217d40325d516379f2ef0d83804d6a671848e822c3c",
+    "settingsFingerprint": "fbe0ff0e684c2d32c700188f171c26ca0392c5d24956453d299aad5c90adc868",
+    "catalogFingerprint": "938970ed165dd1ac2c090932a9b17c70281b337e144eb68ec4c6df990628b26a",
+    "settings": {
+      "mode": "sensitivity",
+      "rows": [
+        {
+          "surface": 1,
+          "parameter": "thickness",
+          "min": -0.05,
+          "max": 0.05,
+          "enabled": true,
+          "mean": 0.0,
+          "sigma": 0.016666666666666666
+        },
+        {
+          "surface": 3,
+          "parameter": "thickness",
+          "min": -0.05,
+          "max": 0.05,
+          "enabled": true,
+          "mean": 0.0,
+          "sigma": 0.016666666666666666
+        },
+        {
+          "surface": 6,
+          "parameter": "thickness",
+          "min": -0.05,
+          "max": 0.05,
+          "enabled": true,
+          "mean": 0.0,
+          "sigma": 0.016666666666666666
+        },
+        {
+          "surface": 8,
+          "parameter": "thickness",
+          "min": -0.05,
+          "max": 0.05,
+          "enabled": true,
+          "mean": 0.0,
+          "sigma": 0.016666666666666666
+        },
+        {
+          "surface": 2,
+          "parameter": "thickness",
+          "min": -0.025,
+          "max": 0.025,
+          "enabled": true,
+          "mean": 0.0,
+          "sigma": 0.008333333333333333
+        },
+        {
+          "surface": 4,
+          "parameter": "thickness",
+          "min": -0.025,
+          "max": 0.025,
+          "enabled": true,
+          "mean": 0.0,
+          "sigma": 0.008333333333333333
+        },
+        {
+          "surface": 7,
+          "parameter": "thickness",
+          "min": -0.025,
+          "max": 0.025,
+          "enabled": true,
+          "mean": 0.0,
+          "sigma": 0.008333333333333333
+        }
+      ],
+      "surfaceRange": {
+        "start": 1,
+        "end": 9
+      },
+      "trials": 20,
+      "seed": 0,
+      "distribution": "uniform",
+      "radialOrder": 8,
+      "azimuths": 40,
+      "compensator": {
+        "mode": "image_gap",
+        "surface": 9,
+        "min": -0.12,
+        "max": 0.12,
+        "objective": "rms_spot",
+        "iterations": 13
+      },
+      "limits": {},
+      "includeMeritFunction": false,
+      "workers": 2,
+      "backend": "cpu",
+      "manufacturingPolicy": {
+        "all_spherical": true,
+        "defaults": {
+          "air_gap_budget_mm": 0.1,
+          "center_thickness_budget_mm": 0.05,
+          "edge_thickness_budget_mm": 0.1,
+          "face_distance_budget_mm": 0.1,
+          "maximum_diameter_mm": 150.0,
+          "maximum_surface_slope": 1.2,
+          "minimum_air_gap_mm": 0.5,
+          "minimum_center_thickness_mm": 2.0,
+          "minimum_clear_to_mechanical_radial_margin_mm": 0.75,
+          "minimum_edge_thickness_mm": 2.0,
+          "minimum_face_distance_mm": 2.0,
+          "minimum_radial_thickness_mm": 2.0,
+          "minimum_rim_gap_mm": 0.5,
+          "radial_thickness_budget_mm": 0.1,
+          "rim_gap_budget_mm": 0.1
+        },
+        "lenses": [
+          {
+            "front_surface": 1,
+            "rear_surface": 2
+          },
+          {
+            "front_surface": 3,
+            "rear_surface": 4
+          },
+          {
+            "front_surface": 6,
+            "rear_surface": 7
+          },
+          {
+            "front_surface": 8,
+            "rear_surface": 9
+          }
+        ],
+        "meniscus": {
+          "edge_thickness_budget_mm": 0.1,
+          "face_distance_budget_mm": 0.1,
+          "maximum_center_thickness_mm": 497.0,
+          "minimum_center_to_diameter_ratio": 0.03333333333333333,
+          "minimum_edge_thickness_mm": 2.0,
+          "minimum_face_distance_mm": 2.0,
+          "minimum_face_to_diameter_ratio": 0.015
+        },
+        "policy_id": "ildc-1990-published-route-nominal",
+        "schema_version": 1,
+        "sources": [
+          "https://www.genetic-programming.org/hc2007/06-Gagne/Gagne-RT-LVSN-2007-01.pdf",
+          "https://opg.optica.org/ao/abstract.cfm?uri=ao-35-4-572",
+          "https://www.schott.com/en-us/products/optical-glass",
+          "https://media.schott.com/api/public/content/4458fe0487604d478e7f924c572364d2?download=true&v=5fc613d7",
+          "https://www.edmundoptics.com/knowledge-center/application-notes/optics/tips-for-designing-manufacturable-lenses-and-assemblies/",
+          "Laikin, Lens Design, print p.18: D/CT of 30 possible with higher fabrication costs; provision here is not a quotation.",
+          "Engineering allowances: +0.75 mm radial mounting allowance, 0.50 mm air and rim gaps, 0.10 mm combined geometry loss. Individual lens support and metrology subject to fabricator review."
+        ],
+        "surfaces": {
+          "1": {
+            "clear_radius_mm": 65.31909999999999,
+            "mechanical_radius_mm": 66.0692
+          },
+          "2": {
+            "clear_radius_mm": 62.0392,
+            "mechanical_radius_mm": 66.0692
+          },
+          "3": {
+            "clear_radius_mm": 62.0278,
+            "mechanical_radius_mm": 62.7779
+          },
+          "4": {
+            "clear_radius_mm": 15.7083,
+            "mechanical_radius_mm": 62.7779
+          },
+          "6": {
+            "clear_radius_mm": 14.7193,
+            "mechanical_radius_mm": 24.3096
+          },
+          "7": {
+            "clear_radius_mm": 23.5595,
+            "mechanical_radius_mm": 24.3096
+          },
+          "8": {
+            "clear_radius_mm": 23.572100000000002,
+            "mechanical_radius_mm": 26.739038808397062
+          },
+          "9": {
+            "clear_radius_mm": 25.988938808397062,
+            "mechanical_radius_mm": 26.739038808397062
+          }
+        }
+      }
+    },
+    "requestedRange": {
+      "start": 1,
+      "end": 9
+    },
+    "activeRows": [
+      {
+        "row": 1,
+        "surface": 1,
+        "parameter": "thickness",
+        "min": -0.05,
+        "max": 0.05,
+        "enabled": true,
+        "mean": 0.0,
+        "sigma": 0.016666666666666666,
+        "unit": "mm"
+      },
+      {
+        "row": 2,
+        "surface": 3,
+        "parameter": "thickness",
+        "min": -0.05,
+        "max": 0.05,
+        "enabled": true,
+        "mean": 0.0,
+        "sigma": 0.016666666666666666,
+        "unit": "mm"
+      },
+      {
+        "row": 3,
+        "surface": 6,
+        "parameter": "thickness",
+        "min": -0.05,
+        "max": 0.05,
+        "enabled": true,
+        "mean": 0.0,
+        "sigma": 0.016666666666666666,
+        "unit": "mm"
+      },
+      {
+        "row": 4,
+        "surface": 8,
+        "parameter": "thickness",
+        "min": -0.05,
+        "max": 0.05,
+        "enabled": true,
+        "mean": 0.0,
+        "sigma": 0.016666666666666666,
+        "unit": "mm"
+      },
+      {
+        "row": 5,
+        "surface": 2,
+        "parameter": "thickness",
+        "min": -0.025,
+        "max": 0.025,
+        "enabled": true,
+        "mean": 0.0,
+        "sigma": 0.008333333333333333,
+        "unit": "mm"
+      },
+      {
+        "row": 6,
+        "surface": 4,
+        "parameter": "thickness",
+        "min": -0.025,
+        "max": 0.025,
+        "enabled": true,
+        "mean": 0.0,
+        "sigma": 0.008333333333333333,
+        "unit": "mm"
+      },
+      {
+        "row": 7,
+        "surface": 7,
+        "parameter": "thickness",
+        "min": -0.025,
+        "max": 0.025,
+        "enabled": true,
+        "mean": 0.0,
+        "sigma": 0.008333333333333333,
+        "unit": "mm"
+      }
+    ],
+    "excludedRows": [],
+    "nominal": {
+      "index": 0,
+      "errors": [
+        {
+          "row": 1,
+          "surface": 1,
+          "parameter": "thickness",
+          "delta": 0.0
+        },
+        {
+          "row": 2,
+          "surface": 3,
+          "parameter": "thickness",
+          "delta": 0.0
+        },
+        {
+          "row": 3,
+          "surface": 6,
+          "parameter": "thickness",
+          "delta": 0.0
+        },
+        {
+          "row": 4,
+          "surface": 8,
+          "parameter": "thickness",
+          "delta": 0.0
+        },
+        {
+          "row": 5,
+          "surface": 2,
+          "parameter": "thickness",
+          "delta": 0.0
+        },
+        {
+          "row": 6,
+          "surface": 4,
+          "parameter": "thickness",
+          "delta": 0.0
+        },
+        {
+          "row": 7,
+          "surface": 7,
+          "parameter": "thickness",
+          "delta": 0.0
+        }
+      ],
+      "valid": true,
+      "status": "measured",
+      "metrics": {
+        "rmsSpotUm": 2.3934719075446753,
+        "worstRmsSpotUm": 2.87720456587627,
+        "worstWavefrontRmsWaves": 0.15419518976097096,
+        "eflMm": 100.00024778193205
+      },
+      "reasons": [],
+      "compensation": {
+        "mode": "image_gap",
+        "surface": 9,
+        "shiftMm": 0.00019672141721123254,
+        "spacingBeforeMm": 1.9110653684680436,
+        "spacingAfterMm": 1.9112620898852548,
+        "objective": "rms_spot",
+        "objectiveMetric": "rmsSpotUm",
+        "objectiveValue": 2.3934719075446753,
+        "uncompensatedObjectiveValue": 2.3936716993791856,
+        "rmsSpotUm": 2.3934719075446753,
+        "requestedBoundsMm": [
+          -0.12,
+          0.12
+        ],
+        "evaluations": 18,
+        "history": [
+          {
+            "shiftMm": 0.0,
+            "valid": true,
+            "objectiveValue": 2.3936716993791856,
+            "rmsSpotUm": 2.3936716993791856
+          },
+          {
+            "shiftMm": -0.12,
+            "valid": true,
+            "objectiveValue": 17.563630631342686,
+            "rmsSpotUm": 17.563630631342686
+          },
+          {
+            "shiftMm": 0.12,
+            "valid": true,
+            "objectiveValue": 17.502147878576462,
+            "rmsSpotUm": 17.502147878576462
+          },
+          {
+            "shiftMm": -0.028328157299974788,
+            "valid": true,
+            "objectiveValue": 4.774497426514492,
+            "rmsSpotUm": 4.774497426514492
+          },
+          {
+            "shiftMm": 0.028328157299974788,
+            "valid": true,
+            "objectiveValue": 4.7208979168172265,
+            "rmsSpotUm": 4.7208979168172265
+          },
+          {
+            "shiftMm": 0.06334368540005048,
+            "valid": true,
+            "objectiveValue": 9.445585130841994,
+            "rmsSpotUm": 9.445585130841994
+          },
+          {
+            "shiftMm": 0.006687370800100928,
+            "valid": true,
+            "objectiveValue": 2.570306245635374,
+            "rmsSpotUm": 2.570306245635374
+          },
+          {
+            "shiftMm": -0.006687370800100956,
+            "valid": true,
+            "objectiveValue": 2.5935729501231477,
+            "rmsSpotUm": 2.5935729501231477
+          },
+          {
+            "shiftMm": 0.014953415699772887,
+            "valid": true,
+            "objectiveValue": 3.2062053078544177,
+            "rmsSpotUm": 3.2062053078544177
+          },
+          {
+            "shiftMm": 0.0015786740995709786,
+            "valid": true,
+            "objectiveValue": 2.4016022884315147,
+            "rmsSpotUm": 2.4016022884315147
+          },
+          {
+            "shiftMm": -0.0015786740995709942,
+            "valid": true,
+            "objectiveValue": 2.4075000065535557,
+            "rmsSpotUm": 2.4075000065535557
+          },
+          {
+            "shiftMm": 0.003530022600958969,
+            "valid": true,
+            "objectiveValue": 2.4411077956273632,
+            "rmsSpotUm": 2.4411077956273632
+          },
+          {
+            "shiftMm": 0.0003726744018170084,
+            "valid": true,
+            "objectiveValue": 2.3935801723686643,
+            "rmsSpotUm": 2.3935801723686643
+          },
+          {
+            "shiftMm": -0.00037267440181703226,
+            "valid": true,
+            "objectiveValue": 2.3949784077954783,
+            "rmsSpotUm": 2.3949784077954783
+          },
+          {
+            "shiftMm": 0.0008333252959369299,
+            "valid": true,
+            "objectiveValue": 2.3951464231112958,
+            "rmsSpotUm": 2.3951464231112958
+          },
+          {
+            "shiftMm": 8.7976492302881e-05,
+            "valid": true,
+            "objectiveValue": 2.3935404844421844,
+            "rmsSpotUm": 2.3935404844421844
+          },
+          {
+            "shiftMm": -8.797649230289992e-05,
+            "valid": true,
+            "objectiveValue": 2.393870642165096,
+            "rmsSpotUm": 2.393870642165096
+          },
+          {
+            "shiftMm": 0.00019672141721123254,
+            "valid": true,
+            "objectiveValue": 2.3934719075446753,
+            "rmsSpotUm": 2.3934719075446753
+          }
+        ],
+        "converged": false,
+        "termination": "bounded_iteration_budget",
+        "scope": "One common spacing for all active fields/colors; no independent refocus or global optimum claim"
+      },
+      "groups": [
+        {
+          "fieldIndex": 0,
+          "fieldX": 0.0,
+          "fieldY": 0.0,
+          "fieldWeight": 1.0,
+          "waveIndex": 0,
+          "wavelengthNm": 587.56,
+          "wavelengthWeight": 1.0,
+          "wavefrontRmsWaves": 0.15419518976097096,
+          "rays": 360,
+          "transmission": 1.0,
+          "chiefXmm": 0.0,
+          "chiefYmm": 0.0,
+          "traceReusedFromWaveIndex": 0,
+          "traceReused": false
+        },
+        {
+          "fieldIndex": 1,
+          "fieldX": 0.0,
+          "fieldY": 10.5,
+          "fieldWeight": 1.0,
+          "waveIndex": 0,
+          "wavelengthNm": 587.56,
+          "wavelengthWeight": 1.0,
+          "wavefrontRmsWaves": 0.05185125150913503,
+          "rays": 360,
+          "transmission": 1.0,
+          "chiefXmm": 0.0,
+          "chiefYmm": 18.501272682087794,
+          "traceReusedFromWaveIndex": 0,
+          "traceReused": false
+        },
+        {
+          "fieldIndex": 2,
+          "fieldX": 0.0,
+          "fieldY": 15.0,
+          "fieldWeight": 1.0,
+          "waveIndex": 0,
+          "wavelengthNm": 587.56,
+          "wavelengthWeight": 1.0,
+          "wavefrontRmsWaves": 0.12960848663137833,
+          "rays": 360,
+          "transmission": 1.0,
+          "chiefXmm": 0.0,
+          "chiefYmm": 26.722940752963456,
+          "traceReusedFromWaveIndex": 0,
+          "traceReused": false
+        }
+      ],
+      "fields": [
+        {
+          "fieldIndex": 0,
+          "fieldX": 0.0,
+          "fieldY": 0.0,
+          "rmsSpotUm": 2.87720456587627,
+          "weight": 1.0
+        },
+        {
+          "fieldIndex": 1,
+          "fieldX": 0.0,
+          "fieldY": 10.5,
+          "rmsSpotUm": 1.0944509293101106,
+          "weight": 1.0
+        },
+        {
+          "fieldIndex": 2,
+          "fieldX": 0.0,
+          "fieldY": 15.0,
+          "rmsSpotUm": 2.776687660873944,
+          "weight": 1.0
+        }
+      ],
+      "measurementStatus": "complete",
+      "failureCategory": null
+    },
+    "trials": [],
+    "sensitivities": [
+      {
+        "row": 1,
+        "surface": 1,
+        "parameter": "thickness",
+        "min": {
+          "index": 1,
+          "errors": [
+            {
+              "row": 1,
+              "surface": 1,
+              "parameter": "thickness",
+              "delta": -0.05
+            },
+            {
+              "row": 2,
+              "surface": 3,
+              "parameter": "thickness",
+              "delta": 0.0
+            },
+            {
+              "row": 3,
+              "surface": 6,
+              "parameter": "thickness",
+              "delta": 0.0
+            },
+            {
+              "row": 4,
+              "surface": 8,
+              "parameter": "thickness",
+              "delta": 0.0
+            },
+            {
+              "row": 5,
+              "surface": 2,
+              "parameter": "thickness",
+              "delta": 0.0
+            },
+            {
+              "row": 6,
+              "surface": 4,
+              "parameter": "thickness",
+              "delta": 0.0
+            },
+            {
+              "row": 7,
+              "surface": 7,
+              "parameter": "thickness",
+              "delta": 0.0
+            }
+          ],
+          "valid": false,
+          "status": "fail",
+          "metrics": {},
+          "reasons": [
+            "No fully transmitted common compensation trial was valid."
+          ],
+          "compensation": null,
+          "measurementStatus": "invalid",
+          "failureCategory": "compensator"
+        },
+        "max": {
+          "index": 2,
+          "errors": [
+            {
+              "row": 1,
+              "surface": 1,
+              "parameter": "thickness",
+              "delta": 0.05
+            },
+            {
+              "row": 2,
+              "surface": 3,
+              "parameter": "thickness",
+              "delta": 0.0
+            },
+            {
+              "row": 3,
+              "surface": 6,
+              "parameter": "thickness",
+              "delta": 0.0
+            },
+            {
+              "row": 4,
+              "surface": 8,
+              "parameter": "thickness",
+              "delta": 0.0
+            },
+            {
+              "row": 5,
+              "surface": 2,
+              "parameter": "thickness",
+              "delta": 0.0
+            },
+            {
+              "row": 6,
+              "surface": 4,
+              "parameter": "thickness",
+              "delta": 0.0
+            },
+            {
+              "row": 7,
+              "surface": 7,
+              "parameter": "thickness",
+              "delta": 0.0
+            }
+          ],
+          "valid": true,
+          "status": "measured",
+          "metrics": {
+            "rmsSpotUm": 2.3938322775099494,
+            "worstRmsSpotUm": 2.874383210322521,
+            "worstWavefrontRmsWaves": 0.15033552509230283,
+            "eflMm": 100.01064596821698
+          },
+          "reasons": [],
+          "compensation": {
+            "mode": "image_gap",
+            "surface": 9,
+            "shiftMm": -0.003530022600958969,
+            "spacingBeforeMm": 1.9110653684680436,
+            "spacingAfterMm": 1.9075353458670847,
+            "objective": "rms_spot",
+            "objectiveMetric": "rmsSpotUm",
+            "objectiveValue": 2.3938322775099494,
+            "uncompensatedObjectiveValue": 2.4487569684380506,
+            "rmsSpotUm": 2.3938322775099494,
+            "requestedBoundsMm": [
+              -0.12,
+              0.12
+            ],
+            "evaluations": 18,
+            "history": [
+              {
+                "shiftMm": 0.0,
+                "valid": true,
+                "objectiveValue": 2.4487569684380506,
+                "rmsSpotUm": 2.4487569684380506
+              },
+              {
+                "shiftMm": -0.12,
+                "valid": true,
+                "objectiveValue": 17.02230119198278,
+                "rmsSpotUm": 17.02230119198278
+              },
+              {
+                "shiftMm": 0.12,
+                "valid": true,
+                "objectiveValue": 18.04413906430617,
+                "rmsSpotUm": 18.04413906430617
+              },
+              {
+                "shiftMm": -0.028328157299974788,
+                "valid": true,
+                "objectiveValue": 4.310331104913877,
+                "rmsSpotUm": 4.310331104913877
+              },
+              {
+                "shiftMm": 0.028328157299974788,
+                "valid": true,
+                "objectiveValue": 5.199787799525715,
+                "rmsSpotUm": 5.199787799525715
+              },
+              {
+                "shiftMm": -0.06334368540005048,
+                "valid": true,
+                "objectiveValue": 8.977692147683225,
+                "rmsSpotUm": 8.977692147683225
+              },
+              {
+                "shiftMm": -0.006687370800100928,
+                "valid": true,
+                "objectiveValue": 2.4361606636998396,
+                "rmsSpotUm": 2.4361606636998396
+              },
+              {
+                "shiftMm": 0.006687370800100956,
+                "valid": true,
+                "objectiveValue": 2.816334457525248,
+                "rmsSpotUm": 2.816334457525248
+              },
+              {
+                "shiftMm": -0.014953415699772887,
+                "valid": true,
+                "objectiveValue": 2.9066037160797427,
+                "rmsSpotUm": 2.9066037160797427
+              },
+              {
+                "shiftMm": -0.0015786740995709786,
+                "valid": true,
+                "objectiveValue": 2.411000786145661,
+                "rmsSpotUm": 2.411000786145661
+              },
+              {
+                "shiftMm": 0.0015786740995709942,
+                "valid": true,
+                "objectiveValue": 2.506854548585836,
+                "rmsSpotUm": 2.506854548585836
+              },
+              {
+                "shiftMm": -0.003530022600958969,
+                "valid": true,
+                "objectiveValue": 2.3938322775099494,
+                "rmsSpotUm": 2.3938322775099494
+              },
+              {
+                "shiftMm": -0.004736022298712931,
+                "valid": true,
+                "objectiveValue": 2.3998379954230833,
+                "rmsSpotUm": 2.3998379954230833
+              },
+              {
+                "shiftMm": -0.0027846737973249323,
+                "valid": true,
+                "objectiveValue": 2.3964787473752414,
+                "rmsSpotUm": 2.3964787473752414
+              },
+              {
+                "shiftMm": -0.003990673495078887,
+                "valid": true,
+                "objectiveValue": 2.3946265897359322,
+                "rmsSpotUm": 2.3946265897359322
+              },
+              {
+                "shiftMm": -0.0032453246914448427,
+                "valid": true,
+                "objectiveValue": 2.3942697868677434,
+                "rmsSpotUm": 2.3942697868677434
+              },
+              {
+                "shiftMm": -0.003705975585564753,
+                "valid": true,
+                "objectiveValue": 2.39391652743036,
+                "rmsSpotUm": 2.39391652743036
+              },
+              {
+                "shiftMm": -0.0034212776760506195,
+                "valid": true,
+                "objectiveValue": 2.393915678386261,
+                "rmsSpotUm": 2.393915678386261
+              }
+            ],
+            "converged": false,
+            "termination": "bounded_iteration_budget",
+            "scope": "One common spacing for all active fields/colors; no independent refocus or global optimum claim"
+          },
+          "groups": [
+            {
+              "fieldIndex": 0,
+              "fieldX": 0.0,
+              "fieldY": 0.0,
+              "fieldWeight": 1.0,
+              "waveIndex": 0,
+              "wavelengthNm": 587.56,
+              "wavelengthWeight": 1.0,
+              "wavefrontRmsWaves": 0.15033552509230283,
+              "rays": 360,
+              "transmission": 1.0,
+              "chiefXmm": 0.0,
+              "chiefYmm": 0.0,
+              "traceReusedFromWaveIndex": 0,
+              "traceReused": false
+            },
+            {
+              "fieldIndex": 1,
+              "fieldX": 0.0,
+              "fieldY": 10.5,
+              "fieldWeight": 1.0,
+              "waveIndex": 0,
+              "wavelengthNm": 587.56,
+              "wavelengthWeight": 1.0,
+              "wavefrontRmsWaves": 0.04975658116120148,
+              "rays": 360,
+              "transmission": 1.0,
+              "chiefXmm": 0.0,
+              "chiefYmm": 18.50346492985045,
+              "traceReusedFromWaveIndex": 0,
+              "traceReused": false
+            },
+            {
+              "fieldIndex": 2,
+              "fieldX": 0.0,
+              "fieldY": 15.0,
+              "fieldWeight": 1.0,
+              "waveIndex": 0,
+              "wavelengthNm": 587.56,
+              "wavelengthWeight": 1.0,
+              "wavefrontRmsWaves": 0.12642008248249656,
+              "rays": 360,
+              "transmission": 1.0,
+              "chiefXmm": 0.0,
+              "chiefYmm": 26.72598446070592,
+              "traceReusedFromWaveIndex": 0,
+              "traceReused": false
+            }
+          ],
+          "fields": [
+            {
+              "fieldIndex": 0,
+              "fieldX": 0.0,
+              "fieldY": 0.0,
+              "rmsSpotUm": 2.874383210322521,
+              "weight": 1.0
+            },
+            {
+              "fieldIndex": 1,
+              "fieldX": 0.0,
+              "fieldY": 10.5,
+              "rmsSpotUm": 1.0975872920844323,
+              "weight": 1.0
+            },
+            {
+              "fieldIndex": 2,
+              "fieldX": 0.0,
+              "fieldY": 15.0,
+              "rmsSpotUm": 2.7793024691487203,
+              "weight": 1.0
+            }
+          ],
+          "measurementStatus": "complete",
+          "failureCategory": null
+        },
+        "changes": {
+          "rmsSpotUm": {
+            "min": null,
+            "max": 0.0003603699652741099
+          },
+          "worstRmsSpotUm": {
+            "min": null,
+            "max": -0.002821355553749072
+          },
+          "worstWavefrontRmsWaves": {
+            "min": null,
+            "max": -0.0038596646686681335
+          },
+          "eflMm": {
+            "min": null,
+            "max": 0.010398186284930944
+          }
+        },
+        "failedEndpoints": 1
+      },
+      {
+        "row": 2,
+        "surface": 3,
+        "parameter": "thickness",
+        "min": {
+          "index": 3,
+          "errors": [
+            {
+              "row": 1,
+              "surface": 1,
+              "parameter": "thickness",
+              "delta": 0.0
+            },
+            {
+              "row": 2,
+              "surface": 3,
+              "parameter": "thickness",
+              "delta": -0.05
+            },
+            {
+              "row": 3,
+              "surface": 6,
+              "parameter": "thickness",
+              "delta": 0.0
+            },
+            {
+              "row": 4,
+              "surface": 8,
+              "parameter": "thickness",
+              "delta": 0.0
+            },
+            {
+              "row": 5,
+              "surface": 2,
+              "parameter": "thickness",
+              "delta": 0.0
+            },
+            {
+              "row": 6,
+              "surface": 4,
+              "parameter": "thickness",
+              "delta": 0.0
+            },
+            {
+              "row": 7,
+              "surface": 7,
+              "parameter": "thickness",
+              "delta": 0.0
+            }
+          ],
+          "valid": false,
+          "status": "fail",
+          "metrics": {},
+          "reasons": [
+            "No fully transmitted common compensation trial was valid."
+          ],
+          "compensation": null,
+          "measurementStatus": "invalid",
+          "failureCategory": "compensator"
+        },
+        "max": {
+          "index": 4,
+          "errors": [
+            {
+              "row": 1,
+              "surface": 1,
+              "parameter": "thickness",
+              "delta": 0.0
+            },
+            {
+              "row": 2,
+              "surface": 3,
+              "parameter": "thickness",
+              "delta": 0.05
+            },
+            {
+              "row": 3,
+              "surface": 6,
+              "parameter": "thickness",
+              "delta": 0.0
+            },
+            {
+              "row": 4,
+              "surface": 8,
+              "parameter": "thickness",
+              "delta": 0.0
+            },
+            {
+              "row": 5,
+              "surface": 2,
+              "parameter": "thickness",
+              "delta": 0.0
+            },
+            {
+              "row": 6,
+              "surface": 4,
+              "parameter": "thickness",
+              "delta": 0.0
+            },
+            {
+              "row": 7,
+              "surface": 7,
+              "parameter": "thickness",
+              "delta": 0.0
+            }
+          ],
+          "valid": true,
+          "status": "measured",
+          "metrics": {
+            "rmsSpotUm": 2.4020702229905084,
+            "worstRmsSpotUm": 2.8764878210461444,
+            "worstWavefrontRmsWaves": 0.14328249913372948,
+            "eflMm": 100.00446145405105
+          },
+          "reasons": [],
+          "compensation": {
+            "mode": "image_gap",
+            "surface": 9,
+            "shiftMm": 0.0015786740995709786,
+            "spacingBeforeMm": 1.9110653684680436,
+            "spacingAfterMm": 1.9126440425676146,
+            "objective": "rms_spot",
+            "objectiveMetric": "rmsSpotUm",
+            "objectiveValue": 2.4020702229905084,
+            "uncompensatedObjectiveValue": 2.412269077384034,
+            "rmsSpotUm": 2.4020702229905084,
+            "requestedBoundsMm": [
+              -0.12,
+              0.12
+            ],
+            "evaluations": 18,
+            "history": [
+              {
+                "shiftMm": 0.0,
+                "valid": true,
+                "objectiveValue": 2.412269077384034,
+                "rmsSpotUm": 2.412269077384034
+              },
+              {
+                "shiftMm": -0.12,
+                "valid": true,
+                "objectiveValue": 17.75208306064975,
+                "rmsSpotUm": 17.75208306064975
+              },
+              {
+                "shiftMm": 0.12,
+                "valid": true,
+                "objectiveValue": 17.312883298296622,
+                "rmsSpotUm": 17.312883298296622
+              },
+              {
+                "shiftMm": -0.028328157299974788,
+                "valid": true,
+                "objectiveValue": 4.94422643876605,
+                "rmsSpotUm": 4.94422643876605
+              },
+              {
+                "shiftMm": 0.028328157299974788,
+                "valid": true,
+                "objectiveValue": 4.561776442815515,
+                "rmsSpotUm": 4.561776442815515
+              },
+              {
+                "shiftMm": 0.06334368540005048,
+                "valid": true,
+                "objectiveValue": 9.262671773904907,
+                "rmsSpotUm": 9.262671773904907
+              },
+              {
+                "shiftMm": 0.006687370800100928,
+                "valid": true,
+                "objectiveValue": 2.5152791964742796,
+                "rmsSpotUm": 2.5152791964742796
+              },
+              {
+                "shiftMm": -0.006687370800100956,
+                "valid": true,
+                "objectiveValue": 2.680461018823099,
+                "rmsSpotUm": 2.680461018823099
+              },
+              {
+                "shiftMm": 0.014953415699772887,
+                "valid": true,
+                "objectiveValue": 3.0891810925738623,
+                "rmsSpotUm": 3.0891810925738623
+              },
+              {
+                "shiftMm": 0.0015786740995709786,
+                "valid": true,
+                "objectiveValue": 2.4020702229905084,
+                "rmsSpotUm": 2.4020702229905084
+              },
+              {
+                "shiftMm": -0.0015786740995709942,
+                "valid": true,
+                "objectiveValue": 2.4438790417892413,
+                "rmsSpotUm": 2.4438790417892413
+              },
+              {
+                "shiftMm": 0.003530022600958969,
+                "valid": true,
+                "objectiveValue": 2.4194068295722495,
+                "rmsSpotUm": 2.4194068295722495
+              },
+              {
+                "shiftMm": 0.0003726744018170084,
+                "valid": true,
+                "objectiveValue": 2.4079113506165744,
+                "rmsSpotUm": 2.4079113506165744
+              },
+              {
+                "shiftMm": 0.002324022903205012,
+                "valid": true,
+                "objectiveValue": 2.404795483895195,
+                "rmsSpotUm": 2.404795483895195
+              },
+              {
+                "shiftMm": 0.0011180232054510543,
+                "valid": true,
+                "objectiveValue": 2.4028069779477197,
+                "rmsSpotUm": 2.4028069779477197
+              },
+              {
+                "shiftMm": 0.0018633720090851004,
+                "valid": true,
+                "objectiveValue": 2.402539937923095,
+                "rmsSpotUm": 2.402539937923095
+              },
+              {
+                "shiftMm": 0.0014027211149651886,
+                "valid": true,
+                "objectiveValue": 2.402133277592707,
+                "rmsSpotUm": 2.402133277592707
+              },
+              {
+                "shiftMm": 0.0016874190244793232,
+                "valid": true,
+                "objectiveValue": 2.402166231199719,
+                "rmsSpotUm": 2.402166231199719
+              }
+            ],
+            "converged": false,
+            "termination": "bounded_iteration_budget",
+            "scope": "One common spacing for all active fields/colors; no independent refocus or global optimum claim"
+          },
+          "groups": [
+            {
+              "fieldIndex": 0,
+              "fieldX": 0.0,
+              "fieldY": 0.0,
+              "fieldWeight": 1.0,
+              "waveIndex": 0,
+              "wavelengthNm": 587.56,
+              "wavelengthWeight": 1.0,
+              "wavefrontRmsWaves": 0.14328249913372948,
+              "rays": 360,
+              "transmission": 1.0,
+              "chiefXmm": 0.0,
+              "chiefYmm": 0.0,
+              "traceReusedFromWaveIndex": 0,
+              "traceReused": false
+            },
+            {
+              "fieldIndex": 1,
+              "fieldX": 0.0,
+              "fieldY": 10.5,
+              "fieldWeight": 1.0,
+              "waveIndex": 0,
+              "wavelengthNm": 587.56,
+              "wavelengthWeight": 1.0,
+              "wavefrontRmsWaves": 0.046144426950323995,
+              "rays": 360,
+              "transmission": 1.0,
+              "chiefXmm": 0.0,
+              "chiefYmm": 18.502729572875463,
+              "traceReusedFromWaveIndex": 0,
+              "traceReused": false
+            },
+            {
+              "fieldIndex": 2,
+              "fieldX": 0.0,
+              "fieldY": 15.0,
+              "fieldWeight": 1.0,
+              "waveIndex": 0,
+              "wavelengthNm": 587.56,
+              "wavelengthWeight": 1.0,
+              "wavefrontRmsWaves": 0.12206535305745533,
+              "rays": 360,
+              "transmission": 1.0,
+              "chiefXmm": 0.0,
+              "chiefYmm": 26.724695413700285,
+              "traceReusedFromWaveIndex": 0,
+              "traceReused": false
+            }
+          ],
+          "fields": [
+            {
+              "fieldIndex": 0,
+              "fieldX": 0.0,
+              "fieldY": 0.0,
+              "rmsSpotUm": 2.8764878210461444,
+              "weight": 1.0
+            },
+            {
+              "fieldIndex": 1,
+              "fieldX": 0.0,
+              "fieldY": 10.5,
+              "rmsSpotUm": 1.1038878125929301,
+              "weight": 1.0
+            },
+            {
+              "fieldIndex": 2,
+              "fieldX": 0.0,
+              "fieldY": 15.0,
+              "rmsSpotUm": 2.795902999232093,
+              "weight": 1.0
+            }
+          ],
+          "measurementStatus": "complete",
+          "failureCategory": null
+        },
+        "changes": {
+          "rmsSpotUm": {
+            "min": null,
+            "max": 0.008598315445833116
+          },
+          "worstRmsSpotUm": {
+            "min": null,
+            "max": -0.0007167448301257373
+          },
+          "worstWavefrontRmsWaves": {
+            "min": null,
+            "max": -0.010912690627241484
+          },
+          "eflMm": {
+            "min": null,
+            "max": 0.004213672119007583
+          }
+        },
+        "failedEndpoints": 1
+      },
+      {
+        "row": 3,
+        "surface": 6,
+        "parameter": "thickness",
+        "min": {
+          "index": 5,
+          "errors": [
+            {
+              "row": 1,
+              "surface": 1,
+              "parameter": "thickness",
+              "delta": 0.0
+            },
+            {
+              "row": 2,
+              "surface": 3,
+              "parameter": "thickness",
+              "delta": 0.0
+            },
+            {
+              "row": 3,
+              "surface": 6,
+              "parameter": "thickness",
+              "delta": -0.05
+            },
+            {
+              "row": 4,
+              "surface": 8,
+              "parameter": "thickness",
+              "delta": 0.0
+            },
+            {
+              "row": 5,
+              "surface": 2,
+              "parameter": "thickness",
+              "delta": 0.0
+            },
+            {
+              "row": 6,
+              "surface": 4,
+              "parameter": "thickness",
+              "delta": 0.0
+            },
+            {
+              "row": 7,
+              "surface": 7,
+              "parameter": "thickness",
+              "delta": 0.0
+            }
+          ],
+          "valid": true,
+          "status": "measured",
+          "metrics": {
+            "rmsSpotUm": 2.518638527379866,
+            "worstRmsSpotUm": 3.002868680576561,
+            "worstWavefrontRmsWaves": 0.19122889413553854,
+            "eflMm": 100.04195256376855
+          },
+          "reasons": [],
+          "compensation": {
+            "mode": "image_gap",
+            "surface": 9,
+            "shiftMm": 0.029358204013122953,
+            "spacingBeforeMm": 1.9110653684680436,
+            "spacingAfterMm": 1.9404235724811667,
+            "objective": "rms_spot",
+            "objectiveMetric": "rmsSpotUm",
+            "objectiveValue": 2.518638527379866,
+            "uncompensatedObjectiveValue": 4.94610762222158,
+            "rmsSpotUm": 2.518638527379866,
+            "requestedBoundsMm": [
+              -0.12,
+              0.12
+            ],
+            "evaluations": 18,
+            "history": [
+              {
+                "shiftMm": 0.0,
+                "valid": true,
+                "objectiveValue": 4.94610762222158,
+                "rmsSpotUm": 4.94610762222158
+              },
+              {
+                "shiftMm": -0.12,
+                "valid": true,
+                "objectiveValue": 21.762383220132772,
+                "rmsSpotUm": 21.762383220132772
+              },
+              {
+                "shiftMm": 0.12,
+                "valid": true,
+                "objectiveValue": 13.342377859932743,
+                "rmsSpotUm": 13.342377859932743
+              },
+              {
+                "shiftMm": -0.028328157299974788,
+                "valid": true,
+                "objectiveValue": 8.72617809326101,
+                "rmsSpotUm": 8.72617809326101
+              },
+              {
+                "shiftMm": 0.028328157299974788,
+                "valid": true,
+                "objectiveValue": 2.5236231743398005,
+                "rmsSpotUm": 2.5236231743398005
+              },
+              {
+                "shiftMm": 0.06334368540005048,
+                "valid": true,
+                "objectiveValue": 5.515214829838867,
+                "rmsSpotUm": 5.515214829838867
+              },
+              {
+                "shiftMm": 0.006687370800100928,
+                "valid": true,
+                "objectiveValue": 4.142913173396953,
+                "rmsSpotUm": 4.142913173396953
+              },
+              {
+                "shiftMm": 0.04170289890017665,
+                "valid": true,
+                "objectiveValue": 3.081799319248868,
+                "rmsSpotUm": 3.081799319248868
+              },
+              {
+                "shiftMm": 0.020062112400302822,
+                "valid": true,
+                "objectiveValue": 2.859795148672555,
+                "rmsSpotUm": 2.859795148672555
+              },
+              {
+                "shiftMm": 0.03343685400050472,
+                "valid": true,
+                "objectiveValue": 2.584581486003672,
+                "rmsSpotUm": 2.584581486003672
+              },
+              {
+                "shiftMm": 0.02517080910083279,
+                "valid": true,
+                "objectiveValue": 2.5927572879562315,
+                "rmsSpotUm": 2.5927572879562315
+              },
+              {
+                "shiftMm": 0.03027950580136276,
+                "valid": true,
+                "objectiveValue": 2.5216426053444896,
+                "rmsSpotUm": 2.5216426053444896
+              },
+              {
+                "shiftMm": 0.03148550549911673,
+                "valid": true,
+                "objectiveValue": 2.5361762663349907,
+                "rmsSpotUm": 2.5361762663349907
+              },
+              {
+                "shiftMm": 0.02953415699772874,
+                "valid": true,
+                "objectiveValue": 2.518667763966924,
+                "rmsSpotUm": 2.518667763966924
+              },
+              {
+                "shiftMm": 0.029073506103608822,
+                "valid": true,
+                "objectiveValue": 2.5191360054189635,
+                "rmsSpotUm": 2.5191360054189635
+              },
+              {
+                "shiftMm": 0.029818854907242856,
+                "valid": true,
+                "objectiveValue": 2.5192598268073345,
+                "rmsSpotUm": 2.5192598268073345
+              },
+              {
+                "shiftMm": 0.029358204013122953,
+                "valid": true,
+                "objectiveValue": 2.518638527379866,
+                "rmsSpotUm": 2.518638527379866
+              },
+              {
+                "shiftMm": 0.0292494590882146,
+                "valid": true,
+                "objectiveValue": 2.5187490733245053,
+                "rmsSpotUm": 2.5187490733245053
+              }
+            ],
+            "converged": false,
+            "termination": "bounded_iteration_budget",
+            "scope": "One common spacing for all active fields/colors; no independent refocus or global optimum claim"
+          },
+          "groups": [
+            {
+              "fieldIndex": 0,
+              "fieldX": 0.0,
+              "fieldY": 0.0,
+              "fieldWeight": 1.0,
+              "waveIndex": 0,
+              "wavelengthNm": 587.56,
+              "wavelengthWeight": 1.0,
+              "wavefrontRmsWaves": 0.19122889413553854,
+              "rays": 360,
+              "transmission": 1.0,
+              "chiefXmm": 0.0,
+              "chiefYmm": 0.0,
+              "traceReusedFromWaveIndex": 0,
+              "traceReused": false
+            },
+            {
+              "fieldIndex": 1,
+              "fieldX": 0.0,
+              "fieldY": 10.5,
+              "fieldWeight": 1.0,
+              "waveIndex": 0,
+              "wavelengthNm": 587.56,
+              "wavelengthWeight": 1.0,
+              "wavefrontRmsWaves": 0.07431702510154363,
+              "rays": 360,
+              "transmission": 1.0,
+              "chiefXmm": 0.0,
+              "chiefYmm": 18.50671313098166,
+              "traceReusedFromWaveIndex": 0,
+              "traceReused": false
+            },
+            {
+              "fieldIndex": 2,
+              "fieldX": 0.0,
+              "fieldY": 15.0,
+              "fieldWeight": 1.0,
+              "waveIndex": 0,
+              "wavelengthNm": 587.56,
+              "wavelengthWeight": 1.0,
+              "wavefrontRmsWaves": 0.16978730774114129,
+              "rays": 360,
+              "transmission": 1.0,
+              "chiefXmm": 0.0,
+              "chiefYmm": 26.73198136237035,
+              "traceReusedFromWaveIndex": 0,
+              "traceReused": false
+            }
+          ],
+          "fields": [
+            {
+              "fieldIndex": 0,
+              "fieldX": 0.0,
+              "fieldY": 0.0,
+              "rmsSpotUm": 3.002868680576561,
+              "weight": 1.0
+            },
+            {
+              "fieldIndex": 1,
+              "fieldX": 0.0,
+              "fieldY": 10.5,
+              "rmsSpotUm": 1.1603548511538788,
+              "weight": 1.0
+            },
+            {
+              "fieldIndex": 2,
+              "fieldX": 0.0,
+              "fieldY": 15.0,
+              "rmsSpotUm": 2.943972894138583,
+              "weight": 1.0
+            }
+          ],
+          "measurementStatus": "complete",
+          "failureCategory": null
+        },
+        "max": {
+          "index": 6,
+          "errors": [
+            {
+              "row": 1,
+              "surface": 1,
+              "parameter": "thickness",
+              "delta": 0.0
+            },
+            {
+              "row": 2,
+              "surface": 3,
+              "parameter": "thickness",
+              "delta": 0.0
+            },
+            {
+              "row": 3,
+              "surface": 6,
+              "parameter": "thickness",
+              "delta": 0.05
+            },
+            {
+              "row": 4,
+              "surface": 8,
+              "parameter": "thickness",
+              "delta": 0.0
+            },
+            {
+              "row": 5,
+              "surface": 2,
+              "parameter": "thickness",
+              "delta": 0.0
+            },
+            {
+              "row": 6,
+              "surface": 4,
+              "parameter": "thickness",
+              "delta": 0.0
+            },
+            {
+              "row": 7,
+              "surface": 7,
+              "parameter": "thickness",
+              "delta": 0.0
+            }
+          ],
+          "valid": true,
+          "status": "measured",
+          "metrics": {
+            "rmsSpotUm": 2.515944644530933,
+            "worstRmsSpotUm": 2.981803078241461,
+            "worstWavefrontRmsWaves": 0.12182584342041423,
+            "eflMm": 99.95857775679556
+          },
+          "reasons": [],
+          "compensation": {
+            "mode": "image_gap",
+            "surface": 9,
+            "shiftMm": -0.028964761178700466,
+            "spacingBeforeMm": 1.9110653684680436,
+            "spacingAfterMm": 1.8821006072893431,
+            "objective": "rms_spot",
+            "objectiveMetric": "rmsSpotUm",
+            "objectiveValue": 2.515944644530933,
+            "uncompensatedObjectiveValue": 4.891520333542586,
+            "rmsSpotUm": 2.515944644530933,
+            "requestedBoundsMm": [
+              -0.12,
+              0.12
+            ],
+            "evaluations": 18,
+            "history": [
+              {
+                "shiftMm": 0.0,
+                "valid": true,
+                "objectiveValue": 4.891520333542586,
+                "rmsSpotUm": 4.891520333542586
+              },
+              {
+                "shiftMm": -0.12,
+                "valid": true,
+                "objectiveValue": 13.421230162291788,
+                "rmsSpotUm": 13.421230162291788
+              },
+              {
+                "shiftMm": 0.12,
+                "valid": true,
+                "objectiveValue": 21.719270565367136,
+                "rmsSpotUm": 21.719270565367136
+              },
+              {
+                "shiftMm": -0.028328157299974788,
+                "valid": true,
+                "objectiveValue": 2.5176424639952892,
+                "rmsSpotUm": 2.5176424639952892
+              },
+              {
+                "shiftMm": 0.028328157299974788,
+                "valid": true,
+                "objectiveValue": 8.670369496722449,
+                "rmsSpotUm": 8.670369496722449
+              },
+              {
+                "shiftMm": -0.06334368540005048,
+                "valid": true,
+                "objectiveValue": 5.578066734400784,
+                "rmsSpotUm": 5.578066734400784
+              },
+              {
+                "shiftMm": -0.006687370800100928,
+                "valid": true,
+                "objectiveValue": 4.091429050433182,
+                "rmsSpotUm": 4.091429050433182
+              },
+              {
+                "shiftMm": -0.04170289890017665,
+                "valid": true,
+                "objectiveValue": 3.1196168746807116,
+                "rmsSpotUm": 3.1196168746807116
+              },
+              {
+                "shiftMm": -0.020062112400302822,
+                "valid": true,
+                "objectiveValue": 2.827160510881207,
+                "rmsSpotUm": 2.827160510881207
+              },
+              {
+                "shiftMm": -0.03343685400050472,
+                "valid": true,
+                "objectiveValue": 2.597900422129461,
+                "rmsSpotUm": 2.597900422129461
+              },
+              {
+                "shiftMm": -0.02517080910083279,
+                "valid": true,
+                "objectiveValue": 2.575292820624246,
+                "rmsSpotUm": 2.575292820624246
+              },
+              {
+                "shiftMm": -0.03027950580136276,
+                "valid": true,
+                "objectiveValue": 2.5231196068899227,
+                "rmsSpotUm": 2.5231196068899227
+              },
+              {
+                "shiftMm": -0.027122157602220795,
+                "valid": true,
+                "objectiveValue": 2.530082566049559,
+                "rmsSpotUm": 2.530082566049559
+              },
+              {
+                "shiftMm": -0.0290735061036088,
+                "valid": true,
+                "objectiveValue": 2.515992342592371,
+                "rmsSpotUm": 2.515992342592371
+              },
+              {
+                "shiftMm": -0.029534156997728725,
+                "valid": true,
+                "objectiveValue": 2.5172872427823565,
+                "rmsSpotUm": 2.5172872427823565
+              },
+              {
+                "shiftMm": -0.02878880819409469,
+                "valid": true,
+                "objectiveValue": 2.516076246624435,
+                "rmsSpotUm": 2.516076246624435
+              },
+              {
+                "shiftMm": -0.029249459088214594,
+                "valid": true,
+                "objectiveValue": 2.516278282090482,
+                "rmsSpotUm": 2.516278282090482
+              },
+              {
+                "shiftMm": -0.028964761178700466,
+                "valid": true,
+                "objectiveValue": 2.515944644530933,
+                "rmsSpotUm": 2.515944644530933
+              }
+            ],
+            "converged": false,
+            "termination": "bounded_iteration_budget",
+            "scope": "One common spacing for all active fields/colors; no independent refocus or global optimum claim"
+          },
+          "groups": [
+            {
+              "fieldIndex": 0,
+              "fieldX": 0.0,
+              "fieldY": 0.0,
+              "fieldWeight": 1.0,
+              "waveIndex": 0,
+              "wavelengthNm": 587.56,
+              "wavelengthWeight": 1.0,
+              "wavefrontRmsWaves": 0.12182584342041423,
+              "rays": 360,
+              "transmission": 1.0,
+              "chiefXmm": 0.0,
+              "chiefYmm": 0.0,
+              "traceReusedFromWaveIndex": 0,
+              "traceReused": false
+            },
+            {
+              "fieldIndex": 1,
+              "fieldX": 0.0,
+              "fieldY": 10.5,
+              "fieldWeight": 1.0,
+              "waveIndex": 0,
+              "wavelengthNm": 587.56,
+              "wavelengthWeight": 1.0,
+              "wavefrontRmsWaves": 0.0365175507167867,
+              "rays": 360,
+              "transmission": 1.0,
+              "chiefXmm": 0.0,
+              "chiefYmm": 18.495825826199287,
+              "traceReusedFromWaveIndex": 0,
+              "traceReused": false
+            },
+            {
+              "fieldIndex": 2,
+              "fieldX": 0.0,
+              "fieldY": 15.0,
+              "fieldWeight": 1.0,
+              "waveIndex": 0,
+              "wavelengthNm": 587.56,
+              "wavelengthWeight": 1.0,
+              "wavefrontRmsWaves": 0.10950796543813901,
+              "rays": 360,
+              "transmission": 1.0,
+              "chiefXmm": 0.0,
+              "chiefYmm": 26.713888141582107,
+              "traceReusedFromWaveIndex": 0,
+              "traceReused": false
+            }
+          ],
+          "fields": [
+            {
+              "fieldIndex": 0,
+              "fieldX": 0.0,
+              "fieldY": 0.0,
+              "rmsSpotUm": 2.945499547573552,
+              "weight": 1.0
+            },
+            {
+              "fieldIndex": 1,
+              "fieldX": 0.0,
+              "fieldY": 10.5,
+              "rmsSpotUm": 1.1928181675617588,
+              "weight": 1.0
+            },
+            {
+              "fieldIndex": 2,
+              "fieldX": 0.0,
+              "fieldY": 15.0,
+              "rmsSpotUm": 2.981803078241461,
+              "weight": 1.0
+            }
+          ],
+          "measurementStatus": "complete",
+          "failureCategory": null
+        },
+        "changes": {
+          "rmsSpotUm": {
+            "min": 0.12516661983519084,
+            "max": 0.12247273698625749
+          },
+          "worstRmsSpotUm": {
+            "min": 0.12566411470029104,
+            "max": 0.10459851236519091
+          },
+          "worstWavefrontRmsWaves": {
+            "min": 0.03703370437456757,
+            "max": -0.03236934634055673
+          },
+          "eflMm": {
+            "min": 0.041704781836500615,
+            "max": -0.04167002513648299
+          }
+        },
+        "failedEndpoints": 0
+      },
+      {
+        "row": 4,
+        "surface": 8,
+        "parameter": "thickness",
+        "min": {
+          "index": 7,
+          "errors": [
+            {
+              "row": 1,
+              "surface": 1,
+              "parameter": "thickness",
+              "delta": 0.0
+            },
+            {
+              "row": 2,
+              "surface": 3,
+              "parameter": "thickness",
+              "delta": 0.0
+            },
+            {
+              "row": 3,
+              "surface": 6,
+              "parameter": "thickness",
+              "delta": 0.0
+            },
+            {
+              "row": 4,
+              "surface": 8,
+              "parameter": "thickness",
+              "delta": -0.05
+            },
+            {
+              "row": 5,
+              "surface": 2,
+              "parameter": "thickness",
+              "delta": 0.0
+            },
+            {
+              "row": 6,
+              "surface": 4,
+              "parameter": "thickness",
+              "delta": 0.0
+            },
+            {
+              "row": 7,
+              "surface": 7,
+              "parameter": "thickness",
+              "delta": 0.0
+            }
+          ],
+          "valid": true,
+          "status": "measured",
+          "metrics": {
+            "rmsSpotUm": 2.4905999611229763,
+            "worstRmsSpotUm": 2.9826832776144014,
+            "worstWavefrontRmsWaves": 0.18724325780560397,
+            "eflMm": 100.00173960336127
+          },
+          "reasons": [],
+          "compensation": {
+            "mode": "image_gap",
+            "surface": 9,
+            "shiftMm": 0.027406855511734936,
+            "spacingBeforeMm": 1.9110653684680436,
+            "spacingAfterMm": 1.9384722239797785,
+            "objective": "rms_spot",
+            "objectiveMetric": "rmsSpotUm",
+            "objectiveValue": 2.4905999611229763,
+            "uncompensatedObjectiveValue": 4.682966917510325,
+            "rmsSpotUm": 2.4905999611229763,
+            "requestedBoundsMm": [
+              -0.12,
+              0.12
+            ],
+            "evaluations": 18,
+            "history": [
+              {
+                "shiftMm": 0.0,
+                "valid": true,
+                "objectiveValue": 4.682966917510325,
+                "rmsSpotUm": 4.682966917510325
+              },
+              {
+                "shiftMm": -0.12,
+                "valid": true,
+                "objectiveValue": 21.478743736590815,
+                "rmsSpotUm": 21.478743736590815
+              },
+              {
+                "shiftMm": 0.12,
+                "valid": true,
+                "objectiveValue": 13.63182820288108,
+                "rmsSpotUm": 13.63182820288108
+              },
+              {
+                "shiftMm": -0.028328157299974788,
+                "valid": true,
+                "objectiveValue": 8.441572356243249,
+                "rmsSpotUm": 8.441572356243249
+              },
+              {
+                "shiftMm": 0.028328157299974788,
+                "valid": true,
+                "objectiveValue": 2.4942189140683775,
+                "rmsSpotUm": 2.4942189140683775
+              },
+              {
+                "shiftMm": 0.06334368540005048,
+                "valid": true,
+                "objectiveValue": 5.767723352465051,
+                "rmsSpotUm": 5.767723352465051
+              },
+              {
+                "shiftMm": 0.006687370800100928,
+                "valid": true,
+                "objectiveValue": 3.8974580603924536,
+                "rmsSpotUm": 3.8974580603924536
+              },
+              {
+                "shiftMm": 0.04170289890017665,
+                "valid": true,
+                "objectiveValue": 3.2385799003862,
+                "rmsSpotUm": 3.2385799003862
+              },
+              {
+                "shiftMm": 0.020062112400302822,
+                "valid": true,
+                "objectiveValue": 2.7075944273475385,
+                "rmsSpotUm": 2.7075944273475385
+              },
+              {
+                "shiftMm": 0.03343685400050472,
+                "valid": true,
+                "objectiveValue": 2.6394077015974684,
+                "rmsSpotUm": 2.6394077015974684
+              },
+              {
+                "shiftMm": 0.02517080910083279,
+                "valid": true,
+                "objectiveValue": 2.511413365718244,
+                "rmsSpotUm": 2.511413365718244
+              },
+              {
+                "shiftMm": 0.03027950580136276,
+                "valid": true,
+                "objectiveValue": 2.52522512357962,
+                "rmsSpotUm": 2.52522512357962
+              },
+              {
+                "shiftMm": 0.027122157602220795,
+                "valid": true,
+                "objectiveValue": 2.490924720315532,
+                "rmsSpotUm": 2.490924720315532
+              },
+              {
+                "shiftMm": 0.02637680879858676,
+                "valid": true,
+                "objectiveValue": 2.494999823880515,
+                "rmsSpotUm": 2.494999823880515
+              },
+              {
+                "shiftMm": 0.027582808496340733,
+                "valid": true,
+                "objectiveValue": 2.4907400929805457,
+                "rmsSpotUm": 2.4907400929805457
+              },
+              {
+                "shiftMm": 0.027867506405854864,
+                "valid": true,
+                "objectiveValue": 2.491518196995028,
+                "rmsSpotUm": 2.491518196995028
+              },
+              {
+                "shiftMm": 0.027406855511734936,
+                "valid": true,
+                "objectiveValue": 2.4905999611229763,
+                "rmsSpotUm": 2.4905999611229763
+              },
+              {
+                "shiftMm": 0.02729811058682658,
+                "valid": true,
+                "objectiveValue": 2.490643549410816,
+                "rmsSpotUm": 2.490643549410816
+              }
+            ],
+            "converged": false,
+            "termination": "bounded_iteration_budget",
+            "scope": "One common spacing for all active fields/colors; no independent refocus or global optimum claim"
+          },
+          "groups": [
+            {
+              "fieldIndex": 0,
+              "fieldX": 0.0,
+              "fieldY": 0.0,
+              "fieldWeight": 1.0,
+              "waveIndex": 0,
+              "wavelengthNm": 587.56,
+              "wavelengthWeight": 1.0,
+              "wavefrontRmsWaves": 0.18724325780560397,
+              "rays": 360,
+              "transmission": 1.0,
+              "chiefXmm": 0.0,
+              "chiefYmm": 0.0,
+              "traceReusedFromWaveIndex": 0,
+              "traceReused": false
+            },
+            {
+              "fieldIndex": 1,
+              "fieldX": 0.0,
+              "fieldY": 10.5,
+              "fieldWeight": 1.0,
+              "waveIndex": 0,
+              "wavelengthNm": 587.56,
+              "wavelengthWeight": 1.0,
+              "wavefrontRmsWaves": 0.07108802788064149,
+              "rays": 360,
+              "transmission": 1.0,
+              "chiefXmm": 0.0,
+              "chiefYmm": 18.499796307289056,
+              "traceReusedFromWaveIndex": 0,
+              "traceReused": false
+            },
+            {
+              "fieldIndex": 2,
+              "fieldX": 0.0,
+              "fieldY": 15.0,
+              "fieldWeight": 1.0,
+              "waveIndex": 0,
+              "wavelengthNm": 587.56,
+              "wavelengthWeight": 1.0,
+              "wavefrontRmsWaves": 0.16540923802864677,
+              "rays": 360,
+              "transmission": 1.0,
+              "chiefXmm": 0.0,
+              "chiefYmm": 26.72236714648094,
+              "traceReusedFromWaveIndex": 0,
+              "traceReused": false
+            }
+          ],
+          "fields": [
+            {
+              "fieldIndex": 0,
+              "fieldX": 0.0,
+              "fieldY": 0.0,
+              "rmsSpotUm": 2.9826832776144014,
+              "weight": 1.0
+            },
+            {
+              "fieldIndex": 1,
+              "fieldX": 0.0,
+              "fieldY": 10.5,
+              "rmsSpotUm": 1.1349308328402112,
+              "weight": 1.0
+            },
+            {
+              "fieldIndex": 2,
+              "fieldX": 0.0,
+              "fieldY": 15.0,
+              "rmsSpotUm": 2.9025500803854096,
+              "weight": 1.0
+            }
+          ],
+          "measurementStatus": "complete",
+          "failureCategory": null
+        },
+        "max": {
+          "index": 8,
+          "errors": [
+            {
+              "row": 1,
+              "surface": 1,
+              "parameter": "thickness",
+              "delta": 0.0
+            },
+            {
+              "row": 2,
+              "surface": 3,
+              "parameter": "thickness",
+              "delta": 0.0
+            },
+            {
+              "row": 3,
+              "surface": 6,
+              "parameter": "thickness",
+              "delta": 0.0
+            },
+            {
+              "row": 4,
+              "surface": 8,
+              "parameter": "thickness",
+              "delta": 0.05
+            },
+            {
+              "row": 5,
+              "surface": 2,
+              "parameter": "thickness",
+              "delta": 0.0
+            },
+            {
+              "row": 6,
+              "surface": 4,
+              "parameter": "thickness",
+              "delta": 0.0
+            },
+            {
+              "row": 7,
+              "surface": 7,
+              "parameter": "thickness",
+              "delta": 0.0
+            }
+          ],
+          "valid": true,
+          "status": "measured",
+          "metrics": {
+            "rmsSpotUm": 2.4865378828737095,
+            "worstRmsSpotUm": 2.9356872677025048,
+            "worstWavefrontRmsWaves": 0.12443678064367567,
+            "eflMm": 99.998756005012
+          },
+          "reasons": [],
+          "compensation": {
+            "mode": "image_gap",
+            "surface": 9,
+            "shiftMm": -0.02694620461761502,
+            "spacingBeforeMm": 1.9110653684680436,
+            "spacingAfterMm": 1.8841191638504287,
+            "objective": "rms_spot",
+            "objectiveMetric": "rmsSpotUm",
+            "objectiveValue": 2.4865378828737095,
+            "uncompensatedObjectiveValue": 4.628286380971854,
+            "rmsSpotUm": 2.4865378828737095,
+            "requestedBoundsMm": [
+              -0.12,
+              0.12
+            ],
+            "evaluations": 18,
+            "history": [
+              {
+                "shiftMm": 0.0,
+                "valid": true,
+                "objectiveValue": 4.628286380971854,
+                "rmsSpotUm": 4.628286380971854
+              },
+              {
+                "shiftMm": -0.12,
+                "valid": true,
+                "objectiveValue": 13.693427942942545,
+                "rmsSpotUm": 13.693427942942545
+              },
+              {
+                "shiftMm": 0.12,
+                "valid": true,
+                "objectiveValue": 21.417825263925646,
+                "rmsSpotUm": 21.417825263925646
+              },
+              {
+                "shiftMm": -0.028328157299974788,
+                "valid": true,
+                "objectiveValue": 2.494307232058796,
+                "rmsSpotUm": 2.494307232058796
+              },
+              {
+                "shiftMm": 0.028328157299974788,
+                "valid": true,
+                "objectiveValue": 8.381308772318008,
+                "rmsSpotUm": 8.381308772318008
+              },
+              {
+                "shiftMm": -0.06334368540005048,
+                "valid": true,
+                "objectiveValue": 5.822693279746403,
+                "rmsSpotUm": 5.822693279746403
+              },
+              {
+                "shiftMm": -0.006687370800100928,
+                "valid": true,
+                "objectiveValue": 3.8471922042493087,
+                "rmsSpotUm": 3.8471922042493087
+              },
+              {
+                "shiftMm": -0.04170289890017665,
+                "valid": true,
+                "objectiveValue": 3.275842526458501,
+                "rmsSpotUm": 3.275842526458501
+              },
+              {
+                "shiftMm": -0.020062112400302822,
+                "valid": true,
+                "objectiveValue": 2.6799822215989497,
+                "rmsSpotUm": 2.6799822215989497
+              },
+              {
+                "shiftMm": -0.03343685400050472,
+                "valid": true,
+                "objectiveValue": 2.6569410875976036,
+                "rmsSpotUm": 2.6569410875976036
+              },
+              {
+                "shiftMm": -0.02517080910083279,
+                "valid": true,
+                "objectiveValue": 2.500119508259993,
+                "rmsSpotUm": 2.500119508259993
+              },
+              {
+                "shiftMm": -0.03027950580136276,
+                "valid": true,
+                "objectiveValue": 2.5322886492921373,
+                "rmsSpotUm": 2.5322886492921373
+              },
+              {
+                "shiftMm": -0.027122157602220795,
+                "valid": true,
+                "objectiveValue": 2.486634660876751,
+                "rmsSpotUm": 2.486634660876751
+              },
+              {
+                "shiftMm": -0.02637680879858676,
+                "valid": true,
+                "objectiveValue": 2.488012208789337,
+                "rmsSpotUm": 2.488012208789337
+              },
+              {
+                "shiftMm": -0.027582808496340733,
+                "valid": true,
+                "objectiveValue": 2.48812297314195,
+                "rmsSpotUm": 2.48812297314195
+              },
+              {
+                "shiftMm": -0.026837459692706678,
+                "valid": true,
+                "objectiveValue": 2.4866084977546343,
+                "rmsSpotUm": 2.4866084977546343
+              },
+              {
+                "shiftMm": -0.026661506708100892,
+                "valid": true,
+                "objectiveValue": 2.4869337649289367,
+                "rmsSpotUm": 2.4869337649289367
+              },
+              {
+                "shiftMm": -0.02694620461761502,
+                "valid": true,
+                "objectiveValue": 2.4865378828737095,
+                "rmsSpotUm": 2.4865378828737095
+              }
+            ],
+            "converged": false,
+            "termination": "bounded_iteration_budget",
+            "scope": "One common spacing for all active fields/colors; no independent refocus or global optimum claim"
+          },
+          "groups": [
+            {
+              "fieldIndex": 0,
+              "fieldX": 0.0,
+              "fieldY": 0.0,
+              "fieldWeight": 1.0,
+              "waveIndex": 0,
+              "wavelengthNm": 587.56,
+              "wavelengthWeight": 1.0,
+              "wavefrontRmsWaves": 0.12443678064367567,
+              "rays": 360,
+              "transmission": 1.0,
+              "chiefXmm": 0.0,
+              "chiefYmm": 0.0,
+              "traceReusedFromWaveIndex": 0,
+              "traceReused": false
+            },
+            {
+              "fieldIndex": 1,
+              "fieldX": 0.0,
+              "fieldY": 10.5,
+              "fieldWeight": 1.0,
+              "waveIndex": 0,
+              "wavelengthNm": 587.56,
+              "wavelengthWeight": 1.0,
+              "wavefrontRmsWaves": 0.03764320905400868,
+              "rays": 360,
+              "transmission": 1.0,
+              "chiefXmm": 0.0,
+              "chiefYmm": 18.50277977543391,
+              "traceReusedFromWaveIndex": 0,
+              "traceReused": false
+            },
+            {
+              "fieldIndex": 2,
+              "fieldX": 0.0,
+              "fieldY": 15.0,
+              "fieldWeight": 1.0,
+              "waveIndex": 0,
+              "wavelengthNm": 587.56,
+              "wavelengthWeight": 1.0,
+              "wavefrontRmsWaves": 0.1098188889663377,
+              "rays": 360,
+              "transmission": 1.0,
+              "chiefXmm": 0.0,
+              "chiefYmm": 26.723562007655662,
+              "traceReusedFromWaveIndex": 0,
+              "traceReused": false
+            }
+          ],
+          "fields": [
+            {
+              "fieldIndex": 0,
+              "fieldX": 0.0,
+              "fieldY": 0.0,
+              "rmsSpotUm": 2.9282112731474546,
+              "weight": 1.0
+            },
+            {
+              "fieldIndex": 1,
+              "fieldX": 0.0,
+              "fieldY": 10.5,
+              "rmsSpotUm": 1.1644444748289966,
+              "weight": 1.0
+            },
+            {
+              "fieldIndex": 2,
+              "fieldX": 0.0,
+              "fieldY": 15.0,
+              "rmsSpotUm": 2.9356872677025048,
+              "weight": 1.0
+            }
+          ],
+          "measurementStatus": "complete",
+          "failureCategory": null
+        },
+        "changes": {
+          "rmsSpotUm": {
+            "min": 0.09712805357830101,
+            "max": 0.09306597532903416
+          },
+          "worstRmsSpotUm": {
+            "min": 0.10547871173813128,
+            "max": 0.05848270182623461
+          },
+          "worstWavefrontRmsWaves": {
+            "min": 0.033048068044633006,
+            "max": -0.029758409117295298
+          },
+          "eflMm": {
+            "min": 0.0014918214292265475,
+            "max": -0.0014917769200479825
+          }
+        },
+        "failedEndpoints": 0
+      },
+      {
+        "row": 5,
+        "surface": 2,
+        "parameter": "thickness",
+        "min": {
+          "index": 9,
+          "errors": [
+            {
+              "row": 1,
+              "surface": 1,
+              "parameter": "thickness",
+              "delta": 0.0
+            },
+            {
+              "row": 2,
+              "surface": 3,
+              "parameter": "thickness",
+              "delta": 0.0
+            },
+            {
+              "row": 3,
+              "surface": 6,
+              "parameter": "thickness",
+              "delta": 0.0
+            },
+            {
+              "row": 4,
+              "surface": 8,
+              "parameter": "thickness",
+              "delta": 0.0
+            },
+            {
+              "row": 5,
+              "surface": 2,
+              "parameter": "thickness",
+              "delta": -0.025
+            },
+            {
+              "row": 6,
+              "surface": 4,
+              "parameter": "thickness",
+              "delta": 0.0
+            },
+            {
+              "row": 7,
+              "surface": 7,
+              "parameter": "thickness",
+              "delta": 0.0
+            }
+          ],
+          "valid": true,
+          "status": "measured",
+          "metrics": {
+            "rmsSpotUm": 2.3945093602251855,
+            "worstRmsSpotUm": 2.877294848365915,
+            "worstWavefrontRmsWaves": 0.15733941244242705,
+            "eflMm": 100.0053537512363
+          },
+          "reasons": [],
+          "compensation": {
+            "mode": "image_gap",
+            "surface": 9,
+            "shiftMm": 0.0005486273864227945,
+            "spacingBeforeMm": 1.9110653684680436,
+            "spacingAfterMm": 1.9116139958544665,
+            "objective": "rms_spot",
+            "objectiveMetric": "rmsSpotUm",
+            "objectiveValue": 2.3945093602251855,
+            "uncompensatedObjectiveValue": 2.3958651882235875,
+            "rmsSpotUm": 2.3945093602251855,
+            "requestedBoundsMm": [
+              -0.12,
+              0.12
+            ],
+            "evaluations": 18,
+            "history": [
+              {
+                "shiftMm": 0.0,
+                "valid": true,
+                "objectiveValue": 2.3958651882235875,
+                "rmsSpotUm": 2.3958651882235875
+              },
+              {
+                "shiftMm": -0.12,
+                "valid": true,
+                "objectiveValue": 17.612558416574082,
+                "rmsSpotUm": 17.612558416574082
+              },
+              {
+                "shiftMm": 0.12,
+                "valid": true,
+                "objectiveValue": 17.45286905718503,
+                "rmsSpotUm": 17.45286905718503
+              },
+              {
+                "shiftMm": -0.028328157299974788,
+                "valid": true,
+                "objectiveValue": 4.817901162339496,
+                "rmsSpotUm": 4.817901162339496
+              },
+              {
+                "shiftMm": 0.028328157299974788,
+                "valid": true,
+                "objectiveValue": 4.6787061364858955,
+                "rmsSpotUm": 4.6787061364858955
+              },
+              {
+                "shiftMm": 0.06334368540005048,
+                "valid": true,
+                "objectiveValue": 9.397742786289097,
+                "rmsSpotUm": 9.397742786289097
+              },
+              {
+                "shiftMm": 0.006687370800100928,
+                "valid": true,
+                "objectiveValue": 2.5536232127655216,
+                "rmsSpotUm": 2.5536232127655216
+              },
+              {
+                "shiftMm": -0.006687370800100956,
+                "valid": true,
+                "objectiveValue": 2.6140094048316533,
+                "rmsSpotUm": 2.6140094048316533
+              },
+              {
+                "shiftMm": 0.014953415699772887,
+                "valid": true,
+                "objectiveValue": 3.174196765994999,
+                "rmsSpotUm": 3.174196765994999
+              },
+              {
+                "shiftMm": 0.0015786740995709786,
+                "valid": true,
+                "objectiveValue": 2.3990718686779697,
+                "rmsSpotUm": 2.3990718686779697
+              },
+              {
+                "shiftMm": -0.0015786740995709942,
+                "valid": true,
+                "objectiveValue": 2.414376049101547,
+                "rmsSpotUm": 2.414376049101547
+              },
+              {
+                "shiftMm": 0.003530022600958969,
+                "valid": true,
+                "objectiveValue": 2.432869271216213,
+                "rmsSpotUm": 2.432869271216213
+              },
+              {
+                "shiftMm": 0.0003726744018170084,
+                "valid": true,
+                "objectiveValue": 2.3946574740433015,
+                "rmsSpotUm": 2.3946574740433015
+              },
+              {
+                "shiftMm": -0.00037267440181703226,
+                "valid": true,
+                "objectiveValue": 2.3982857569954206,
+                "rmsSpotUm": 2.3982857569954206
+              },
+              {
+                "shiftMm": 0.0008333252959369299,
+                "valid": true,
+                "objectiveValue": 2.3948433542608805,
+                "rmsSpotUm": 2.3948433542608805
+              },
+              {
+                "shiftMm": 8.7976492302881e-05,
+                "valid": true,
+                "objectiveValue": 2.395470624213886,
+                "rmsSpotUm": 2.395470624213886
+              },
+              {
+                "shiftMm": 0.0005486273864227945,
+                "valid": true,
+                "objectiveValue": 2.3945093602251855,
+                "rmsSpotUm": 2.3945093602251855
+              },
+              {
+                "shiftMm": 0.000657372311331149,
+                "valid": true,
+                "objectiveValue": 2.394553244607431,
+                "rmsSpotUm": 2.394553244607431
+              }
+            ],
+            "converged": false,
+            "termination": "bounded_iteration_budget",
+            "scope": "One common spacing for all active fields/colors; no independent refocus or global optimum claim"
+          },
+          "groups": [
+            {
+              "fieldIndex": 0,
+              "fieldX": 0.0,
+              "fieldY": 0.0,
+              "fieldWeight": 1.0,
+              "waveIndex": 0,
+              "wavelengthNm": 587.56,
+              "wavelengthWeight": 1.0,
+              "wavefrontRmsWaves": 0.15733941244242705,
+              "rays": 360,
+              "transmission": 1.0,
+              "chiefXmm": 0.0,
+              "chiefYmm": 0.0,
+              "traceReusedFromWaveIndex": 0,
+              "traceReused": false
+            },
+            {
+              "fieldIndex": 1,
+              "fieldX": 0.0,
+              "fieldY": 10.5,
+              "fieldWeight": 1.0,
+              "waveIndex": 0,
+              "wavelengthNm": 587.56,
+              "wavelengthWeight": 1.0,
+              "wavefrontRmsWaves": 0.05351431900073218,
+              "rays": 360,
+              "transmission": 1.0,
+              "chiefXmm": 0.0,
+              "chiefYmm": 18.502092588214865,
+              "traceReusedFromWaveIndex": 0,
+              "traceReused": false
+            },
+            {
+              "fieldIndex": 2,
+              "fieldX": 0.0,
+              "fieldY": 15.0,
+              "fieldWeight": 1.0,
+              "waveIndex": 0,
+              "wavelengthNm": 587.56,
+              "wavelengthWeight": 1.0,
+              "wavefrontRmsWaves": 0.1327077401551383,
+              "rays": 360,
+              "transmission": 1.0,
+              "chiefXmm": 0.0,
+              "chiefYmm": 26.724296226845933,
+              "traceReusedFromWaveIndex": 0,
+              "traceReused": false
+            }
+          ],
+          "fields": [
+            {
+              "fieldIndex": 0,
+              "fieldX": 0.0,
+              "fieldY": 0.0,
+              "rmsSpotUm": 2.877294848365915,
+              "weight": 1.0
+            },
+            {
+              "fieldIndex": 1,
+              "fieldX": 0.0,
+              "fieldY": 10.5,
+              "rmsSpotUm": 1.0918115338496737,
+              "weight": 1.0
+            },
+            {
+              "fieldIndex": 2,
+              "fieldX": 0.0,
+              "fieldY": 15.0,
+              "rmsSpotUm": 2.7803142194251835,
+              "weight": 1.0
+            }
+          ],
+          "measurementStatus": "complete",
+          "failureCategory": null
+        },
+        "max": {
+          "index": 10,
+          "errors": [
+            {
+              "row": 1,
+              "surface": 1,
+              "parameter": "thickness",
+              "delta": 0.0
+            },
+            {
+              "row": 2,
+              "surface": 3,
+              "parameter": "thickness",
+              "delta": 0.0
+            },
+            {
+              "row": 3,
+              "surface": 6,
+              "parameter": "thickness",
+              "delta": 0.0
+            },
+            {
+              "row": 4,
+              "surface": 8,
+              "parameter": "thickness",
+              "delta": 0.0
+            },
+            {
+              "row": 5,
+              "surface": 2,
+              "parameter": "thickness",
+              "delta": 0.025
+            },
+            {
+              "row": 6,
+              "surface": 4,
+              "parameter": "thickness",
+              "delta": 0.0
+            },
+            {
+              "row": 7,
+              "surface": 7,
+              "parameter": "thickness",
+              "delta": 0.0
+            }
+          ],
+          "valid": false,
+          "status": "fail",
+          "metrics": {},
+          "reasons": [
+            "No fully transmitted common compensation trial was valid."
+          ],
+          "compensation": null,
+          "measurementStatus": "invalid",
+          "failureCategory": "compensator"
+        },
+        "changes": {
+          "rmsSpotUm": {
+            "min": 0.0010374526805101425,
+            "max": null
+          },
+          "worstRmsSpotUm": {
+            "min": 9.028248964471075e-05,
+            "max": null
+          },
+          "worstWavefrontRmsWaves": {
+            "min": 0.003144222681456088,
+            "max": null
+          },
+          "eflMm": {
+            "min": 0.005105969304253222,
+            "max": null
+          }
+        },
+        "failedEndpoints": 1
+      },
+      {
+        "row": 6,
+        "surface": 4,
+        "parameter": "thickness",
+        "min": {
+          "index": 11,
+          "errors": [
+            {
+              "row": 1,
+              "surface": 1,
+              "parameter": "thickness",
+              "delta": 0.0
+            },
+            {
+              "row": 2,
+              "surface": 3,
+              "parameter": "thickness",
+              "delta": 0.0
+            },
+            {
+              "row": 3,
+              "surface": 6,
+              "parameter": "thickness",
+              "delta": 0.0
+            },
+            {
+              "row": 4,
+              "surface": 8,
+              "parameter": "thickness",
+              "delta": 0.0
+            },
+            {
+              "row": 5,
+              "surface": 2,
+              "parameter": "thickness",
+              "delta": 0.0
+            },
+            {
+              "row": 6,
+              "surface": 4,
+              "parameter": "thickness",
+              "delta": -0.025
+            },
+            {
+              "row": 7,
+              "surface": 7,
+              "parameter": "thickness",
+              "delta": 0.0
+            }
+          ],
+          "valid": false,
+          "status": "fail",
+          "metrics": {},
+          "reasons": [
+            "No fully transmitted common compensation trial was valid."
+          ],
+          "compensation": null,
+          "measurementStatus": "invalid",
+          "failureCategory": "compensator"
+        },
+        "max": {
+          "index": 12,
+          "errors": [
+            {
+              "row": 1,
+              "surface": 1,
+              "parameter": "thickness",
+              "delta": 0.0
+            },
+            {
+              "row": 2,
+              "surface": 3,
+              "parameter": "thickness",
+              "delta": 0.0
+            },
+            {
+              "row": 3,
+              "surface": 6,
+              "parameter": "thickness",
+              "delta": 0.0
+            },
+            {
+              "row": 4,
+              "surface": 8,
+              "parameter": "thickness",
+              "delta": 0.0
+            },
+            {
+              "row": 5,
+              "surface": 2,
+              "parameter": "thickness",
+              "delta": 0.0
+            },
+            {
+              "row": 6,
+              "surface": 4,
+              "parameter": "thickness",
+              "delta": 0.025
+            },
+            {
+              "row": 7,
+              "surface": 7,
+              "parameter": "thickness",
+              "delta": 0.0
+            }
+          ],
+          "valid": true,
+          "status": "measured",
+          "metrics": {
+            "rmsSpotUm": 2.397925484396326,
+            "worstRmsSpotUm": 2.874170298947089,
+            "worstWavefrontRmsWaves": 0.1468846411940885,
+            "eflMm": 100.00272649310094
+          },
+          "reasons": [],
+          "compensation": {
+            "mode": "image_gap",
+            "surface": 9,
+            "shiftMm": -0.0029606267819307073,
+            "spacingBeforeMm": 1.9110653684680436,
+            "spacingAfterMm": 1.908104741686113,
+            "objective": "rms_spot",
+            "objectiveMetric": "rmsSpotUm",
+            "objectiveValue": 2.397925484396326,
+            "uncompensatedObjectiveValue": 2.4364682707160523,
+            "rmsSpotUm": 2.397925484396326,
+            "requestedBoundsMm": [
+              -0.12,
+              0.12
+            ],
+            "evaluations": 18,
+            "history": [
+              {
+                "shiftMm": 0.0,
+                "valid": true,
+                "objectiveValue": 2.4364682707160523,
+                "rmsSpotUm": 2.4364682707160523
+              },
+              {
+                "shiftMm": -0.12,
+                "valid": true,
+                "objectiveValue": 17.106367434595164,
+                "rmsSpotUm": 17.106367434595164
+              },
+              {
+                "shiftMm": 0.12,
+                "valid": true,
+                "objectiveValue": 17.961595237989627,
+                "rmsSpotUm": 17.961595237989627
+              },
+              {
+                "shiftMm": -0.028328157299974788,
+                "valid": true,
+                "objectiveValue": 4.382789967639034,
+                "rmsSpotUm": 4.382789967639034
+              },
+              {
+                "shiftMm": 0.028328157299974788,
+                "valid": true,
+                "objectiveValue": 5.127259057056357,
+                "rmsSpotUm": 5.127259057056357
+              },
+              {
+                "shiftMm": -0.06334368540005048,
+                "valid": true,
+                "objectiveValue": 9.0599647904551,
+                "rmsSpotUm": 9.0599647904551
+              },
+              {
+                "shiftMm": -0.006687370800100928,
+                "valid": true,
+                "objectiveValue": 2.4571588231561123,
+                "rmsSpotUm": 2.4571588231561123
+              },
+              {
+                "shiftMm": 0.006687370800100956,
+                "valid": true,
+                "objectiveValue": 2.7765042801286364,
+                "rmsSpotUm": 2.7765042801286364
+              },
+              {
+                "shiftMm": -0.014953415699772887,
+                "valid": true,
+                "objectiveValue": 2.95844232310307,
+                "rmsSpotUm": 2.95844232310307
+              },
+              {
+                "shiftMm": -0.0015786740995709786,
+                "valid": true,
+                "objectiveValue": 2.4065151117804637,
+                "rmsSpotUm": 2.4065151117804637
+              },
+              {
+                "shiftMm": 0.0015786740995709942,
+                "valid": true,
+                "objectiveValue": 2.487140201018992,
+                "rmsSpotUm": 2.487140201018992
+              },
+              {
+                "shiftMm": -0.003530022600958969,
+                "valid": true,
+                "objectiveValue": 2.399233418967079,
+                "rmsSpotUm": 2.399233418967079
+              },
+              {
+                "shiftMm": -0.004736022298712931,
+                "valid": true,
+                "objectiveValue": 2.411320792489467,
+                "rmsSpotUm": 2.411320792489467
+              },
+              {
+                "shiftMm": -0.0027846737973249323,
+                "valid": true,
+                "objectiveValue": 2.39809410183905,
+                "rmsSpotUm": 2.39809410183905
+              },
+              {
+                "shiftMm": -0.0023240229032050197,
+                "valid": true,
+                "objectiveValue": 2.399815884694217,
+                "rmsSpotUm": 2.399815884694217
+              },
+              {
+                "shiftMm": -0.003069371706839061,
+                "valid": true,
+                "objectiveValue": 2.397956514361287,
+                "rmsSpotUm": 2.397956514361287
+              },
+              {
+                "shiftMm": -0.003245324691444838,
+                "valid": true,
+                "objectiveValue": 2.39822553488622,
+                "rmsSpotUm": 2.39822553488622
+              },
+              {
+                "shiftMm": -0.0029606267819307073,
+                "valid": true,
+                "objectiveValue": 2.397925484396326,
+                "rmsSpotUm": 2.397925484396326
+              }
+            ],
+            "converged": false,
+            "termination": "bounded_iteration_budget",
+            "scope": "One common spacing for all active fields/colors; no independent refocus or global optimum claim"
+          },
+          "groups": [
+            {
+              "fieldIndex": 0,
+              "fieldX": 0.0,
+              "fieldY": 0.0,
+              "fieldWeight": 1.0,
+              "waveIndex": 0,
+              "wavelengthNm": 587.56,
+              "wavelengthWeight": 1.0,
+              "wavefrontRmsWaves": 0.1468846411940885,
+              "rays": 360,
+              "transmission": 1.0,
+              "chiefXmm": 0.0,
+              "chiefYmm": 0.0,
+              "traceReusedFromWaveIndex": 0,
+              "traceReused": false
+            },
+            {
+              "fieldIndex": 1,
+              "fieldX": 0.0,
+              "fieldY": 10.5,
+              "fieldWeight": 1.0,
+              "waveIndex": 0,
+              "wavelengthNm": 587.56,
+              "wavelengthWeight": 1.0,
+              "wavefrontRmsWaves": 0.047888595767219745,
+              "rays": 360,
+              "transmission": 1.0,
+              "chiefXmm": 0.0,
+              "chiefYmm": 18.50220960295907,
+              "traceReusedFromWaveIndex": 0,
+              "traceReused": false
+            },
+            {
+              "fieldIndex": 2,
+              "fieldX": 0.0,
+              "fieldY": 15.0,
+              "fieldWeight": 1.0,
+              "waveIndex": 0,
+              "wavelengthNm": 587.56,
+              "wavelengthWeight": 1.0,
+              "wavefrontRmsWaves": 0.1238534420740027,
+              "rays": 360,
+              "transmission": 1.0,
+              "chiefXmm": 0.0,
+              "chiefYmm": 26.724055289926884,
+              "traceReusedFromWaveIndex": 0,
+              "traceReused": false
+            }
+          ],
+          "fields": [
+            {
+              "fieldIndex": 0,
+              "fieldX": 0.0,
+              "fieldY": 0.0,
+              "rmsSpotUm": 2.874170298947089,
+              "weight": 1.0
+            },
+            {
+              "fieldIndex": 1,
+              "fieldX": 0.0,
+              "fieldY": 10.5,
+              "rmsSpotUm": 1.100451209602624,
+              "weight": 1.0
+            },
+            {
+              "fieldIndex": 2,
+              "fieldX": 0.0,
+              "fieldY": 15.0,
+              "rmsSpotUm": 2.7889589660098237,
+              "weight": 1.0
+            }
+          ],
+          "measurementStatus": "complete",
+          "failureCategory": null
+        },
+        "changes": {
+          "rmsSpotUm": {
+            "min": null,
+            "max": 0.004453576851650709
+          },
+          "worstRmsSpotUm": {
+            "min": null,
+            "max": -0.003034266929180962
+          },
+          "worstWavefrontRmsWaves": {
+            "min": null,
+            "max": -0.007310548566882458
+          },
+          "eflMm": {
+            "min": null,
+            "max": 0.002478711168890868
+          }
+        },
+        "failedEndpoints": 1
+      },
+      {
+        "row": 7,
+        "surface": 7,
+        "parameter": "thickness",
+        "min": {
+          "index": 13,
+          "errors": [
+            {
+              "row": 1,
+              "surface": 1,
+              "parameter": "thickness",
+              "delta": 0.0
+            },
+            {
+              "row": 2,
+              "surface": 3,
+              "parameter": "thickness",
+              "delta": 0.0
+            },
+            {
+              "row": 3,
+              "surface": 6,
+              "parameter": "thickness",
+              "delta": 0.0
+            },
+            {
+              "row": 4,
+              "surface": 8,
+              "parameter": "thickness",
+              "delta": 0.0
+            },
+            {
+              "row": 5,
+              "surface": 2,
+              "parameter": "thickness",
+              "delta": 0.0
+            },
+            {
+              "row": 6,
+              "surface": 4,
+              "parameter": "thickness",
+              "delta": 0.0
+            },
+            {
+              "row": 7,
+              "surface": 7,
+              "parameter": "thickness",
+              "delta": -0.025
+            }
+          ],
+          "valid": false,
+          "status": "fail",
+          "metrics": {},
+          "reasons": [
+            "No fully transmitted common compensation trial was valid."
+          ],
+          "compensation": null,
+          "measurementStatus": "invalid",
+          "failureCategory": "compensator"
+        },
+        "max": {
+          "index": 14,
+          "errors": [
+            {
+              "row": 1,
+              "surface": 1,
+              "parameter": "thickness",
+              "delta": 0.0
+            },
+            {
+              "row": 2,
+              "surface": 3,
+              "parameter": "thickness",
+              "delta": 0.0
+            },
+            {
+              "row": 3,
+              "surface": 6,
+              "parameter": "thickness",
+              "delta": 0.0
+            },
+            {
+              "row": 4,
+              "surface": 8,
+              "parameter": "thickness",
+              "delta": 0.0
+            },
+            {
+              "row": 5,
+              "surface": 2,
+              "parameter": "thickness",
+              "delta": 0.0
+            },
+            {
+              "row": 6,
+              "surface": 4,
+              "parameter": "thickness",
+              "delta": 0.0
+            },
+            {
+              "row": 7,
+              "surface": 7,
+              "parameter": "thickness",
+              "delta": 0.025
+            }
+          ],
+          "valid": true,
+          "status": "measured",
+          "metrics": {
+            "rmsSpotUm": 2.4471323396450386,
+            "worstRmsSpotUm": 2.907112482453982,
+            "worstWavefrontRmsWaves": 0.13251335758176708,
+            "eflMm": 99.96715411026122
+          },
+          "reasons": [],
+          "compensation": {
+            "mode": "image_gap",
+            "surface": 9,
+            "shiftMm": -0.02304350761483902,
+            "spacingBeforeMm": 1.9110653684680436,
+            "spacingAfterMm": 1.8880218608532047,
+            "objective": "rms_spot",
+            "objectiveMetric": "rmsSpotUm",
+            "objectiveValue": 2.4471323396450386,
+            "uncompensatedObjectiveValue": 4.146263703260134,
+            "rmsSpotUm": 2.4471323396450386,
+            "requestedBoundsMm": [
+              -0.12,
+              0.12
+            ],
+            "evaluations": 18,
+            "history": [
+              {
+                "shiftMm": 0.0,
+                "valid": true,
+                "objectiveValue": 4.146263703260134,
+                "rmsSpotUm": 4.146263703260134
+              },
+              {
+                "shiftMm": -0.12,
+                "valid": true,
+                "objectiveValue": 14.24129795800145,
+                "rmsSpotUm": 14.24129795800145
+              },
+              {
+                "shiftMm": 0.12,
+                "valid": true,
+                "objectiveValue": 20.867679297600343,
+                "rmsSpotUm": 20.867679297600343
+              },
+              {
+                "shiftMm": -0.028328157299974788,
+                "valid": true,
+                "objectiveValue": 2.5609163320701978,
+                "rmsSpotUm": 2.5609163320701978
+              },
+              {
+                "shiftMm": 0.028328157299974788,
+                "valid": true,
+                "objectiveValue": 7.840818735808472,
+                "rmsSpotUm": 7.840818735808472
+              },
+              {
+                "shiftMm": -0.06334368540005048,
+                "valid": true,
+                "objectiveValue": 6.318482934974325,
+                "rmsSpotUm": 6.318482934974325
+              },
+              {
+                "shiftMm": -0.006687370800100928,
+                "valid": true,
+                "objectiveValue": 3.4127390356508966,
+                "rmsSpotUm": 3.4127390356508966
+              },
+              {
+                "shiftMm": -0.04170289890017665,
+                "valid": true,
+                "objectiveValue": 3.6377814936826423,
+                "rmsSpotUm": 3.6377814936826423
+              },
+              {
+                "shiftMm": -0.020062112400302822,
+                "valid": true,
+                "objectiveValue": 2.4867109432438976,
+                "rmsSpotUm": 2.4867109432438976
+              },
+              {
+                "shiftMm": -0.01495341569977287,
+                "valid": true,
+                "objectiveValue": 2.717528675305239,
+                "rmsSpotUm": 2.717528675305239
+              },
+              {
+                "shiftMm": -0.02321946059944481,
+                "valid": true,
+                "objectiveValue": 2.447157756455582,
+                "rmsSpotUm": 2.447157756455582
+              },
+              {
+                "shiftMm": -0.02517080910083281,
+                "valid": true,
+                "objectiveValue": 2.4651577995821348,
+                "rmsSpotUm": 2.4651577995821348
+              },
+              {
+                "shiftMm": -0.022013460901690835,
+                "valid": true,
+                "objectiveValue": 2.4523001912429288,
+                "rmsSpotUm": 2.4523001912429288
+              },
+              {
+                "shiftMm": -0.023964809403078848,
+                "valid": true,
+                "objectiveValue": 2.450205480303806,
+                "rmsSpotUm": 2.450205480303806
+              },
+              {
+                "shiftMm": -0.022758809705324883,
+                "valid": true,
+                "objectiveValue": 2.447653028000095,
+                "rmsSpotUm": 2.447653028000095
+              },
+              {
+                "shiftMm": -0.023504158508958935,
+                "valid": true,
+                "objectiveValue": 2.4477606706252493,
+                "rmsSpotUm": 2.4477606706252493
+              },
+              {
+                "shiftMm": -0.02304350761483902,
+                "valid": true,
+                "objectiveValue": 2.4471323396450386,
+                "rmsSpotUm": 2.4471323396450386
+              },
+              {
+                "shiftMm": -0.022934762689930666,
+                "valid": true,
+                "objectiveValue": 2.4472492676490374,
+                "rmsSpotUm": 2.4472492676490374
+              }
+            ],
+            "converged": false,
+            "termination": "bounded_iteration_budget",
+            "scope": "One common spacing for all active fields/colors; no independent refocus or global optimum claim"
+          },
+          "groups": [
+            {
+              "fieldIndex": 0,
+              "fieldX": 0.0,
+              "fieldY": 0.0,
+              "fieldWeight": 1.0,
+              "waveIndex": 0,
+              "wavelengthNm": 587.56,
+              "wavelengthWeight": 1.0,
+              "wavefrontRmsWaves": 0.13251335758176708,
+              "rays": 360,
+              "transmission": 1.0,
+              "chiefXmm": 0.0,
+              "chiefYmm": 0.0,
+              "traceReusedFromWaveIndex": 0,
+              "traceReused": false
+            },
+            {
+              "fieldIndex": 1,
+              "fieldX": 0.0,
+              "fieldY": 10.5,
+              "fieldWeight": 1.0,
+              "waveIndex": 0,
+              "wavelengthNm": 587.56,
+              "wavelengthWeight": 1.0,
+              "wavefrontRmsWaves": 0.040666246263400346,
+              "rays": 360,
+              "transmission": 1.0,
+              "chiefXmm": 0.0,
+              "chiefYmm": 18.4965480882682,
+              "traceReusedFromWaveIndex": 0,
+              "traceReused": false
+            },
+            {
+              "fieldIndex": 2,
+              "fieldX": 0.0,
+              "fieldY": 15.0,
+              "fieldWeight": 1.0,
+              "waveIndex": 0,
+              "wavelengthNm": 587.56,
+              "wavelengthWeight": 1.0,
+              "wavefrontRmsWaves": 0.11302716053140356,
+              "rays": 360,
+              "transmission": 1.0,
+              "chiefXmm": 0.0,
+              "chiefYmm": 26.71526004494875,
+              "traceReusedFromWaveIndex": 0,
+              "traceReused": false
+            }
+          ],
+          "fields": [
+            {
+              "fieldIndex": 0,
+              "fieldX": 0.0,
+              "fieldY": 0.0,
+              "rmsSpotUm": 2.907112482453982,
+              "weight": 1.0
+            },
+            {
+              "fieldIndex": 1,
+              "fieldX": 0.0,
+              "fieldY": 10.5,
+              "rmsSpotUm": 1.1471689120664221,
+              "weight": 1.0
+            },
+            {
+              "fieldIndex": 2,
+              "fieldX": 0.0,
+              "fieldY": 15.0,
+              "rmsSpotUm": 2.863227298828787,
+              "weight": 1.0
+            }
+          ],
+          "measurementStatus": "complete",
+          "failureCategory": null
+        },
+        "changes": {
+          "rmsSpotUm": {
+            "min": null,
+            "max": 0.05366043210036331
+          },
+          "worstRmsSpotUm": {
+            "min": null,
+            "max": 0.029907916577711635
+          },
+          "worstWavefrontRmsWaves": {
+            "min": null,
+            "max": -0.021681832179203886
+          },
+          "eflMm": {
+            "min": null,
+            "max": -0.03309367167082655
+          }
+        },
+        "failedEndpoints": 1
+      }
+    ],
+    "summary": {
+      "totalTrials": 0,
+      "validTrials": 0,
+      "failedTrials": 0,
+      "passedTrials": 0,
+      "violatedTrials": 0,
+      "yieldPercent": null,
+      "yieldDenominator": "All requested Monte Carlo trials, including invalid physical/ray trials",
+      "configuredTrials": 20,
+      "replayedTrial": null
+    },
+    "statistics": {},
+    "sampling": {
+      "radialOrder": 8,
+      "azimuths": 40,
+      "rimSamples": 40,
+      "interiorRaysPerWavePerField": 320,
+      "raysPerWavePerField": 360,
+      "fullTransmissionRequired": true,
+      "activeFields": 3,
+      "activeWavelengths": 1,
+      "convergenceVerified": false
+    },
+    "coverage": {
+      "definedFields": 3,
+      "definedWavelengths": 1,
+      "activeFields": 3,
+      "activeWavelengths": 1,
+      "reportedGroupsPerValidTrial": 3,
+      "uniqueActiveSpectralTraceGroupsPerField": 1,
+      "duplicateActiveWavelengthGroupsReusedPerField": 0,
+      "allOriginalConditionsAndWeightsPreserved": true,
+      "decenterTiltSupported": true,
+      "alignmentTraced": false,
+      "aperturePolicy": "Retained Optiwork existing aperture semantics; imported NONE display apertures are not asserted to be physical factory apertures."
+    },
+    "execution": {
+      "workersRequested": 2,
+      "workersUsed": 2,
+      "backend": "cpu",
+      "tracePath": "Existing exact float64 dispatcher with unchanged native fallback",
+      "trialOrdering": "Original row/endpoint and Monte Carlo trial-index order, independent of scheduling",
+      "randomGenerator": "Independent PCG64 SeedSequence(rootSeed, spawn_key=(trialIndex-1,)) per trial"
+    },
+    "definitions": {
+      "distribution": "Independent uniform bounds",
+      "normalParameters": "mean/sigma are the underlying untruncated Gaussian parameters; defaults0 and(max-min)/6 are editable engineering choices",
+      "surfaceRange": "Inclusive LDE1..N-2, including AIR planes; start=end is valid. Excluded configured rows are retained.",
+      "worstWavefrontRmsWaves": "Worst active field/color RMS OPD after monochromatic piston and tilt removal; defocus retained",
+      "rmsSpotUm": "Field-weighted RMS of polychromatic centroid-referenced geometric RMS spot with every original spectral/pupil weight",
+      "eflMm": "Primary-wavelength paraxial EFL for centered studies, using perturbed glass indices for material errors",
+      "compensation": "One bounded common AIR-spacing adjustment per whole trial; prescribed image gap is unchanged for surface_spacing",
+      "statistics": "Valid-trial metrics only; every requested failed trial remains in the yield denominator. No acceptance limits are invented.",
+      "spectralReuse": "Only exactly equal wavelength and full refractive-index vectors share a trace; original group indices/weights remain reported",
+      "projectFingerprint": "Canonical validated project with configuration, excluding runtime caches and sealed catalog locations; material groups, coefficients and proof hashes retained; catalog identity separate",
+      "scope": "Sequential refractive material, fabrication and alignment tolerances. Physical analysis covers the selected optical error rows.",
+      "alignment": "Fixed entrance launch with respect to pose errors; local vertex pivot for one surface or first vertex for a rigid group. Image plane remains fixed unless compensated.",
+      "dispersion": "Scale the catalog dispersion about d to satisfy perturbed nd and Vd where d/F/C data exist; otherwise apply an index offset only."
+    },
+    "warnings": [
+      "Sampling convergence and manufacturing yield are not certified; limits/presets are editable engineering choices.",
+      "Existing saved-aperture and imported-aperture trace semantics are retained, with explicit clipping preserved. An imported NONE display aperture is not verified factory-aperture evidence; failures and engineering pass fractions are not factory yield."
+    ],
+    "elapsedSeconds": 12.086274199999025
+  }
+}

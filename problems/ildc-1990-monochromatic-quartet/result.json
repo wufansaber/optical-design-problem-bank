@@ -1,0 +1,92 @@
+{
+  "selected": "mfg_rear_clearance_fit_fit",
+  "nominalRmsUm": 2.2492262641964054,
+  "targetUm": 2.25,
+  "targetReached": true,
+  "focalLengthMm": 100.00024778193205,
+  "fNumber": 3.000007433457961,
+  "trackMm": 356.0663061185171,
+  "bflMm": 1.9110653684680436,
+  "minimumImagePlaneClearanceMm": 1.5982578997248067,
+  "maxChiefDistortionPercent": 0.26940879849557875,
+  "maxCentroidDistortionPercent": 0.26888614868989524,
+  "fullSampledPupil": true,
+  "nominalManufacturingGeometry": "passed",
+  "fabrication": {
+    "lenses": [
+      {
+        "lens": 1,
+        "finishedDiameterMm": 132.1384,
+        "centerThicknessMm": 4.799621262521926,
+        "proposedCylindricalBlankDiameterMm": 133.1384,
+        "proposedBlankLengthMm": 35.23445621650625,
+        "oversizeUnfinishedEdgeThicknessMm": 16.51048607702224,
+        "minimumFinishedThicknessMm": 4.799621262521926,
+        "nearestFinishedFaceDistanceMm": 4.799621262521926
+      },
+      {
+        "lens": 2,
+        "finishedDiameterMm": 125.5558,
+        "centerThicknessMm": 221.86980360128265,
+        "proposedCylindricalBlankDiameterMm": 126.5558,
+        "proposedBlankLengthMm": 223.86980360128265,
+        "oversizeUnfinishedEdgeThicknessMm": 194.61503083264748,
+        "minimumFinishedThicknessMm": 195.06466661964117,
+        "nearestFinishedFaceDistanceMm": 195.06466661964117
+      },
+      {
+        "lens": 3,
+        "finishedDiameterMm": 48.6192,
+        "centerThicknessMm": 97.5290240218061,
+        "proposedCylindricalBlankDiameterMm": 49.6192,
+        "proposedBlankLengthMm": 99.5290240218061,
+        "oversizeUnfinishedEdgeThicknessMm": 92.57977724114261,
+        "minimumFinishedThicknessMm": 92.7838785396844,
+        "nearestFinishedFaceDistanceMm": 92.7838785396844
+      },
+      {
+        "lens": 4,
+        "finishedDiameterMm": 53.478077616794124,
+        "centerThicknessMm": 2.5858068925602993,
+        "proposedCylindricalBlankDiameterMm": 54.478077616794124,
+        "proposedBlankLengthMm": 14.828710148156611,
+        "oversizeUnfinishedEdgeThicknessMm": 12.828710148156611,
+        "minimumFinishedThicknessMm": 2.5858068925602993,
+        "nearestFinishedFaceDistanceMm": 2.5858068925602993
+      }
+    ],
+    "seatConcept": [
+      {
+        "left": 2,
+        "right": 3,
+        "rearContactRadiusMm": 62.3892,
+        "frontContactRadiusMm": 62.3778,
+        "vertexGapMm": 16.777596135130093,
+        "contactPlaneSeparationMm": 5.119193819540982,
+        "concept": "independent or stepped annular seats"
+      },
+      {
+        "left": 4,
+        "right": 6,
+        "rearContactRadiusMm": 16.0583,
+        "frontContactRadiusMm": 15.0693,
+        "vertexGapMm": 0.74114623201159,
+        "contactPlaneSeparationMm": 3.3042098704383474,
+        "concept": "independent or stepped annular seats"
+      },
+      {
+        "left": 7,
+        "right": 8,
+        "rearContactRadiusMm": 23.9095,
+        "frontContactRadiusMm": 23.922100000000004,
+        "vertexGapMm": 9.852242604736414,
+        "contactPlaneSeparationMm": 2.6959741754327076,
+        "concept": "independent or stepped annular seats"
+      }
+    ],
+    "blankBasis": "https://www.schott.com/en-us/products/optical-glass",
+    "finishedSphereBasis": "https://media.schott.com/api/public/content/4458fe0487604d478e7f924c572364d2?download=true&v=5fc613d7"
+  },
+  "supplierStatus": "Published capability and calculated blank requests. Individual supplier quotation and acceptance pending.",
+  "rejectedFinalists": []
+}

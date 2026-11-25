@@ -6,6 +6,8 @@
 
 题目完成 Optiwork 复验后在此登记。额外练习目标和赛题硬性要求以单题说明为准。
 
+- [ILDC 1990 单色四片式](problems/ildc-1990-monochromatic-quartet/README.md) · Optiwork 复验，三场平均 2.2492 µm，制造几何初审通过。
+
 ## 题目索引
 
 | 题目 | 设计要点 | 题源 |
