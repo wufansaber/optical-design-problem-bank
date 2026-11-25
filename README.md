@@ -11,6 +11,8 @@
 
 - [Optiland 消色差双片](problems/optiland-achromatic-doublet/README.md) · 双软件评分 0.12970 / 0.12970，各场与波长全通光。
 
+- [Optiland 50 mm F/4 多色点斑](problems/optiland-50mm-rms/README.md) · 双软件评分 0.23598 / 0.23598，全场通光。
+
 ## 题目索引
 
 | 题目 | 设计要点 | 题源 |

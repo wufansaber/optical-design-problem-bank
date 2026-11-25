@@ -1,0 +1,3746 @@
+{
+  "selected": "gauss-polished",
+  "software": "Optiwork v1.2",
+  "rules": "https://github.com/optiland/challenges-eval/blob/main/RULES.md",
+  "startingForm": "https://github.com/optiland/optiland/issues/710",
+  "firstOrder": {
+    "eflMm": 50.15886510525113,
+    "epdMm": 12.38,
+    "glassPieces": 6,
+    "bfdMm": 28.763683433215373,
+    "trackMm": 66.86023679998067,
+    "fNumber": 4.05160461270203
+  },
+  "maximumDistortionPercent": 1.3347773476187104,
+  "fullFieldWaveChecks": [
+    {
+      "fieldDeg": 0.0,
+      "wavelengthNm": 486.1327,
+      "spotSamples": 1024,
+      "denseSamples": 4096,
+      "chiefAndRimSamples": 257,
+      "additionalBoundaryCheckSamples": 256,
+      "pupilRimScale": 1.0,
+      "throughput": 1.0,
+      "denseThroughput": 1.0,
+      "failedChiefAndRimRays": 0,
+      "distortionPercent": null,
+      "fullPupil": true
+    },
+    {
+      "fieldDeg": 0.0,
+      "wavelengthNm": 587.5618,
+      "spotSamples": 1024,
+      "denseSamples": 4096,
+      "chiefAndRimSamples": 257,
+      "additionalBoundaryCheckSamples": 256,
+      "pupilRimScale": 1.0,
+      "throughput": 1.0,
+      "denseThroughput": 1.0,
+      "failedChiefAndRimRays": 0,
+      "distortionPercent": null,
+      "fullPupil": true
+    },
+    {
+      "fieldDeg": 0.0,
+      "wavelengthNm": 656.2725,
+      "spotSamples": 1024,
+      "denseSamples": 4096,
+      "chiefAndRimSamples": 257,
+      "additionalBoundaryCheckSamples": 256,
+      "pupilRimScale": 1.0,
+      "throughput": 1.0,
+      "denseThroughput": 1.0,
+      "failedChiefAndRimRays": 0,
+      "distortionPercent": null,
+      "fullPupil": true
+    },
+    {
+      "fieldDeg": 1.0,
+      "wavelengthNm": 486.1327,
+      "spotSamples": 1024,
+      "denseSamples": 4096,
+      "chiefAndRimSamples": 257,
+      "additionalBoundaryCheckSamples": 256,
+      "pupilRimScale": 1.0,
+      "throughput": 1.0,
+      "denseThroughput": 1.0,
+      "failedChiefAndRimRays": 0,
+      "distortionPercent": -0.5460642460972651,
+      "fullPupil": true
+    },
+    {
+      "fieldDeg": 1.0,
+      "wavelengthNm": 587.5618,
+      "spotSamples": 1024,
+      "denseSamples": 4096,
+      "chiefAndRimSamples": 257,
+      "additionalBoundaryCheckSamples": 256,
+      "pupilRimScale": 1.0,
+      "throughput": 1.0,
+      "denseThroughput": 1.0,
+      "failedChiefAndRimRays": 0,
+      "distortionPercent": -0.6049169653981933,
+      "fullPupil": true
+    },
+    {
+      "fieldDeg": 1.0,
+      "wavelengthNm": 656.2725,
+      "spotSamples": 1024,
+      "denseSamples": 4096,
+      "chiefAndRimSamples": 257,
+      "additionalBoundaryCheckSamples": 256,
+      "pupilRimScale": 1.0,
+      "throughput": 1.0,
+      "denseThroughput": 1.0,
+      "failedChiefAndRimRays": 0,
+      "distortionPercent": -0.6366380719801366,
+      "fullPupil": true
+    },
+    {
+      "fieldDeg": 2.0,
+      "wavelengthNm": 486.1327,
+      "spotSamples": 1024,
+      "denseSamples": 4096,
+      "chiefAndRimSamples": 257,
+      "additionalBoundaryCheckSamples": 256,
+      "pupilRimScale": 1.0,
+      "throughput": 1.0,
+      "denseThroughput": 1.0,
+      "failedChiefAndRimRays": 0,
+      "distortionPercent": -0.5547508279275012,
+      "fullPupil": true
+    },
+    {
+      "fieldDeg": 2.0,
+      "wavelengthNm": 587.5618,
+      "spotSamples": 1024,
+      "denseSamples": 4096,
+      "chiefAndRimSamples": 257,
+      "additionalBoundaryCheckSamples": 256,
+      "pupilRimScale": 1.0,
+      "throughput": 1.0,
+      "denseThroughput": 1.0,
+      "failedChiefAndRimRays": 0,
+      "distortionPercent": -0.6130755456042665,
+      "fullPupil": true
+    },
+    {
+      "fieldDeg": 2.0,
+      "wavelengthNm": 656.2725,
+      "spotSamples": 1024,
+      "denseSamples": 4096,
+      "chiefAndRimSamples": 257,
+      "additionalBoundaryCheckSamples": 256,
+      "pupilRimScale": 1.0,
+      "throughput": 1.0,
+      "denseThroughput": 1.0,
+      "failedChiefAndRimRays": 0,
+      "distortionPercent": -0.6445872638904803,
+      "fullPupil": true
+    },
+    {
+      "fieldDeg": 3.0,
+      "wavelengthNm": 486.1327,
+      "spotSamples": 1024,
+      "denseSamples": 4096,
+      "chiefAndRimSamples": 257,
+      "additionalBoundaryCheckSamples": 256,
+      "pupilRimScale": 1.0,
+      "throughput": 1.0,
+      "denseThroughput": 1.0,
+      "failedChiefAndRimRays": 0,
+      "distortionPercent": -0.56943084354571,
+      "fullPupil": true
+    },
+    {
+      "fieldDeg": 3.0,
+      "wavelengthNm": 587.5618,
+      "spotSamples": 1024,
+      "denseSamples": 4096,
+      "chiefAndRimSamples": 257,
+      "additionalBoundaryCheckSamples": 256,
+      "pupilRimScale": 1.0,
+      "throughput": 1.0,
+      "denseThroughput": 1.0,
+      "failedChiefAndRimRays": 0,
+      "distortionPercent": -0.6268669675778966,
+      "fullPupil": true
+    },
+    {
+      "fieldDeg": 3.0,
+      "wavelengthNm": 656.2725,
+      "spotSamples": 1024,
+      "denseSamples": 4096,
+      "chiefAndRimSamples": 257,
+      "additionalBoundaryCheckSamples": 256,
+      "pupilRimScale": 1.0,
+      "throughput": 1.0,
+      "denseThroughput": 1.0,
+      "failedChiefAndRimRays": 0,
+      "distortionPercent": -0.6580261525603519,
+      "fullPupil": true
+    },
+    {
+      "fieldDeg": 4.0,
+      "wavelengthNm": 486.1327,
+      "spotSamples": 1024,
+      "denseSamples": 4096,
+      "chiefAndRimSamples": 257,
+      "additionalBoundaryCheckSamples": 256,
+      "pupilRimScale": 1.0,
+      "throughput": 1.0,
+      "denseThroughput": 1.0,
+      "failedChiefAndRimRays": 0,
+      "distortionPercent": -0.5904111259216952,
+      "fullPupil": true
+    },
+    {
+      "fieldDeg": 4.0,
+      "wavelengthNm": 587.5618,
+      "spotSamples": 1024,
+      "denseSamples": 4096,
+      "chiefAndRimSamples": 257,
+      "additionalBoundaryCheckSamples": 256,
+      "pupilRimScale": 1.0,
+      "throughput": 1.0,
+      "denseThroughput": 1.0,
+      "failedChiefAndRimRays": 0,
+      "distortionPercent": -0.6465850179589554,
+      "fullPupil": true
+    },
+    {
+      "fieldDeg": 4.0,
+      "wavelengthNm": 656.2725,
+      "spotSamples": 1024,
+      "denseSamples": 4096,
+      "chiefAndRimSamples": 257,
+      "additionalBoundaryCheckSamples": 256,
+      "pupilRimScale": 1.0,
+      "throughput": 1.0,
+      "denseThroughput": 1.0,
+      "failedChiefAndRimRays": 0,
+      "distortionPercent": -0.6772431276018914,
+      "fullPupil": true
+    },
+    {
+      "fieldDeg": 5.0,
+      "wavelengthNm": 486.1327,
+      "spotSamples": 1024,
+      "denseSamples": 4096,
+      "chiefAndRimSamples": 257,
+      "additionalBoundaryCheckSamples": 256,
+      "pupilRimScale": 1.0,
+      "throughput": 1.0,
+      "denseThroughput": 1.0,
+      "failedChiefAndRimRays": 0,
+      "distortionPercent": -0.6181278248842905,
+      "fullPupil": true
+    },
+    {
+      "fieldDeg": 5.0,
+      "wavelengthNm": 587.5618,
+      "spotSamples": 1024,
+      "denseSamples": 4096,
+      "chiefAndRimSamples": 257,
+      "additionalBoundaryCheckSamples": 256,
+      "pupilRimScale": 1.0,
+      "throughput": 1.0,
+      "denseThroughput": 1.0,
+      "failedChiefAndRimRays": 0,
+      "distortionPercent": -0.6726472567252569,
+      "fullPupil": true
+    },
+    {
+      "fieldDeg": 5.0,
+      "wavelengthNm": 656.2725,
+      "spotSamples": 1024,
+      "denseSamples": 4096,
+      "chiefAndRimSamples": 257,
+      "additionalBoundaryCheckSamples": 256,
+      "pupilRimScale": 1.0,
+      "throughput": 1.0,
+      "denseThroughput": 1.0,
+      "failedChiefAndRimRays": 0,
+      "distortionPercent": -0.7026480572020367,
+      "fullPupil": true
+    },
+    {
+      "fieldDeg": 6.0,
+      "wavelengthNm": 486.1327,
+      "spotSamples": 1024,
+      "denseSamples": 4096,
+      "chiefAndRimSamples": 257,
+      "additionalBoundaryCheckSamples": 256,
+      "pupilRimScale": 1.0,
+      "throughput": 1.0,
+      "denseThroughput": 1.0,
+      "failedChiefAndRimRays": 0,
+      "distortionPercent": -0.6531531208097447,
+      "fullPupil": true
+    },
+    {
+      "fieldDeg": 6.0,
+      "wavelengthNm": 587.5618,
+      "spotSamples": 1024,
+      "denseSamples": 4096,
+      "chiefAndRimSamples": 257,
+      "additionalBoundaryCheckSamples": 256,
+      "pupilRimScale": 1.0,
+      "throughput": 1.0,
+      "denseThroughput": 1.0,
+      "failedChiefAndRimRays": 0,
+      "distortionPercent": -0.7056013985833464,
+      "fullPupil": true
+    },
+    {
+      "fieldDeg": 6.0,
+      "wavelengthNm": 656.2725,
+      "spotSamples": 1024,
+      "denseSamples": 4096,
+      "chiefAndRimSamples": 257,
+      "additionalBoundaryCheckSamples": 256,
+      "pupilRimScale": 1.0,
+      "throughput": 1.0,
+      "denseThroughput": 1.0,
+      "failedChiefAndRimRays": 0,
+      "distortionPercent": -0.7347785292794938,
+      "fullPupil": true
+    },
+    {
+      "fieldDeg": 7.0,
+      "wavelengthNm": 486.1327,
+      "spotSamples": 1024,
+      "denseSamples": 4096,
+      "chiefAndRimSamples": 257,
+      "additionalBoundaryCheckSamples": 256,
+      "pupilRimScale": 1.0,
+      "throughput": 1.0,
+      "denseThroughput": 1.0,
+      "failedChiefAndRimRays": 0,
+      "distortionPercent": -0.696204043987148,
+      "fullPupil": true
+    },
+    {
+      "fieldDeg": 7.0,
+      "wavelengthNm": 587.5618,
+      "spotSamples": 1024,
+      "denseSamples": 4096,
+      "chiefAndRimSamples": 257,
+      "additionalBoundaryCheckSamples": 256,
+      "pupilRimScale": 1.0,
+      "throughput": 1.0,
+      "denseThroughput": 1.0,
+      "failedChiefAndRimRays": 0,
+      "distortionPercent": -0.7461336925306659,
+      "fullPupil": true
+    },
+    {
+      "fieldDeg": 7.0,
+      "wavelengthNm": 656.2725,
+      "spotSamples": 1024,
+      "denseSamples": 4096,
+      "chiefAndRimSamples": 257,
+      "additionalBoundaryCheckSamples": 256,
+      "pupilRimScale": 1.0,
+      "throughput": 1.0,
+      "denseThroughput": 1.0,
+      "failedChiefAndRimRays": 0,
+      "distortionPercent": -0.7743080461974776,
+      "fullPupil": true
+    },
+    {
+      "fieldDeg": 8.0,
+      "wavelengthNm": 486.1327,
+      "spotSamples": 1024,
+      "denseSamples": 4096,
+      "chiefAndRimSamples": 257,
+      "additionalBoundaryCheckSamples": 256,
+      "pupilRimScale": 1.0,
+      "throughput": 1.0,
+      "denseThroughput": 1.0,
+      "failedChiefAndRimRays": 0,
+      "distortionPercent": -0.7481535432909596,
+      "fullPupil": true
+    },
+    {
+      "fieldDeg": 8.0,
+      "wavelengthNm": 587.5618,
+      "spotSamples": 1024,
+      "denseSamples": 4096,
+      "chiefAndRimSamples": 257,
+      "additionalBoundaryCheckSamples": 256,
+      "pupilRimScale": 1.0,
+      "throughput": 1.0,
+      "denseThroughput": 1.0,
+      "failedChiefAndRimRays": 0,
+      "distortionPercent": -0.7950794345275952,
+      "fullPupil": true
+    },
+    {
+      "fieldDeg": 8.0,
+      "wavelengthNm": 656.2725,
+      "spotSamples": 1024,
+      "denseSamples": 4096,
+      "chiefAndRimSamples": 257,
+      "additionalBoundaryCheckSamples": 256,
+      "pupilRimScale": 1.0,
+      "throughput": 1.0,
+      "denseThroughput": 1.0,
+      "failedChiefAndRimRays": 0,
+      "distortionPercent": -0.8220563031942417,
+      "fullPupil": true
+    },
+    {
+      "fieldDeg": 9.0,
+      "wavelengthNm": 486.1327,
+      "spotSamples": 1024,
+      "denseSamples": 4096,
+      "chiefAndRimSamples": 257,
+      "additionalBoundaryCheckSamples": 256,
+      "pupilRimScale": 1.0,
+      "throughput": 1.0,
+      "denseThroughput": 1.0,
+      "failedChiefAndRimRays": 0,
+      "distortionPercent": -0.8100439830650923,
+      "fullPupil": true
+    },
+    {
+      "fieldDeg": 9.0,
+      "wavelengthNm": 587.5618,
+      "spotSamples": 1024,
+      "denseSamples": 4096,
+      "chiefAndRimSamples": 257,
+      "additionalBoundaryCheckSamples": 256,
+      "pupilRimScale": 1.0,
+      "throughput": 1.0,
+      "denseThroughput": 1.0,
+      "failedChiefAndRimRays": 0,
+      "distortionPercent": -0.8534357802918724,
+      "fullPupil": true
+    },
+    {
+      "fieldDeg": 9.0,
+      "wavelengthNm": 656.2725,
+      "spotSamples": 1024,
+      "denseSamples": 4096,
+      "chiefAndRimSamples": 257,
+      "additionalBoundaryCheckSamples": 256,
+      "pupilRimScale": 1.0,
+      "throughput": 1.0,
+      "denseThroughput": 1.0,
+      "failedChiefAndRimRays": 0,
+      "distortionPercent": -0.879001712535424,
+      "fullPupil": true
+    },
+    {
+      "fieldDeg": 10.0,
+      "wavelengthNm": 486.1327,
+      "spotSamples": 1024,
+      "denseSamples": 4096,
+      "chiefAndRimSamples": 257,
+      "additionalBoundaryCheckSamples": 256,
+      "pupilRimScale": 1.0,
+      "throughput": 1.0,
+      "denseThroughput": 1.0,
+      "failedChiefAndRimRays": 0,
+      "distortionPercent": -0.8831032844005665,
+      "fullPupil": true
+    },
+    {
+      "fieldDeg": 10.0,
+      "wavelengthNm": 587.5618,
+      "spotSamples": 1024,
+      "denseSamples": 4096,
+      "chiefAndRimSamples": 257,
+      "additionalBoundaryCheckSamples": 256,
+      "pupilRimScale": 1.0,
+      "throughput": 1.0,
+      "denseThroughput": 1.0,
+      "failedChiefAndRimRays": 0,
+      "distortionPercent": -0.9223770598118307,
+      "fullPupil": true
+    },
+    {
+      "fieldDeg": 10.0,
+      "wavelengthNm": 656.2725,
+      "spotSamples": 1024,
+      "denseSamples": 4096,
+      "chiefAndRimSamples": 257,
+      "additionalBoundaryCheckSamples": 256,
+      "pupilRimScale": 1.0,
+      "throughput": 1.0,
+      "denseThroughput": 1.0,
+      "failedChiefAndRimRays": 0,
+      "distortionPercent": -0.9462963684673921,
+      "fullPupil": true
+    },
+    {
+      "fieldDeg": 11.0,
+      "wavelengthNm": 486.1327,
+      "spotSamples": 1024,
+      "denseSamples": 4096,
+      "chiefAndRimSamples": 257,
+      "additionalBoundaryCheckSamples": 256,
+      "pupilRimScale": 1.0,
+      "throughput": 1.0,
+      "denseThroughput": 1.0,
+      "failedChiefAndRimRays": 0,
+      "distortionPercent": -0.9687639667381848,
+      "fullPupil": true
+    },
+    {
+      "fieldDeg": 11.0,
+      "wavelengthNm": 587.5618,
+      "spotSamples": 1024,
+      "denseSamples": 4096,
+      "chiefAndRimSamples": 257,
+      "additionalBoundaryCheckSamples": 256,
+      "pupilRimScale": 1.0,
+      "throughput": 1.0,
+      "denseThroughput": 1.0,
+      "failedChiefAndRimRays": 0,
+      "distortionPercent": -1.0032728317579505,
+      "fullPupil": true
+    },
+    {
+      "fieldDeg": 11.0,
+      "wavelengthNm": 656.2725,
+      "spotSamples": 1024,
+      "denseSamples": 4096,
+      "chiefAndRimSamples": 257,
+      "additionalBoundaryCheckSamples": 256,
+      "pupilRimScale": 1.0,
+      "throughput": 1.0,
+      "denseThroughput": 1.0,
+      "failedChiefAndRimRays": 0,
+      "distortionPercent": -1.0252836831706653,
+      "fullPupil": true
+    },
+    {
+      "fieldDeg": 12.0,
+      "wavelengthNm": 486.1327,
+      "spotSamples": 1024,
+      "denseSamples": 4096,
+      "chiefAndRimSamples": 257,
+      "additionalBoundaryCheckSamples": 256,
+      "pupilRimScale": 1.0,
+      "throughput": 1.0,
+      "denseThroughput": 1.0,
+      "failedChiefAndRimRays": 0,
+      "distortionPercent": -1.0686853885067358,
+      "fullPupil": true
+    },
+    {
+      "fieldDeg": 12.0,
+      "wavelengthNm": 587.5618,
+      "spotSamples": 1024,
+      "denseSamples": 4096,
+      "chiefAndRimSamples": 257,
+      "additionalBoundaryCheckSamples": 256,
+      "pupilRimScale": 1.0,
+      "throughput": 1.0,
+      "denseThroughput": 1.0,
+      "failedChiefAndRimRays": 0,
+      "distortionPercent": -1.0977089550937988,
+      "fullPupil": true
+    },
+    {
+      "fieldDeg": 12.0,
+      "wavelengthNm": 656.2725,
+      "spotSamples": 1024,
+      "denseSamples": 4096,
+      "chiefAndRimSamples": 257,
+      "additionalBoundaryCheckSamples": 256,
+      "pupilRimScale": 1.0,
+      "throughput": 1.0,
+      "denseThroughput": 1.0,
+      "failedChiefAndRimRays": 0,
+      "distortionPercent": -1.1175189612471355,
+      "fullPupil": true
+    },
+    {
+      "fieldDeg": 13.0,
+      "wavelengthNm": 486.1327,
+      "spotSamples": 1024,
+      "denseSamples": 4096,
+      "chiefAndRimSamples": 257,
+      "additionalBoundaryCheckSamples": 256,
+      "pupilRimScale": 1.0,
+      "throughput": 1.0,
+      "denseThroughput": 1.0,
+      "failedChiefAndRimRays": 0,
+      "distortionPercent": -1.1847795322209855,
+      "fullPupil": true
+    },
+    {
+      "fieldDeg": 13.0,
+      "wavelengthNm": 587.5618,
+      "spotSamples": 1024,
+      "denseSamples": 4096,
+      "chiefAndRimSamples": 257,
+      "additionalBoundaryCheckSamples": 256,
+      "pupilRimScale": 1.0,
+      "throughput": 1.0,
+      "denseThroughput": 1.0,
+      "failedChiefAndRimRays": 0,
+      "distortionPercent": -1.2075119975649296,
+      "fullPupil": true
+    },
+    {
+      "fieldDeg": 13.0,
+      "wavelengthNm": 656.2725,
+      "spotSamples": 1024,
+      "denseSamples": 4096,
+      "chiefAndRimSamples": 257,
+      "additionalBoundaryCheckSamples": 256,
+      "pupilRimScale": 1.0,
+      "throughput": 1.0,
+      "denseThroughput": 1.0,
+      "failedChiefAndRimRays": 0,
+      "distortionPercent": -1.2247932204857208,
+      "fullPupil": true
+    },
+    {
+      "fieldDeg": 14.0,
+      "wavelengthNm": 486.1327,
+      "spotSamples": 1024,
+      "denseSamples": 4096,
+      "chiefAndRimSamples": 257,
+      "additionalBoundaryCheckSamples": 256,
+      "pupilRimScale": 1.0,
+      "throughput": 1.0,
+      "denseThroughput": 1.0,
+      "failedChiefAndRimRays": 0,
+      "distortionPercent": -1.3192407315739472,
+      "fullPupil": true
+    },
+    {
+      "fieldDeg": 14.0,
+      "wavelengthNm": 587.5618,
+      "spotSamples": 1024,
+      "denseSamples": 4096,
+      "chiefAndRimSamples": 257,
+      "additionalBoundaryCheckSamples": 256,
+      "pupilRimScale": 1.0,
+      "throughput": 1.0,
+      "denseThroughput": 1.0,
+      "failedChiefAndRimRays": 0,
+      "distortionPercent": -1.3347773476187104,
+      "fullPupil": true
+    },
+    {
+      "fieldDeg": 14.0,
+      "wavelengthNm": 656.2725,
+      "spotSamples": 1024,
+      "denseSamples": 4096,
+      "chiefAndRimSamples": 257,
+      "additionalBoundaryCheckSamples": 256,
+      "pupilRimScale": 1.0,
+      "throughput": 1.0,
+      "denseThroughput": 1.0,
+      "failedChiefAndRimRays": 0,
+      "distortionPercent": -1.349160610769411,
+      "fullPupil": true
+    }
+  ],
+  "geometry": {
+    "status": "passed",
+    "eligible": true,
+    "passed": true,
+    "violations": [],
+    "missing": [],
+    "surfaces": [
+      {
+        "surface": 1,
+        "clear_radius_mm": 13.231511873353083,
+        "mechanical_radius_mm": 13.731521873353083,
+        "maximum_surface_slope": 0.46363804002090164,
+        "maximum_at_radius_mm": 13.731521873353083,
+        "full_domain_spherical_extrema": true
+      },
+      {
+        "surface": 2,
+        "clear_radius_mm": 12.345246870403217,
+        "mechanical_radius_mm": 13.731521873353083,
+        "maximum_surface_slope": 0.15714639021199653,
+        "maximum_at_radius_mm": 13.731521873353083,
+        "full_domain_spherical_extrema": true
+      },
+      {
+        "surface": 3,
+        "clear_radius_mm": 11.364221566370594,
+        "mechanical_radius_mm": 11.864231566370593,
+        "maximum_surface_slope": 0.6478628070368443,
+        "maximum_at_radius_mm": 11.864231566370593,
+        "full_domain_spherical_extrema": true
+      },
+      {
+        "surface": 4,
+        "clear_radius_mm": 9.692892972921134,
+        "mechanical_radius_mm": 11.864231566370593,
+        "maximum_surface_slope": 0.23413441627819834,
+        "maximum_at_radius_mm": 11.864231566370593,
+        "full_domain_spherical_extrema": true
+      },
+      {
+        "surface": 5,
+        "clear_radius_mm": 7.830953971276228,
+        "mechanical_radius_mm": 11.864231566370593,
+        "maximum_surface_slope": 1.1446925097728533,
+        "maximum_at_radius_mm": 11.864231566370593,
+        "full_domain_spherical_extrema": true
+      },
+      {
+        "surface": 7,
+        "clear_radius_mm": 6.536100008337227,
+        "mechanical_radius_mm": 9.484222922068069,
+        "maximum_surface_slope": 0.67273534827941,
+        "maximum_at_radius_mm": 9.484222922068069,
+        "full_domain_spherical_extrema": true
+      },
+      {
+        "surface": 8,
+        "clear_radius_mm": 7.631473384814488,
+        "mechanical_radius_mm": 9.484222922068069,
+        "maximum_surface_slope": 0.002843269924308814,
+        "maximum_at_radius_mm": 9.484222922068069,
+        "full_domain_spherical_extrema": true
+      },
+      {
+        "surface": 9,
+        "clear_radius_mm": 8.98421292206807,
+        "mechanical_radius_mm": 9.484222922068069,
+        "maximum_surface_slope": 0.4545161863970188,
+        "maximum_at_radius_mm": 9.484222922068069,
+        "full_domain_spherical_extrema": true
+      },
+      {
+        "surface": 10,
+        "clear_radius_mm": 9.673256612598284,
+        "mechanical_radius_mm": 10.483330558847411,
+        "maximum_surface_slope": 0.15462714202847125,
+        "maximum_at_radius_mm": 10.483330558847411,
+        "full_domain_spherical_extrema": true
+      },
+      {
+        "surface": 11,
+        "clear_radius_mm": 9.983320558847412,
+        "mechanical_radius_mm": 10.483330558847411,
+        "maximum_surface_slope": 0.2088051815639815,
+        "maximum_at_radius_mm": 10.483330558847411,
+        "full_domain_spherical_extrema": true
+      }
+    ],
+    "lenses": [
+      {
+        "lens": 1,
+        "front_surface": 1,
+        "rear_surface": 2,
+        "material": "SCHOTT:N-SSK2",
+        "mechanical_diameter_mm": 27.463043746706166,
+        "center_thickness_mm": 4.636896294372697,
+        "edge_thickness_mm": 2.680848235390861,
+        "minimum_radial_thickness_mm": 2.680848235390861,
+        "minimum_at_radius_mm": 13.731521873353083,
+        "minimum_face_distance_mm": 2.649297823912257,
+        "face_distance_witness": {
+          "distance_mm": 2.649297823912257,
+          "front_rz_mm": [
+            13.731521873353083,
+            3.028397567435275
+          ],
+          "rear_rz_mm": [
+            13.332201845069948,
+            5.647428394821271
+          ],
+          "method": "analytic_coaxial_spherical_cap_candidates"
+        },
+        "center_to_diameter_ratio": 0.16884131042207703,
+        "face_distance_to_diameter_ratio": 0.09646774219008429,
+        "effective_limits": {
+          "air_gap_budget_mm": 0.05,
+          "center_thickness_budget_mm": 0.05,
+          "edge_thickness_budget_mm": 0.05,
+          "face_distance_budget_mm": 0.05,
+          "maximum_diameter_mm": 100.0,
+          "maximum_surface_slope": 1.5,
+          "minimum_air_gap_mm": 0.0,
+          "minimum_center_thickness_mm": 2.0,
+          "minimum_clear_to_mechanical_radial_margin_mm": 0.49999,
+          "minimum_edge_thickness_mm": 1.0,
+          "minimum_face_distance_mm": 1.0,
+          "minimum_radial_thickness_mm": 1.0,
+          "minimum_rim_gap_mm": 0.0,
+          "radial_thickness_budget_mm": 0.05,
+          "rim_gap_budget_mm": 0.05
+        },
+        "domain": "full finished radius [0, 13.731521873353083] mm"
+      },
+      {
+        "lens": 2,
+        "front_surface": 3,
+        "rear_surface": 4,
+        "material": "SCHOTT:N-SK2",
+        "mechanical_diameter_mm": 23.728463132741187,
+        "center_thickness_mm": 6.933955932824104,
+        "edge_thickness_mm": 2.0562430580079756,
+        "minimum_radial_thickness_mm": 2.0562430580079756,
+        "minimum_at_radius_mm": 11.864231566370593,
+        "minimum_face_distance_mm": 2.0562430580079756,
+        "face_distance_witness": {
+          "distance_mm": 2.0562430580079756,
+          "front_rz_mm": [
+            11.864231566370593,
+            8.418892622757701
+          ],
+          "rear_rz_mm": [
+            11.864231566370593,
+            10.475135680765677
+          ],
+          "method": "analytic_coaxial_spherical_cap_candidates"
+        },
+        "center_to_diameter_ratio": 0.2922210298254184,
+        "face_distance_to_diameter_ratio": 0.08665723719673672,
+        "effective_limits": {
+          "air_gap_budget_mm": 0.05,
+          "center_thickness_budget_mm": 0.05,
+          "edge_thickness_budget_mm": 0.05,
+          "face_distance_budget_mm": 0.05,
+          "maximum_diameter_mm": 100.0,
+          "maximum_surface_slope": 1.5,
+          "minimum_air_gap_mm": 0.0,
+          "minimum_center_thickness_mm": 2.0,
+          "minimum_clear_to_mechanical_radial_margin_mm": 0.49999,
+          "minimum_edge_thickness_mm": 1.0,
+          "minimum_face_distance_mm": 1.0,
+          "minimum_radial_thickness_mm": 1.0,
+          "minimum_rim_gap_mm": 0.0,
+          "radial_thickness_budget_mm": 0.05,
+          "rim_gap_budget_mm": 0.05
+        },
+        "domain": "full finished radius [0, 11.864231566370593] mm"
+      },
+      {
+        "lens": 3,
+        "front_surface": 4,
+        "rear_surface": 5,
+        "material": "SCHOTT:F5",
+        "mechanical_diameter_mm": 23.728463132741187,
+        "center_thickness_mm": 2.386180389265135,
+        "edge_thickness_mm": 9.145863158635597,
+        "minimum_radial_thickness_mm": 2.386180389265135,
+        "minimum_at_radius_mm": 0.0,
+        "minimum_face_distance_mm": 2.386180389265135,
+        "face_distance_witness": {
+          "distance_mm": 2.386180389265135,
+          "front_rz_mm": [
+            0.0,
+            11.845517988516956
+          ],
+          "rear_rz_mm": [
+            0.0,
+            14.231698377782092
+          ],
+          "method": "analytic_coaxial_spherical_cap_candidates"
+        },
+        "center_to_diameter_ratio": 0.10056194435840296,
+        "face_distance_to_diameter_ratio": 0.10056194435840296,
+        "effective_limits": {
+          "air_gap_budget_mm": 0.05,
+          "center_thickness_budget_mm": 0.05,
+          "edge_thickness_budget_mm": 0.05,
+          "face_distance_budget_mm": 0.05,
+          "maximum_diameter_mm": 100.0,
+          "maximum_surface_slope": 1.5,
+          "minimum_air_gap_mm": 0.0,
+          "minimum_center_thickness_mm": 2.0,
+          "minimum_clear_to_mechanical_radial_margin_mm": 0.49999,
+          "minimum_edge_thickness_mm": 1.0,
+          "minimum_face_distance_mm": 1.0,
+          "minimum_radial_thickness_mm": 1.0,
+          "minimum_rim_gap_mm": 0.0,
+          "radial_thickness_budget_mm": 0.05,
+          "rim_gap_budget_mm": 0.05
+        },
+        "domain": "full finished radius [0, 11.864231566370593] mm"
+      },
+      {
+        "lens": 4,
+        "front_surface": 7,
+        "rear_surface": 8,
+        "material": "SCHOTT:F5",
+        "mechanical_diameter_mm": 18.968445844136138,
+        "center_thickness_mm": 2.2854194517578676,
+        "edge_thickness_mm": 5.192197021645967,
+        "minimum_radial_thickness_mm": 2.2854194517578676,
+        "minimum_at_radius_mm": 0.0,
+        "minimum_face_distance_mm": 2.2854194517578676,
+        "face_distance_witness": {
+          "distance_mm": 2.2854194517578676,
+          "front_rz_mm": [
+            0.0,
+            27.847642947908447
+          ],
+          "rear_rz_mm": [
+            0.0,
+            30.133062399666315
+          ],
+          "method": "analytic_coaxial_spherical_cap_candidates"
+        },
+        "center_to_diameter_ratio": 0.12048532971742527,
+        "face_distance_to_diameter_ratio": 0.12048532971742527,
+        "effective_limits": {
+          "air_gap_budget_mm": 0.05,
+          "center_thickness_budget_mm": 0.05,
+          "edge_thickness_budget_mm": 0.05,
+          "face_distance_budget_mm": 0.05,
+          "maximum_diameter_mm": 100.0,
+          "maximum_surface_slope": 1.5,
+          "minimum_air_gap_mm": 0.0,
+          "minimum_center_thickness_mm": 2.0,
+          "minimum_clear_to_mechanical_radial_margin_mm": 0.49999,
+          "minimum_edge_thickness_mm": 1.0,
+          "minimum_face_distance_mm": 1.0,
+          "minimum_radial_thickness_mm": 1.0,
+          "minimum_rim_gap_mm": 0.0,
+          "radial_thickness_budget_mm": 0.05,
+          "rim_gap_budget_mm": 0.05
+        },
+        "domain": "full finished radius [0, 9.484222922068069] mm"
+      },
+      {
+        "lens": 5,
+        "front_surface": 8,
+        "rear_surface": 9,
+        "material": "SCHOTT:N-SK16",
+        "mechanical_diameter_mm": 18.968445844136138,
+        "center_thickness_mm": 4.800871593087379,
+        "edge_thickness_mm": 2.7331390527087684,
+        "minimum_radial_thickness_mm": 2.7331390527087684,
+        "minimum_at_radius_mm": 9.484222922068069,
+        "minimum_face_distance_mm": 2.7331390527087684,
+        "face_distance_witness": {
+          "distance_mm": 2.7331390527087684,
+          "front_rz_mm": [
+            9.484222922068069,
+            30.14654547531133
+          ],
+          "rear_rz_mm": [
+            9.484222922068069,
+            32.8796845280201
+          ],
+          "method": "analytic_coaxial_spherical_cap_candidates"
+        },
+        "center_to_diameter_ratio": 0.2530977831571536,
+        "face_distance_to_diameter_ratio": 0.14408871845205415,
+        "effective_limits": {
+          "air_gap_budget_mm": 0.05,
+          "center_thickness_budget_mm": 0.05,
+          "edge_thickness_budget_mm": 0.05,
+          "face_distance_budget_mm": 0.05,
+          "maximum_diameter_mm": 100.0,
+          "maximum_surface_slope": 1.5,
+          "minimum_air_gap_mm": 0.0,
+          "minimum_center_thickness_mm": 2.0,
+          "minimum_clear_to_mechanical_radial_margin_mm": 0.49999,
+          "minimum_edge_thickness_mm": 1.0,
+          "minimum_face_distance_mm": 1.0,
+          "minimum_radial_thickness_mm": 1.0,
+          "minimum_rim_gap_mm": 0.0,
+          "radial_thickness_budget_mm": 0.05,
+          "rim_gap_budget_mm": 0.05
+        },
+        "domain": "full finished radius [0, 9.484222922068069] mm"
+      },
+      {
+        "lens": 6,
+        "front_surface": 10,
+        "rear_surface": 11,
+        "material": "SCHOTT:N-SK16",
+        "mechanical_diameter_mm": 20.966661117694823,
+        "center_thickness_mm": 2.9385263540786966,
+        "edge_thickness_mm": 1.0500000000871523,
+        "minimum_radial_thickness_mm": 1.0500000000871523,
+        "minimum_at_radius_mm": 10.483330558847411,
+        "minimum_face_distance_mm": 1.0500000000871523,
+        "face_distance_witness": {
+          "distance_mm": 1.0500000000871523,
+          "front_rz_mm": [
+            10.483330558847411,
+            35.96374310487787
+          ],
+          "rear_rz_mm": [
+            10.483330558847411,
+            37.01374310496502
+          ],
+          "method": "analytic_coaxial_spherical_cap_candidates"
+        },
+        "center_to_diameter_ratio": 0.14015232742988945,
+        "face_distance_to_diameter_ratio": 0.0500795045140022,
+        "effective_limits": {
+          "air_gap_budget_mm": 0.05,
+          "center_thickness_budget_mm": 0.05,
+          "edge_thickness_budget_mm": 0.05,
+          "face_distance_budget_mm": 0.05,
+          "maximum_diameter_mm": 100.0,
+          "maximum_surface_slope": 1.5,
+          "minimum_air_gap_mm": 0.0,
+          "minimum_center_thickness_mm": 2.0,
+          "minimum_clear_to_mechanical_radial_margin_mm": 0.49999,
+          "minimum_edge_thickness_mm": 1.0,
+          "minimum_face_distance_mm": 1.0,
+          "minimum_radial_thickness_mm": 1.0,
+          "minimum_rim_gap_mm": 0.0,
+          "radial_thickness_budget_mm": 0.05,
+          "rim_gap_budget_mm": 0.05
+        },
+        "domain": "full finished radius [0, 10.483330558847411] mm"
+      }
+    ],
+    "gaps": [
+      {
+        "left_lens": 1,
+        "right_lens": 2,
+        "kind": "separated_solids",
+        "common_radius_mm": 11.864231566370593,
+        "minimum_gap_mm": 0.2746657613201551,
+        "minimum_at_radius_mm": 0.0,
+        "separate_rim_axial_gap_mm": 2.7096468199315646
+      },
+      {
+        "left_lens": 1,
+        "right_lens": 3,
+        "kind": "separated_solids",
+        "common_radius_mm": 11.864231566370593,
+        "minimum_gap_mm": 5.038949482275333,
+        "minimum_at_radius_mm": 11.864231566370593,
+        "separate_rim_axial_gap_mm": 4.76588987793954
+      },
+      {
+        "left_lens": 1,
+        "right_lens": 4,
+        "kind": "separated_solids",
+        "common_radius_mm": 9.484222922068069,
+        "minimum_gap_mm": 19.807516225584678,
+        "minimum_at_radius_mm": 9.484222922068069,
+        "separate_rim_axial_gap_mm": 19.24510265083923
+      },
+      {
+        "left_lens": 1,
+        "right_lens": 5,
+        "kind": "separated_solids",
+        "common_radius_mm": 9.484222922068069,
+        "minimum_gap_mm": 24.999713247230645,
+        "minimum_at_radius_mm": 9.484222922068069,
+        "separate_rim_axial_gap_mm": 24.437299672485196
+      },
+      {
+        "left_lens": 1,
+        "right_lens": 6,
+        "kind": "separated_solids",
+        "common_radius_mm": 10.483330558847411,
+        "minimum_gap_mm": 30.5211307183139,
+        "minimum_at_radius_mm": 0.0,
+        "separate_rim_axial_gap_mm": 30.254497302051735
+      },
+      {
+        "left_lens": 2,
+        "right_lens": 3,
+        "kind": "shared_cemented_interface"
+      },
+      {
+        "left_lens": 2,
+        "right_lens": 4,
+        "kind": "separated_solids",
+        "common_radius_mm": 9.484222922068069,
+        "minimum_gap_mm": 13.980319137750438,
+        "minimum_at_radius_mm": 9.484222922068069,
+        "separate_rim_axial_gap_mm": 14.479212772899688
+      },
+      {
+        "left_lens": 2,
+        "right_lens": 5,
+        "kind": "separated_solids",
+        "common_radius_mm": 9.484222922068069,
+        "minimum_gap_mm": 18.28754441114936,
+        "minimum_at_radius_mm": 0.0,
+        "separate_rim_axial_gap_mm": 19.671409794545653
+      },
+      {
+        "left_lens": 2,
+        "right_lens": 6,
+        "kind": "separated_solids",
+        "common_radius_mm": 10.483330558847411,
+        "minimum_gap_mm": 23.31250902416964,
+        "minimum_at_radius_mm": 0.0,
+        "separate_rim_axial_gap_mm": 25.488607424112196
+      },
+      {
+        "left_lens": 3,
+        "right_lens": 4,
+        "kind": "separated_solids",
+        "common_radius_mm": 9.484222922068069,
+        "minimum_gap_mm": 7.547884192379133,
+        "minimum_at_radius_mm": 9.484222922068069,
+        "separate_rim_axial_gap_mm": 5.33334961426409
+      },
+      {
+        "left_lens": 3,
+        "right_lens": 5,
+        "kind": "separated_solids",
+        "common_radius_mm": 9.484222922068069,
+        "minimum_gap_mm": 12.7400812140251,
+        "minimum_at_radius_mm": 9.484222922068069,
+        "separate_rim_axial_gap_mm": 10.525546635910057
+      },
+      {
+        "left_lens": 3,
+        "right_lens": 6,
+        "kind": "separated_solids",
+        "common_radius_mm": 10.483330558847411,
+        "minimum_gap_mm": 17.737600979929987,
+        "minimum_at_radius_mm": 10.483330558847411,
+        "separate_rim_axial_gap_mm": 16.342744265476597
+      },
+      {
+        "left_lens": 4,
+        "right_lens": 5,
+        "kind": "shared_cemented_interface"
+      },
+      {
+        "left_lens": 4,
+        "right_lens": 6,
+        "kind": "separated_solids",
+        "common_radius_mm": 9.484222922068069,
+        "minimum_gap_mm": 5.0249646130202805,
+        "minimum_at_radius_mm": 0.0,
+        "separate_rim_axial_gap_mm": 5.8171976295665395
+      },
+      {
+        "left_lens": 5,
+        "right_lens": 6,
+        "kind": "separated_solids",
+        "common_radius_mm": 9.484222922068069,
+        "minimum_gap_mm": 0.22409301993290143,
+        "minimum_at_radius_mm": 0.0,
+        "separate_rim_axial_gap_mm": 3.084058576857771
+      }
+    ],
+    "checks": [
+      {
+        "code": "clear_inside_mechanical",
+        "nominal_value": 0.5000099999999996,
+        "limit": 0.0,
+        "worst_case_loss": 0.0,
+        "nominal_margin": 0.5000099999999996,
+        "remaining_margin": 0.5000099999999996,
+        "passed": true,
+        "surface": 1
+      },
+      {
+        "code": "clear_inside_mechanical",
+        "nominal_value": 1.3862750029498656,
+        "limit": 0.0,
+        "worst_case_loss": 0.0,
+        "nominal_margin": 1.3862750029498656,
+        "remaining_margin": 1.3862750029498656,
+        "passed": true,
+        "surface": 2
+      },
+      {
+        "code": "clear_inside_mechanical",
+        "nominal_value": 0.5000099999999996,
+        "limit": 0.0,
+        "worst_case_loss": 0.0,
+        "nominal_margin": 0.5000099999999996,
+        "remaining_margin": 0.5000099999999996,
+        "passed": true,
+        "surface": 3
+      },
+      {
+        "code": "clear_inside_mechanical",
+        "nominal_value": 2.171338593449459,
+        "limit": 0.0,
+        "worst_case_loss": 0.0,
+        "nominal_margin": 2.171338593449459,
+        "remaining_margin": 2.171338593449459,
+        "passed": true,
+        "surface": 4
+      },
+      {
+        "code": "clear_inside_mechanical",
+        "nominal_value": 4.033277595094365,
+        "limit": 0.0,
+        "worst_case_loss": 0.0,
+        "nominal_margin": 4.033277595094365,
+        "remaining_margin": 4.033277595094365,
+        "passed": true,
+        "surface": 5
+      },
+      {
+        "code": "clear_inside_mechanical",
+        "nominal_value": 2.948122913730842,
+        "limit": 0.0,
+        "worst_case_loss": 0.0,
+        "nominal_margin": 2.948122913730842,
+        "remaining_margin": 2.948122913730842,
+        "passed": true,
+        "surface": 7
+      },
+      {
+        "code": "clear_inside_mechanical",
+        "nominal_value": 1.8527495372535814,
+        "limit": 0.0,
+        "worst_case_loss": 0.0,
+        "nominal_margin": 1.8527495372535814,
+        "remaining_margin": 1.8527495372535814,
+        "passed": true,
+        "surface": 8
+      },
+      {
+        "code": "clear_inside_mechanical",
+        "nominal_value": 0.5000099999999996,
+        "limit": 0.0,
+        "worst_case_loss": 0.0,
+        "nominal_margin": 0.5000099999999996,
+        "remaining_margin": 0.5000099999999996,
+        "passed": true,
+        "surface": 9
+      },
+      {
+        "code": "clear_inside_mechanical",
+        "nominal_value": 0.810073946249128,
+        "limit": 0.0,
+        "worst_case_loss": 0.0,
+        "nominal_margin": 0.810073946249128,
+        "remaining_margin": 0.810073946249128,
+        "passed": true,
+        "surface": 10
+      },
+      {
+        "code": "clear_inside_mechanical",
+        "nominal_value": 0.5000099999999996,
+        "limit": 0.0,
+        "worst_case_loss": 0.0,
+        "nominal_margin": 0.5000099999999996,
+        "remaining_margin": 0.5000099999999996,
+        "passed": true,
+        "surface": 11
+      },
+      {
+        "code": "minimum_center_thickness_mm",
+        "nominal_value": 4.636896294372697,
+        "limit": 2.0,
+        "worst_case_loss": 0.05,
+        "nominal_margin": 2.636896294372697,
+        "remaining_margin": 2.586896294372697,
+        "passed": true,
+        "lens": 1,
+        "radius_mm": null
+      },
+      {
+        "code": "minimum_radial_thickness_mm",
+        "nominal_value": 2.680848235390861,
+        "limit": 1.0,
+        "worst_case_loss": 0.05,
+        "nominal_margin": 1.6808482353908611,
+        "remaining_margin": 1.630848235390861,
+        "passed": true,
+        "lens": 1,
+        "radius_mm": 13.731521873353083
+      },
+      {
+        "code": "minimum_face_distance_mm",
+        "nominal_value": 2.649297823912257,
+        "limit": 1.0,
+        "worst_case_loss": 0.05,
+        "nominal_margin": 1.6492978239122569,
+        "remaining_margin": 1.5992978239122568,
+        "passed": true,
+        "lens": 1,
+        "radius_mm": null
+      },
+      {
+        "code": "minimum_edge_thickness_mm",
+        "nominal_value": 2.680848235390861,
+        "limit": 1.0,
+        "worst_case_loss": 0.05,
+        "nominal_margin": 1.6808482353908611,
+        "remaining_margin": 1.630848235390861,
+        "passed": true,
+        "lens": 1,
+        "radius_mm": null
+      },
+      {
+        "code": "maximum_diameter_mm",
+        "nominal_value": 27.463043746706166,
+        "limit": 100.0,
+        "worst_case_loss": 0.0,
+        "nominal_margin": 72.53695625329384,
+        "remaining_margin": 72.53695625329384,
+        "passed": true,
+        "lens": 1
+      },
+      {
+        "code": "minimum_clear_to_mechanical_radial_margin_mm",
+        "nominal_value": 0.5000099999999996,
+        "limit": 0.49999,
+        "worst_case_loss": 0.0,
+        "nominal_margin": 1.9999999999631424e-05,
+        "remaining_margin": 1.9999999999631424e-05,
+        "passed": true,
+        "lens": 1,
+        "surface": 1
+      },
+      {
+        "code": "maximum_surface_slope",
+        "nominal_value": 0.46363804002090164,
+        "limit": 1.5,
+        "worst_case_loss": 0.0,
+        "nominal_margin": 1.0363619599790983,
+        "remaining_margin": 1.0363619599790983,
+        "passed": true,
+        "lens": 1,
+        "surface": 1,
+        "radius_mm": 13.731521873353083
+      },
+      {
+        "code": "minimum_clear_to_mechanical_radial_margin_mm",
+        "nominal_value": 1.3862750029498656,
+        "limit": 0.49999,
+        "worst_case_loss": 0.0,
+        "nominal_margin": 0.8862850029498657,
+        "remaining_margin": 0.8862850029498657,
+        "passed": true,
+        "lens": 1,
+        "surface": 2
+      },
+      {
+        "code": "maximum_surface_slope",
+        "nominal_value": 0.15714639021199653,
+        "limit": 1.5,
+        "worst_case_loss": 0.0,
+        "nominal_margin": 1.3428536097880035,
+        "remaining_margin": 1.3428536097880035,
+        "passed": true,
+        "lens": 1,
+        "surface": 2,
+        "radius_mm": 13.731521873353083
+      },
+      {
+        "code": "minimum_center_thickness_mm",
+        "nominal_value": 6.933955932824104,
+        "limit": 2.0,
+        "worst_case_loss": 0.05,
+        "nominal_margin": 4.933955932824104,
+        "remaining_margin": 4.8839559328241045,
+        "passed": true,
+        "lens": 2,
+        "radius_mm": null
+      },
+      {
+        "code": "minimum_radial_thickness_mm",
+        "nominal_value": 2.0562430580079756,
+        "limit": 1.0,
+        "worst_case_loss": 0.05,
+        "nominal_margin": 1.0562430580079756,
+        "remaining_margin": 1.0062430580079755,
+        "passed": true,
+        "lens": 2,
+        "radius_mm": 11.864231566370593
+      },
+      {
+        "code": "minimum_face_distance_mm",
+        "nominal_value": 2.0562430580079756,
+        "limit": 1.0,
+        "worst_case_loss": 0.05,
+        "nominal_margin": 1.0562430580079756,
+        "remaining_margin": 1.0062430580079755,
+        "passed": true,
+        "lens": 2,
+        "radius_mm": null
+      },
+      {
+        "code": "minimum_edge_thickness_mm",
+        "nominal_value": 2.0562430580079756,
+        "limit": 1.0,
+        "worst_case_loss": 0.05,
+        "nominal_margin": 1.0562430580079756,
+        "remaining_margin": 1.0062430580079755,
+        "passed": true,
+        "lens": 2,
+        "radius_mm": null
+      },
+      {
+        "code": "maximum_diameter_mm",
+        "nominal_value": 23.728463132741187,
+        "limit": 100.0,
+        "worst_case_loss": 0.0,
+        "nominal_margin": 76.27153686725882,
+        "remaining_margin": 76.27153686725882,
+        "passed": true,
+        "lens": 2
+      },
+      {
+        "code": "minimum_clear_to_mechanical_radial_margin_mm",
+        "nominal_value": 0.5000099999999996,
+        "limit": 0.49999,
+        "worst_case_loss": 0.0,
+        "nominal_margin": 1.9999999999631424e-05,
+        "remaining_margin": 1.9999999999631424e-05,
+        "passed": true,
+        "lens": 2,
+        "surface": 3
+      },
+      {
+        "code": "maximum_surface_slope",
+        "nominal_value": 0.6478628070368443,
+        "limit": 1.5,
+        "worst_case_loss": 0.0,
+        "nominal_margin": 0.8521371929631557,
+        "remaining_margin": 0.8521371929631557,
+        "passed": true,
+        "lens": 2,
+        "surface": 3,
+        "radius_mm": 11.864231566370593
+      },
+      {
+        "code": "minimum_clear_to_mechanical_radial_margin_mm",
+        "nominal_value": 2.171338593449459,
+        "limit": 0.49999,
+        "worst_case_loss": 0.0,
+        "nominal_margin": 1.671348593449459,
+        "remaining_margin": 1.671348593449459,
+        "passed": true,
+        "lens": 2,
+        "surface": 4
+      },
+      {
+        "code": "maximum_surface_slope",
+        "nominal_value": 0.23413441627819834,
+        "limit": 1.5,
+        "worst_case_loss": 0.0,
+        "nominal_margin": 1.2658655837218016,
+        "remaining_margin": 1.2658655837218016,
+        "passed": true,
+        "lens": 2,
+        "surface": 4,
+        "radius_mm": 11.864231566370593
+      },
+      {
+        "code": "minimum_center_thickness_mm",
+        "nominal_value": 2.386180389265135,
+        "limit": 2.0,
+        "worst_case_loss": 0.05,
+        "nominal_margin": 0.3861803892651352,
+        "remaining_margin": 0.3361803892651352,
+        "passed": true,
+        "lens": 3,
+        "radius_mm": null
+      },
+      {
+        "code": "minimum_radial_thickness_mm",
+        "nominal_value": 2.386180389265135,
+        "limit": 1.0,
+        "worst_case_loss": 0.05,
+        "nominal_margin": 1.3861803892651352,
+        "remaining_margin": 1.3361803892651352,
+        "passed": true,
+        "lens": 3,
+        "radius_mm": 0.0
+      },
+      {
+        "code": "minimum_face_distance_mm",
+        "nominal_value": 2.386180389265135,
+        "limit": 1.0,
+        "worst_case_loss": 0.05,
+        "nominal_margin": 1.3861803892651352,
+        "remaining_margin": 1.3361803892651352,
+        "passed": true,
+        "lens": 3,
+        "radius_mm": null
+      },
+      {
+        "code": "minimum_edge_thickness_mm",
+        "nominal_value": 9.145863158635597,
+        "limit": 1.0,
+        "worst_case_loss": 0.05,
+        "nominal_margin": 8.145863158635597,
+        "remaining_margin": 8.095863158635597,
+        "passed": true,
+        "lens": 3,
+        "radius_mm": null
+      },
+      {
+        "code": "maximum_diameter_mm",
+        "nominal_value": 23.728463132741187,
+        "limit": 100.0,
+        "worst_case_loss": 0.0,
+        "nominal_margin": 76.27153686725882,
+        "remaining_margin": 76.27153686725882,
+        "passed": true,
+        "lens": 3
+      },
+      {
+        "code": "minimum_clear_to_mechanical_radial_margin_mm",
+        "nominal_value": 2.171338593449459,
+        "limit": 0.49999,
+        "worst_case_loss": 0.0,
+        "nominal_margin": 1.671348593449459,
+        "remaining_margin": 1.671348593449459,
+        "passed": true,
+        "lens": 3,
+        "surface": 4
+      },
+      {
+        "code": "maximum_surface_slope",
+        "nominal_value": 0.23413441627819834,
+        "limit": 1.5,
+        "worst_case_loss": 0.0,
+        "nominal_margin": 1.2658655837218016,
+        "remaining_margin": 1.2658655837218016,
+        "passed": true,
+        "lens": 3,
+        "surface": 4,
+        "radius_mm": 11.864231566370593
+      },
+      {
+        "code": "minimum_clear_to_mechanical_radial_margin_mm",
+        "nominal_value": 4.033277595094365,
+        "limit": 0.49999,
+        "worst_case_loss": 0.0,
+        "nominal_margin": 3.533287595094365,
+        "remaining_margin": 3.533287595094365,
+        "passed": true,
+        "lens": 3,
+        "surface": 5
+      },
+      {
+        "code": "maximum_surface_slope",
+        "nominal_value": 1.1446925097728533,
+        "limit": 1.5,
+        "worst_case_loss": 0.0,
+        "nominal_margin": 0.3553074902271467,
+        "remaining_margin": 0.3553074902271467,
+        "passed": true,
+        "lens": 3,
+        "surface": 5,
+        "radius_mm": 11.864231566370593
+      },
+      {
+        "code": "minimum_center_thickness_mm",
+        "nominal_value": 2.2854194517578676,
+        "limit": 2.0,
+        "worst_case_loss": 0.05,
+        "nominal_margin": 0.28541945175786765,
+        "remaining_margin": 0.23541945175786766,
+        "passed": true,
+        "lens": 4,
+        "radius_mm": null
+      },
+      {
+        "code": "minimum_radial_thickness_mm",
+        "nominal_value": 2.2854194517578676,
+        "limit": 1.0,
+        "worst_case_loss": 0.05,
+        "nominal_margin": 1.2854194517578676,
+        "remaining_margin": 1.2354194517578676,
+        "passed": true,
+        "lens": 4,
+        "radius_mm": 0.0
+      },
+      {
+        "code": "minimum_face_distance_mm",
+        "nominal_value": 2.2854194517578676,
+        "limit": 1.0,
+        "worst_case_loss": 0.05,
+        "nominal_margin": 1.2854194517578676,
+        "remaining_margin": 1.2354194517578676,
+        "passed": true,
+        "lens": 4,
+        "radius_mm": null
+      },
+      {
+        "code": "minimum_edge_thickness_mm",
+        "nominal_value": 5.192197021645967,
+        "limit": 1.0,
+        "worst_case_loss": 0.05,
+        "nominal_margin": 4.192197021645967,
+        "remaining_margin": 4.142197021645967,
+        "passed": true,
+        "lens": 4,
+        "radius_mm": null
+      },
+      {
+        "code": "maximum_diameter_mm",
+        "nominal_value": 18.968445844136138,
+        "limit": 100.0,
+        "worst_case_loss": 0.0,
+        "nominal_margin": 81.03155415586386,
+        "remaining_margin": 81.03155415586386,
+        "passed": true,
+        "lens": 4
+      },
+      {
+        "code": "minimum_clear_to_mechanical_radial_margin_mm",
+        "nominal_value": 2.948122913730842,
+        "limit": 0.49999,
+        "worst_case_loss": 0.0,
+        "nominal_margin": 2.448132913730842,
+        "remaining_margin": 2.448132913730842,
+        "passed": true,
+        "lens": 4,
+        "surface": 7
+      },
+      {
+        "code": "maximum_surface_slope",
+        "nominal_value": 0.67273534827941,
+        "limit": 1.5,
+        "worst_case_loss": 0.0,
+        "nominal_margin": 0.82726465172059,
+        "remaining_margin": 0.82726465172059,
+        "passed": true,
+        "lens": 4,
+        "surface": 7,
+        "radius_mm": 9.484222922068069
+      },
+      {
+        "code": "minimum_clear_to_mechanical_radial_margin_mm",
+        "nominal_value": 1.8527495372535814,
+        "limit": 0.49999,
+        "worst_case_loss": 0.0,
+        "nominal_margin": 1.3527595372535814,
+        "remaining_margin": 1.3527595372535814,
+        "passed": true,
+        "lens": 4,
+        "surface": 8
+      },
+      {
+        "code": "maximum_surface_slope",
+        "nominal_value": 0.002843269924308814,
+        "limit": 1.5,
+        "worst_case_loss": 0.0,
+        "nominal_margin": 1.4971567300756912,
+        "remaining_margin": 1.4971567300756912,
+        "passed": true,
+        "lens": 4,
+        "surface": 8,
+        "radius_mm": 9.484222922068069
+      },
+      {
+        "code": "minimum_center_thickness_mm",
+        "nominal_value": 4.800871593087379,
+        "limit": 2.0,
+        "worst_case_loss": 0.05,
+        "nominal_margin": 2.800871593087379,
+        "remaining_margin": 2.7508715930873793,
+        "passed": true,
+        "lens": 5,
+        "radius_mm": null
+      },
+      {
+        "code": "minimum_radial_thickness_mm",
+        "nominal_value": 2.7331390527087684,
+        "limit": 1.0,
+        "worst_case_loss": 0.05,
+        "nominal_margin": 1.7331390527087684,
+        "remaining_margin": 1.6831390527087684,
+        "passed": true,
+        "lens": 5,
+        "radius_mm": 9.484222922068069
+      },
+      {
+        "code": "minimum_face_distance_mm",
+        "nominal_value": 2.7331390527087684,
+        "limit": 1.0,
+        "worst_case_loss": 0.05,
+        "nominal_margin": 1.7331390527087684,
+        "remaining_margin": 1.6831390527087684,
+        "passed": true,
+        "lens": 5,
+        "radius_mm": null
+      },
+      {
+        "code": "minimum_edge_thickness_mm",
+        "nominal_value": 2.7331390527087684,
+        "limit": 1.0,
+        "worst_case_loss": 0.05,
+        "nominal_margin": 1.7331390527087684,
+        "remaining_margin": 1.6831390527087684,
+        "passed": true,
+        "lens": 5,
+        "radius_mm": null
+      },
+      {
+        "code": "maximum_diameter_mm",
+        "nominal_value": 18.968445844136138,
+        "limit": 100.0,
+        "worst_case_loss": 0.0,
+        "nominal_margin": 81.03155415586386,
+        "remaining_margin": 81.03155415586386,
+        "passed": true,
+        "lens": 5
+      },
+      {
+        "code": "minimum_clear_to_mechanical_radial_margin_mm",
+        "nominal_value": 1.8527495372535814,
+        "limit": 0.49999,
+        "worst_case_loss": 0.0,
+        "nominal_margin": 1.3527595372535814,
+        "remaining_margin": 1.3527595372535814,
+        "passed": true,
+        "lens": 5,
+        "surface": 8
+      },
+      {
+        "code": "maximum_surface_slope",
+        "nominal_value": 0.002843269924308814,
+        "limit": 1.5,
+        "worst_case_loss": 0.0,
+        "nominal_margin": 1.4971567300756912,
+        "remaining_margin": 1.4971567300756912,
+        "passed": true,
+        "lens": 5,
+        "surface": 8,
+        "radius_mm": 9.484222922068069
+      },
+      {
+        "code": "minimum_clear_to_mechanical_radial_margin_mm",
+        "nominal_value": 0.5000099999999996,
+        "limit": 0.49999,
+        "worst_case_loss": 0.0,
+        "nominal_margin": 1.9999999999631424e-05,
+        "remaining_margin": 1.9999999999631424e-05,
+        "passed": true,
+        "lens": 5,
+        "surface": 9
+      },
+      {
+        "code": "maximum_surface_slope",
+        "nominal_value": 0.4545161863970188,
+        "limit": 1.5,
+        "worst_case_loss": 0.0,
+        "nominal_margin": 1.0454838136029811,
+        "remaining_margin": 1.0454838136029811,
+        "passed": true,
+        "lens": 5,
+        "surface": 9,
+        "radius_mm": 9.484222922068069
+      },
+      {
+        "code": "minimum_center_thickness_mm",
+        "nominal_value": 2.9385263540786966,
+        "limit": 2.0,
+        "worst_case_loss": 0.05,
+        "nominal_margin": 0.9385263540786966,
+        "remaining_margin": 0.8885263540786965,
+        "passed": true,
+        "lens": 6,
+        "radius_mm": null
+      },
+      {
+        "code": "minimum_radial_thickness_mm",
+        "nominal_value": 1.0500000000871523,
+        "limit": 1.0,
+        "worst_case_loss": 0.05,
+        "nominal_margin": 0.05000000008715233,
+        "remaining_margin": 8.715232702183329e-11,
+        "passed": true,
+        "lens": 6,
+        "radius_mm": 10.483330558847411
+      },
+      {
+        "code": "minimum_face_distance_mm",
+        "nominal_value": 1.0500000000871523,
+        "limit": 1.0,
+        "worst_case_loss": 0.05,
+        "nominal_margin": 0.05000000008715233,
+        "remaining_margin": 8.715232702183329e-11,
+        "passed": true,
+        "lens": 6,
+        "radius_mm": null
+      },
+      {
+        "code": "minimum_edge_thickness_mm",
+        "nominal_value": 1.0500000000871523,
+        "limit": 1.0,
+        "worst_case_loss": 0.05,
+        "nominal_margin": 0.05000000008715233,
+        "remaining_margin": 8.715232702183329e-11,
+        "passed": true,
+        "lens": 6,
+        "radius_mm": null
+      },
+      {
+        "code": "maximum_diameter_mm",
+        "nominal_value": 20.966661117694823,
+        "limit": 100.0,
+        "worst_case_loss": 0.0,
+        "nominal_margin": 79.03333888230517,
+        "remaining_margin": 79.03333888230517,
+        "passed": true,
+        "lens": 6
+      },
+      {
+        "code": "minimum_clear_to_mechanical_radial_margin_mm",
+        "nominal_value": 0.810073946249128,
+        "limit": 0.49999,
+        "worst_case_loss": 0.0,
+        "nominal_margin": 0.310083946249128,
+        "remaining_margin": 0.310083946249128,
+        "passed": true,
+        "lens": 6,
+        "surface": 10
+      },
+      {
+        "code": "maximum_surface_slope",
+        "nominal_value": 0.15462714202847125,
+        "limit": 1.5,
+        "worst_case_loss": 0.0,
+        "nominal_margin": 1.3453728579715287,
+        "remaining_margin": 1.3453728579715287,
+        "passed": true,
+        "lens": 6,
+        "surface": 10,
+        "radius_mm": 10.483330558847411
+      },
+      {
+        "code": "minimum_clear_to_mechanical_radial_margin_mm",
+        "nominal_value": 0.5000099999999996,
+        "limit": 0.49999,
+        "worst_case_loss": 0.0,
+        "nominal_margin": 1.9999999999631424e-05,
+        "remaining_margin": 1.9999999999631424e-05,
+        "passed": true,
+        "lens": 6,
+        "surface": 11
+      },
+      {
+        "code": "maximum_surface_slope",
+        "nominal_value": 0.2088051815639815,
+        "limit": 1.5,
+        "worst_case_loss": 0.0,
+        "nominal_margin": 1.2911948184360185,
+        "remaining_margin": 1.2911948184360185,
+        "passed": true,
+        "lens": 6,
+        "surface": 11,
+        "radius_mm": 10.483330558847411
+      },
+      {
+        "code": "all_pairs_solid_clearance",
+        "nominal_value": 0.2746657613201551,
+        "limit": 0.0,
+        "worst_case_loss": 0.0,
+        "nominal_margin": 0.2746657613201551,
+        "remaining_margin": 0.2746657613201551,
+        "passed": true,
+        "radius_mm": 0.0,
+        "left_lens": 1,
+        "right_lens": 2
+      },
+      {
+        "code": "minimum_air_gap_mm",
+        "nominal_value": 0.2746657613201551,
+        "limit": 0.0,
+        "worst_case_loss": 0.05,
+        "nominal_margin": 0.2746657613201551,
+        "remaining_margin": 0.2246657613201551,
+        "passed": true,
+        "radius_mm": 0.0,
+        "limit_source_lenses": [
+          1,
+          2
+        ],
+        "budget_source_lenses": [
+          1,
+          2
+        ],
+        "left_lens": 1,
+        "right_lens": 2
+      },
+      {
+        "code": "minimum_rim_gap_mm",
+        "nominal_value": 2.7096468199315646,
+        "limit": 0.0,
+        "worst_case_loss": 0.05,
+        "nominal_margin": 2.7096468199315646,
+        "remaining_margin": 2.659646819931565,
+        "passed": true,
+        "radius_mm": null,
+        "limit_source_lenses": [
+          1,
+          2
+        ],
+        "budget_source_lenses": [
+          1,
+          2
+        ],
+        "left_lens": 1,
+        "right_lens": 2
+      },
+      {
+        "code": "all_pairs_solid_clearance",
+        "nominal_value": 5.038949482275333,
+        "limit": 0.0,
+        "worst_case_loss": 0.0,
+        "nominal_margin": 5.038949482275333,
+        "remaining_margin": 5.038949482275333,
+        "passed": true,
+        "radius_mm": 11.864231566370593,
+        "left_lens": 1,
+        "right_lens": 3
+      },
+      {
+        "code": "minimum_air_gap_mm",
+        "nominal_value": 5.038949482275333,
+        "limit": 0.0,
+        "worst_case_loss": 0.05,
+        "nominal_margin": 5.038949482275333,
+        "remaining_margin": 4.988949482275333,
+        "passed": true,
+        "radius_mm": 11.864231566370593,
+        "limit_source_lenses": [
+          1,
+          3
+        ],
+        "budget_source_lenses": [
+          1,
+          3
+        ],
+        "left_lens": 1,
+        "right_lens": 3
+      },
+      {
+        "code": "minimum_rim_gap_mm",
+        "nominal_value": 4.76588987793954,
+        "limit": 0.0,
+        "worst_case_loss": 0.05,
+        "nominal_margin": 4.76588987793954,
+        "remaining_margin": 4.71588987793954,
+        "passed": true,
+        "radius_mm": null,
+        "limit_source_lenses": [
+          1,
+          3
+        ],
+        "budget_source_lenses": [
+          1,
+          3
+        ],
+        "left_lens": 1,
+        "right_lens": 3
+      },
+      {
+        "code": "all_pairs_solid_clearance",
+        "nominal_value": 19.807516225584678,
+        "limit": 0.0,
+        "worst_case_loss": 0.0,
+        "nominal_margin": 19.807516225584678,
+        "remaining_margin": 19.807516225584678,
+        "passed": true,
+        "radius_mm": 9.484222922068069,
+        "left_lens": 1,
+        "right_lens": 4
+      },
+      {
+        "code": "minimum_air_gap_mm",
+        "nominal_value": 19.807516225584678,
+        "limit": 0.0,
+        "worst_case_loss": 0.05,
+        "nominal_margin": 19.807516225584678,
+        "remaining_margin": 19.757516225584677,
+        "passed": true,
+        "radius_mm": 9.484222922068069,
+        "limit_source_lenses": [
+          1,
+          4
+        ],
+        "budget_source_lenses": [
+          1,
+          4
+        ],
+        "left_lens": 1,
+        "right_lens": 4
+      },
+      {
+        "code": "minimum_rim_gap_mm",
+        "nominal_value": 19.24510265083923,
+        "limit": 0.0,
+        "worst_case_loss": 0.05,
+        "nominal_margin": 19.24510265083923,
+        "remaining_margin": 19.195102650839228,
+        "passed": true,
+        "radius_mm": null,
+        "limit_source_lenses": [
+          1,
+          4
+        ],
+        "budget_source_lenses": [
+          1,
+          4
+        ],
+        "left_lens": 1,
+        "right_lens": 4
+      },
+      {
+        "code": "all_pairs_solid_clearance",
+        "nominal_value": 24.999713247230645,
+        "limit": 0.0,
+        "worst_case_loss": 0.0,
+        "nominal_margin": 24.999713247230645,
+        "remaining_margin": 24.999713247230645,
+        "passed": true,
+        "radius_mm": 9.484222922068069,
+        "left_lens": 1,
+        "right_lens": 5
+      },
+      {
+        "code": "minimum_air_gap_mm",
+        "nominal_value": 24.999713247230645,
+        "limit": 0.0,
+        "worst_case_loss": 0.05,
+        "nominal_margin": 24.999713247230645,
+        "remaining_margin": 24.949713247230644,
+        "passed": true,
+        "radius_mm": 9.484222922068069,
+        "limit_source_lenses": [
+          1,
+          5
+        ],
+        "budget_source_lenses": [
+          1,
+          5
+        ],
+        "left_lens": 1,
+        "right_lens": 5
+      },
+      {
+        "code": "minimum_rim_gap_mm",
+        "nominal_value": 24.437299672485196,
+        "limit": 0.0,
+        "worst_case_loss": 0.05,
+        "nominal_margin": 24.437299672485196,
+        "remaining_margin": 24.387299672485195,
+        "passed": true,
+        "radius_mm": null,
+        "limit_source_lenses": [
+          1,
+          5
+        ],
+        "budget_source_lenses": [
+          1,
+          5
+        ],
+        "left_lens": 1,
+        "right_lens": 5
+      },
+      {
+        "code": "all_pairs_solid_clearance",
+        "nominal_value": 30.5211307183139,
+        "limit": 0.0,
+        "worst_case_loss": 0.0,
+        "nominal_margin": 30.5211307183139,
+        "remaining_margin": 30.5211307183139,
+        "passed": true,
+        "radius_mm": 0.0,
+        "left_lens": 1,
+        "right_lens": 6
+      },
+      {
+        "code": "minimum_air_gap_mm",
+        "nominal_value": 30.5211307183139,
+        "limit": 0.0,
+        "worst_case_loss": 0.05,
+        "nominal_margin": 30.5211307183139,
+        "remaining_margin": 30.471130718313898,
+        "passed": true,
+        "radius_mm": 0.0,
+        "limit_source_lenses": [
+          1,
+          6
+        ],
+        "budget_source_lenses": [
+          1,
+          6
+        ],
+        "left_lens": 1,
+        "right_lens": 6
+      },
+      {
+        "code": "minimum_rim_gap_mm",
+        "nominal_value": 30.254497302051735,
+        "limit": 0.0,
+        "worst_case_loss": 0.05,
+        "nominal_margin": 30.254497302051735,
+        "remaining_margin": 30.204497302051735,
+        "passed": true,
+        "radius_mm": null,
+        "limit_source_lenses": [
+          1,
+          6
+        ],
+        "budget_source_lenses": [
+          1,
+          6
+        ],
+        "left_lens": 1,
+        "right_lens": 6
+      },
+      {
+        "code": "all_pairs_solid_clearance",
+        "nominal_value": 13.980319137750438,
+        "limit": 0.0,
+        "worst_case_loss": 0.0,
+        "nominal_margin": 13.980319137750438,
+        "remaining_margin": 13.980319137750438,
+        "passed": true,
+        "radius_mm": 9.484222922068069,
+        "left_lens": 2,
+        "right_lens": 4
+      },
+      {
+        "code": "minimum_air_gap_mm",
+        "nominal_value": 13.980319137750438,
+        "limit": 0.0,
+        "worst_case_loss": 0.05,
+        "nominal_margin": 13.980319137750438,
+        "remaining_margin": 13.930319137750438,
+        "passed": true,
+        "radius_mm": 9.484222922068069,
+        "limit_source_lenses": [
+          2,
+          4
+        ],
+        "budget_source_lenses": [
+          2,
+          4
+        ],
+        "left_lens": 2,
+        "right_lens": 4
+      },
+      {
+        "code": "minimum_rim_gap_mm",
+        "nominal_value": 14.479212772899688,
+        "limit": 0.0,
+        "worst_case_loss": 0.05,
+        "nominal_margin": 14.479212772899688,
+        "remaining_margin": 14.429212772899687,
+        "passed": true,
+        "radius_mm": null,
+        "limit_source_lenses": [
+          2,
+          4
+        ],
+        "budget_source_lenses": [
+          2,
+          4
+        ],
+        "left_lens": 2,
+        "right_lens": 4
+      },
+      {
+        "code": "all_pairs_solid_clearance",
+        "nominal_value": 18.28754441114936,
+        "limit": 0.0,
+        "worst_case_loss": 0.0,
+        "nominal_margin": 18.28754441114936,
+        "remaining_margin": 18.28754441114936,
+        "passed": true,
+        "radius_mm": 0.0,
+        "left_lens": 2,
+        "right_lens": 5
+      },
+      {
+        "code": "minimum_air_gap_mm",
+        "nominal_value": 18.28754441114936,
+        "limit": 0.0,
+        "worst_case_loss": 0.05,
+        "nominal_margin": 18.28754441114936,
+        "remaining_margin": 18.237544411149358,
+        "passed": true,
+        "radius_mm": 0.0,
+        "limit_source_lenses": [
+          2,
+          5
+        ],
+        "budget_source_lenses": [
+          2,
+          5
+        ],
+        "left_lens": 2,
+        "right_lens": 5
+      },
+      {
+        "code": "minimum_rim_gap_mm",
+        "nominal_value": 19.671409794545653,
+        "limit": 0.0,
+        "worst_case_loss": 0.05,
+        "nominal_margin": 19.671409794545653,
+        "remaining_margin": 19.621409794545652,
+        "passed": true,
+        "radius_mm": null,
+        "limit_source_lenses": [
+          2,
+          5
+        ],
+        "budget_source_lenses": [
+          2,
+          5
+        ],
+        "left_lens": 2,
+        "right_lens": 5
+      },
+      {
+        "code": "all_pairs_solid_clearance",
+        "nominal_value": 23.31250902416964,
+        "limit": 0.0,
+        "worst_case_loss": 0.0,
+        "nominal_margin": 23.31250902416964,
+        "remaining_margin": 23.31250902416964,
+        "passed": true,
+        "radius_mm": 0.0,
+        "left_lens": 2,
+        "right_lens": 6
+      },
+      {
+        "code": "minimum_air_gap_mm",
+        "nominal_value": 23.31250902416964,
+        "limit": 0.0,
+        "worst_case_loss": 0.05,
+        "nominal_margin": 23.31250902416964,
+        "remaining_margin": 23.26250902416964,
+        "passed": true,
+        "radius_mm": 0.0,
+        "limit_source_lenses": [
+          2,
+          6
+        ],
+        "budget_source_lenses": [
+          2,
+          6
+        ],
+        "left_lens": 2,
+        "right_lens": 6
+      },
+      {
+        "code": "minimum_rim_gap_mm",
+        "nominal_value": 25.488607424112196,
+        "limit": 0.0,
+        "worst_case_loss": 0.05,
+        "nominal_margin": 25.488607424112196,
+        "remaining_margin": 25.438607424112195,
+        "passed": true,
+        "radius_mm": null,
+        "limit_source_lenses": [
+          2,
+          6
+        ],
+        "budget_source_lenses": [
+          2,
+          6
+        ],
+        "left_lens": 2,
+        "right_lens": 6
+      },
+      {
+        "code": "all_pairs_solid_clearance",
+        "nominal_value": 7.547884192379133,
+        "limit": 0.0,
+        "worst_case_loss": 0.0,
+        "nominal_margin": 7.547884192379133,
+        "remaining_margin": 7.547884192379133,
+        "passed": true,
+        "radius_mm": 9.484222922068069,
+        "left_lens": 3,
+        "right_lens": 4
+      },
+      {
+        "code": "minimum_air_gap_mm",
+        "nominal_value": 7.547884192379133,
+        "limit": 0.0,
+        "worst_case_loss": 0.05,
+        "nominal_margin": 7.547884192379133,
+        "remaining_margin": 7.497884192379133,
+        "passed": true,
+        "radius_mm": 9.484222922068069,
+        "limit_source_lenses": [
+          3,
+          4
+        ],
+        "budget_source_lenses": [
+          3,
+          4
+        ],
+        "left_lens": 3,
+        "right_lens": 4
+      },
+      {
+        "code": "minimum_rim_gap_mm",
+        "nominal_value": 5.33334961426409,
+        "limit": 0.0,
+        "worst_case_loss": 0.05,
+        "nominal_margin": 5.33334961426409,
+        "remaining_margin": 5.2833496142640906,
+        "passed": true,
+        "radius_mm": null,
+        "limit_source_lenses": [
+          3,
+          4
+        ],
+        "budget_source_lenses": [
+          3,
+          4
+        ],
+        "left_lens": 3,
+        "right_lens": 4
+      },
+      {
+        "code": "all_pairs_solid_clearance",
+        "nominal_value": 12.7400812140251,
+        "limit": 0.0,
+        "worst_case_loss": 0.0,
+        "nominal_margin": 12.7400812140251,
+        "remaining_margin": 12.7400812140251,
+        "passed": true,
+        "radius_mm": 9.484222922068069,
+        "left_lens": 3,
+        "right_lens": 5
+      },
+      {
+        "code": "minimum_air_gap_mm",
+        "nominal_value": 12.7400812140251,
+        "limit": 0.0,
+        "worst_case_loss": 0.05,
+        "nominal_margin": 12.7400812140251,
+        "remaining_margin": 12.6900812140251,
+        "passed": true,
+        "radius_mm": 9.484222922068069,
+        "limit_source_lenses": [
+          3,
+          5
+        ],
+        "budget_source_lenses": [
+          3,
+          5
+        ],
+        "left_lens": 3,
+        "right_lens": 5
+      },
+      {
+        "code": "minimum_rim_gap_mm",
+        "nominal_value": 10.525546635910057,
+        "limit": 0.0,
+        "worst_case_loss": 0.05,
+        "nominal_margin": 10.525546635910057,
+        "remaining_margin": 10.475546635910057,
+        "passed": true,
+        "radius_mm": null,
+        "limit_source_lenses": [
+          3,
+          5
+        ],
+        "budget_source_lenses": [
+          3,
+          5
+        ],
+        "left_lens": 3,
+        "right_lens": 5
+      },
+      {
+        "code": "all_pairs_solid_clearance",
+        "nominal_value": 17.737600979929987,
+        "limit": 0.0,
+        "worst_case_loss": 0.0,
+        "nominal_margin": 17.737600979929987,
+        "remaining_margin": 17.737600979929987,
+        "passed": true,
+        "radius_mm": 10.483330558847411,
+        "left_lens": 3,
+        "right_lens": 6
+      },
+      {
+        "code": "minimum_air_gap_mm",
+        "nominal_value": 17.737600979929987,
+        "limit": 0.0,
+        "worst_case_loss": 0.05,
+        "nominal_margin": 17.737600979929987,
+        "remaining_margin": 17.687600979929986,
+        "passed": true,
+        "radius_mm": 10.483330558847411,
+        "limit_source_lenses": [
+          3,
+          6
+        ],
+        "budget_source_lenses": [
+          3,
+          6
+        ],
+        "left_lens": 3,
+        "right_lens": 6
+      },
+      {
+        "code": "minimum_rim_gap_mm",
+        "nominal_value": 16.342744265476597,
+        "limit": 0.0,
+        "worst_case_loss": 0.05,
+        "nominal_margin": 16.342744265476597,
+        "remaining_margin": 16.292744265476596,
+        "passed": true,
+        "radius_mm": null,
+        "limit_source_lenses": [
+          3,
+          6
+        ],
+        "budget_source_lenses": [
+          3,
+          6
+        ],
+        "left_lens": 3,
+        "right_lens": 6
+      },
+      {
+        "code": "all_pairs_solid_clearance",
+        "nominal_value": 5.0249646130202805,
+        "limit": 0.0,
+        "worst_case_loss": 0.0,
+        "nominal_margin": 5.0249646130202805,
+        "remaining_margin": 5.0249646130202805,
+        "passed": true,
+        "radius_mm": 0.0,
+        "left_lens": 4,
+        "right_lens": 6
+      },
+      {
+        "code": "minimum_air_gap_mm",
+        "nominal_value": 5.0249646130202805,
+        "limit": 0.0,
+        "worst_case_loss": 0.05,
+        "nominal_margin": 5.0249646130202805,
+        "remaining_margin": 4.974964613020281,
+        "passed": true,
+        "radius_mm": 0.0,
+        "limit_source_lenses": [
+          4,
+          6
+        ],
+        "budget_source_lenses": [
+          4,
+          6
+        ],
+        "left_lens": 4,
+        "right_lens": 6
+      },
+      {
+        "code": "minimum_rim_gap_mm",
+        "nominal_value": 5.8171976295665395,
+        "limit": 0.0,
+        "worst_case_loss": 0.05,
+        "nominal_margin": 5.8171976295665395,
+        "remaining_margin": 5.76719762956654,
+        "passed": true,
+        "radius_mm": null,
+        "limit_source_lenses": [
+          4,
+          6
+        ],
+        "budget_source_lenses": [
+          4,
+          6
+        ],
+        "left_lens": 4,
+        "right_lens": 6
+      },
+      {
+        "code": "all_pairs_solid_clearance",
+        "nominal_value": 0.22409301993290143,
+        "limit": 0.0,
+        "worst_case_loss": 0.0,
+        "nominal_margin": 0.22409301993290143,
+        "remaining_margin": 0.22409301993290143,
+        "passed": true,
+        "radius_mm": 0.0,
+        "left_lens": 5,
+        "right_lens": 6
+      },
+      {
+        "code": "minimum_air_gap_mm",
+        "nominal_value": 0.22409301993290143,
+        "limit": 0.0,
+        "worst_case_loss": 0.05,
+        "nominal_margin": 0.22409301993290143,
+        "remaining_margin": 0.17409301993290144,
+        "passed": true,
+        "radius_mm": 0.0,
+        "limit_source_lenses": [
+          5,
+          6
+        ],
+        "budget_source_lenses": [
+          5,
+          6
+        ],
+        "left_lens": 5,
+        "right_lens": 6
+      },
+      {
+        "code": "minimum_rim_gap_mm",
+        "nominal_value": 3.084058576857771,
+        "limit": 0.0,
+        "worst_case_loss": 0.05,
+        "nominal_margin": 3.084058576857771,
+        "remaining_margin": 3.0340585768577712,
+        "passed": true,
+        "radius_mm": null,
+        "limit_source_lenses": [
+          5,
+          6
+        ],
+        "budget_source_lenses": [
+          5,
+          6
+        ],
+        "left_lens": 5,
+        "right_lens": 6
+      },
+      {
+        "code": "ray_envelope_clearance",
+        "nominal_value": 0.27894776472995453,
+        "limit": 0.0,
+        "worst_case_loss": 0.0,
+        "nominal_margin": 0.27894776472995453,
+        "remaining_margin": 0.27894776472995453,
+        "passed": true,
+        "surface": 1,
+        "field_index": 4,
+        "wave_index": 0,
+        "pupil_xy": [
+          -1.8369701987210297e-16,
+          -1.0
+        ],
+        "domain": "configured fields/all wavelengths/pupil including exact rim"
+      },
+      {
+        "code": "ray_envelope_clearance",
+        "nominal_value": 0.2781528742805808,
+        "limit": 0.0,
+        "worst_case_loss": 0.0,
+        "nominal_margin": 0.2781528742805808,
+        "remaining_margin": 0.2781528742805808,
+        "passed": true,
+        "surface": 2,
+        "field_index": 4,
+        "wave_index": 0,
+        "pupil_xy": [
+          -1.8369701987210297e-16,
+          -1.0
+        ],
+        "domain": "configured fields/all wavelengths/pupil including exact rim"
+      },
+      {
+        "code": "ray_envelope_clearance",
+        "nominal_value": 0.37174203911368764,
+        "limit": 0.0,
+        "worst_case_loss": 0.0,
+        "nominal_margin": 0.37174203911368764,
+        "remaining_margin": 0.37174203911368764,
+        "passed": true,
+        "surface": 3,
+        "field_index": 4,
+        "wave_index": 0,
+        "pupil_xy": [
+          -1.8369701987210297e-16,
+          -1.0
+        ],
+        "domain": "configured fields/all wavelengths/pupil including exact rim"
+      },
+      {
+        "code": "ray_envelope_clearance",
+        "nominal_value": 0.23436467177820042,
+        "limit": 0.0,
+        "worst_case_loss": 0.0,
+        "nominal_margin": 0.23436467177820042,
+        "remaining_margin": 0.23436467177820042,
+        "passed": true,
+        "surface": 4,
+        "field_index": 4,
+        "wave_index": 0,
+        "pupil_xy": [
+          -1.8369701987210297e-16,
+          -1.0
+        ],
+        "domain": "configured fields/all wavelengths/pupil including exact rim"
+      },
+      {
+        "code": "ray_envelope_clearance",
+        "nominal_value": 0.8042053816963382,
+        "limit": 0.0,
+        "worst_case_loss": 0.0,
+        "nominal_margin": 0.8042053816963382,
+        "remaining_margin": 0.8042053816963382,
+        "passed": true,
+        "surface": 5,
+        "field_index": 4,
+        "wave_index": 0,
+        "pupil_xy": [
+          -1.8369701987210297e-16,
+          -1.0
+        ],
+        "domain": "configured fields/all wavelengths/pupil including exact rim"
+      },
+      {
+        "code": "ray_envelope_clearance",
+        "nominal_value": 1.0355657529944189,
+        "limit": 0.0,
+        "worst_case_loss": 0.0,
+        "nominal_margin": 1.0355657529944189,
+        "remaining_margin": 1.0355657529944189,
+        "passed": true,
+        "surface": 7,
+        "field_index": 4,
+        "wave_index": 0,
+        "pupil_xy": [
+          6.123233995736766e-17,
+          1.0
+        ],
+        "domain": "configured fields/all wavelengths/pupil including exact rim"
+      },
+      {
+        "code": "ray_envelope_clearance",
+        "nominal_value": 1.0310435518658352,
+        "limit": 0.0,
+        "worst_case_loss": 0.0,
+        "nominal_margin": 1.0310435518658352,
+        "remaining_margin": 1.0310435518658352,
+        "passed": true,
+        "surface": 8,
+        "field_index": 4,
+        "wave_index": 0,
+        "pupil_xy": [
+          6.123233995736766e-17,
+          1.0
+        ],
+        "domain": "configured fields/all wavelengths/pupil including exact rim"
+      },
+      {
+        "code": "ray_envelope_clearance",
+        "nominal_value": 1.2153114182220621,
+        "limit": 0.0,
+        "worst_case_loss": 0.0,
+        "nominal_margin": 1.2153114182220621,
+        "remaining_margin": 1.2153114182220621,
+        "passed": true,
+        "surface": 9,
+        "field_index": 4,
+        "wave_index": 0,
+        "pupil_xy": [
+          6.123233995736766e-17,
+          1.0
+        ],
+        "domain": "configured fields/all wavelengths/pupil including exact rim"
+      },
+      {
+        "code": "ray_envelope_clearance",
+        "nominal_value": 1.2157359556680536,
+        "limit": 0.0,
+        "worst_case_loss": 0.0,
+        "nominal_margin": 1.2157359556680536,
+        "remaining_margin": 1.2157359556680536,
+        "passed": true,
+        "surface": 10,
+        "field_index": 4,
+        "wave_index": 0,
+        "pupil_xy": [
+          6.123233995736766e-17,
+          1.0
+        ],
+        "domain": "configured fields/all wavelengths/pupil including exact rim"
+      },
+      {
+        "code": "ray_envelope_clearance",
+        "nominal_value": 1.2881612526992612,
+        "limit": 0.0,
+        "worst_case_loss": 0.0,
+        "nominal_margin": 1.2881612526992612,
+        "remaining_margin": 1.2881612526992612,
+        "passed": true,
+        "surface": 11,
+        "field_index": 4,
+        "wave_index": 0,
+        "pupil_xy": [
+          6.123233995736766e-17,
+          1.0
+        ],
+        "domain": "configured fields/all wavelengths/pupil including exact rim"
+      }
+    ],
+    "assumptions": [],
+    "scope": "Nominal coaxial spherical/plane solids, declared full OD, sampled configured-field/spectrum ray envelope and supplied scalar loss budgets.",
+    "completion": {
+      "nominalGeometry": "passed",
+      "rayEnvelope": "passed_sampled_domain",
+      "assembly": "not_evaluated",
+      "procurement": "not_evaluated",
+      "manufacturingAcceptance": "not_evaluated",
+      "statisticalTolerances": "not_evaluated"
+    },
+    "limitations": [
+      "No tilted/decentred elements, aspheres, stepped edges, flange or truncated spherical solids.",
+      "Ray coverage is the stated finite field/wavelength/pupil sampling, not a continuous-domain bound.",
+      "Mounts, spacers, insertion, bevel/support contact geometry, tooling, stress, coatings and manufacturing yield require separate evidence."
+    ],
+    "strict_gate": true,
+    "model_sha256": "5a312f50787f5114e89ee32b2fdcb1795f1c39724fcb2f52f817efbbdc8dab30",
+    "policy_sha256": "000593cdae6a466b02dcce9a3cdd144d66b0b1764cbc338b2242453a4e59c64e",
+    "material_sha256": "a1046eaf1ebdc0958455fb7eef54b7f66d1147909ca41b9fa64a5a30c9b2aef1",
+    "policy_id": "optiland-rms-50mm-2.1.0",
+    "sources": [
+      "https://github.com/optiland/challenges-eval/blob/main/RULES.md",
+      "Nominal radial mount reserve 0.50 mm and selected 0.05 mm geometry loss provisions.",
+      "The required meniscus API upper-thickness slot is inactive across the permitted optical track."
+    ],
+    "processAudit": {
+      "status": "passed",
+      "eligible": true,
+      "passed": true,
+      "violations": [],
+      "missing": [],
+      "surfaces": [
+        {
+          "surface": 1,
+          "clear_radius_mm": 13.231511873353083,
+          "mechanical_radius_mm": 13.731521873353083,
+          "clear_to_mechanical_radial_margin_mm": 0.5000099999999996,
+          "effective_minimum_clear_to_mechanical_radial_margin_mm": 0.49999,
+          "maximum_sampled_surface_slope": 0.46363804002090164,
+          "effective_maximum_surface_slope": 1.5
+        },
+        {
+          "surface": 2,
+          "clear_radius_mm": 12.345246870403217,
+          "mechanical_radius_mm": 13.731521873353083,
+          "clear_to_mechanical_radial_margin_mm": 1.3862750029498656,
+          "effective_minimum_clear_to_mechanical_radial_margin_mm": 0.49999,
+          "maximum_sampled_surface_slope": 0.15714639021199653,
+          "effective_maximum_surface_slope": 1.5
+        },
+        {
+          "surface": 3,
+          "clear_radius_mm": 11.364221566370594,
+          "mechanical_radius_mm": 11.864231566370593,
+          "clear_to_mechanical_radial_margin_mm": 0.5000099999999996,
+          "effective_minimum_clear_to_mechanical_radial_margin_mm": 0.49999,
+          "maximum_sampled_surface_slope": 0.6478628070368443,
+          "effective_maximum_surface_slope": 1.5
+        },
+        {
+          "surface": 4,
+          "clear_radius_mm": 9.692892972921134,
+          "mechanical_radius_mm": 11.864231566370593,
+          "clear_to_mechanical_radial_margin_mm": 2.171338593449459,
+          "effective_minimum_clear_to_mechanical_radial_margin_mm": 0.49999,
+          "maximum_sampled_surface_slope": 0.23413441627819834,
+          "effective_maximum_surface_slope": 1.5
+        },
+        {
+          "surface": 5,
+          "clear_radius_mm": 7.830953971276228,
+          "mechanical_radius_mm": 11.864231566370593,
+          "clear_to_mechanical_radial_margin_mm": 4.033277595094365,
+          "effective_minimum_clear_to_mechanical_radial_margin_mm": 0.49999,
+          "maximum_sampled_surface_slope": 1.1446925097728533,
+          "effective_maximum_surface_slope": 1.5
+        },
+        {
+          "surface": 6,
+          "clear_radius_mm": 3.888531012595717,
+          "mechanical_radius_mm": 4.3885410125957165,
+          "clear_to_mechanical_radial_margin_mm": 0.5000099999999996,
+          "effective_minimum_clear_to_mechanical_radial_margin_mm": 0.49999,
+          "maximum_sampled_surface_slope": 0.0,
+          "effective_maximum_surface_slope": 1.5
+        },
+        {
+          "surface": 7,
+          "clear_radius_mm": 6.536100008337227,
+          "mechanical_radius_mm": 9.484222922068069,
+          "clear_to_mechanical_radial_margin_mm": 2.948122913730842,
+          "effective_minimum_clear_to_mechanical_radial_margin_mm": 0.49999,
+          "maximum_sampled_surface_slope": 0.67273534827941,
+          "effective_maximum_surface_slope": 1.5
+        },
+        {
+          "surface": 8,
+          "clear_radius_mm": 7.631473384814488,
+          "mechanical_radius_mm": 9.484222922068069,
+          "clear_to_mechanical_radial_margin_mm": 1.8527495372535814,
+          "effective_minimum_clear_to_mechanical_radial_margin_mm": 0.49999,
+          "maximum_sampled_surface_slope": 0.002843269924308814,
+          "effective_maximum_surface_slope": 1.5
+        },
+        {
+          "surface": 9,
+          "clear_radius_mm": 8.98421292206807,
+          "mechanical_radius_mm": 9.484222922068069,
+          "clear_to_mechanical_radial_margin_mm": 0.5000099999999996,
+          "effective_minimum_clear_to_mechanical_radial_margin_mm": 0.49999,
+          "maximum_sampled_surface_slope": 0.4545161863970188,
+          "effective_maximum_surface_slope": 1.5
+        },
+        {
+          "surface": 10,
+          "clear_radius_mm": 9.673256612598284,
+          "mechanical_radius_mm": 10.483330558847411,
+          "clear_to_mechanical_radial_margin_mm": 0.810073946249128,
+          "effective_minimum_clear_to_mechanical_radial_margin_mm": 0.49999,
+          "maximum_sampled_surface_slope": 0.15462714202847125,
+          "effective_maximum_surface_slope": 1.5
+        },
+        {
+          "surface": 11,
+          "clear_radius_mm": 9.983320558847412,
+          "mechanical_radius_mm": 10.483330558847411,
+          "clear_to_mechanical_radial_margin_mm": 0.5000099999999996,
+          "effective_minimum_clear_to_mechanical_radial_margin_mm": 0.49999,
+          "maximum_sampled_surface_slope": 0.2088051815639815,
+          "effective_maximum_surface_slope": 1.5
+        }
+      ],
+      "lenses": [
+        {
+          "lens": 1,
+          "front_surface": 1,
+          "rear_surface": 2,
+          "effective_limits": {
+            "air_gap_budget_mm": 0.05,
+            "center_thickness_budget_mm": 0.05,
+            "maximum_diameter_mm": 100.0,
+            "maximum_surface_slope": 1.5,
+            "minimum_air_gap_mm": 0.0,
+            "minimum_center_thickness_mm": 2.0,
+            "minimum_clear_to_mechanical_radial_margin_mm": 0.49999,
+            "minimum_radial_thickness_mm": 1.0,
+            "minimum_rim_gap_mm": 0.0,
+            "radial_thickness_budget_mm": 0.05,
+            "rim_gap_budget_mm": 0.05
+          },
+          "center_thickness_mm": 4.636896294372697,
+          "shape": "meniscus",
+          "meniscus_conditions": {
+            "edge_thickness_budget_mm": 0.05,
+            "face_distance_budget_mm": 0.05,
+            "maximum_center_thickness_mm": 1000000.0,
+            "minimum_center_to_diameter_ratio": 0.08,
+            "minimum_edge_thickness_mm": 1.0,
+            "minimum_face_distance_mm": 1.0,
+            "minimum_face_to_diameter_ratio": 0.04
+          },
+          "mechanical_diameter_mm": 27.463043746706166,
+          "common_radius_mm": 13.731521873353083,
+          "minimum_radial_thickness_mm": 2.680848235390861,
+          "minimum_at_radius_mm": 13.731521873353083,
+          "edge_thickness_mm": 2.680848235390861,
+          "center_to_diameter_ratio": 0.16884131042207703,
+          "sphere_center_separation_mm": 60.444394692139944,
+          "face_distance": {
+            "method": "analytic_spherical_caps",
+            "lower_mm": 2.649297823912257,
+            "upper_mm": 2.649297823912257,
+            "front_rz_mm": [
+              13.731521873353083,
+              3.028397567435275
+            ],
+            "rear_rz_mm": [
+              13.332201845069948,
+              5.647428394821271
+            ],
+            "limit_mm": 1.0985217498682467,
+            "budget_mm": 0.05,
+            "lower_margin_mm": 1.5007760740440104
+          }
+        },
+        {
+          "lens": 2,
+          "front_surface": 3,
+          "rear_surface": 4,
+          "effective_limits": {
+            "air_gap_budget_mm": 0.05,
+            "center_thickness_budget_mm": 0.05,
+            "maximum_diameter_mm": 100.0,
+            "maximum_surface_slope": 1.5,
+            "minimum_air_gap_mm": 0.0,
+            "minimum_center_thickness_mm": 2.0,
+            "minimum_clear_to_mechanical_radial_margin_mm": 0.49999,
+            "minimum_radial_thickness_mm": 1.0,
+            "minimum_rim_gap_mm": 0.0,
+            "radial_thickness_budget_mm": 0.05,
+            "rim_gap_budget_mm": 0.05
+          },
+          "center_thickness_mm": 6.933955932824104,
+          "shape": "opposed",
+          "mechanical_diameter_mm": 23.728463132741187,
+          "common_radius_mm": 11.864231566370593,
+          "minimum_radial_thickness_mm": 2.056243058007975,
+          "minimum_at_radius_mm": 11.864231566370593,
+          "edge_thickness_mm": 2.056243058007975
+        },
+        {
+          "lens": 3,
+          "front_surface": 4,
+          "rear_surface": 5,
+          "effective_limits": {
+            "air_gap_budget_mm": 0.05,
+            "center_thickness_budget_mm": 0.05,
+            "maximum_diameter_mm": 100.0,
+            "maximum_surface_slope": 1.5,
+            "minimum_air_gap_mm": 0.0,
+            "minimum_center_thickness_mm": 2.0,
+            "minimum_clear_to_mechanical_radial_margin_mm": 0.49999,
+            "minimum_radial_thickness_mm": 1.0,
+            "minimum_rim_gap_mm": 0.0,
+            "radial_thickness_budget_mm": 0.05,
+            "rim_gap_budget_mm": 0.05
+          },
+          "center_thickness_mm": 2.386180389265135,
+          "shape": "opposed",
+          "mechanical_diameter_mm": 23.728463132741187,
+          "common_radius_mm": 11.864231566370593,
+          "minimum_radial_thickness_mm": 2.386180389265135,
+          "minimum_at_radius_mm": 0.0,
+          "edge_thickness_mm": 9.1458631586356
+        },
+        {
+          "lens": 4,
+          "front_surface": 7,
+          "rear_surface": 8,
+          "effective_limits": {
+            "air_gap_budget_mm": 0.05,
+            "center_thickness_budget_mm": 0.05,
+            "maximum_diameter_mm": 100.0,
+            "maximum_surface_slope": 1.5,
+            "minimum_air_gap_mm": 0.0,
+            "minimum_center_thickness_mm": 2.0,
+            "minimum_clear_to_mechanical_radial_margin_mm": 0.49999,
+            "minimum_radial_thickness_mm": 1.0,
+            "minimum_rim_gap_mm": 0.0,
+            "radial_thickness_budget_mm": 0.05,
+            "rim_gap_budget_mm": 0.05
+          },
+          "center_thickness_mm": 2.2854194517578676,
+          "shape": "opposed",
+          "mechanical_diameter_mm": 18.968445844136138,
+          "common_radius_mm": 9.484222922068069,
+          "minimum_radial_thickness_mm": 2.2854194517578676,
+          "minimum_at_radius_mm": 0.0,
+          "edge_thickness_mm": 5.192197021645969
+        },
+        {
+          "lens": 5,
+          "front_surface": 8,
+          "rear_surface": 9,
+          "effective_limits": {
+            "air_gap_budget_mm": 0.05,
+            "center_thickness_budget_mm": 0.05,
+            "maximum_diameter_mm": 100.0,
+            "maximum_surface_slope": 1.5,
+            "minimum_air_gap_mm": 0.0,
+            "minimum_center_thickness_mm": 2.0,
+            "minimum_clear_to_mechanical_radial_margin_mm": 0.49999,
+            "minimum_radial_thickness_mm": 1.0,
+            "minimum_rim_gap_mm": 0.0,
+            "radial_thickness_budget_mm": 0.05,
+            "rim_gap_budget_mm": 0.05
+          },
+          "center_thickness_mm": 4.800871593087379,
+          "shape": "opposed",
+          "mechanical_diameter_mm": 18.968445844136138,
+          "common_radius_mm": 9.484222922068069,
+          "minimum_radial_thickness_mm": 2.733139052708766,
+          "minimum_at_radius_mm": 9.484222922068069,
+          "edge_thickness_mm": 2.733139052708766
+        },
+        {
+          "lens": 6,
+          "front_surface": 10,
+          "rear_surface": 11,
+          "effective_limits": {
+            "air_gap_budget_mm": 0.05,
+            "center_thickness_budget_mm": 0.05,
+            "maximum_diameter_mm": 100.0,
+            "maximum_surface_slope": 1.5,
+            "minimum_air_gap_mm": 0.0,
+            "minimum_center_thickness_mm": 2.0,
+            "minimum_clear_to_mechanical_radial_margin_mm": 0.49999,
+            "minimum_radial_thickness_mm": 1.0,
+            "minimum_rim_gap_mm": 0.0,
+            "radial_thickness_budget_mm": 0.05,
+            "rim_gap_budget_mm": 0.05
+          },
+          "center_thickness_mm": 2.9385263540786966,
+          "shape": "opposed",
+          "mechanical_diameter_mm": 20.966661117694823,
+          "common_radius_mm": 10.483330558847411,
+          "minimum_radial_thickness_mm": 1.0500000000871532,
+          "minimum_at_radius_mm": 10.483330558847411,
+          "edge_thickness_mm": 1.0500000000871532
+        }
+      ],
+      "gaps": [
+        {
+          "left_lens": 1,
+          "right_lens": 2,
+          "kind": "separated_solids",
+          "left_rear_surface": 2,
+          "right_front_surface": 3,
+          "minimum_gap_mm": 0.2746657613201551,
+          "minimum_at_radius_mm": 0.0,
+          "common_radius_mm": 11.864231566370593,
+          "effective_minimum_air_gap_mm": 0.0,
+          "effective_air_gap_budget_mm": 0.05,
+          "air_requirement_lens": 2,
+          "separate_rim_axial_gap_mm": 2.7096468199315646,
+          "effective_minimum_rim_gap_mm": 0.0,
+          "effective_rim_gap_budget_mm": 0.05,
+          "rim_requirement_lens": 2
+        },
+        {
+          "left_lens": 1,
+          "right_lens": 3,
+          "kind": "separated_solids",
+          "left_rear_surface": 2,
+          "right_front_surface": 4,
+          "minimum_gap_mm": 5.038949482275332,
+          "minimum_at_radius_mm": 11.864231566370593,
+          "common_radius_mm": 11.864231566370593
+        },
+        {
+          "left_lens": 1,
+          "right_lens": 4,
+          "kind": "separated_solids",
+          "left_rear_surface": 2,
+          "right_front_surface": 7,
+          "minimum_gap_mm": 19.807516225584678,
+          "minimum_at_radius_mm": 9.484222922068069,
+          "common_radius_mm": 9.484222922068069
+        },
+        {
+          "left_lens": 1,
+          "right_lens": 5,
+          "kind": "separated_solids",
+          "left_rear_surface": 2,
+          "right_front_surface": 8,
+          "minimum_gap_mm": 24.999713247230645,
+          "minimum_at_radius_mm": 9.484222922068069,
+          "common_radius_mm": 9.484222922068069
+        },
+        {
+          "left_lens": 1,
+          "right_lens": 6,
+          "kind": "separated_solids",
+          "left_rear_surface": 2,
+          "right_front_surface": 10,
+          "minimum_gap_mm": 30.5211307183139,
+          "minimum_at_radius_mm": 0.0,
+          "common_radius_mm": 10.483330558847411
+        },
+        {
+          "left_lens": 2,
+          "right_lens": 3,
+          "kind": "shared_cemented_interface",
+          "left_rear_surface": 4,
+          "right_front_surface": 4
+        },
+        {
+          "left_lens": 2,
+          "right_lens": 4,
+          "kind": "separated_solids",
+          "left_rear_surface": 4,
+          "right_front_surface": 7,
+          "minimum_gap_mm": 13.980319137750438,
+          "minimum_at_radius_mm": 9.484222922068069,
+          "common_radius_mm": 9.484222922068069
+        },
+        {
+          "left_lens": 2,
+          "right_lens": 5,
+          "kind": "separated_solids",
+          "left_rear_surface": 4,
+          "right_front_surface": 8,
+          "minimum_gap_mm": 18.28754441114936,
+          "minimum_at_radius_mm": 0.0,
+          "common_radius_mm": 9.484222922068069
+        },
+        {
+          "left_lens": 2,
+          "right_lens": 6,
+          "kind": "separated_solids",
+          "left_rear_surface": 4,
+          "right_front_surface": 10,
+          "minimum_gap_mm": 23.31250902416964,
+          "minimum_at_radius_mm": 0.0,
+          "common_radius_mm": 10.483330558847411
+        },
+        {
+          "left_lens": 3,
+          "right_lens": 4,
+          "kind": "separated_solids",
+          "left_rear_surface": 5,
+          "right_front_surface": 7,
+          "minimum_gap_mm": 7.547884192379135,
+          "minimum_at_radius_mm": 9.484222922068069,
+          "common_radius_mm": 9.484222922068069,
+          "effective_minimum_air_gap_mm": 0.0,
+          "effective_air_gap_budget_mm": 0.05,
+          "air_requirement_lens": 4,
+          "separate_rim_axial_gap_mm": 5.333349614264089,
+          "effective_minimum_rim_gap_mm": 0.0,
+          "effective_rim_gap_budget_mm": 0.05,
+          "rim_requirement_lens": 4
+        },
+        {
+          "left_lens": 3,
+          "right_lens": 5,
+          "kind": "separated_solids",
+          "left_rear_surface": 5,
+          "right_front_surface": 8,
+          "minimum_gap_mm": 12.740081214025103,
+          "minimum_at_radius_mm": 9.484222922068069,
+          "common_radius_mm": 9.484222922068069
+        },
+        {
+          "left_lens": 3,
+          "right_lens": 6,
+          "kind": "separated_solids",
+          "left_rear_surface": 5,
+          "right_front_surface": 10,
+          "minimum_gap_mm": 17.737600979929987,
+          "minimum_at_radius_mm": 10.483330558847411,
+          "common_radius_mm": 10.483330558847411
+        },
+        {
+          "left_lens": 4,
+          "right_lens": 5,
+          "kind": "shared_cemented_interface",
+          "left_rear_surface": 8,
+          "right_front_surface": 8
+        },
+        {
+          "left_lens": 4,
+          "right_lens": 6,
+          "kind": "separated_solids",
+          "left_rear_surface": 8,
+          "right_front_surface": 10,
+          "minimum_gap_mm": 5.0249646130202805,
+          "minimum_at_radius_mm": 0.0,
+          "common_radius_mm": 9.484222922068069
+        },
+        {
+          "left_lens": 5,
+          "right_lens": 6,
+          "kind": "separated_solids",
+          "left_rear_surface": 9,
+          "right_front_surface": 10,
+          "minimum_gap_mm": 0.22409301993290143,
+          "minimum_at_radius_mm": 0.0,
+          "common_radius_mm": 9.484222922068069,
+          "effective_minimum_air_gap_mm": 0.0,
+          "effective_air_gap_budget_mm": 0.05,
+          "air_requirement_lens": 6,
+          "separate_rim_axial_gap_mm": 3.0840585768577737,
+          "effective_minimum_rim_gap_mm": 0.0,
+          "effective_rim_gap_budget_mm": 0.05,
+          "rim_requirement_lens": 6
+        }
+      ],
+      "assumptions": [],
+      "scope": "configured nominal coaxial solids and supplied scalar budgets; ray-envelope coverage requires audit_ray_envelope; mounting, insertion, stress, tooling, coating and manufacturing yield not evaluated",
+      "method": {
+        "radial_samples": 1025,
+        "extrema": "polynomial candidates plus sampled local refinement",
+        "interval_certified": false
+      },
+      "limit_precedence": "Lens entries override defaults for that lens. Shared faces use the tightest effective slope/margin; air and rim requirements apply to both adjacent ambient interfaces and use the tightest complete (minimum + budget) requirement from either bordering lens. Bonded shared faces have no air/rim gap requirement."
+    },
+    "method": {
+      "geometry": "analytic spherical monotonic extrema and complete cap nearest-point candidate enumeration",
+      "full_radial_domain": true,
+      "all_glass_pairs": true,
+      "geometry_sampling_used_for_acceptance": false,
+      "ray_envelope": "Optiwork actual physical launcher and native refractive trace including exact pupil rim"
+    },
+    "rayEnvelope": {
+      "radial_order": 12,
+      "azimuths": 64,
+      "includes_exact_rim": true,
+      "required_margin_mm": 0.0,
+      "loss_budget_mm": 0.0,
+      "pupil_rays_per_group": 769,
+      "groups": [
+        {
+          "field_index": 0,
+          "field_xy": [
+            0.0,
+            0.0
+          ],
+          "wave_index": 0,
+          "wavelength_um": 0.4861327,
+          "rays": 769,
+          "failed_rays": 0
+        },
+        {
+          "field_index": 0,
+          "field_xy": [
+            0.0,
+            0.0
+          ],
+          "wave_index": 1,
+          "wavelength_um": 0.5875617999999999,
+          "rays": 769,
+          "failed_rays": 0
+        },
+        {
+          "field_index": 0,
+          "field_xy": [
+            0.0,
+            0.0
+          ],
+          "wave_index": 2,
+          "wavelength_um": 0.6562725,
+          "rays": 769,
+          "failed_rays": 0
+        },
+        {
+          "field_index": 1,
+          "field_xy": [
+            0.0,
+            7.0
+          ],
+          "wave_index": 0,
+          "wavelength_um": 0.4861327,
+          "rays": 769,
+          "failed_rays": 0
+        },
+        {
+          "field_index": 1,
+          "field_xy": [
+            0.0,
+            7.0
+          ],
+          "wave_index": 1,
+          "wavelength_um": 0.5875617999999999,
+          "rays": 769,
+          "failed_rays": 0
+        },
+        {
+          "field_index": 1,
+          "field_xy": [
+            0.0,
+            7.0
+          ],
+          "wave_index": 2,
+          "wavelength_um": 0.6562725,
+          "rays": 769,
+          "failed_rays": 0
+        },
+        {
+          "field_index": 2,
+          "field_xy": [
+            0.0,
+            10.0
+          ],
+          "wave_index": 0,
+          "wavelength_um": 0.4861327,
+          "rays": 769,
+          "failed_rays": 0
+        },
+        {
+          "field_index": 2,
+          "field_xy": [
+            0.0,
+            10.0
+          ],
+          "wave_index": 1,
+          "wavelength_um": 0.5875617999999999,
+          "rays": 769,
+          "failed_rays": 0
+        },
+        {
+          "field_index": 2,
+          "field_xy": [
+            0.0,
+            10.0
+          ],
+          "wave_index": 2,
+          "wavelength_um": 0.6562725,
+          "rays": 769,
+          "failed_rays": 0
+        },
+        {
+          "field_index": 3,
+          "field_xy": [
+            0.0,
+            12.0
+          ],
+          "wave_index": 0,
+          "wavelength_um": 0.4861327,
+          "rays": 769,
+          "failed_rays": 0
+        },
+        {
+          "field_index": 3,
+          "field_xy": [
+            0.0,
+            12.0
+          ],
+          "wave_index": 1,
+          "wavelength_um": 0.5875617999999999,
+          "rays": 769,
+          "failed_rays": 0
+        },
+        {
+          "field_index": 3,
+          "field_xy": [
+            0.0,
+            12.0
+          ],
+          "wave_index": 2,
+          "wavelength_um": 0.6562725,
+          "rays": 769,
+          "failed_rays": 0
+        },
+        {
+          "field_index": 4,
+          "field_xy": [
+            0.0,
+            14.0
+          ],
+          "wave_index": 0,
+          "wavelength_um": 0.4861327,
+          "rays": 769,
+          "failed_rays": 0
+        },
+        {
+          "field_index": 4,
+          "field_xy": [
+            0.0,
+            14.0
+          ],
+          "wave_index": 1,
+          "wavelength_um": 0.5875617999999999,
+          "rays": 769,
+          "failed_rays": 0
+        },
+        {
+          "field_index": 4,
+          "field_xy": [
+            0.0,
+            14.0
+          ],
+          "wave_index": 2,
+          "wavelength_um": 0.6562725,
+          "rays": 769,
+          "failed_rays": 0
+        }
+      ],
+      "surfaces": [
+        {
+          "surface": 1,
+          "maximum_radius_mm": 12.952564108623129,
+          "field_index": 4,
+          "wave_index": 0,
+          "pupil_index": 753,
+          "pupil_xy": [
+            -1.8369701987210297e-16,
+            -1.0
+          ]
+        },
+        {
+          "surface": 2,
+          "maximum_radius_mm": 12.067093996122637,
+          "field_index": 4,
+          "wave_index": 0,
+          "pupil_index": 753,
+          "pupil_xy": [
+            -1.8369701987210297e-16,
+            -1.0
+          ]
+        },
+        {
+          "surface": 3,
+          "maximum_radius_mm": 10.992479527256906,
+          "field_index": 4,
+          "wave_index": 0,
+          "pupil_index": 753,
+          "pupil_xy": [
+            -1.8369701987210297e-16,
+            -1.0
+          ]
+        },
+        {
+          "surface": 4,
+          "maximum_radius_mm": 9.458528301142934,
+          "field_index": 4,
+          "wave_index": 0,
+          "pupil_index": 753,
+          "pupil_xy": [
+            -1.8369701987210297e-16,
+            -1.0
+          ]
+        },
+        {
+          "surface": 5,
+          "maximum_radius_mm": 7.02674858957989,
+          "field_index": 4,
+          "wave_index": 0,
+          "pupil_index": 753,
+          "pupil_xy": [
+            -1.8369701987210297e-16,
+            -1.0
+          ]
+        },
+        {
+          "surface": 6,
+          "maximum_radius_mm": 3.8885310126245365,
+          "field_index": 1,
+          "wave_index": 1,
+          "pupil_index": 707,
+          "pupil_xy": [
+            0.9807852804032304,
+            0.19509032201612825
+          ]
+        },
+        {
+          "surface": 7,
+          "maximum_radius_mm": 5.500534255342808,
+          "field_index": 4,
+          "wave_index": 0,
+          "pupil_index": 721,
+          "pupil_xy": [
+            6.123233995736766e-17,
+            1.0
+          ]
+        },
+        {
+          "surface": 8,
+          "maximum_radius_mm": 6.600429832948652,
+          "field_index": 4,
+          "wave_index": 0,
+          "pupil_index": 721,
+          "pupil_xy": [
+            6.123233995736766e-17,
+            1.0
+          ]
+        },
+        {
+          "surface": 9,
+          "maximum_radius_mm": 7.768901503846007,
+          "field_index": 4,
+          "wave_index": 0,
+          "pupil_index": 721,
+          "pupil_xy": [
+            6.123233995736766e-17,
+            1.0
+          ]
+        },
+        {
+          "surface": 10,
+          "maximum_radius_mm": 8.45752065693023,
+          "field_index": 4,
+          "wave_index": 0,
+          "pupil_index": 721,
+          "pupil_xy": [
+            6.123233995736766e-17,
+            1.0
+          ]
+        },
+        {
+          "surface": 11,
+          "maximum_radius_mm": 8.69515930614815,
+          "field_index": 4,
+          "wave_index": 0,
+          "pupil_index": 721,
+          "pupil_xy": [
+            6.123233995736766e-17,
+            1.0
+          ]
+        },
+        {
+          "surface": 12,
+          "maximum_radius_mm": 12.349663648956657,
+          "field_index": 4,
+          "wave_index": 0,
+          "pupil_index": 337,
+          "pupil_xy": [
+            3.0616169978683824e-17,
+            0.49999999999999994
+          ]
+        }
+      ],
+      "failed_rays": 0,
+      "rays": 11535,
+      "continuous_domain_certified": false
+    },
+    "project_sha256": "63ea93092365cf0868b1193aa90666aab8539ce8781fb03a870c2e88aecf6fb5",
+    "audit_source": "fresh_supplied_project_payload_and_material_snapshot",
+    "kind": "manufacturing_audit",
+    "engine": "Optiwork",
+    "read_only": true
+  },
+  "scoreFields": [
+    0.0,
+    7.0,
+    10.0,
+    12.0,
+    14.0
+  ],
+  "rmsUm": [
+    12.256061957715191,
+    8.3379843832901,
+    8.924466302562577,
+    12.239652913514712,
+    16.97804458231387
+  ],
+  "denserRmsUm": [
+    12.256061957714449,
+    8.337984383290232,
+    8.92446630256246,
+    12.239652913514718,
+    16.978044582313515
+  ],
+  "score": 0.2359815162736847,
+  "checks": {
+    "effectiveFocalLength": true,
+    "fNumber": true,
+    "glassElements": true,
+    "backFocalDistance": true,
+    "totalTrack": true,
+    "distortion": true,
+    "fullPupil": true,
+    "mechanicalGeometry": true,
+    "scoreConverges": true
+  },
+  "candidates": [
+    {
+      "label": "gauss-polished",
+      "eflMm": 50.15886510525113,
+      "bfdMm": 28.763683433215373,
+      "trackMm": 66.86023679998067,
+      "rmsUm": [
+        12.242161446777141,
+        8.334997066949228,
+        8.947965440563623,
+        12.277409539856802,
+        17.025148786591974
+      ],
+      "score": 0.23679976151535703,
+      "distortionPercent": 1.3347773476187104,
+      "geometry": "passed",
+      "fullPupil": true
+    },
+    {
+      "label": "gauss-signed",
+      "eflMm": 50.15885652158777,
+      "bfdMm": 28.763683433215373,
+      "trackMm": 66.86023679998067,
+      "rmsUm": [
+        12.241163840263441,
+        8.334335341622491,
+        8.948065057094215,
+        12.277895072257374,
+        17.02581935648338
+      ],
+      "score": 0.23680010821815922,
+      "distortionPercent": 1.334751480532844,
+      "geometry": "passed",
+      "fullPupil": true
+    },
+    {
+      "label": "gauss-expanded",
+      "eflMm": 50.160658261278236,
+      "bfdMm": 28.42638320899661,
+      "trackMm": 66.59045091015224,
+      "rmsUm": [
+        13.98386093767344,
+        9.379934852578524,
+        9.771058452371916,
+        13.49450293231703,
+        18.96539156778712
+      ],
+      "score": 0.2946537006567292,
+      "distortionPercent": 1.3656715218269841,
+      "geometry": "passed",
+      "fullPupil": true
+    },
+    {
+      "label": "gauss-fit",
+      "eflMm": 50.165475185005896,
+      "bfdMm": 28.460772529166853,
+      "trackMm": 67.06299108831563,
+      "rmsUm": [
+        15.171168998143406,
+        10.313146446232722,
+        10.723695882809388,
+        14.735062149855084,
+        20.73792528398448
+      ],
+      "score": 0.3515861162953177,
+      "distortionPercent": 1.4101268352431753,
+      "geometry": "passed",
+      "fullPupil": true
+    },
+    {
+      "label": "cooke-polished",
+      "eflMm": 50.17621106655848,
+      "bfdMm": 41.527905128798274,
+      "trackMm": 61.342958312280025,
+      "rmsUm": [
+        14.07569316024254,
+        13.78674202110654,
+        19.50182954769375,
+        26.662152934657563,
+        35.567997467244815
+      ],
+      "score": 0.8782315494867671,
+      "distortionPercent": 0.18469565038626226,
+      "geometry": "passed",
+      "fullPupil": true
+    },
+    {
+      "label": "cooke-signed",
+      "eflMm": 50.17621205279061,
+      "bfdMm": 41.527905128798274,
+      "trackMm": 61.342962416630805,
+      "rmsUm": [
+        14.075719866916424,
+        13.786731885508974,
+        19.50184592043625,
+        26.662214659769084,
+        35.568119963886836
+      ],
+      "score": 0.8782357467162567,
+      "distortionPercent": 0.1846963100858268,
+      "geometry": "passed",
+      "fullPupil": true
+    },
+    {
+      "label": "cooke-fit",
+      "eflMm": 50.17596975658222,
+      "bfdMm": 41.52846384894314,
+      "trackMm": 61.34416133244963,
+      "rmsUm": [
+        14.284173434997232,
+        13.989051985043947,
+        19.918626528687344,
+        27.33657811855099,
+        36.58198630390292
+      ],
+      "score": 0.9222441901188005,
+      "distortionPercent": 0.18510038020407854,
+      "geometry": "passed",
+      "fullPupil": true
+    },
+    {
+      "label": "gauss-seed",
+      "eflMm": 50.19999999999998,
+      "bfdMm": 28.207578584250555,
+      "trackMm": 68.04028807885132,
+      "rmsUm": [
+        29.16981330483146,
+        27.68909268907151,
+        31.606848741572573,
+        38.619912148099644,
+        49.548875783261984
+      ],
+      "score": 2.100206545685576,
+      "distortionPercent": 0.6083574925092393,
+      "geometry": "passed",
+      "fullPupil": true
+    },
+    {
+      "label": "tessar-polished",
+      "eflMm": 50.450878305363716,
+      "bfdMm": 40.745918183163745,
+      "trackMm": 61.82794983846062,
+      "rmsUm": [
+        66.17905050516339,
+        43.24939408448516,
+        41.41739746745681,
+        59.0698366864469,
+        85.89861004696377
+      ],
+      "score": 6.026686221305988,
+      "distortionPercent": 0.2161392536136777,
+      "geometry": "passed",
+      "fullPupil": true
+    },
+    {
+      "label": "tessar-signed",
+      "eflMm": 50.450878979460285,
+      "bfdMm": 40.745918183163745,
+      "trackMm": 61.82795422023188,
+      "rmsUm": [
+        66.1793511981663,
+        43.24961506096242,
+        41.41748885853232,
+        59.069890410657855,
+        85.89869777399362
+      ],
+      "score": 6.026714349975468,
+      "distortionPercent": 0.21613169947043184,
+      "geometry": "passed",
+      "fullPupil": true
+    },
+    {
+      "label": "tessar-fit",
+      "eflMm": 50.450916702093366,
+      "bfdMm": 40.7469695763236,
+      "trackMm": 61.831391948785075,
+      "rmsUm": [
+        67.6515706582494,
+        44.30664805954046,
+        42.328356166532274,
+        60.214042997980044,
+        87.51723375259645
+      ],
+      "score": 6.277280316297632,
+      "distortionPercent": 0.2210786678154834,
+      "geometry": "passed",
+      "fullPupil": true
+    },
+    {
+      "label": "cooke-seed",
+      "eflMm": 49.90500630227168,
+      "bfdMm": 42.243025603748094,
+      "trackMm": 62.68567025357664,
+      "rmsUm": [
+        108.72964350155866,
+        91.39399493318875,
+        76.3569540542859,
+        68.85868624796252,
+        70.26232535834485
+      ],
+      "score": 11.418782449545391,
+      "distortionPercent": 1.8132075445087459,
+      "geometry": "passed",
+      "fullPupil": true
+    },
+    {
+      "label": "tessar-seed",
+      "eflMm": 49.21783041979803,
+      "bfdMm": 42.87790330410827,
+      "trackMm": 64.47983220534533,
+      "rmsUm": [
+        311.18366913779704,
+        263.0941280057929,
+        222.00662839710907,
+        200.5525791131827,
+        200.24458016913457
+      ],
+      "score": 94.61118977840158,
+      "distortionPercent": 5.3663719080764904,
+      "geometry": "passed",
+      "fullPupil": true
+    }
+  ]
+}
