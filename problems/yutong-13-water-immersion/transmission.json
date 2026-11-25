@@ -1,0 +1,1736 @@
+{
+  "wavelengthsNm": [
+    785.0,
+    810.0,
+    850.0
+  ],
+  "coatingCandidateConservativePower": [
+    0.8754864583715307,
+    0.875272638626195,
+    0.8685092399827068
+  ],
+  "uncoatedConservativePower": [
+    0.20699566285160237,
+    0.2075258430173672,
+    0.2089679248860738
+  ],
+  "bulkTransmission": [
+    0.9803173165780908,
+    0.9780882108204983,
+    0.9780942615758687
+  ],
+  "sampleBasedEstimate": true,
+  "minimumPowerCriterionMet": true,
+  "filmApproximateIndices": {
+    "MgF2": 1.38,
+    "Al2O3": 1.63,
+    "Ta2O5": 2.1,
+    "SiO2": 1.46,
+    "Cryolite": 1.33
+  },
+  "filmReference": "https://www.emdgroup.com/business-specifics/performance-materials/Optoelectronics/us/Patinal-Evaporation-Materials-DE-US.pdf",
+  "waterAbsorptionReference": "https://doi.org/10.1364/AO.12.000555",
+  "scope": "No scattering, cement absorption, coating-induced transmitted phase, process drift or measured throughput.",
+  "frozenOwxSha256": "ee0be7402490733cc6c3fd25b44d881d7c52daf86eb3ed8abc0d2d21d12aa4e4",
+  "rayAuditSha256": "3a0eb576b9966e75e2f1a0e010f7457f572519f093443818a3fae9837c443158",
+  "interfaces": [
+    {
+      "surface": 1,
+      "incident": "AIR",
+      "substrateOrExit": "SCHOTT:N-LAF7",
+      "coatingLayerOrder": "from air toward the glass substrate",
+      "filmMaterials": [
+        "Cryolite",
+        "Ta2O5",
+        "SiO2",
+        "Al2O3"
+      ],
+      "thicknessNm": [
+        200.41080203244712,
+        36.05404388456559,
+        65.24371832230811,
+        224.37040516134866
+      ],
+      "maximumTransverseIndex": [
+        0.5763851466346606,
+        0.5756723482623661,
+        0.5746732530718852
+      ],
+      "coatedWorstPowerReflectance": [
+        0.0016452743204105596,
+        0.001735569884513614,
+        0.002431740754700261
+      ],
+      "uncoatedWorstPowerReflectance": [
+        0.11159130481729375,
+        0.11124089619912005,
+        0.11074189641086743
+      ]
+    },
+    {
+      "surface": 2,
+      "incident": "SCHOTT:N-LAF7",
+      "substrateOrExit": "AIR",
+      "coatingLayerOrder": "from air toward the glass substrate",
+      "filmMaterials": [
+        "Cryolite",
+        "Ta2O5",
+        "SiO2",
+        "Al2O3"
+      ],
+      "thicknessNm": [
+        202.34145857019107,
+        35.392696918047285,
+        64.83084269992986,
+        225.83502328502004
+      ],
+      "maximumTransverseIndex": [
+        0.6100426732161253,
+        0.6086960533078457,
+        0.6067797893803243
+      ],
+      "coatedWorstPowerReflectance": [
+        0.0017994725529132157,
+        0.0018970749261935133,
+        0.0028387174668896725
+      ],
+      "uncoatedWorstPowerReflectance": [
+        0.11859256444577579,
+        0.11806929392755738,
+        0.11732438008513887
+      ]
+    },
+    {
+      "surface": 3,
+      "incident": "AIR",
+      "substrateOrExit": "OHARA:S-BSL7",
+      "coatingLayerOrder": "from air toward the glass substrate",
+      "filmMaterials": [
+        "Cryolite",
+        "Ta2O5",
+        "SiO2",
+        "Al2O3"
+      ],
+      "thicknessNm": [
+        166.53641526781848,
+        200.86352238503437,
+        12.632031485069028,
+        121.50045072101906
+      ],
+      "maximumTransverseIndex": [
+        0.7318016231652215,
+        0.7305507678433559,
+        0.7287724287134865
+      ],
+      "coatedWorstPowerReflectance": [
+        0.004618615067059355,
+        0.004143298013626989,
+        0.004213612719590377
+      ],
+      "uncoatedWorstPowerReflectance": [
+        0.10209222201405804,
+        0.10155565040678267,
+        0.10079235520879563
+      ]
+    },
+    {
+      "surface": 4,
+      "incident": "OHARA:S-BSL7",
+      "substrateOrExit": "AIR",
+      "coatingLayerOrder": "from air toward the glass substrate",
+      "filmMaterials": [
+        "MgF2",
+        "Al2O3",
+        "SiO2",
+        "Ta2O5"
+      ],
+      "thicknessNm": [
+        150.99158440988816,
+        115.22618854922852,
+        179.72900504547863,
+        193.19898436898777
+      ],
+      "maximumTransverseIndex": [
+        0.5679388235910481,
+        0.568272117555325,
+        0.5687531014573111
+      ],
+      "coatedWorstPowerReflectance": [
+        0.0022182280589376265,
+        0.0017620121618382742,
+        0.002215657989635247
+      ],
+      "uncoatedWorstPowerReflectance": [
+        0.06731412207057787,
+        0.06726547650099736,
+        0.06719167861050851
+      ]
+    },
+    {
+      "surface": 5,
+      "incident": "AIR",
+      "substrateOrExit": "SCHOTT:N-LAF7",
+      "coatingLayerOrder": "from air toward the glass substrate",
+      "filmMaterials": [
+        "Cryolite",
+        "Ta2O5",
+        "SiO2",
+        "Al2O3"
+      ],
+      "thicknessNm": [
+        204.0277546301148,
+        32.04833903830737,
+        29.392812816640333,
+        281.4859628438667
+      ],
+      "maximumTransverseIndex": [
+        0.7822997334261265,
+        0.7817735417367131,
+        0.7810494635430834
+      ],
+      "coatedWorstPowerReflectance": [
+        0.007783673731660582,
+        0.008068527356786283,
+        0.009451165570279767
+      ],
+      "uncoatedWorstPowerReflectance": [
+        0.18186091755499567,
+        0.18127081278699303,
+        0.18044196540235188
+      ]
+    },
+    {
+      "surface": 6,
+      "incident": "SCHOTT:N-LAF7",
+      "substrateOrExit": "OHARA:S-FPM2",
+      "coatingLayerOrder": "uncoated interface in physical trace order",
+      "filmMaterials": [],
+      "thicknessNm": [],
+      "maximumTransverseIndex": [
+        0.42941571699407066,
+        0.42923326055161715,
+        0.42896771722368265
+      ],
+      "coatedWorstPowerReflectance": [
+        0.0022247975875207917,
+        0.0022084642639518537,
+        0.0021851836723811393
+      ],
+      "uncoatedWorstPowerReflectance": [
+        0.0022247975875207917,
+        0.0022084642639518537,
+        0.0021851836723811393
+      ]
+    },
+    {
+      "surface": 7,
+      "incident": "OHARA:S-FPM2",
+      "substrateOrExit": "AIR",
+      "coatingLayerOrder": "from air toward the glass substrate",
+      "filmMaterials": [
+        "MgF2",
+        "Al2O3",
+        "SiO2",
+        "Ta2O5"
+      ],
+      "thicknessNm": [
+        141.1441864000293,
+        116.28183434993917,
+        201.1141983360606,
+        190.7751486635931
+      ],
+      "maximumTransverseIndex": [
+        0.5612075792568431,
+        0.5611091847775163,
+        0.5609861813879086
+      ],
+      "coatedWorstPowerReflectance": [
+        0.0016018834437801375,
+        0.0016435978391204492,
+        0.0018611814593085495
+      ],
+      "uncoatedWorstPowerReflectance": [
+        0.08109984415552211,
+        0.0809908976070335,
+        0.08083502490009062
+      ]
+    },
+    {
+      "surface": 8,
+      "incident": "AIR",
+      "substrateOrExit": "SCHOTT:N-KZFS11",
+      "coatingLayerOrder": "from air toward the glass substrate",
+      "filmMaterials": [
+        "MgF2",
+        "Al2O3",
+        "SiO2",
+        "Ta2O5"
+      ],
+      "thicknessNm": [
+        128.59902473599107,
+        126.09481048120792,
+        205.41302546092172,
+        189.94210162736874
+      ],
+      "maximumTransverseIndex": [
+        0.19111357084264036,
+        0.19093040249251528,
+        0.19067850158657235
+      ],
+      "coatedWorstPowerReflectance": [
+        0.0005202239137329576,
+        0.0005545677749343021,
+        0.0005744299653833567
+      ],
+      "uncoatedWorstPowerReflectance": [
+        0.05969472387685718,
+        0.05956816532853973,
+        0.05938366976457763
+      ]
+    },
+    {
+      "surface": 9,
+      "incident": "SCHOTT:N-KZFS11",
+      "substrateOrExit": "OHARA:S-FPL53",
+      "coatingLayerOrder": "uncoated interface in physical trace order",
+      "filmMaterials": [],
+      "thicknessNm": [],
+      "maximumTransverseIndex": [
+        0.888849937547695,
+        0.8888179844362738,
+        0.8887723253319142
+      ],
+      "coatedWorstPowerReflectance": [
+        0.0089925940559228,
+        0.008951612478846951,
+        0.008892019292015675
+      ],
+      "uncoatedWorstPowerReflectance": [
+        0.0089925940559228,
+        0.008951612478846951,
+        0.008892019292015675
+      ]
+    },
+    {
+      "surface": 10,
+      "incident": "OHARA:S-FPL53",
+      "substrateOrExit": "AIR",
+      "coatingLayerOrder": "from air toward the glass substrate",
+      "filmMaterials": [
+        "Cryolite",
+        "Ta2O5",
+        "SiO2",
+        "Al2O3"
+      ],
+      "thicknessNm": [
+        186.86702319127977,
+        43.70478705668765,
+        63.22184962202865,
+        94.28520480566715
+      ],
+      "maximumTransverseIndex": [
+        0.20339928809551072,
+        0.20353805146748497,
+        0.2037513379928074
+      ],
+      "coatedWorstPowerReflectance": [
+        0.000956576098013995,
+        0.000634943482631626,
+        0.0007869223396839637
+      ],
+      "uncoatedWorstPowerReflectance": [
+        0.03390262510461185,
+        0.033870352399712,
+        0.03382308968478243
+      ]
+    },
+    {
+      "surface": 11,
+      "incident": "AIR",
+      "substrateOrExit": "OHARA:S-FPL53",
+      "coatingLayerOrder": "from air toward the glass substrate",
+      "filmMaterials": [
+        "Cryolite",
+        "Ta2O5",
+        "SiO2",
+        "Al2O3"
+      ],
+      "thicknessNm": [
+        196.83265413852686,
+        40.7680132967372,
+        68.05214113258374,
+        94.1300331276995
+      ],
+      "maximumTransverseIndex": [
+        0.5684623882182261,
+        0.5682704450436082,
+        0.5679909635194701
+      ],
+      "coatedWorstPowerReflectance": [
+        0.001491607841084249,
+        0.0014353309988463573,
+        0.0019064466368636653
+      ],
+      "uncoatedWorstPowerReflectance": [
+        0.053556158623900715,
+        0.053484510394949863,
+        0.05337956505978977
+      ]
+    },
+    {
+      "surface": 12,
+      "incident": "OHARA:S-FPL53",
+      "substrateOrExit": "SCHOTT:N-KZFS11",
+      "coatingLayerOrder": "uncoated interface in physical trace order",
+      "filmMaterials": [],
+      "thicknessNm": [],
+      "maximumTransverseIndex": [
+        0.9876106874435094,
+        0.9875792732952253,
+        0.9875401907344313
+      ],
+      "coatedWorstPowerReflectance": [
+        0.011631765886612876,
+        0.01158189186241243,
+        0.011509565948467382
+      ],
+      "uncoatedWorstPowerReflectance": [
+        0.011631765886612876,
+        0.01158189186241243,
+        0.011509565948467382
+      ]
+    },
+    {
+      "surface": 13,
+      "incident": "SCHOTT:N-KZFS11",
+      "substrateOrExit": "AIR",
+      "coatingLayerOrder": "from air toward the glass substrate",
+      "filmMaterials": [
+        "MgF2",
+        "Al2O3",
+        "SiO2",
+        "Ta2O5"
+      ],
+      "thicknessNm": [
+        128.49741194261296,
+        126.16198504343053,
+        205.30143078222244,
+        189.9276399800707
+      ],
+      "maximumTransverseIndex": [
+        0.17364034866015707,
+        0.1731505644904292,
+        0.17243787943707553
+      ],
+      "coatedWorstPowerReflectance": [
+        0.0005085428316277224,
+        0.0005381941323440196,
+        0.000568187119786377
+      ],
+      "uncoatedWorstPowerReflectance": [
+        0.05921809664628051,
+        0.05908491276872152,
+        0.05889046515596254
+      ]
+    },
+    {
+      "surface": 15,
+      "incident": "AIR",
+      "substrateOrExit": "OHARA:S-FPL53",
+      "coatingLayerOrder": "from air toward the glass substrate",
+      "filmMaterials": [
+        "Cryolite",
+        "Ta2O5",
+        "SiO2",
+        "Al2O3"
+      ],
+      "thicknessNm": [
+        197.2970513274745,
+        38.69954198282361,
+        64.67051528462473,
+        92.65302254251081
+      ],
+      "maximumTransverseIndex": [
+        0.6489427674107495,
+        0.6485278556228629,
+        0.6479238335712695
+      ],
+      "coatedWorstPowerReflectance": [
+        0.0022393567934145034,
+        0.0023727554833259394,
+        0.0029422625996474365
+      ],
+      "uncoatedWorstPowerReflectance": [
+        0.0647960649785319,
+        0.06466683172063348,
+        0.06447832261282364
+      ]
+    },
+    {
+      "surface": 16,
+      "incident": "OHARA:S-FPL53",
+      "substrateOrExit": "SCHOTT:N-KZFS11",
+      "coatingLayerOrder": "uncoated interface in physical trace order",
+      "filmMaterials": [],
+      "thicknessNm": [],
+      "maximumTransverseIndex": [
+        0.15668659313199815,
+        0.15684164376311727,
+        0.15707333400188864
+      ],
+      "coatedWorstPowerReflectance": [
+        0.0040148670969096445,
+        0.003994204047771984,
+        0.003964162055144262
+      ],
+      "uncoatedWorstPowerReflectance": [
+        0.0040148670969096445,
+        0.003994204047771984,
+        0.003964162055144262
+      ]
+    },
+    {
+      "surface": 17,
+      "incident": "SCHOTT:N-KZFS11",
+      "substrateOrExit": "OHARA:S-FPL53",
+      "coatingLayerOrder": "uncoated interface in physical trace order",
+      "filmMaterials": [],
+      "thicknessNm": [],
+      "maximumTransverseIndex": [
+        0.7573217931095677,
+        0.7565839364754731,
+        0.7555095487551593
+      ],
+      "coatedWorstPowerReflectance": [
+        0.0069106951263471,
+        0.006869165002338633,
+        0.006808907940952764
+      ],
+      "uncoatedWorstPowerReflectance": [
+        0.0069106951263471,
+        0.006869165002338633,
+        0.006808907940952764
+      ]
+    },
+    {
+      "surface": 18,
+      "incident": "OHARA:S-FPL53",
+      "substrateOrExit": "AIR",
+      "coatingLayerOrder": "from air toward the glass substrate",
+      "filmMaterials": [
+        "Cryolite",
+        "Ta2O5",
+        "SiO2",
+        "Al2O3"
+      ],
+      "thicknessNm": [
+        200.3913014175298,
+        38.857209350693054,
+        68.06879555699395,
+        91.79707834232552
+      ],
+      "maximumTransverseIndex": [
+        0.6289043005240029,
+        0.6288749035841779,
+        0.6288300053466052
+      ],
+      "coatedWorstPowerReflectance": [
+        0.001746488514770887,
+        0.0019647171792353192,
+        0.0023810617362067807
+      ],
+      "uncoatedWorstPowerReflectance": [
+        0.06152518662715401,
+        0.06146507177880777,
+        0.06137643543750491
+      ]
+    },
+    {
+      "surface": 19,
+      "incident": "AIR",
+      "substrateOrExit": "SCHOTT:N-LAF34",
+      "coatingLayerOrder": "from air toward the glass substrate",
+      "filmMaterials": [
+        "Cryolite",
+        "Ta2O5",
+        "SiO2",
+        "Al2O3"
+      ],
+      "thicknessNm": [
+        202.51898328853687,
+        29.39205409985865,
+        12.464853765140106,
+        307.43264488851975
+      ],
+      "maximumTransverseIndex": [
+        0.8017750566587476,
+        0.8008219883337143,
+        0.799442873641561
+      ],
+      "coatedWorstPowerReflectance": [
+        0.009573032576371935,
+        0.009450606692959374,
+        0.010508605692887016
+      ],
+      "uncoatedWorstPowerReflectance": [
+        0.2009716847881366,
+        0.20009215612074463,
+        0.19882512270022787
+      ]
+    },
+    {
+      "surface": 20,
+      "incident": "SCHOTT:N-LAF34",
+      "substrateOrExit": "AIR",
+      "coatingLayerOrder": "from air toward the glass substrate",
+      "filmMaterials": [
+        "MgF2",
+        "Ta2O5",
+        "SiO2",
+        "Al2O3"
+      ],
+      "thicknessNm": [
+        120.08691082310948,
+        164.84183611242932,
+        234.78307135816462,
+        78.35376446095768
+      ],
+      "maximumTransverseIndex": [
+        0.4024952033737966,
+        0.4019788960791463,
+        0.401227043632434
+      ],
+      "coatedWorstPowerReflectance": [
+        0.0009545658684140448,
+        0.0002862132521969151,
+        0.001045264868492644
+      ],
+      "uncoatedWorstPowerReflectance": [
+        0.09244333869149023,
+        0.0922483020721199,
+        0.09196395483834327
+      ]
+    },
+    {
+      "surface": 21,
+      "incident": "AIR",
+      "substrateOrExit": "SCHOTT:N-LASF31A",
+      "coatingLayerOrder": "from air toward the glass substrate",
+      "filmMaterials": [
+        "MgF2",
+        "Ta2O5",
+        "SiO2",
+        "Al2O3"
+      ],
+      "thicknessNm": [
+        118.58295497737302,
+        160.11020328931878,
+        191.28591138077763,
+        86.81400466454254
+      ],
+      "maximumTransverseIndex": [
+        0.33464626214504767,
+        0.3346088462166359,
+        0.3345637400303603
+      ],
+      "coatedWorstPowerReflectance": [
+        0.0010056889851380937,
+        0.00039172745639571264,
+        0.0012324560612396868
+      ],
+      "uncoatedWorstPowerReflectance": [
+        0.1038385821881589,
+        0.10365139811307272,
+        0.10338154641447109
+      ]
+    },
+    {
+      "surface": 22,
+      "incident": "SCHOTT:N-LASF31A",
+      "substrateOrExit": "SCHOTT:LITHOSIL-Q",
+      "coatingLayerOrder": "uncoated interface in physical trace order",
+      "filmMaterials": [],
+      "thicknessNm": [],
+      "maximumTransverseIndex": [
+        0.6436716376454044,
+        0.6438809900901951,
+        0.6442166697456505
+      ],
+      "coatedWorstPowerReflectance": [
+        0.02175697922179738,
+        0.021714692656366854,
+        0.021656758804471092
+      ],
+      "uncoatedWorstPowerReflectance": [
+        0.02175697922179738,
+        0.021714692656366854,
+        0.021656758804471092
+      ]
+    },
+    {
+      "surface": 23,
+      "incident": "SCHOTT:LITHOSIL-Q",
+      "substrateOrExit": "YUTONGWATER:H2O20",
+      "coatingLayerOrder": "uncoated interface in physical trace order",
+      "filmMaterials": [],
+      "thicknessNm": [],
+      "maximumTransverseIndex": [
+        0.9243334071681035,
+        0.9234509176053675,
+        0.9221616641956084
+      ],
+      "coatedWorstPowerReflectance": [
+        0.00651531110368594,
+        0.006506001430334073,
+        0.006494589333938167
+      ],
+      "uncoatedWorstPowerReflectance": [
+        0.00651531110368594,
+        0.006506001430334073,
+        0.006494589333938167
+      ]
+    },
+    {
+      "surface": 24,
+      "incident": "YUTONGWATER:H2O20",
+      "substrateOrExit": "CDGM:H-K5",
+      "coatingLayerOrder": "uncoated interface in physical trace order",
+      "filmMaterials": [],
+      "thicknessNm": [],
+      "maximumTransverseIndex": [
+        0.9243334071681034,
+        0.9234509176053672,
+        0.9221616641956085
+      ],
+      "coatedWorstPowerReflectance": [
+        0.01181036913918363,
+        0.011787818818851386,
+        0.011758458446357851
+      ],
+      "uncoatedWorstPowerReflectance": [
+        0.01181036913918363,
+        0.011787818818851386,
+        0.011758458446357851
+      ]
+    }
+  ],
+  "internalTransmission": [
+    {
+      "endSurface": 2,
+      "medium": "SCHOTT:N-LAF7",
+      "wavelengthNm": 785.0,
+      "maximalPathMm": 4.659906549552779,
+      "attenuationPerMm": 0.0002809845974785787,
+      "coefficientEvidence": [
+        [
+          700.0,
+          0.0002809845974785787,
+          0.993,
+          25.0
+        ],
+        [
+          1060.0,
+          0.00016032085590155288,
+          0.996,
+          25.0
+        ]
+      ],
+      "transmission": 0.9986914948742531
+    },
+    {
+      "endSurface": 2,
+      "medium": "SCHOTT:N-LAF7",
+      "wavelengthNm": 810.0,
+      "maximalPathMm": 4.659925669130124,
+      "attenuationPerMm": 0.0002809845974785787,
+      "coefficientEvidence": [
+        [
+          700.0,
+          0.0002809845974785787,
+          0.993,
+          25.0
+        ],
+        [
+          1060.0,
+          0.00016032085590155288,
+          0.996,
+          25.0
+        ]
+      ],
+      "transmission": 0.998691489508976
+    },
+    {
+      "endSurface": 2,
+      "medium": "SCHOTT:N-LAF7",
+      "wavelengthNm": 850.0,
+      "maximalPathMm": 4.659952611439785,
+      "attenuationPerMm": 0.0002809845974785787,
+      "coefficientEvidence": [
+        [
+          700.0,
+          0.0002809845974785787,
+          0.993,
+          25.0
+        ],
+        [
+          1060.0,
+          0.00016032085590155288,
+          0.996,
+          25.0
+        ]
+      ],
+      "transmission": 0.998691481948508
+    },
+    {
+      "endSurface": 4,
+      "medium": "OHARA:S-BSL7",
+      "wavelengthNm": 785.0,
+      "maximalPathMm": 3.604563757303527,
+      "attenuationPerMm": 0.00010005003335835344,
+      "coefficientEvidence": [
+        [
+          700.0,
+          0.00010005003335835344,
+          0.999,
+          10.0
+        ],
+        [
+          800.0,
+          0.00010005003335835344,
+          0.999,
+          10.0
+        ]
+      ],
+      "transmission": 0.9996394282974462
+    },
+    {
+      "endSurface": 4,
+      "medium": "OHARA:S-BSL7",
+      "wavelengthNm": 810.0,
+      "maximalPathMm": 3.6026106699903844,
+      "attenuationPerMm": 0.00020020026706730793,
+      "coefficientEvidence": [
+        [
+          800.0,
+          0.00010005003335835344,
+          0.999,
+          10.0
+        ],
+        [
+          900.0,
+          0.00020020026706730793,
+          0.998,
+          10.0
+        ]
+      ],
+      "transmission": 0.9992790164153872
+    },
+    {
+      "endSurface": 4,
+      "medium": "OHARA:S-BSL7",
+      "wavelengthNm": 850.0,
+      "maximalPathMm": 3.599959986529647,
+      "attenuationPerMm": 0.00020020026706730793,
+      "coefficientEvidence": [
+        [
+          800.0,
+          0.00010005003335835344,
+          0.999,
+          10.0
+        ],
+        [
+          900.0,
+          0.00020020026706730793,
+          0.998,
+          10.0
+        ]
+      ],
+      "transmission": 0.999279546700462
+    },
+    {
+      "endSurface": 6,
+      "medium": "SCHOTT:N-LAF7",
+      "wavelengthNm": 785.0,
+      "maximalPathMm": 2.369555782511545,
+      "attenuationPerMm": 0.0002809845974785787,
+      "coefficientEvidence": [
+        [
+          700.0,
+          0.0002809845974785787,
+          0.993,
+          25.0
+        ],
+        [
+          1060.0,
+          0.00016032085590155288,
+          0.996,
+          25.0
+        ]
+      ],
+      "transmission": 0.9993344129236615
+    },
+    {
+      "endSurface": 6,
+      "medium": "SCHOTT:N-LAF7",
+      "wavelengthNm": 810.0,
+      "maximalPathMm": 2.369868586654869,
+      "attenuationPerMm": 0.0002809845974785787,
+      "coefficientEvidence": [
+        [
+          700.0,
+          0.0002809845974785787,
+          0.993,
+          25.0
+        ],
+        [
+          1060.0,
+          0.00016032085590155288,
+          0.996,
+          25.0
+        ]
+      ],
+      "transmission": 0.9993343250890196
+    },
+    {
+      "endSurface": 6,
+      "medium": "SCHOTT:N-LAF7",
+      "wavelengthNm": 850.0,
+      "maximalPathMm": 2.3703969298978973,
+      "attenuationPerMm": 0.0002809845974785787,
+      "coefficientEvidence": [
+        [
+          700.0,
+          0.0002809845974785787,
+          0.993,
+          25.0
+        ],
+        [
+          1060.0,
+          0.00016032085590155288,
+          0.996,
+          25.0
+        ]
+      ],
+      "transmission": 0.9993341767315408
+    },
+    {
+      "endSurface": 7,
+      "medium": "OHARA:S-FPM2",
+      "wavelengthNm": 785.0,
+      "maximalPathMm": 5.35284440279208,
+      "attenuationPerMm": 0.0005012541823544287,
+      "coefficientEvidence": [
+        [
+          700.0,
+          0.0004008021397538822,
+          0.996,
+          10.0
+        ],
+        [
+          800.0,
+          0.0005012541823544287,
+          0.995,
+          10.0
+        ]
+      ],
+      "transmission": 0.9973204607467969
+    },
+    {
+      "endSurface": 7,
+      "medium": "OHARA:S-FPM2",
+      "wavelengthNm": 810.0,
+      "maximalPathMm": 5.352817691917255,
+      "attenuationPerMm": 0.0005012541823544287,
+      "coefficientEvidence": [
+        [
+          800.0,
+          0.0005012541823544287,
+          0.995,
+          10.0
+        ],
+        [
+          900.0,
+          0.0005012541823544287,
+          0.995,
+          10.0
+        ]
+      ],
+      "transmission": 0.9973204740998585
+    },
+    {
+      "endSurface": 7,
+      "medium": "OHARA:S-FPM2",
+      "wavelengthNm": 850.0,
+      "maximalPathMm": 5.35278063156451,
+      "attenuationPerMm": 0.0005012541823544287,
+      "coefficientEvidence": [
+        [
+          800.0,
+          0.0005012541823544287,
+          0.995,
+          10.0
+        ],
+        [
+          900.0,
+          0.0005012541823544287,
+          0.995,
+          10.0
+        ]
+      ],
+      "transmission": 0.9973204926267388
+    },
+    {
+      "endSurface": 9,
+      "medium": "SCHOTT:N-KZFS11",
+      "wavelengthNm": 785.0,
+      "maximalPathMm": 2.313444529008373,
+      "attenuationPerMm": 0.00024072289302252086,
+      "coefficientEvidence": [
+        [
+          700.0,
+          0.00024072289302252086,
+          0.994,
+          25.0
+        ],
+        [
+          1060.0,
+          4.002001334334137e-05,
+          0.999,
+          25.0
+        ]
+      ],
+      "transmission": 0.9994432559796297
+    },
+    {
+      "endSurface": 9,
+      "medium": "SCHOTT:N-KZFS11",
+      "wavelengthNm": 810.0,
+      "maximalPathMm": 2.31437546032485,
+      "attenuationPerMm": 0.00024072289302252086,
+      "coefficientEvidence": [
+        [
+          700.0,
+          0.00024072289302252086,
+          0.994,
+          25.0
+        ],
+        [
+          1060.0,
+          4.002001334334137e-05,
+          0.999,
+          25.0
+        ]
+      ],
+      "transmission": 0.9994430320079394
+    },
+    {
+      "endSurface": 9,
+      "medium": "SCHOTT:N-KZFS11",
+      "wavelengthNm": 850.0,
+      "maximalPathMm": 2.315776749199687,
+      "attenuationPerMm": 0.00024072289302252086,
+      "coefficientEvidence": [
+        [
+          700.0,
+          0.00024072289302252086,
+          0.994,
+          25.0
+        ],
+        [
+          1060.0,
+          4.002001334334137e-05,
+          0.999,
+          25.0
+        ]
+      ],
+      "transmission": 0.9994426948735621
+    },
+    {
+      "endSurface": 10,
+      "medium": "OHARA:S-FPL53",
+      "wavelengthNm": 785.0,
+      "maximalPathMm": 4.030676490967975,
+      "attenuationPerMm": 0.00020020026706730793,
+      "coefficientEvidence": [
+        [
+          700.0,
+          0.00020020026706730793,
+          0.998,
+          10.0
+        ],
+        [
+          800.0,
+          0.00020020026706730793,
+          0.998,
+          10.0
+        ]
+      ],
+      "transmission": 0.9991933829805969
+    },
+    {
+      "endSurface": 10,
+      "medium": "OHARA:S-FPL53",
+      "wavelengthNm": 810.0,
+      "maximalPathMm": 4.030655434055848,
+      "attenuationPerMm": 0.0003004509020298724,
+      "coefficientEvidence": [
+        [
+          800.0,
+          0.00020020026706730793,
+          0.998,
+          10.0
+        ],
+        [
+          900.0,
+          0.0003004509020298724,
+          0.997,
+          10.0
+        ]
+      ],
+      "transmission": 0.9987897189206807
+    },
+    {
+      "endSurface": 10,
+      "medium": "OHARA:S-FPL53",
+      "wavelengthNm": 850.0,
+      "maximalPathMm": 4.030626200802138,
+      "attenuationPerMm": 0.0003004509020298724,
+      "coefficientEvidence": [
+        [
+          800.0,
+          0.00020020026706730793,
+          0.998,
+          10.0
+        ],
+        [
+          900.0,
+          0.0003004509020298724,
+          0.997,
+          10.0
+        ]
+      ],
+      "transmission": 0.9987897276932081
+    },
+    {
+      "endSurface": 12,
+      "medium": "OHARA:S-FPL53",
+      "wavelengthNm": 785.0,
+      "maximalPathMm": 3.326680543253315,
+      "attenuationPerMm": 0.00020020026706730793,
+      "coefficientEvidence": [
+        [
+          700.0,
+          0.00020020026706730793,
+          0.998,
+          10.0
+        ],
+        [
+          800.0,
+          0.00020020026706730793,
+          0.998,
+          10.0
+        ]
+      ],
+      "transmission": 0.99933421939712
+    },
+    {
+      "endSurface": 12,
+      "medium": "OHARA:S-FPL53",
+      "wavelengthNm": 810.0,
+      "maximalPathMm": 3.326673014339709,
+      "attenuationPerMm": 0.0003004509020298724,
+      "coefficientEvidence": [
+        [
+          800.0,
+          0.00020020026706730793,
+          0.998,
+          10.0
+        ],
+        [
+          900.0,
+          0.0003004509020298724,
+          0.997,
+          10.0
+        ]
+      ],
+      "transmission": 0.999000997427739
+    },
+    {
+      "endSurface": 12,
+      "medium": "OHARA:S-FPL53",
+      "wavelengthNm": 850.0,
+      "maximalPathMm": 3.326662817946743,
+      "attenuationPerMm": 0.0003004509020298724,
+      "coefficientEvidence": [
+        [
+          800.0,
+          0.00020020026706730793,
+          0.998,
+          10.0
+        ],
+        [
+          900.0,
+          0.0003004509020298724,
+          0.997,
+          10.0
+        ]
+      ],
+      "transmission": 0.999001000488194
+    },
+    {
+      "endSurface": 13,
+      "medium": "SCHOTT:N-KZFS11",
+      "wavelengthNm": 785.0,
+      "maximalPathMm": 2.4091038744777955,
+      "attenuationPerMm": 0.00024072289302252086,
+      "coefficientEvidence": [
+        [
+          700.0,
+          0.00024072289302252086,
+          0.994,
+          25.0
+        ],
+        [
+          1060.0,
+          4.002001334334137e-05,
+          0.999,
+          25.0
+        ]
+      ],
+      "transmission": 0.9994202416705885
+    },
+    {
+      "endSurface": 13,
+      "medium": "SCHOTT:N-KZFS11",
+      "wavelengthNm": 810.0,
+      "maximalPathMm": 2.409692747988967,
+      "attenuationPerMm": 0.00024072289302252086,
+      "coefficientEvidence": [
+        [
+          700.0,
+          0.00024072289302252086,
+          0.994,
+          25.0
+        ],
+        [
+          1060.0,
+          4.002001334334137e-05,
+          0.999,
+          25.0
+        ]
+      ],
+      "transmission": 0.9994200999974472
+    },
+    {
+      "endSurface": 13,
+      "medium": "SCHOTT:N-KZFS11",
+      "wavelengthNm": 850.0,
+      "maximalPathMm": 2.4105643445024203,
+      "attenuationPerMm": 0.00024072289302252086,
+      "coefficientEvidence": [
+        [
+          700.0,
+          0.00024072289302252086,
+          0.994,
+          25.0
+        ],
+        [
+          1060.0,
+          4.002001334334137e-05,
+          0.999,
+          25.0
+        ]
+      ],
+      "transmission": 0.9994198903059056
+    },
+    {
+      "endSurface": 16,
+      "medium": "OHARA:S-FPL53",
+      "wavelengthNm": 785.0,
+      "maximalPathMm": 4.9224700161717925,
+      "attenuationPerMm": 0.00020020026706730793,
+      "coefficientEvidence": [
+        [
+          700.0,
+          0.00020020026706730793,
+          0.998,
+          10.0
+        ],
+        [
+          800.0,
+          0.00020020026706730793,
+          0.998,
+          10.0
+        ]
+      ],
+      "transmission": 0.9990150056138892
+    },
+    {
+      "endSurface": 16,
+      "medium": "OHARA:S-FPL53",
+      "wavelengthNm": 810.0,
+      "maximalPathMm": 4.922457002840048,
+      "attenuationPerMm": 0.0003004509020298724,
+      "coefficientEvidence": [
+        [
+          800.0,
+          0.00020020026706730793,
+          0.998,
+          10.0
+        ],
+        [
+          900.0,
+          0.0003004509020298724,
+          0.997,
+          10.0
+        ]
+      ],
+      "transmission": 0.9985221364707174
+    },
+    {
+      "endSurface": 16,
+      "medium": "OHARA:S-FPL53",
+      "wavelengthNm": 850.0,
+      "maximalPathMm": 4.922439511887826,
+      "attenuationPerMm": 0.0003004509020298724,
+      "coefficientEvidence": [
+        [
+          800.0,
+          0.00020020026706730793,
+          0.998,
+          10.0
+        ],
+        [
+          900.0,
+          0.0003004509020298724,
+          0.997,
+          10.0
+        ]
+      ],
+      "transmission": 0.9985221417181234
+    },
+    {
+      "endSurface": 17,
+      "medium": "SCHOTT:N-KZFS11",
+      "wavelengthNm": 785.0,
+      "maximalPathMm": 3.051844430465808,
+      "attenuationPerMm": 0.00024072289302252086,
+      "coefficientEvidence": [
+        [
+          700.0,
+          0.00024072289302252086,
+          0.994,
+          25.0
+        ],
+        [
+          1060.0,
+          4.002001334334137e-05,
+          0.999,
+          25.0
+        ]
+      ],
+      "transmission": 0.9992656209680176
+    },
+    {
+      "endSurface": 17,
+      "medium": "SCHOTT:N-KZFS11",
+      "wavelengthNm": 810.0,
+      "maximalPathMm": 3.050641133379596,
+      "attenuationPerMm": 0.00024072289302252086,
+      "coefficientEvidence": [
+        [
+          700.0,
+          0.00024072289302252086,
+          0.994,
+          25.0
+        ],
+        [
+          1060.0,
+          4.002001334334137e-05,
+          0.999,
+          25.0
+        ]
+      ],
+      "transmission": 0.9992659104164943
+    },
+    {
+      "endSurface": 17,
+      "medium": "SCHOTT:N-KZFS11",
+      "wavelengthNm": 850.0,
+      "maximalPathMm": 3.0488954211531336,
+      "attenuationPerMm": 0.00024072289302252086,
+      "coefficientEvidence": [
+        [
+          700.0,
+          0.00024072289302252086,
+          0.994,
+          25.0
+        ],
+        [
+          1060.0,
+          4.002001334334137e-05,
+          0.999,
+          25.0
+        ]
+      ],
+      "transmission": 0.9992663303409914
+    },
+    {
+      "endSurface": 18,
+      "medium": "OHARA:S-FPL53",
+      "wavelengthNm": 785.0,
+      "maximalPathMm": 6.8706657884492355,
+      "attenuationPerMm": 0.00020020026706730793,
+      "coefficientEvidence": [
+        [
+          700.0,
+          0.00020020026706730793,
+          0.998,
+          10.0
+        ],
+        [
+          800.0,
+          0.00020020026706730793,
+          0.998,
+          10.0
+        ]
+      ],
+      "transmission": 0.9986254364532993
+    },
+    {
+      "endSurface": 18,
+      "medium": "OHARA:S-FPL53",
+      "wavelengthNm": 810.0,
+      "maximalPathMm": 6.870665237840367,
+      "attenuationPerMm": 0.0003004509020298724,
+      "coefficientEvidence": [
+        [
+          800.0,
+          0.00020020026706730793,
+          0.998,
+          10.0
+        ],
+        [
+          900.0,
+          0.0003004509020298724,
+          0.997,
+          10.0
+        ]
+      ],
+      "transmission": 0.99793783162862
+    },
+    {
+      "endSurface": 18,
+      "medium": "OHARA:S-FPL53",
+      "wavelengthNm": 850.0,
+      "maximalPathMm": 6.870665676062176,
+      "attenuationPerMm": 0.0003004509020298724,
+      "coefficientEvidence": [
+        [
+          800.0,
+          0.00020020026706730793,
+          0.998,
+          10.0
+        ],
+        [
+          900.0,
+          0.0003004509020298724,
+          0.997,
+          10.0
+        ]
+      ],
+      "transmission": 0.9979378314972275
+    },
+    {
+      "endSurface": 20,
+      "medium": "SCHOTT:N-LAF34",
+      "wavelengthNm": 785.0,
+      "maximalPathMm": 4.754174267889937,
+      "attenuationPerMm": 0.00016032085590155288,
+      "coefficientEvidence": [
+        [
+          700.0,
+          0.00016032085590155288,
+          0.996,
+          25.0
+        ],
+        [
+          1060.0,
+          8.008010682692317e-05,
+          0.998,
+          25.0
+        ]
+      ],
+      "transmission": 0.9992380971077868
+    },
+    {
+      "endSurface": 20,
+      "medium": "SCHOTT:N-LAF34",
+      "wavelengthNm": 810.0,
+      "maximalPathMm": 4.754194970559145,
+      "attenuationPerMm": 0.00016032085590155288,
+      "coefficientEvidence": [
+        [
+          700.0,
+          0.00016032085590155288,
+          0.996,
+          25.0
+        ],
+        [
+          1060.0,
+          8.008010682692317e-05,
+          0.998,
+          25.0
+        ]
+      ],
+      "transmission": 0.999238093791246
+    },
+    {
+      "endSurface": 20,
+      "medium": "SCHOTT:N-LAF34",
+      "wavelengthNm": 850.0,
+      "maximalPathMm": 4.75422635828749,
+      "attenuationPerMm": 0.00016032085590155288,
+      "coefficientEvidence": [
+        [
+          700.0,
+          0.00016032085590155288,
+          0.996,
+          25.0
+        ],
+        [
+          1060.0,
+          8.008010682692317e-05,
+          0.998,
+          25.0
+        ]
+      ],
+      "transmission": 0.9992380887629725
+    },
+    {
+      "endSurface": 22,
+      "medium": "SCHOTT:N-LASF31A",
+      "wavelengthNm": 785.0,
+      "maximalPathMm": 3.775816925859296,
+      "attenuationPerMm": 0.00032128686789057066,
+      "coefficientEvidence": [
+        [
+          700.0,
+          0.00032128686789057066,
+          0.992,
+          25.0
+        ],
+        [
+          1060.0,
+          0.00020050167294177146,
+          0.995,
+          25.0
+        ]
+      ],
+      "transmission": 0.9987876151392473
+    },
+    {
+      "endSurface": 22,
+      "medium": "SCHOTT:N-LASF31A",
+      "wavelengthNm": 810.0,
+      "maximalPathMm": 3.7759568124400853,
+      "attenuationPerMm": 0.00032128686789057066,
+      "coefficientEvidence": [
+        [
+          700.0,
+          0.00032128686789057066,
+          0.992,
+          25.0
+        ],
+        [
+          1060.0,
+          0.00020050167294177146,
+          0.995,
+          25.0
+        ]
+      ],
+      "transmission": 0.998787570250016
+    },
+    {
+      "endSurface": 22,
+      "medium": "SCHOTT:N-LASF31A",
+      "wavelengthNm": 850.0,
+      "maximalPathMm": 3.776167200029057,
+      "attenuationPerMm": 0.00032128686789057066,
+      "coefficientEvidence": [
+        [
+          700.0,
+          0.00032128686789057066,
+          0.992,
+          25.0
+        ],
+        [
+          1060.0,
+          0.00020050167294177146,
+          0.995,
+          25.0
+        ]
+      ],
+      "transmission": 0.9987875027372027
+    },
+    {
+      "endSurface": 23,
+      "medium": "SCHOTT:LITHOSIL-Q",
+      "wavelengthNm": 785.0,
+      "maximalPathMm": 0.8935145495793104,
+      "attenuationPerMm": 4.002001334334137e-05,
+      "coefficientEvidence": [
+        [
+          700.0,
+          4.002001334334137e-05,
+          0.999,
+          25.0
+        ],
+        [
+          1060.0,
+          2.236625195000098e-05,
+          0.999441,
+          25.0
+        ]
+      ],
+      "transmission": 0.9999642421751296
+    },
+    {
+      "endSurface": 23,
+      "medium": "SCHOTT:LITHOSIL-Q",
+      "wavelengthNm": 810.0,
+      "maximalPathMm": 0.8935049158925376,
+      "attenuationPerMm": 4.002001334334137e-05,
+      "coefficientEvidence": [
+        [
+          700.0,
+          4.002001334334137e-05,
+          0.999,
+          25.0
+        ],
+        [
+          1060.0,
+          2.236625195000098e-05,
+          0.999441,
+          25.0
+        ]
+      ],
+      "transmission": 0.9999642425606561
+    },
+    {
+      "endSurface": 23,
+      "medium": "SCHOTT:LITHOSIL-Q",
+      "wavelengthNm": 850.0,
+      "maximalPathMm": 0.8935040188724364,
+      "attenuationPerMm": 4.002001334334137e-05,
+      "coefficientEvidence": [
+        [
+          700.0,
+          4.002001334334137e-05,
+          0.999,
+          25.0
+        ],
+        [
+          1060.0,
+          2.236625195000098e-05,
+          0.999441,
+          25.0
+        ]
+      ],
+      "transmission": 0.9999642425965536
+    },
+    {
+      "endSurface": 24,
+      "medium": "YUTONGWATER:H2O20",
+      "wavelengthNm": 785.0,
+      "maximalPathMm": 0.7100406924708974,
+      "attenuationPerMm": 0.01,
+      "coefficientEvidence": [],
+      "transmission": 0.9929247414082049
+    },
+    {
+      "endSurface": 24,
+      "medium": "YUTONGWATER:H2O20",
+      "wavelengthNm": 810.0,
+      "maximalPathMm": 0.7096226673629723,
+      "attenuationPerMm": 0.01,
+      "coefficientEvidence": [],
+      "transmission": 0.9929288920916022
+    },
+    {
+      "endSurface": 24,
+      "medium": "YUTONGWATER:H2O20",
+      "wavelengthNm": 850.0,
+      "maximalPathMm": 0.7090274840348267,
+      "attenuationPerMm": 0.01,
+      "coefficientEvidence": [],
+      "transmission": 0.9929348018564153
+    },
+    {
+      "endSurface": 25,
+      "medium": "CDGM:H-K5",
+      "wavelengthNm": 785.0,
+      "maximalPathMm": 0.21546975335731453,
+      "attenuationPerMm": 0.00020020026706730793,
+      "coefficientEvidence": [
+        [
+          700.0,
+          0.00020020026706730793,
+          0.998,
+          10.0
+        ],
+        [
+          800.0,
+          0.00020020026706730793,
+          0.998,
+          10.0
+        ]
+      ],
+      "transmission": 0.9999568638282244
+    },
+    {
+      "endSurface": 25,
+      "medium": "CDGM:H-K5",
+      "wavelengthNm": 810.0,
+      "maximalPathMm": 0.2153878896164584,
+      "attenuationPerMm": 0.00020020026706730793,
+      "coefficientEvidence": [
+        [
+          800.0,
+          0.00020020026706730793,
+          0.998,
+          10.0
+        ],
+        [
+          850.0,
+          0.00020020026706730793,
+          0.998,
+          10.0
+        ]
+      ],
+      "transmission": 0.9999568802166603
+    },
+    {
+      "endSurface": 25,
+      "medium": "CDGM:H-K5",
+      "wavelengthNm": 850.0,
+      "maximalPathMm": 0.21526919856621565,
+      "attenuationPerMm": 0.00020020026706730793,
+      "coefficientEvidence": [
+        [
+          850.0,
+          0.00020020026706730793,
+          0.998,
+          10.0
+        ],
+        [
+          850.0,
+          0.00020020026706730793,
+          0.998,
+          10.0
+        ]
+      ],
+      "transmission": 0.9999569039776159
+    }
+  ]
+}

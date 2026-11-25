@@ -1,0 +1,5 @@
+! Distilled water, 20 C; narrowband Schott fit to the three contest wavelengths
+! https://doi.org/10.1364/AO.46.003811 | https://doi.org/10.1364/AO.35.001566
+NM H2O20 1 0 1.333040152980 0 0 0
+CD 1.7618578398489837 -0.012487317822008067 0.0066440728521139488 0 0 0
+LD 0.78 0.86
