@@ -1,0 +1,28 @@
+{
+  "checks": {
+    "eachLensUsesAllDigits": true,
+    "eachDummyUsesAllDigits": true,
+    "length": true,
+    "stopBetweenLenses": true,
+    "noParaxialIntermediateFocus": true
+  },
+  "passes": true,
+  "overallLengthMm": 114.38691478999999,
+  "paraxialMinimumRelativeHeight": 0.94557936201199,
+  "lensDimensions": [
+    [
+      "980",
+      "-531",
+      "7.6",
+      "4.2"
+    ],
+    [
+      "74.6",
+      "-210",
+      "8.3",
+      "5.9"
+    ]
+  ],
+  "stopGap": "1.23456789",
+  "imageDummyGap": "87.1523469"
+}

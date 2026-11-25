@@ -29,6 +29,8 @@
 
 - [IODC 2006 Lens Shuffler](problems/iodc-2006-lens-shuffler/README.md) · 100 mm 圆柱交替分片，A/B 均通过双软件复验，公共得分 14.391 mm·°。
 
+- [IODC 2027 Schoenberg Lens](problems/iodc-2027-schoenberg/README.md) · 双片逐面数字核对和双软件复验通过，得分 18.000 mm·°。
+
 ## 题目索引
 
 | 题目 | 设计要点 | 题源 |

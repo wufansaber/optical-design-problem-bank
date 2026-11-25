@@ -1,0 +1,1224 @@
+{
+  "label": "baseline-frozen",
+  "software": "Optiwork v1.2",
+  "eflMm": 98.67511773840695,
+  "entrancePupilMm": 6.0,
+  "imageGapMm": 87.1523469,
+  "semifieldDeg": 3.0,
+  "scoreMmDeg": 18.0,
+  "pieces": 2,
+  "stop": 3,
+  "stopPlaneClearanceMm": [
+    4.2,
+    1.23456789
+  ],
+  "acceptanceRmsWaves": 0.04974812083387349,
+  "acceptanceRmsFieldKey": "pistonTiltRemovedWfeWaves",
+  "fieldResults": [
+    {
+      "fieldDeg": 0.0,
+      "normalWfeWaves": 0.10285713500538056,
+      "denseWfeWaves": 0.1028571350003088,
+      "pistonRemovedWfeWaves": 0.04940168980290059,
+      "normalPistonTiltRemovedWfeWaves": 0.04940168980536713,
+      "pistonTiltRemovedWfeWaves": 0.04940168980290059,
+      "throughput": 1.0,
+      "distortionPercent": 0.0,
+      "sampledPupilRays": 385,
+      "failedBoundaryRays": 0
+    },
+    {
+      "fieldDeg": 0.075,
+      "normalWfeWaves": 0.10276253831071028,
+      "denseWfeWaves": 0.10276253830253487,
+      "pistonRemovedWfeWaves": 0.049358104087674444,
+      "normalPistonTiltRemovedWfeWaves": 0.049353787043982064,
+      "pistonTiltRemovedWfeWaves": 0.049353787044564716,
+      "throughput": 1.0,
+      "distortionPercent": -0.2522363004121811,
+      "sampledPupilRays": 385,
+      "failedBoundaryRays": 0
+    },
+    {
+      "fieldDeg": 0.15,
+      "normalWfeWaves": 0.10247881154292808,
+      "denseWfeWaves": 0.10247881153622766,
+      "pistonRemovedWfeWaves": 0.0492274774554055,
+      "normalPistonTiltRemovedWfeWaves": 0.04921016202024819,
+      "pistonTiltRemovedWfeWaves": 0.049210162020354505,
+      "throughput": 1.0,
+      "distortionPercent": -0.2522560224117433,
+      "sampledPupilRays": 385,
+      "failedBoundaryRays": 0
+    },
+    {
+      "fieldDeg": 0.225,
+      "normalWfeWaves": 0.10200614646270575,
+      "denseWfeWaves": 0.1020061464479174,
+      "pistonRemovedWfeWaves": 0.04901020493857769,
+      "normalPistonTiltRemovedWfeWaves": 0.048971066939789316,
+      "pistonTiltRemovedWfeWaves": 0.048971066938827426,
+      "throughput": 1.0,
+      "distortionPercent": -0.2522888927008555,
+      "sampledPupilRays": 385,
+      "failedBoundaryRays": 0
+    },
+    {
+      "fieldDeg": 0.3,
+      "normalWfeWaves": 0.10134486840489386,
+      "denseWfeWaves": 0.1013448684113171,
+      "pistonRemovedWfeWaves": 0.04870695661395877,
+      "normalPistonTiltRemovedWfeWaves": 0.04863693035860717,
+      "pistonTiltRemovedWfeWaves": 0.048636930359133586,
+      "throughput": 1.0,
+      "distortionPercent": -0.2523349117144332,
+      "sampledPupilRays": 385,
+      "failedBoundaryRays": 0
+    },
+    {
+      "fieldDeg": 0.375,
+      "normalWfeWaves": 0.10049544584006805,
+      "denseWfeWaves": 0.10049544585560445,
+      "pistonRemovedWfeWaves": 0.04831869567491435,
+      "normalPistonTiltRemovedWfeWaves": 0.04820836996167974,
+      "pistonTiltRemovedWfeWaves": 0.04820836996142582,
+      "throughput": 1.0,
+      "distortionPercent": -0.252394080061242,
+      "sampledPupilRays": 385,
+      "failedBoundaryRays": 0
+    },
+    {
+      "fieldDeg": 0.45,
+      "normalWfeWaves": 0.09945850330306535,
+      "denseWfeWaves": 0.09945850330582222,
+      "pistonRemovedWfeWaves": 0.04784670481009483,
+      "normalPistonTiltRemovedWfeWaves": 0.047686211339979315,
+      "pistonTiltRemovedWfeWaves": 0.04768621133955761,
+      "throughput": 1.0,
+      "distortionPercent": -0.2524663985240025,
+      "sampledPupilRays": 385,
+      "failedBoundaryRays": 0
+    },
+    {
+      "fieldDeg": 0.525,
+      "normalWfeWaves": 0.09823484051709488,
+      "denseWfeWaves": 0.0982348405201001,
+      "pistonRemovedWfeWaves": 0.04729262204003711,
+      "normalPistonTiltRemovedWfeWaves": 0.04707151381616724,
+      "pistonTiltRemovedWfeWaves": 0.04707151381538715,
+      "throughput": 1.0,
+      "distortionPercent": -0.2525518680595851,
+      "sampledPupilRays": 385,
+      "failedBoundaryRays": 0
+    },
+    {
+      "fieldDeg": 0.6,
+      "normalWfeWaves": 0.09682545659872785,
+      "denseWfeWaves": 0.09682545662006005,
+      "pistonRemovedWfeWaves": 0.04665848758503485,
+      "normalPistonTiltRemovedWfeWaves": 0.04636560468768857,
+      "pistonTiltRemovedWfeWaves": 0.04636560468649688,
+      "throughput": 1.0,
+      "distortionPercent": -0.25265048979862936,
+      "sampledPupilRays": 385,
+      "failedBoundaryRays": 0
+    },
+    {
+      "fieldDeg": 0.675,
+      "normalWfeWaves": 0.0952315824154479,
+      "denseWfeWaves": 0.09523158242447326,
+      "pistonRemovedWfeWaves": 0.04594680384687464,
+      "normalPistonTiltRemovedWfeWaves": 0.04557012383834314,
+      "pistonTiltRemovedWfeWaves": 0.045570123837888346,
+      "throughput": 1.0,
+      "distortionPercent": -0.2527622650461578,
+      "sampledPupilRays": 385,
+      "failedBoundaryRays": 0
+    },
+    {
+      "fieldDeg": 0.75,
+      "normalWfeWaves": 0.09345472214999555,
+      "denseWfeWaves": 0.09345472214634566,
+      "pistonRemovedWfeWaves": 0.04516061118926709,
+      "normalPistonTiltRemovedWfeWaves": 0.044687081336774605,
+      "pistonTiltRemovedWfeWaves": 0.044687081336537725,
+      "throughput": 1.0,
+      "distortionPercent": -0.2528871952809728,
+      "sampledPupilRays": 385,
+      "failedBoundaryRays": 0
+    },
+    {
+      "fieldDeg": 0.825,
+      "normalWfeWaves": 0.09149670666492432,
+      "denseWfeWaves": 0.09149670667912768,
+      "pistonRemovedWfeWaves": 0.04430358289296915,
+      "normalPistonTiltRemovedWfeWaves": 0.04371893149658695,
+      "pistonTiltRemovedWfeWaves": 0.04371893149573321,
+      "throughput": 1.0,
+      "distortionPercent": -0.2530252821562407,
+      "sampledPupilRays": 385,
+      "failedBoundaryRays": 0
+    },
+    {
+      "fieldDeg": 0.9,
+      "normalWfeWaves": 0.08935976335204979,
+      "denseWfeWaves": 0.0893597633475207,
+      "pistonRemovedWfeWaves": 0.043380143503716405,
+      "normalPistonTiltRemovedWfeWaves": 0.042668668096014155,
+      "pistonTiltRemovedWfeWaves": 0.04266866809593335,
+      "throughput": 1.0,
+      "distortionPercent": -0.2531765274992774,
+      "sampledPupilRays": 385,
+      "failedBoundaryRays": 0
+    },
+    {
+      "fieldDeg": 0.975,
+      "normalWfeWaves": 0.08704660608517674,
+      "denseWfeWaves": 0.0870466060808642,
+      "pistonRemovedWfeWaves": 0.04239561568183286,
+      "normalPistonTiltRemovedWfeWaves": 0.041539946995729785,
+      "pistonTiltRemovedWfeWaves": 0.04153994699447853,
+      "throughput": 1.0,
+      "distortionPercent": -0.2533409333115333,
+      "sampledPupilRays": 385,
+      "failedBoundaryRays": 0
+    },
+    {
+      "fieldDeg": 1.05,
+      "normalWfeWaves": 0.08456055306549226,
+      "denseWfeWaves": 0.08456055307291419,
+      "pistonRemovedWfeWaves": 0.04135640159018921,
+      "normalPistonTiltRemovedWfeWaves": 0.040337244422460755,
+      "pistonTiltRemovedWfeWaves": 0.04033724442227529,
+      "throughput": 1.0,
+      "distortionPercent": -0.2535185017689255,
+      "sampledPupilRays": 385,
+      "failedBoundaryRays": 0
+    },
+    {
+      "fieldDeg": 1.125,
+      "normalWfeWaves": 0.08190568253324498,
+      "denseWfeWaves": 0.08190568253072109,
+      "pistonRemovedWfeWaves": 0.04027020563886893,
+      "normalPistonTiltRemovedWfeWaves": 0.0390660619605302,
+      "pistonTiltRemovedWfeWaves": 0.03906606195932861,
+      "throughput": 1.0,
+      "distortionPercent": -0.25370923522162014,
+      "sampledPupilRays": 385,
+      "failedBoundaryRays": 0
+    },
+    {
+      "fieldDeg": 1.2,
+      "normalWfeWaves": 0.07908703923803165,
+      "denseWfeWaves": 0.07908703925074131,
+      "pistonRemovedWfeWaves": 0.03914630566711428,
+      "normalPistonTiltRemovedWfeWaves": 0.03773319259581274,
+      "pistonTiltRemovedWfeWaves": 0.037733192595988195,
+      "throughput": 1.0,
+      "distortionPercent": -0.25391313619430916,
+      "sampledPupilRays": 385,
+      "failedBoundaryRays": 0
+    },
+    {
+      "fieldDeg": 1.275,
+      "normalWfeWaves": 0.07611091250746091,
+      "denseWfeWaves": 0.0761109125123704,
+      "pistonRemovedWfeWaves": 0.03799587884364023,
+      "normalPistonTiltRemovedWfeWaves": 0.03634706649199373,
+      "pistonTiltRemovedWfeWaves": 0.03634706649230098,
+      "throughput": 1.0,
+      "distortionPercent": -0.25413020738617914,
+      "sampledPupilRays": 385,
+      "failedBoundaryRays": 0
+    },
+    {
+      "fieldDeg": 1.35,
+      "normalWfeWaves": 0.07298521369393715,
+      "denseWfeWaves": 0.0729852136985652,
+      "pistonRemovedWfeWaves": 0.0368323854919571,
+      "normalPistonTiltRemovedWfeWaves": 0.03491819965291674,
+      "pistonTiltRemovedWfeWaves": 0.03491819965420014,
+      "throughput": 1.0,
+      "distortionPercent": -0.25436045167095733,
+      "sampledPupilRays": 385,
+      "failedBoundaryRays": 0
+    },
+    {
+      "fieldDeg": 1.425,
+      "normalWfeWaves": 0.06971999483793503,
+      "denseWfeWaves": 0.06971999485125392,
+      "pistonRemovedWfeWaves": 0.035672007070445905,
+      "normalPistonTiltRemovedWfeWaves": 0.03345977294572642,
+      "pistonTiltRemovedWfeWaves": 0.03345977294544685,
+      "throughput": 1.0,
+      "distortionPercent": -0.2546038720972039,
+      "sampledPupilRays": 385,
+      "failedBoundaryRays": 0
+    },
+    {
+      "fieldDeg": 1.5,
+      "normalWfeWaves": 0.06632816934811997,
+      "denseWfeWaves": 0.0663281693605712,
+      "pistonRemovedWfeWaves": 0.03453412086894108,
+      "normalPistonTiltRemovedWfeWaves": 0.03198837004412582,
+      "pistonTiltRemovedWfeWaves": 0.03198837004387379,
+      "throughput": 1.0,
+      "distortionPercent": -0.25486047188808314,
+      "sampledPupilRays": 385,
+      "failedBoundaryRays": 0
+    },
+    {
+      "fieldDeg": 1.575,
+      "normalWfeWaves": 0.06282652594122745,
+      "denseWfeWaves": 0.06282652593684075,
+      "pistonRemovedWfeWaves": 0.033441770325118046,
+      "normalPistonTiltRemovedWfeWaves": 0.030524895898893966,
+      "pistonTiltRemovedWfeWaves": 0.030524895899479963,
+      "throughput": 1.0,
+      "distortionPercent": -0.2551302544418503,
+      "sampledPupilRays": 385,
+      "failedBoundaryRays": 0
+    },
+    {
+      "fieldDeg": 1.65,
+      "normalWfeWaves": 0.059237165616250136,
+      "denseWfeWaves": 0.05923716561960786,
+      "pistonRemovedWfeWaves": 0.03242205283272642,
+      "normalPistonTiltRemovedWfeWaves": 0.029095671174128764,
+      "pistonTiltRemovedWfeWaves": 0.029095671174438203,
+      "throughput": 1.0,
+      "distortionPercent": -0.2554132233314569,
+      "sampledPupilRays": 385,
+      "failedBoundaryRays": 0
+    },
+    {
+      "fieldDeg": 1.725,
+      "normalWfeWaves": 0.05558955631495173,
+      "denseWfeWaves": 0.05558955631164698,
+      "pistonRemovedWfeWaves": 0.0315062961105106,
+      "normalPistonTiltRemovedWfeWaves": 0.027733634409155303,
+      "pistonTiltRemovedWfeWaves": 0.027733634408359895,
+      "throughput": 1.0,
+      "distortionPercent": -0.25570938230527546,
+      "sampledPupilRays": 385,
+      "failedBoundaryRays": 0
+    },
+    {
+      "fieldDeg": 1.8,
+      "normalWfeWaves": 0.05192347097436511,
+      "denseWfeWaves": 0.051923470973472934,
+      "pistonRemovedWfeWaves": 0.030729837489992484,
+      "normalPistonTiltRemovedWfeWaves": 0.02647945494065409,
+      "pistonTiltRemovedWfeWaves": 0.02647945494036406,
+      "throughput": 1.0,
+      "distortionPercent": -0.25601873528656766,
+      "sampledPupilRays": 385,
+      "failedBoundaryRays": 0
+    },
+    {
+      "fieldDeg": 1.875,
+      "normalWfeWaves": 0.0482931515602916,
+      "denseWfeWaves": 0.04829315157012562,
+      "pistonRemovedWfeWaves": 0.03013118234474936,
+      "normalPistonTiltRemovedWfeWaves": 0.025382141733003502,
+      "pistonTiltRemovedWfeWaves": 0.025382141734161378,
+      "throughput": 1.0,
+      "distortionPercent": -0.25634128637413534,
+      "sampledPupilRays": 385,
+      "failedBoundaryRays": 0
+    },
+    {
+      "fieldDeg": 1.95,
+      "normalWfeWaves": 0.04477303878799468,
+      "denseWfeWaves": 0.04477303878534138,
+      "pistonRemovedWfeWaves": 0.029750343970966216,
+      "normalPistonTiltRemovedWfeWaves": 0.024498445580304368,
+      "pistonTiltRemovedWfeWaves": 0.024498445579934556,
+      "throughput": 1.0,
+      "distortionPercent": -0.256677039842104,
+      "sampledPupilRays": 385,
+      "failedBoundaryRays": 0
+    },
+    {
+      "fieldDeg": 2.025,
+      "normalWfeWaves": 0.04146512161530126,
+      "denseWfeWaves": 0.04146512161235144,
+      "pistonRemovedWfeWaves": 0.029626313207531573,
+      "normalPistonTiltRemovedWfeWaves": 0.02389014358147595,
+      "pistonTiltRemovedWfeWaves": 0.023890143582735224,
+      "throughput": 1.0,
+      "distortionPercent": -0.25702600014023275,
+      "sampledPupilRays": 385,
+      "failedBoundaryRays": 0
+    },
+    {
+      "fieldDeg": 2.1,
+      "normalWfeWaves": 0.038506892754746336,
+      "denseWfeWaves": 0.03850689275452738,
+      "pistonRemovedWfeWaves": 0.029793893210611384,
+      "normalPistonTiltRemovedWfeWaves": 0.02361851768291649,
+      "pistonTiltRemovedWfeWaves": 0.023618517684169702,
+      "throughput": 1.0,
+      "distortionPercent": -0.25738817189397983,
+      "sampledPupilRays": 385,
+      "failedBoundaryRays": 0
+    },
+    {
+      "fieldDeg": 2.175,
+      "normalWfeWaves": 0.0360762404061167,
+      "denseWfeWaves": 0.03607624039900938,
+      "pistonRemovedWfeWaves": 0.030280485184430782,
+      "normalPistonTiltRemovedWfeWaves": 0.023736396413526453,
+      "pistonTiltRemovedWfeWaves": 0.02373639641299074,
+      "throughput": 1.0,
+      "distortionPercent": -0.2577635599046419,
+      "sampledPupilRays": 385,
+      "failedBoundaryRays": 0
+    },
+    {
+      "fieldDeg": 2.25,
+      "normalWfeWaves": 0.034385085168685096,
+      "denseWfeWaves": 0.03438508517432042,
+      "pistonRemovedWfeWaves": 0.03110362970182753,
+      "normalPistonTiltRemovedWfeWaves": 0.02427987381542933,
+      "pistonTiltRemovedWfeWaves": 0.024279873815509216,
+      "throughput": 1.0,
+      "distortionPercent": -0.2581521691494003,
+      "sampledPupilRays": 385,
+      "failedBoundaryRays": 0
+    },
+    {
+      "fieldDeg": 2.325,
+      "normalWfeWaves": 0.033650711233462166,
+      "denseWfeWaves": 0.033650711238994616,
+      "pistonRemovedWfeWaves": 0.032269994167910696,
+      "normalPistonTiltRemovedWfeWaves": 0.025262995745386898,
+      "pistonTiltRemovedWfeWaves": 0.02526299574537675,
+      "throughput": 1.0,
+      "distortionPercent": -0.25855400478178153,
+      "sampledPupilRays": 385,
+      "failedBoundaryRays": 0
+    },
+    {
+      "fieldDeg": 2.4,
+      "normalWfeWaves": 0.034042831750585034,
+      "denseWfeWaves": 0.03404283174850292,
+      "pistonRemovedWfeWaves": 0.03377603646965556,
+      "normalPistonTiltRemovedWfeWaves": 0.026677784591353372,
+      "pistonTiltRemovedWfeWaves": 0.02667778458959225,
+      "throughput": 1.0,
+      "distortionPercent": -0.2589690721315062,
+      "sampledPupilRays": 385,
+      "failedBoundaryRays": 0
+    },
+    {
+      "fieldDeg": 2.475,
+      "normalWfeWaves": 0.03563024132736848,
+      "denseWfeWaves": 0.035630241326588596,
+      "pistonRemovedWfeWaves": 0.03561001052969992,
+      "normalPistonTiltRemovedWfeWaves": 0.028499225703001136,
+      "pistonTiltRemovedWfeWaves": 0.028499225702433344,
+      "throughput": 1.0,
+      "distortionPercent": -0.2593973767047291,
+      "sampledPupilRays": 385,
+      "failedBoundaryRays": 0
+    },
+    {
+      "fieldDeg": 2.55,
+      "normalWfeWaves": 0.038366062107235574,
+      "denseWfeWaves": 0.03836606211010754,
+      "pistonRemovedWfeWaves": 0.03775462742104506,
+      "normalPistonTiltRemovedWfeWaves": 0.030692540392711916,
+      "pistonTiltRemovedWfeWaves": 0.030692540393200428,
+      "throughput": 1.0,
+      "distortionPercent": -0.25983892418424687,
+      "sampledPupilRays": 385,
+      "failedBoundaryRays": 0
+    },
+    {
+      "fieldDeg": 2.625,
+      "normalWfeWaves": 0.04212194923448163,
+      "denseWfeWaves": 0.0421219492356128,
+      "pistonRemovedWfeWaves": 0.040189680727016994,
+      "normalPistonTiltRemovedWfeWaves": 0.03321988636349641,
+      "pistonTiltRemovedWfeWaves": 0.03321988636305729,
+      "throughput": 1.0,
+      "distortionPercent": -0.26029372042968596,
+      "sampledPupilRays": 385,
+      "failedBoundaryRays": 0
+    },
+    {
+      "fieldDeg": 2.7,
+      "normalWfeWaves": 0.046740613679174266,
+      "denseWfeWaves": 0.046740613681637136,
+      "pistonRemovedWfeWaves": 0.04289418387487701,
+      "normalPistonTiltRemovedWfeWaves": 0.03604497837455421,
+      "pistonTiltRemovedWfeWaves": 0.03604497837507592,
+      "throughput": 1.0,
+      "distortionPercent": -0.2607617714775619,
+      "sampledPupilRays": 385,
+      "failedBoundaryRays": 0
+    },
+    {
+      "fieldDeg": 2.775,
+      "normalWfeWaves": 0.05207427061191142,
+      "denseWfeWaves": 0.0520742706105257,
+      "pistonRemovedWfeWaves": 0.045847856031752454,
+      "normalPistonTiltRemovedWfeWaves": 0.03913552049286931,
+      "pistonTiltRemovedWfeWaves": 0.039135520493345816,
+      "throughput": 1.0,
+      "distortionPercent": -0.2612430835417144,
+      "sampledPupilRays": 385,
+      "failedBoundaryRays": 0
+    },
+    {
+      "fieldDeg": 2.85,
+      "normalWfeWaves": 0.05800107719397019,
+      "denseWfeWaves": 0.05800107719547548,
+      "pistonRemovedWfeWaves": 0.0490320006203659,
+      "normalPistonTiltRemovedWfeWaves": 0.04246403489790845,
+      "pistonTiltRemovedWfeWaves": 0.042464034897175894,
+      "throughput": 1.0,
+      "distortionPercent": -0.2617376630130627,
+      "sampledPupilRays": 385,
+      "failedBoundaryRays": 0
+    },
+    {
+      "fieldDeg": 2.925,
+      "normalWfeWaves": 0.06442700749575947,
+      "denseWfeWaves": 0.06442700749223552,
+      "pistonRemovedWfeWaves": 0.05242991623044667,
+      "normalPistonTiltRemovedWfeWaves": 0.04600776033232029,
+      "pistonTiltRemovedWfeWaves": 0.046007760331871365,
+      "throughput": 1.0,
+      "distortionPercent": -0.2622455164603541,
+      "sampledPupilRays": 385,
+      "failedBoundaryRays": 0
+    },
+    {
+      "fieldDeg": 3.0,
+      "normalWfeWaves": 0.07128167398146333,
+      "denseWfeWaves": 0.07128167397261935,
+      "pistonRemovedWfeWaves": 0.05602699395883346,
+      "normalPistonTiltRemovedWfeWaves": 0.04974812083556633,
+      "pistonTiltRemovedWfeWaves": 0.04974812083387349,
+      "throughput": 1.0,
+      "distortionPercent": -0.262766650629873,
+      "sampledPupilRays": 385,
+      "failedBoundaryRays": 0
+    }
+  ],
+  "geometry": {
+    "status": "passed",
+    "eligible": true,
+    "passed": true,
+    "violations": [],
+    "missing": [],
+    "surfaces": [
+      {
+        "surface": 1,
+        "clear_radius_mm": 8.0,
+        "mechanical_radius_mm": 8.45,
+        "maximum_surface_slope": 0.008622769522461902,
+        "maximum_at_radius_mm": 8.45,
+        "full_domain_spherical_extrema": true
+      },
+      {
+        "surface": 2,
+        "clear_radius_mm": 8.0,
+        "mechanical_radius_mm": 8.45,
+        "maximum_surface_slope": 0.015915386295131447,
+        "maximum_at_radius_mm": 8.45,
+        "full_domain_spherical_extrema": true
+      },
+      {
+        "surface": 4,
+        "clear_radius_mm": 8.0,
+        "mechanical_radius_mm": 8.45,
+        "maximum_surface_slope": 0.11400449267423575,
+        "maximum_at_radius_mm": 8.45,
+        "full_domain_spherical_extrema": true
+      },
+      {
+        "surface": 5,
+        "clear_radius_mm": 8.0,
+        "mechanical_radius_mm": 8.45,
+        "maximum_surface_slope": 0.04027070968476728,
+        "maximum_at_radius_mm": 8.45,
+        "full_domain_spherical_extrema": true
+      }
+    ],
+    "lenses": [
+      {
+        "lens": 1,
+        "front_surface": 1,
+        "rear_surface": 2,
+        "material": "SCHOENBERG:SCHOENBERG",
+        "mechanical_diameter_mm": 16.9,
+        "center_thickness_mm": 7.6,
+        "edge_thickness_mm": 7.49633122641457,
+        "minimum_radial_thickness_mm": 7.49633122641457,
+        "minimum_at_radius_mm": 8.45,
+        "minimum_face_distance_mm": 7.49633122641457,
+        "face_distance_witness": {
+          "distance_mm": 7.49633122641457,
+          "front_rz_mm": [
+            8.45,
+            0.036430524073002166
+          ],
+          "rear_rz_mm": [
+            8.45,
+            7.532761750487572
+          ],
+          "method": "analytic_coaxial_spherical_cap_candidates"
+        },
+        "center_to_diameter_ratio": 0.44970414201183434,
+        "face_distance_to_diameter_ratio": 0.44356989505411665,
+        "effective_limits": {
+          "minimum_center_thickness_mm": 0.65,
+          "center_thickness_budget_mm": 0.05,
+          "minimum_radial_thickness_mm": 0.65,
+          "radial_thickness_budget_mm": 0.05,
+          "minimum_face_distance_mm": 0.65,
+          "face_distance_budget_mm": 0.05,
+          "minimum_edge_thickness_mm": 0.65,
+          "edge_thickness_budget_mm": 0.05,
+          "maximum_diameter_mm": 200.0,
+          "maximum_surface_slope": 2.0,
+          "minimum_clear_to_mechanical_radial_margin_mm": 0.4499,
+          "minimum_air_gap_mm": 0.03,
+          "air_gap_budget_mm": 0.05,
+          "minimum_rim_gap_mm": 0.03,
+          "rim_gap_budget_mm": 0.05
+        },
+        "domain": "full finished radius [0, 8.45] mm"
+      },
+      {
+        "lens": 2,
+        "front_surface": 4,
+        "rear_surface": 5,
+        "material": "SCHOENBERG:SCHOENBERG",
+        "mechanical_diameter_mm": 16.9,
+        "center_thickness_mm": 8.300000000000002,
+        "edge_thickness_mm": 7.649811173106327,
+        "minimum_radial_thickness_mm": 7.649811173106327,
+        "minimum_at_radius_mm": 8.45,
+        "minimum_face_distance_mm": 7.649811173106327,
+        "face_distance_witness": {
+          "distance_mm": 7.649811173106327,
+          "front_rz_mm": [
+            8.45,
+            13.514681894405
+          ],
+          "rear_rz_mm": [
+            8.45,
+            21.164493067511327
+          ],
+          "method": "analytic_coaxial_spherical_cap_candidates"
+        },
+        "center_to_diameter_ratio": 0.49112426035502976,
+        "face_distance_to_diameter_ratio": 0.45265154870451646,
+        "effective_limits": {
+          "minimum_center_thickness_mm": 0.65,
+          "center_thickness_budget_mm": 0.05,
+          "minimum_radial_thickness_mm": 0.65,
+          "radial_thickness_budget_mm": 0.05,
+          "minimum_face_distance_mm": 0.65,
+          "face_distance_budget_mm": 0.05,
+          "minimum_edge_thickness_mm": 0.65,
+          "edge_thickness_budget_mm": 0.05,
+          "maximum_diameter_mm": 200.0,
+          "maximum_surface_slope": 2.0,
+          "minimum_clear_to_mechanical_radial_margin_mm": 0.4499,
+          "minimum_air_gap_mm": 0.03,
+          "air_gap_budget_mm": 0.05,
+          "minimum_rim_gap_mm": 0.03,
+          "rim_gap_budget_mm": 0.05
+        },
+        "domain": "full finished radius [0, 8.45] mm"
+      }
+    ],
+    "gaps": [
+      {
+        "left_lens": 1,
+        "right_lens": 2,
+        "kind": "separated_solids",
+        "common_radius_mm": 8.45,
+        "minimum_gap_mm": 5.43456789,
+        "minimum_at_radius_mm": 0.0,
+        "separate_rim_axial_gap_mm": 5.981920143917427
+      }
+    ],
+    "checks": [
+      {
+        "code": "clear_inside_mechanical",
+        "nominal_value": 0.4499999999999993,
+        "limit": 0.0,
+        "worst_case_loss": 0.0,
+        "nominal_margin": 0.4499999999999993,
+        "remaining_margin": 0.4499999999999993,
+        "passed": true,
+        "surface": 1
+      },
+      {
+        "code": "clear_inside_mechanical",
+        "nominal_value": 0.4499999999999993,
+        "limit": 0.0,
+        "worst_case_loss": 0.0,
+        "nominal_margin": 0.4499999999999993,
+        "remaining_margin": 0.4499999999999993,
+        "passed": true,
+        "surface": 2
+      },
+      {
+        "code": "clear_inside_mechanical",
+        "nominal_value": 0.4499999999999993,
+        "limit": 0.0,
+        "worst_case_loss": 0.0,
+        "nominal_margin": 0.4499999999999993,
+        "remaining_margin": 0.4499999999999993,
+        "passed": true,
+        "surface": 4
+      },
+      {
+        "code": "clear_inside_mechanical",
+        "nominal_value": 0.4499999999999993,
+        "limit": 0.0,
+        "worst_case_loss": 0.0,
+        "nominal_margin": 0.4499999999999993,
+        "remaining_margin": 0.4499999999999993,
+        "passed": true,
+        "surface": 5
+      },
+      {
+        "code": "minimum_center_thickness_mm",
+        "nominal_value": 7.6,
+        "limit": 0.65,
+        "worst_case_loss": 0.05,
+        "nominal_margin": 6.949999999999999,
+        "remaining_margin": 6.8999999999999995,
+        "passed": true,
+        "lens": 1,
+        "radius_mm": null
+      },
+      {
+        "code": "minimum_radial_thickness_mm",
+        "nominal_value": 7.49633122641457,
+        "limit": 0.65,
+        "worst_case_loss": 0.05,
+        "nominal_margin": 6.84633122641457,
+        "remaining_margin": 6.79633122641457,
+        "passed": true,
+        "lens": 1,
+        "radius_mm": 8.45
+      },
+      {
+        "code": "minimum_face_distance_mm",
+        "nominal_value": 7.49633122641457,
+        "limit": 0.65,
+        "worst_case_loss": 0.05,
+        "nominal_margin": 6.84633122641457,
+        "remaining_margin": 6.79633122641457,
+        "passed": true,
+        "lens": 1,
+        "radius_mm": null
+      },
+      {
+        "code": "minimum_edge_thickness_mm",
+        "nominal_value": 7.49633122641457,
+        "limit": 0.65,
+        "worst_case_loss": 0.05,
+        "nominal_margin": 6.84633122641457,
+        "remaining_margin": 6.79633122641457,
+        "passed": true,
+        "lens": 1,
+        "radius_mm": null
+      },
+      {
+        "code": "maximum_diameter_mm",
+        "nominal_value": 16.9,
+        "limit": 200.0,
+        "worst_case_loss": 0.0,
+        "nominal_margin": 183.1,
+        "remaining_margin": 183.1,
+        "passed": true,
+        "lens": 1
+      },
+      {
+        "code": "minimum_clear_to_mechanical_radial_margin_mm",
+        "nominal_value": 0.4499999999999993,
+        "limit": 0.4499,
+        "worst_case_loss": 0.0,
+        "nominal_margin": 9.999999999926734e-05,
+        "remaining_margin": 9.999999999926734e-05,
+        "passed": true,
+        "lens": 1,
+        "surface": 1
+      },
+      {
+        "code": "maximum_surface_slope",
+        "nominal_value": 0.008622769522461902,
+        "limit": 2.0,
+        "worst_case_loss": 0.0,
+        "nominal_margin": 1.9913772304775381,
+        "remaining_margin": 1.9913772304775381,
+        "passed": true,
+        "lens": 1,
+        "surface": 1,
+        "radius_mm": 8.45
+      },
+      {
+        "code": "minimum_clear_to_mechanical_radial_margin_mm",
+        "nominal_value": 0.4499999999999993,
+        "limit": 0.4499,
+        "worst_case_loss": 0.0,
+        "nominal_margin": 9.999999999926734e-05,
+        "remaining_margin": 9.999999999926734e-05,
+        "passed": true,
+        "lens": 1,
+        "surface": 2
+      },
+      {
+        "code": "maximum_surface_slope",
+        "nominal_value": 0.015915386295131447,
+        "limit": 2.0,
+        "worst_case_loss": 0.0,
+        "nominal_margin": 1.9840846137048687,
+        "remaining_margin": 1.9840846137048687,
+        "passed": true,
+        "lens": 1,
+        "surface": 2,
+        "radius_mm": 8.45
+      },
+      {
+        "code": "minimum_center_thickness_mm",
+        "nominal_value": 8.300000000000002,
+        "limit": 0.65,
+        "worst_case_loss": 0.05,
+        "nominal_margin": 7.650000000000002,
+        "remaining_margin": 7.600000000000002,
+        "passed": true,
+        "lens": 2,
+        "radius_mm": null
+      },
+      {
+        "code": "minimum_radial_thickness_mm",
+        "nominal_value": 7.649811173106327,
+        "limit": 0.65,
+        "worst_case_loss": 0.05,
+        "nominal_margin": 6.999811173106327,
+        "remaining_margin": 6.949811173106327,
+        "passed": true,
+        "lens": 2,
+        "radius_mm": 8.45
+      },
+      {
+        "code": "minimum_face_distance_mm",
+        "nominal_value": 7.649811173106327,
+        "limit": 0.65,
+        "worst_case_loss": 0.05,
+        "nominal_margin": 6.999811173106327,
+        "remaining_margin": 6.949811173106327,
+        "passed": true,
+        "lens": 2,
+        "radius_mm": null
+      },
+      {
+        "code": "minimum_edge_thickness_mm",
+        "nominal_value": 7.649811173106327,
+        "limit": 0.65,
+        "worst_case_loss": 0.05,
+        "nominal_margin": 6.999811173106327,
+        "remaining_margin": 6.949811173106327,
+        "passed": true,
+        "lens": 2,
+        "radius_mm": null
+      },
+      {
+        "code": "maximum_diameter_mm",
+        "nominal_value": 16.9,
+        "limit": 200.0,
+        "worst_case_loss": 0.0,
+        "nominal_margin": 183.1,
+        "remaining_margin": 183.1,
+        "passed": true,
+        "lens": 2
+      },
+      {
+        "code": "minimum_clear_to_mechanical_radial_margin_mm",
+        "nominal_value": 0.4499999999999993,
+        "limit": 0.4499,
+        "worst_case_loss": 0.0,
+        "nominal_margin": 9.999999999926734e-05,
+        "remaining_margin": 9.999999999926734e-05,
+        "passed": true,
+        "lens": 2,
+        "surface": 4
+      },
+      {
+        "code": "maximum_surface_slope",
+        "nominal_value": 0.11400449267423575,
+        "limit": 2.0,
+        "worst_case_loss": 0.0,
+        "nominal_margin": 1.8859955073257642,
+        "remaining_margin": 1.8859955073257642,
+        "passed": true,
+        "lens": 2,
+        "surface": 4,
+        "radius_mm": 8.45
+      },
+      {
+        "code": "minimum_clear_to_mechanical_radial_margin_mm",
+        "nominal_value": 0.4499999999999993,
+        "limit": 0.4499,
+        "worst_case_loss": 0.0,
+        "nominal_margin": 9.999999999926734e-05,
+        "remaining_margin": 9.999999999926734e-05,
+        "passed": true,
+        "lens": 2,
+        "surface": 5
+      },
+      {
+        "code": "maximum_surface_slope",
+        "nominal_value": 0.04027070968476728,
+        "limit": 2.0,
+        "worst_case_loss": 0.0,
+        "nominal_margin": 1.9597292903152328,
+        "remaining_margin": 1.9597292903152328,
+        "passed": true,
+        "lens": 2,
+        "surface": 5,
+        "radius_mm": 8.45
+      },
+      {
+        "code": "all_pairs_solid_clearance",
+        "nominal_value": 5.43456789,
+        "limit": 0.0,
+        "worst_case_loss": 0.0,
+        "nominal_margin": 5.43456789,
+        "remaining_margin": 5.43456789,
+        "passed": true,
+        "radius_mm": 0.0,
+        "left_lens": 1,
+        "right_lens": 2
+      },
+      {
+        "code": "minimum_air_gap_mm",
+        "nominal_value": 5.43456789,
+        "limit": 0.03,
+        "worst_case_loss": 0.05,
+        "nominal_margin": 5.40456789,
+        "remaining_margin": 5.35456789,
+        "passed": true,
+        "radius_mm": 0.0,
+        "limit_source_lenses": [
+          1,
+          2
+        ],
+        "budget_source_lenses": [
+          1,
+          2
+        ],
+        "left_lens": 1,
+        "right_lens": 2
+      },
+      {
+        "code": "minimum_rim_gap_mm",
+        "nominal_value": 5.981920143917427,
+        "limit": 0.03,
+        "worst_case_loss": 0.05,
+        "nominal_margin": 5.951920143917427,
+        "remaining_margin": 5.901920143917427,
+        "passed": true,
+        "radius_mm": null,
+        "limit_source_lenses": [
+          1,
+          2
+        ],
+        "budget_source_lenses": [
+          1,
+          2
+        ],
+        "left_lens": 1,
+        "right_lens": 2
+      },
+      {
+        "code": "ray_envelope_clearance",
+        "nominal_value": 4.938716506473764,
+        "limit": 0.0,
+        "worst_case_loss": 0.0,
+        "nominal_margin": 4.938716506473764,
+        "remaining_margin": 4.938716506473764,
+        "passed": true,
+        "surface": 1,
+        "field_index": 5,
+        "wave_index": 0,
+        "pupil_xy": [
+          -1.8369701987210297e-16,
+          -1.0
+        ],
+        "domain": "configured fields/all wavelengths/pupil including exact rim"
+      },
+      {
+        "code": "ray_envelope_clearance",
+        "nominal_value": 4.97983181166904,
+        "limit": 0.0,
+        "worst_case_loss": 0.0,
+        "nominal_margin": 4.97983181166904,
+        "remaining_margin": 4.97983181166904,
+        "passed": true,
+        "surface": 2,
+        "field_index": 5,
+        "wave_index": 0,
+        "pupil_xy": [
+          -1.8369701987210297e-16,
+          -1.0
+        ],
+        "domain": "configured fields/all wavelengths/pupil including exact rim"
+      },
+      {
+        "code": "ray_envelope_clearance",
+        "nominal_value": 5.022539315215779,
+        "limit": 0.0,
+        "worst_case_loss": 0.0,
+        "nominal_margin": 5.022539315215779,
+        "remaining_margin": 5.022539315215779,
+        "passed": true,
+        "surface": 4,
+        "field_index": 5,
+        "wave_index": 0,
+        "pupil_xy": [
+          6.123233995736766e-17,
+          1.0
+        ],
+        "domain": "configured fields/all wavelengths/pupil including exact rim"
+      },
+      {
+        "code": "ray_envelope_clearance",
+        "nominal_value": 5.117668277070525,
+        "limit": 0.0,
+        "worst_case_loss": 0.0,
+        "nominal_margin": 5.117668277070525,
+        "remaining_margin": 5.117668277070525,
+        "passed": true,
+        "surface": 5,
+        "field_index": 5,
+        "wave_index": 0,
+        "pupil_xy": [
+          6.123233995736766e-17,
+          1.0
+        ],
+        "domain": "configured fields/all wavelengths/pupil including exact rim"
+      }
+    ],
+    "assumptions": [],
+    "scope": "Nominal coaxial spherical/plane solids, declared full OD, sampled configured-field/spectrum ray envelope and supplied scalar loss budgets.",
+    "completion": {
+      "nominalGeometry": "passed",
+      "rayEnvelope": "passed_sampled_domain",
+      "assembly": "not_evaluated",
+      "procurement": "not_evaluated",
+      "manufacturingAcceptance": "not_evaluated",
+      "statisticalTolerances": "not_evaluated"
+    },
+    "limitations": [
+      "No tilted/decentred elements, aspheres, stepped edges, flange or truncated spherical solids.",
+      "Ray coverage is the stated finite field/wavelength/pupil sampling, not a continuous-domain bound.",
+      "Mounts, spacers, insertion, bevel/support contact geometry, tooling, stress, coatings and manufacturing yield require separate evidence."
+    ],
+    "strict_gate": true,
+    "model_sha256": "8cb95eb50050ed99d52ade587aef9ddfa1ce3261c09eee84c7aeacc320e0e094",
+    "policy_sha256": "7c543443a4637ead166b26e34df46f53a9fe815766eb5a8cd30f9dae30bc041b",
+    "material_sha256": "12c25d308436e28b6fc3bd9eb1afa9581be7b0b10e2cf6619f68b8b9a4763875",
+    "policy_id": "iodc-2027-schoenberg-nominal",
+    "sources": [
+      "https://iodc.info/2026/09/the-2027-iodc-shafer-cup-competition/",
+      "Mechanical bounds apply to the powered glass elements."
+    ],
+    "method": {
+      "geometry": "analytic spherical monotonic extrema and complete cap nearest-point candidate enumeration",
+      "full_radial_domain": true,
+      "all_glass_pairs": true,
+      "geometry_sampling_used_for_acceptance": false,
+      "ray_envelope": "Optiwork actual physical launcher and native refractive trace including exact pupil rim"
+    },
+    "rayEnvelope": {
+      "radial_order": 3,
+      "azimuths": 128,
+      "includes_exact_rim": true,
+      "required_margin_mm": 0.0,
+      "loss_budget_mm": 0.0,
+      "pupil_rays_per_group": 385,
+      "groups": [
+        {
+          "field_index": 0,
+          "field_xy": [
+            0.0,
+            0.0
+          ],
+          "wave_index": 0,
+          "wavelength_um": 0.5876,
+          "rays": 385,
+          "failed_rays": 0
+        },
+        {
+          "field_index": 1,
+          "field_xy": [
+            0.0,
+            0.075
+          ],
+          "wave_index": 0,
+          "wavelength_um": 0.5876,
+          "rays": 385,
+          "failed_rays": 0
+        },
+        {
+          "field_index": 2,
+          "field_xy": [
+            0.0,
+            0.15
+          ],
+          "wave_index": 0,
+          "wavelength_um": 0.5876,
+          "rays": 385,
+          "failed_rays": 0
+        },
+        {
+          "field_index": 3,
+          "field_xy": [
+            0.0,
+            0.225
+          ],
+          "wave_index": 0,
+          "wavelength_um": 0.5876,
+          "rays": 385,
+          "failed_rays": 0
+        },
+        {
+          "field_index": 4,
+          "field_xy": [
+            0.0,
+            0.3
+          ],
+          "wave_index": 0,
+          "wavelength_um": 0.5876,
+          "rays": 385,
+          "failed_rays": 0
+        },
+        {
+          "field_index": 5,
+          "field_xy": [
+            0.0,
+            0.375
+          ],
+          "wave_index": 0,
+          "wavelength_um": 0.5876,
+          "rays": 385,
+          "failed_rays": 0
+        }
+      ],
+      "surfaces": [
+        {
+          "surface": 1,
+          "maximum_radius_mm": 3.061283493526236,
+          "field_index": 5,
+          "wave_index": 0,
+          "pupil_index": 353,
+          "pupil_xy": [
+            -1.8369701987210297e-16,
+            -1.0
+          ]
+        },
+        {
+          "surface": 2,
+          "maximum_radius_mm": 3.02016818833096,
+          "field_index": 5,
+          "wave_index": 0,
+          "pupil_index": 353,
+          "pupil_xy": [
+            -1.8369701987210297e-16,
+            -1.0
+          ]
+        },
+        {
+          "surface": 3,
+          "maximum_radius_mm": 2.9744364998739603,
+          "field_index": 5,
+          "wave_index": 0,
+          "pupil_index": 277,
+          "pupil_xy": [
+            0.5555702330196023,
+            0.8314696123025452
+          ]
+        },
+        {
+          "surface": 4,
+          "maximum_radius_mm": 2.9774606847842215,
+          "field_index": 5,
+          "wave_index": 0,
+          "pupil_index": 289,
+          "pupil_xy": [
+            6.123233995736766e-17,
+            1.0
+          ]
+        },
+        {
+          "surface": 5,
+          "maximum_radius_mm": 2.882331722929475,
+          "field_index": 5,
+          "wave_index": 0,
+          "pupil_index": 289,
+          "pupil_xy": [
+            6.123233995736766e-17,
+            1.0
+          ]
+        },
+        {
+          "surface": 6,
+          "maximum_radius_mm": 2.7403491335957217,
+          "field_index": 5,
+          "wave_index": 0,
+          "pupil_index": 289,
+          "pupil_xy": [
+            6.123233995736766e-17,
+            1.0
+          ]
+        },
+        {
+          "surface": 7,
+          "maximum_radius_mm": 0.6500497041362872,
+          "field_index": 5,
+          "wave_index": 0,
+          "pupil_index": 289,
+          "pupil_xy": [
+            6.123233995736766e-17,
+            1.0
+          ]
+        }
+      ],
+      "failed_rays": 0,
+      "rays": 2310,
+      "continuous_domain_certified": false
+    },
+    "project_sha256": "6c8809a23c7b3ec04a8bf5ae7c64cd326a8c0b6f63f5f37aff1804cf2c81bcec",
+    "audit_source": "fresh_supplied_project_payload_and_material_snapshot",
+    "kind": "manufacturing_audit",
+    "engine": "Optiwork",
+    "read_only": true
+  },
+  "checks": {
+    "oneGlass": true,
+    "sphericalAndRotational": true,
+    "focalLength": true,
+    "positiveImageGap": true,
+    "glassAndAirPositive": true,
+    "stopPlaneClearance": true,
+    "geometry": true,
+    "completeFieldGrid": true,
+    "wavefront": true,
+    "pupil": true,
+    "convergence": true,
+    "distortion": true
+  },
+  "passes": true
+}
