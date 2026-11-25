@@ -27,6 +27,8 @@
 
 - [IODC 2002 Diffractive Simulator](problems/iodc-2002-diffractive-simulator/README.md) · 15 波长双软件复验，公开 EFL 口径得分 1.16467 mm，另列后焦距结果。
 
+- [IODC 2006 Lens Shuffler](problems/iodc-2006-lens-shuffler/README.md) · 100 mm 圆柱交替分片，A/B 均通过双软件复验，公共得分 14.391 mm·°。
+
 ## 题目索引
 
 | 题目 | 设计要点 | 题源 |
