@@ -19,6 +19,8 @@
 
 - [IODC 2010 Green Lens](problems/iodc-2010-green-lens/README.md) · 共用球面半径，双软件已复验得分 48.536 mm·°。
 
+- [IODC 2014 Cinderella Lens](problems/iodc-2014-cinderella-lens/README.md) · 十片排入十块毛坯，双软件已复验得分 120.000 mm·°。
+
 ## 题目索引
 
 | 题目 | 设计要点 | 题源 |
