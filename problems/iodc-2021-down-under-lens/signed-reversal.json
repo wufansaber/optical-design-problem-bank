@@ -1,0 +1,86 @@
+{
+  "label": "linked-window-6x95-frozen",
+  "owxSha256": {
+    "forward": "f4cb19252a1ff3140b015396719904bd8e77b35aed4e81fc825e04939d230385",
+    "reverse": "cce176efdd38e3b80a625649df67519742afd2260755d42e793544a917768adf"
+  },
+  "lengthFirstToLastGlassMm": {
+    "forward": 37.42036625500666,
+    "reverse": 37.42036625500666
+  },
+  "surfaces": [
+    {
+      "forward": 1,
+      "reverse": 5,
+      "forwardRadiusMm": 21.731430592508545,
+      "reverseRadiusMm": 21.731430592508545
+    },
+    {
+      "forward": 2,
+      "reverse": 4,
+      "forwardRadiusMm": 63.22791467318134,
+      "reverseRadiusMm": 63.22791467318134
+    },
+    {
+      "forward": 3,
+      "reverse": 3,
+      "forwardRadiusMm": null,
+      "reverseRadiusMm": null
+    },
+    {
+      "forward": 4,
+      "reverse": 2,
+      "forwardRadiusMm": 63.22791467318134,
+      "reverseRadiusMm": 63.22791467318134
+    },
+    {
+      "forward": 5,
+      "reverse": 1,
+      "forwardRadiusMm": 21.731430592508545,
+      "reverseRadiusMm": 21.731430592508545
+    }
+  ],
+  "intervals": [
+    {
+      "forwardSurface": 1,
+      "reverseSurface": 4,
+      "forwardMaterial": "SCHOTT:N-BK7",
+      "reverseMaterial": "SCHOTT:N-BK7",
+      "forwardThicknessMm": 3.4443995082822494,
+      "reverseThicknessMm": 3.4443995082822494
+    },
+    {
+      "forwardSurface": 2,
+      "reverseSurface": 3,
+      "forwardMaterial": "AIR",
+      "reverseMaterial": "AIR",
+      "forwardThicknessMm": 15.265783619221082,
+      "reverseThicknessMm": 15.265783619221082
+    },
+    {
+      "forwardSurface": 3,
+      "reverseSurface": 2,
+      "forwardMaterial": "AIR",
+      "reverseMaterial": "AIR",
+      "forwardThicknessMm": 15.265783619221082,
+      "reverseThicknessMm": 15.265783619221082
+    },
+    {
+      "forwardSurface": 4,
+      "reverseSurface": 1,
+      "forwardMaterial": "SCHOTT:N-BK7",
+      "reverseMaterial": "SCHOTT:N-BK7",
+      "forwardThicknessMm": 3.4443995082822494,
+      "reverseThicknessMm": 3.4443995082822494
+    }
+  ],
+  "checks": {
+    "signedRadii": true,
+    "materialsAndGaps": true,
+    "commonHardwareLength": true,
+    "commonFields": true,
+    "physicalStops": true,
+    "commonMonochromaticWavelength": true
+  },
+  "passes": true
+}

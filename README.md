@@ -21,6 +21,8 @@
 
 - [IODC 2014 Cinderella Lens](problems/iodc-2014-cinderella-lens/README.md) · 十片排入十块毛坯，双软件已复验得分 120.000 mm·°。
 
+- [IODC 2021 Down Under Lens](problems/iodc-2021-down-under-lens/README.md) · 同半径符号反转，正反向双软件复验，公共得分 57.000 mm·°。
+
 ## 题目索引
 
 | 题目 | 设计要点 | 题源 |
