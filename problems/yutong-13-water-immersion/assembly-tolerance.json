@@ -1,0 +1,1477 @@
+{
+  "zmxSha256": "0ea8157fc519d4c713ecfe5cfe0abd85cde5fa14727fd172b3b734eddd27bc81",
+  "originalOptiworkDrawsSha256": "bd174a7d19d7b88eed78a7d254ba2e07ca7d1a58a3cf055ea49d393e0a183a54",
+  "requestedTrials": 12,
+  "waterNominalMm": 0.5505665199297705,
+  "fields": [
+    1,
+    6,
+    11
+  ],
+  "rows": [
+    {
+      "failedRays": 0,
+      "minNa": 0.9045135116748986,
+      "initialWaterFocusShiftMm": -8.524462358666034e-06,
+      "best": {
+        "waterShiftMm": 0.0,
+        "bandFloor": 0.35616250779974146,
+        "fields": [
+          {
+            "field": 1,
+            "minimum": 0.35616250779974146
+          },
+          {
+            "field": 6,
+            "minimum": 0.36016220393063003
+          },
+          {
+            "field": 11,
+            "minimum": 0.3579663271178682
+          }
+        ]
+      },
+      "focusTrials": [
+        {
+          "waterShiftMm": 0.0,
+          "bandFloor": 0.35616250779974146,
+          "fields": [
+            {
+              "field": 1,
+              "minimum": 0.35616250779974146
+            },
+            {
+              "field": 6,
+              "minimum": 0.36016220393063003
+            },
+            {
+              "field": 11,
+              "minimum": 0.3579663271178682
+            }
+          ]
+        }
+      ],
+      "usedRequestedFocusInterval": true,
+      "shimShiftMm": 0.0,
+      "trial": 0
+    },
+    {
+      "failedRays": 0,
+      "minNa": 0.9040447472799034,
+      "initialWaterFocusShiftMm": 0.002919204031650052,
+      "best": {
+        "waterShiftMm": 0.002919204031650052,
+        "bandFloor": 0.28926731710046544,
+        "fields": [
+          {
+            "field": 1,
+            "minimum": 0.29480942473959015
+          },
+          {
+            "field": 6,
+            "minimum": 0.28926731710046544
+          },
+          {
+            "field": 11,
+            "minimum": 0.28944665642193323
+          }
+        ]
+      },
+      "focusTrials": [
+        {
+          "waterShiftMm": 0.002119204031650052,
+          "bandFloor": 0.1616662773659669,
+          "fields": [
+            {
+              "field": 1,
+              "minimum": 0.1616662773659669
+            },
+            {
+              "field": 6,
+              "minimum": 0.16786631635424698
+            },
+            {
+              "field": 11,
+              "minimum": 0.18164751769028178
+            }
+          ]
+        },
+        {
+          "waterShiftMm": 0.0025192040316500517,
+          "bandFloor": 0.25273040665668195,
+          "fields": [
+            {
+              "field": 1,
+              "minimum": 0.25273040665668195
+            },
+            {
+              "field": 6,
+              "minimum": 0.2544018617789688
+            },
+            {
+              "field": 11,
+              "minimum": 0.26269054835029365
+            }
+          ]
+        },
+        {
+          "waterShiftMm": 0.002919204031650052,
+          "bandFloor": 0.28926731710046544,
+          "fields": [
+            {
+              "field": 1,
+              "minimum": 0.29480942473959015
+            },
+            {
+              "field": 6,
+              "minimum": 0.28926731710046544
+            },
+            {
+              "field": 11,
+              "minimum": 0.28944665642193323
+            }
+          ]
+        },
+        {
+          "waterShiftMm": 0.003319204031650052,
+          "bandFloor": 0.24535125733977783,
+          "fields": [
+            {
+              "field": 1,
+              "minimum": 0.26084020947592723
+            },
+            {
+              "field": 6,
+              "minimum": 0.2484951712965791
+            },
+            {
+              "field": 11,
+              "minimum": 0.24535125733977783
+            }
+          ]
+        },
+        {
+          "waterShiftMm": 0.0037192040316500518,
+          "bandFloor": 0.15295189166933723,
+          "fields": [
+            {
+              "field": 1,
+              "minimum": 0.1710198205176444
+            },
+            {
+              "field": 6,
+              "minimum": 0.15295189166933723
+            },
+            {
+              "field": 11,
+              "minimum": 0.16228060130661745
+            }
+          ]
+        }
+      ],
+      "usedRequestedFocusInterval": true,
+      "shimShiftMm": 0.0,
+      "trial": 1
+    },
+    {
+      "failedRays": 0,
+      "minNa": 0.9043884584688736,
+      "initialWaterFocusShiftMm": -0.0003149914279751611,
+      "best": {
+        "waterShiftMm": -0.0003149914279751611,
+        "bandFloor": 0.32415682980014227,
+        "fields": [
+          {
+            "field": 1,
+            "minimum": 0.3422309260038451
+          },
+          {
+            "field": 6,
+            "minimum": 0.3295383126725684
+          },
+          {
+            "field": 11,
+            "minimum": 0.32415682980014227
+          }
+        ]
+      },
+      "focusTrials": [
+        {
+          "waterShiftMm": -0.001114991427975161,
+          "bandFloor": 0.16343387075466412,
+          "fields": [
+            {
+              "field": 1,
+              "minimum": 0.23504959246017373
+            },
+            {
+              "field": 6,
+              "minimum": 0.20314444364750434
+            },
+            {
+              "field": 11,
+              "minimum": 0.16343387075466412
+            }
+          ]
+        },
+        {
+          "waterShiftMm": -0.0007149914279751611,
+          "bandFloor": 0.2674212373816457,
+          "fields": [
+            {
+              "field": 1,
+              "minimum": 0.32753559878966454
+            },
+            {
+              "field": 6,
+              "minimum": 0.30145257875358333
+            },
+            {
+              "field": 11,
+              "minimum": 0.2674212373816457
+            }
+          ]
+        },
+        {
+          "waterShiftMm": -0.0003149914279751611,
+          "bandFloor": 0.32415682980014227,
+          "fields": [
+            {
+              "field": 1,
+              "minimum": 0.3422309260038451
+            },
+            {
+              "field": 6,
+              "minimum": 0.3295383126725684
+            },
+            {
+              "field": 11,
+              "minimum": 0.32415682980014227
+            }
+          ]
+        },
+        {
+          "waterShiftMm": 8.500857202483892e-05,
+          "bandFloor": 0.24513717976823046,
+          "fields": [
+            {
+              "field": 1,
+              "minimum": 0.27078431760156507
+            },
+            {
+              "field": 6,
+              "minimum": 0.24513717976823046
+            },
+            {
+              "field": 11,
+              "minimum": 0.2819913154878548
+            }
+          ]
+        },
+        {
+          "waterShiftMm": 0.00048500857202483894,
+          "bandFloor": 0.12418885697638099,
+          "fields": [
+            {
+              "field": 1,
+              "minimum": 0.15093620097204188
+            },
+            {
+              "field": 6,
+              "minimum": 0.12418885697638099
+            },
+            {
+              "field": 11,
+              "minimum": 0.16900136400357693
+            }
+          ]
+        }
+      ],
+      "usedRequestedFocusInterval": true,
+      "shimShiftMm": 0.0,
+      "trial": 2
+    },
+    {
+      "failedRays": 0,
+      "minNa": 0.9043298430627524,
+      "initialWaterFocusShiftMm": 0.0005293637027435656,
+      "best": {
+        "waterShiftMm": 0.0009293637027435657,
+        "bandFloor": 0.3285691727412362,
+        "fields": [
+          {
+            "field": 1,
+            "minimum": 0.3285691727412362
+          },
+          {
+            "field": 6,
+            "minimum": 0.34469422401802047
+          },
+          {
+            "field": 11,
+            "minimum": 0.3403193186434156
+          }
+        ]
+      },
+      "focusTrials": [
+        {
+          "waterShiftMm": -0.0002706362972564344,
+          "bandFloor": 0.028814762094422696,
+          "fields": [
+            {
+              "field": 1,
+              "minimum": 0.028814762094422696
+            },
+            {
+              "field": 6,
+              "minimum": 0.05601137712599796
+            },
+            {
+              "field": 11,
+              "minimum": 0.053687223623834344
+            }
+          ]
+        },
+        {
+          "waterShiftMm": 0.0001293637027435656,
+          "bandFloor": 0.13432587252813324,
+          "fields": [
+            {
+              "field": 1,
+              "minimum": 0.13432587252813324
+            },
+            {
+              "field": 6,
+              "minimum": 0.16979184491157673
+            },
+            {
+              "field": 11,
+              "minimum": 0.1744461107140665
+            }
+          ]
+        },
+        {
+          "waterShiftMm": 0.0005293637027435656,
+          "bandFloor": 0.25176313514651794,
+          "fields": [
+            {
+              "field": 1,
+              "minimum": 0.25176313514651794
+            },
+            {
+              "field": 6,
+              "minimum": 0.28459564640835033
+            },
+            {
+              "field": 11,
+              "minimum": 0.2851406782903066
+            }
+          ]
+        },
+        {
+          "waterShiftMm": 0.0009293637027435657,
+          "bandFloor": 0.3285691727412362,
+          "fields": [
+            {
+              "field": 1,
+              "minimum": 0.3285691727412362
+            },
+            {
+              "field": 6,
+              "minimum": 0.34469422401802047
+            },
+            {
+              "field": 11,
+              "minimum": 0.3403193186434156
+            }
+          ]
+        },
+        {
+          "waterShiftMm": 0.0013293637027435657,
+          "bandFloor": 0.3044183468083086,
+          "fields": [
+            {
+              "field": 1,
+              "minimum": 0.32468736569253465
+            },
+            {
+              "field": 6,
+              "minimum": 0.3044183468083086
+            },
+            {
+              "field": 11,
+              "minimum": 0.30849956198914763
+            }
+          ]
+        }
+      ],
+      "usedRequestedFocusInterval": true,
+      "shimShiftMm": 0.0,
+      "trial": 3
+    },
+    {
+      "failedRays": 0,
+      "minNa": 0.9043574448061031,
+      "initialWaterFocusShiftMm": -0.0004430052540312959,
+      "best": {
+        "waterShiftMm": -0.001243005254031296,
+        "bandFloor": 0.25849190730645044,
+        "fields": [
+          {
+            "field": 1,
+            "minimum": 0.329641249537284
+          },
+          {
+            "field": 6,
+            "minimum": 0.31150593502227847
+          },
+          {
+            "field": 11,
+            "minimum": 0.25849190730645044
+          }
+        ]
+      },
+      "focusTrials": [
+        {
+          "waterShiftMm": -0.001243005254031296,
+          "bandFloor": 0.25849190730645044,
+          "fields": [
+            {
+              "field": 1,
+              "minimum": 0.329641249537284
+            },
+            {
+              "field": 6,
+              "minimum": 0.31150593502227847
+            },
+            {
+              "field": 11,
+              "minimum": 0.25849190730645044
+            }
+          ]
+        },
+        {
+          "waterShiftMm": -0.000843005254031296,
+          "bandFloor": 0.25628323625197985,
+          "fields": [
+            {
+              "field": 1,
+              "minimum": 0.33827652260941127
+            },
+            {
+              "field": 6,
+              "minimum": 0.2972702013553404
+            },
+            {
+              "field": 11,
+              "minimum": 0.25628323625197985
+            }
+          ]
+        },
+        {
+          "waterShiftMm": -0.0004430052540312959,
+          "bandFloor": 0.19775015936901258,
+          "fields": [
+            {
+              "field": 1,
+              "minimum": 0.2627974010076002
+            },
+            {
+              "field": 6,
+              "minimum": 0.19775015936901258
+            },
+            {
+              "field": 11,
+              "minimum": 0.1986841103792338
+            }
+          ]
+        },
+        {
+          "waterShiftMm": -4.3005254031295876e-05,
+          "bandFloor": 0.07767129959834135,
+          "fields": [
+            {
+              "field": 1,
+              "minimum": 0.14157756378937678
+            },
+            {
+              "field": 6,
+              "minimum": 0.07767129959834135
+            },
+            {
+              "field": 11,
+              "minimum": 0.09678381213748705
+            }
+          ]
+        },
+        {
+          "waterShiftMm": 0.00035699474596870414,
+          "bandFloor": 0.0008665112450855679,
+          "fields": [
+            {
+              "field": 1,
+              "minimum": 0.02503793300236198
+            },
+            {
+              "field": 6,
+              "minimum": 0.0008665112450855679
+            },
+            {
+              "field": 11,
+              "minimum": 0.0012947625607249217
+            }
+          ]
+        }
+      ],
+      "usedRequestedFocusInterval": true,
+      "shimShiftMm": 0.0,
+      "trial": 4
+    },
+    {
+      "failedRays": 0,
+      "minNa": 0.9044155062643894,
+      "initialWaterFocusShiftMm": 0.0019128465280624026,
+      "best": {
+        "waterShiftMm": 0.0019128465280624026,
+        "bandFloor": 0.3404668891936023,
+        "fields": [
+          {
+            "field": 1,
+            "minimum": 0.3519665876860652
+          },
+          {
+            "field": 6,
+            "minimum": 0.3404668891936023
+          },
+          {
+            "field": 11,
+            "minimum": 0.3479371426241708
+          }
+        ]
+      },
+      "focusTrials": [
+        {
+          "waterShiftMm": 0.0011128465280624026,
+          "bandFloor": 0.14782494685023492,
+          "fields": [
+            {
+              "field": 1,
+              "minimum": 0.24720256307090213
+            },
+            {
+              "field": 6,
+              "minimum": 0.2222427648963226
+            },
+            {
+              "field": 11,
+              "minimum": 0.14782494685023492
+            }
+          ]
+        },
+        {
+          "waterShiftMm": 0.0015128465280624026,
+          "bandFloor": 0.27006875797011687,
+          "fields": [
+            {
+              "field": 1,
+              "minimum": 0.3405243057276383
+            },
+            {
+              "field": 6,
+              "minimum": 0.3247690425501542
+            },
+            {
+              "field": 11,
+              "minimum": 0.27006875797011687
+            }
+          ]
+        },
+        {
+          "waterShiftMm": 0.0019128465280624026,
+          "bandFloor": 0.3404668891936023,
+          "fields": [
+            {
+              "field": 1,
+              "minimum": 0.3519665876860652
+            },
+            {
+              "field": 6,
+              "minimum": 0.3404668891936023
+            },
+            {
+              "field": 11,
+              "minimum": 0.3479371426241708
+            }
+          ]
+        },
+        {
+          "waterShiftMm": 0.0023128465280624027,
+          "bandFloor": 0.24631499819093136,
+          "fields": [
+            {
+              "field": 1,
+              "minimum": 0.27547300727242596
+            },
+            {
+              "field": 6,
+              "minimum": 0.24631499819093136
+            },
+            {
+              "field": 11,
+              "minimum": 0.30006130533861464
+            }
+          ]
+        },
+        {
+          "waterShiftMm": 0.0027128465280624025,
+          "bandFloor": 0.11695312832891008,
+          "fields": [
+            {
+              "field": 1,
+              "minimum": 0.15074874788311785
+            },
+            {
+              "field": 6,
+              "minimum": 0.11695312832891008
+            },
+            {
+              "field": 11,
+              "minimum": 0.1789380779204096
+            }
+          ]
+        }
+      ],
+      "usedRequestedFocusInterval": true,
+      "shimShiftMm": 0.0,
+      "trial": 5
+    },
+    {
+      "failedRays": 0,
+      "minNa": 0.9043754137043585,
+      "initialWaterFocusShiftMm": -0.0034078382070128616,
+      "best": {
+        "waterShiftMm": -0.004207838207012862,
+        "bandFloor": 0.2959081986540757,
+        "fields": [
+          {
+            "field": 1,
+            "minimum": 0.2959081986540757
+          },
+          {
+            "field": 6,
+            "minimum": 0.3334346598386601
+          },
+          {
+            "field": 11,
+            "minimum": 0.30941027204545074
+          }
+        ]
+      },
+      "focusTrials": [
+        {
+          "waterShiftMm": -0.004207838207012862,
+          "bandFloor": 0.2959081986540757,
+          "fields": [
+            {
+              "field": 1,
+              "minimum": 0.2959081986540757
+            },
+            {
+              "field": 6,
+              "minimum": 0.3334346598386601
+            },
+            {
+              "field": 11,
+              "minimum": 0.30941027204545074
+            }
+          ]
+        },
+        {
+          "waterShiftMm": -0.0038078382070128617,
+          "bandFloor": 0.25896970527961,
+          "fields": [
+            {
+              "field": 1,
+              "minimum": 0.34570288950765365
+            },
+            {
+              "field": 6,
+              "minimum": 0.31943535399000844
+            },
+            {
+              "field": 11,
+              "minimum": 0.25896970527961
+            }
+          ]
+        },
+        {
+          "waterShiftMm": -0.0034078382070128616,
+          "bandFloor": 0.16371620669166445,
+          "fields": [
+            {
+              "field": 1,
+              "minimum": 0.3075233535980947
+            },
+            {
+              "field": 6,
+              "minimum": 0.22827935427221718
+            },
+            {
+              "field": 11,
+              "minimum": 0.16371620669166445
+            }
+          ]
+        },
+        {
+          "waterShiftMm": -0.0030078382070128614,
+          "bandFloor": 0.0847918048674728,
+          "fields": [
+            {
+              "field": 1,
+              "minimum": 0.20053460829879322
+            },
+            {
+              "field": 6,
+              "minimum": 0.10578723702572279
+            },
+            {
+              "field": 11,
+              "minimum": 0.0847918048674728
+            }
+          ]
+        },
+        {
+          "waterShiftMm": -0.0026078382070128616,
+          "bandFloor": 0.009082979811091426,
+          "fields": [
+            {
+              "field": 1,
+              "minimum": 0.07718717953213783
+            },
+            {
+              "field": 6,
+              "minimum": 0.009082979811091426
+            },
+            {
+              "field": 11,
+              "minimum": 0.010141011590937195
+            }
+          ]
+        }
+      ],
+      "usedRequestedFocusInterval": true,
+      "shimShiftMm": 0.0,
+      "trial": 6
+    },
+    {
+      "failedRays": 0,
+      "minNa": 0.9039884164115882,
+      "initialWaterFocusShiftMm": 0.006890434168828795,
+      "best": {
+        "waterShiftMm": 0.006090434168828794,
+        "bandFloor": 0.3262239785459405,
+        "fields": [
+          {
+            "field": 1,
+            "minimum": 0.33618215664853773
+          },
+          {
+            "field": 6,
+            "minimum": 0.33825770406714173
+          },
+          {
+            "field": 11,
+            "minimum": 0.3262239785459405
+          }
+        ]
+      },
+      "focusTrials": [
+        {
+          "waterShiftMm": 0.006090434168828794,
+          "bandFloor": 0.3262239785459405,
+          "fields": [
+            {
+              "field": 1,
+              "minimum": 0.33618215664853773
+            },
+            {
+              "field": 6,
+              "minimum": 0.33825770406714173
+            },
+            {
+              "field": 11,
+              "minimum": 0.3262239785459405
+            }
+          ]
+        },
+        {
+          "waterShiftMm": 0.0064904341688287945,
+          "bandFloor": 0.2978078418019496,
+          "fields": [
+            {
+              "field": 1,
+              "minimum": 0.33382746322711515
+            },
+            {
+              "field": 6,
+              "minimum": 0.2978078418019496
+            },
+            {
+              "field": 11,
+              "minimum": 0.3192708110920786
+            }
+          ]
+        },
+        {
+          "waterShiftMm": 0.006890434168828795,
+          "bandFloor": 0.18700864734970174,
+          "fields": [
+            {
+              "field": 1,
+              "minimum": 0.24945685262265999
+            },
+            {
+              "field": 6,
+              "minimum": 0.18700864734970174
+            },
+            {
+              "field": 11,
+              "minimum": 0.2237051759340599
+            }
+          ]
+        },
+        {
+          "waterShiftMm": 0.007290434168828795,
+          "bandFloor": 0.06153285799332195,
+          "fields": [
+            {
+              "field": 1,
+              "minimum": 0.12586082054875286
+            },
+            {
+              "field": 6,
+              "minimum": 0.06153285799332195
+            },
+            {
+              "field": 11,
+              "minimum": 0.09529143744012476
+            }
+          ]
+        },
+        {
+          "waterShiftMm": 0.007690434168828795,
+          "bandFloor": 0.000402112595735616,
+          "fields": [
+            {
+              "field": 1,
+              "minimum": 0.014644244336784011
+            },
+            {
+              "field": 6,
+              "minimum": 0.011519650599721527
+            },
+            {
+              "field": 11,
+              "minimum": 0.000402112595735616
+            }
+          ]
+        }
+      ],
+      "usedRequestedFocusInterval": true,
+      "shimShiftMm": 0.0,
+      "trial": 7
+    },
+    {
+      "failedRays": 0,
+      "minNa": 0.904853598394627,
+      "initialWaterFocusShiftMm": -0.00654464987118732,
+      "best": {
+        "waterShiftMm": -0.00654464987118732,
+        "bandFloor": 0.33480242000246013,
+        "fields": [
+          {
+            "field": 1,
+            "minimum": 0.33480242000246013
+          },
+          {
+            "field": 6,
+            "minimum": 0.3515196686204221
+          },
+          {
+            "field": 11,
+            "minimum": 0.341709605444808
+          }
+        ]
+      },
+      "focusTrials": [
+        {
+          "waterShiftMm": -0.00734464987118732,
+          "bandFloor": 0.12818542154914736,
+          "fields": [
+            {
+              "field": 1,
+              "minimum": 0.12818542154914736
+            },
+            {
+              "field": 6,
+              "minimum": 0.20946600255110212
+            },
+            {
+              "field": 11,
+              "minimum": 0.2087122695001406
+            }
+          ]
+        },
+        {
+          "waterShiftMm": -0.00694464987118732,
+          "bandFloor": 0.25049851743766466,
+          "fields": [
+            {
+              "field": 1,
+              "minimum": 0.25049851743766466
+            },
+            {
+              "field": 6,
+              "minimum": 0.3152185945658947
+            },
+            {
+              "field": 11,
+              "minimum": 0.31831594068508073
+            }
+          ]
+        },
+        {
+          "waterShiftMm": -0.00654464987118732,
+          "bandFloor": 0.33480242000246013,
+          "fields": [
+            {
+              "field": 1,
+              "minimum": 0.33480242000246013
+            },
+            {
+              "field": 6,
+              "minimum": 0.3515196686204221
+            },
+            {
+              "field": 11,
+              "minimum": 0.341709605444808
+            }
+          ]
+        },
+        {
+          "waterShiftMm": -0.00614464987118732,
+          "bandFloor": 0.2501475777523131,
+          "fields": [
+            {
+              "field": 1,
+              "minimum": 0.3359668054974323
+            },
+            {
+              "field": 6,
+              "minimum": 0.29740509575848595
+            },
+            {
+              "field": 11,
+              "minimum": 0.2501475777523131
+            }
+          ]
+        },
+        {
+          "waterShiftMm": -0.0057446498711873194,
+          "bandFloor": 0.1213385978489123,
+          "fields": [
+            {
+              "field": 1,
+              "minimum": 0.25385215958811697
+            },
+            {
+              "field": 6,
+              "minimum": 0.18004721042667407
+            },
+            {
+              "field": 11,
+              "minimum": 0.1213385978489123
+            }
+          ]
+        }
+      ],
+      "usedRequestedFocusInterval": true,
+      "shimShiftMm": 0.0,
+      "trial": 8
+    },
+    {
+      "failedRays": 0,
+      "minNa": 0.9041395763871473,
+      "initialWaterFocusShiftMm": -0.002037184577406081,
+      "best": {
+        "waterShiftMm": -0.001637184577406081,
+        "bandFloor": 0.2667863603467587,
+        "fields": [
+          {
+            "field": 1,
+            "minimum": 0.2667863603467587
+          },
+          {
+            "field": 6,
+            "minimum": 0.27712031824806826
+          },
+          {
+            "field": 11,
+            "minimum": 0.28943137929918156
+          }
+        ]
+      },
+      "focusTrials": [
+        {
+          "waterShiftMm": -0.002837184577406081,
+          "bandFloor": 0.06786870326700979,
+          "fields": [
+            {
+              "field": 1,
+              "minimum": 0.08460861334510804
+            },
+            {
+              "field": 6,
+              "minimum": 0.07999969967817942
+            },
+            {
+              "field": 11,
+              "minimum": 0.06786870326700979
+            }
+          ]
+        },
+        {
+          "waterShiftMm": -0.002437184577406081,
+          "bandFloor": 0.14448460502617422,
+          "fields": [
+            {
+              "field": 1,
+              "minimum": 0.16766150141274314
+            },
+            {
+              "field": 6,
+              "minimum": 0.16525213530118638
+            },
+            {
+              "field": 11,
+              "minimum": 0.14448460502617422
+            }
+          ]
+        },
+        {
+          "waterShiftMm": -0.002037184577406081,
+          "bandFloor": 0.23836908545670762,
+          "fields": [
+            {
+              "field": 1,
+              "minimum": 0.24557348957988673
+            },
+            {
+              "field": 6,
+              "minimum": 0.24882617550032865
+            },
+            {
+              "field": 11,
+              "minimum": 0.23836908545670762
+            }
+          ]
+        },
+        {
+          "waterShiftMm": -0.001637184577406081,
+          "bandFloor": 0.2667863603467587,
+          "fields": [
+            {
+              "field": 1,
+              "minimum": 0.2667863603467587
+            },
+            {
+              "field": 6,
+              "minimum": 0.27712031824806826
+            },
+            {
+              "field": 11,
+              "minimum": 0.28943137929918156
+            }
+          ]
+        },
+        {
+          "waterShiftMm": -0.001237184577406081,
+          "bandFloor": 0.22091385106591013,
+          "fields": [
+            {
+              "field": 1,
+              "minimum": 0.22091385106591013
+            },
+            {
+              "field": 6,
+              "minimum": 0.23380983350170134
+            },
+            {
+              "field": 11,
+              "minimum": 0.26926132004565323
+            }
+          ]
+        }
+      ],
+      "usedRequestedFocusInterval": true,
+      "shimShiftMm": 0.0,
+      "trial": 9
+    },
+    {
+      "failedRays": 0,
+      "minNa": 0.9046645824052586,
+      "initialWaterFocusShiftMm": -0.0013025918175599473,
+      "best": {
+        "waterShiftMm": -0.0013025918175599473,
+        "bandFloor": 0.3313446155022219,
+        "fields": [
+          {
+            "field": 1,
+            "minimum": 0.3555622581863812
+          },
+          {
+            "field": 6,
+            "minimum": 0.35852433281267826
+          },
+          {
+            "field": 11,
+            "minimum": 0.3313446155022219
+          }
+        ]
+      },
+      "focusTrials": [
+        {
+          "waterShiftMm": -0.0021025918175599473,
+          "bandFloor": 0.10949186104398037,
+          "fields": [
+            {
+              "field": 1,
+              "minimum": 0.15070117920951828
+            },
+            {
+              "field": 6,
+              "minimum": 0.17683087761886102
+            },
+            {
+              "field": 11,
+              "minimum": 0.10949186104398037
+            }
+          ]
+        },
+        {
+          "waterShiftMm": -0.0017025918175599473,
+          "bandFloor": 0.23473875532615338,
+          "fields": [
+            {
+              "field": 1,
+              "minimum": 0.27771225318357345
+            },
+            {
+              "field": 6,
+              "minimum": 0.2961575004895582
+            },
+            {
+              "field": 11,
+              "minimum": 0.23473875532615338
+            }
+          ]
+        },
+        {
+          "waterShiftMm": -0.0013025918175599473,
+          "bandFloor": 0.3313446155022219,
+          "fields": [
+            {
+              "field": 1,
+              "minimum": 0.3555622581863812
+            },
+            {
+              "field": 6,
+              "minimum": 0.35852433281267826
+            },
+            {
+              "field": 11,
+              "minimum": 0.3313446155022219
+            }
+          ]
+        },
+        {
+          "waterShiftMm": -0.0009025918175599474,
+          "bandFloor": 0.30853964112367993,
+          "fields": [
+            {
+              "field": 1,
+              "minimum": 0.3444800022706341
+            },
+            {
+              "field": 6,
+              "minimum": 0.30853964112367993
+            },
+            {
+              "field": 11,
+              "minimum": 0.3265573497889242
+            }
+          ]
+        },
+        {
+          "waterShiftMm": -0.0005025918175599473,
+          "bandFloor": 0.19081694047224584,
+          "fields": [
+            {
+              "field": 1,
+              "minimum": 0.2508093290591833
+            },
+            {
+              "field": 6,
+              "minimum": 0.19081694047224584
+            },
+            {
+              "field": 11,
+              "minimum": 0.22404992127276482
+            }
+          ]
+        }
+      ],
+      "usedRequestedFocusInterval": true,
+      "shimShiftMm": 0.0,
+      "trial": 10
+    },
+    {
+      "failedRays": 0,
+      "minNa": 0.9041110600405795,
+      "initialWaterFocusShiftMm": 0.003614700005665142,
+      "best": {
+        "waterShiftMm": 0.003614700005665142,
+        "bandFloor": 0.23765957210745814,
+        "fields": [
+          {
+            "field": 1,
+            "minimum": 0.2823638647389962
+          },
+          {
+            "field": 6,
+            "minimum": 0.28457500853968737
+          },
+          {
+            "field": 11,
+            "minimum": 0.23765957210745814
+          }
+        ]
+      },
+      "focusTrials": [
+        {
+          "waterShiftMm": 0.0028147000056651422,
+          "bandFloor": 0.1128856264323823,
+          "fields": [
+            {
+              "field": 1,
+              "minimum": 0.1128856264323823
+            },
+            {
+              "field": 6,
+              "minimum": 0.21029315522760675
+            },
+            {
+              "field": 11,
+              "minimum": 0.21695690155720818
+            }
+          ]
+        },
+        {
+          "waterShiftMm": 0.003214700005665142,
+          "bandFloor": 0.2080952903795488,
+          "fields": [
+            {
+              "field": 1,
+              "minimum": 0.2080952903795488
+            },
+            {
+              "field": 6,
+              "minimum": 0.28320264730285727
+            },
+            {
+              "field": 11,
+              "minimum": 0.28362054883215254
+            }
+          ]
+        },
+        {
+          "waterShiftMm": 0.003614700005665142,
+          "bandFloor": 0.23765957210745814,
+          "fields": [
+            {
+              "field": 1,
+              "minimum": 0.2823638647389962
+            },
+            {
+              "field": 6,
+              "minimum": 0.28457500853968737
+            },
+            {
+              "field": 11,
+              "minimum": 0.23765957210745814
+            }
+          ]
+        },
+        {
+          "waterShiftMm": 0.004014700005665142,
+          "bandFloor": 0.13926367014262753,
+          "fields": [
+            {
+              "field": 1,
+              "minimum": 0.2878933186240066
+            },
+            {
+              "field": 6,
+              "minimum": 0.2142397661008794
+            },
+            {
+              "field": 11,
+              "minimum": 0.13926367014262753
+            }
+          ]
+        },
+        {
+          "waterShiftMm": 0.0044147000056651425,
+          "bandFloor": 0.05219154665830357,
+          "fields": [
+            {
+              "field": 1,
+              "minimum": 0.22139590869053932
+            },
+            {
+              "field": 6,
+              "minimum": 0.11196923715539955
+            },
+            {
+              "field": 11,
+              "minimum": 0.05219154665830357
+            }
+          ]
+        }
+      ],
+      "usedRequestedFocusInterval": true,
+      "shimShiftMm": 0.0,
+      "trial": 11
+    },
+    {
+      "failedRays": 0,
+      "minNa": 0.9045860921171344,
+      "initialWaterFocusShiftMm": -0.0018537688736799183,
+      "best": {
+        "waterShiftMm": -0.0018537688736799183,
+        "bandFloor": 0.3182252480900421,
+        "fields": [
+          {
+            "field": 1,
+            "minimum": 0.3182252480900421
+          },
+          {
+            "field": 6,
+            "minimum": 0.3417719130209388
+          },
+          {
+            "field": 11,
+            "minimum": 0.32924763703947957
+          }
+        ]
+      },
+      "focusTrials": [
+        {
+          "waterShiftMm": -0.0026537688736799183,
+          "bandFloor": 0.10912140302271749,
+          "fields": [
+            {
+              "field": 1,
+              "minimum": 0.10912140302271749
+            },
+            {
+              "field": 6,
+              "minimum": 0.19366401215010345
+            },
+            {
+              "field": 11,
+              "minimum": 0.18973531661608561
+            }
+          ]
+        },
+        {
+          "waterShiftMm": -0.0022537688736799185,
+          "bandFloor": 0.22720910887637397,
+          "fields": [
+            {
+              "field": 1,
+              "minimum": 0.22720910887637397
+            },
+            {
+              "field": 6,
+              "minimum": 0.30368085635362924
+            },
+            {
+              "field": 11,
+              "minimum": 0.2996649481749583
+            }
+          ]
+        },
+        {
+          "waterShiftMm": -0.0018537688736799183,
+          "bandFloor": 0.3182252480900421,
+          "fields": [
+            {
+              "field": 1,
+              "minimum": 0.3182252480900421
+            },
+            {
+              "field": 6,
+              "minimum": 0.3417719130209388
+            },
+            {
+              "field": 11,
+              "minimum": 0.32924763703947957
+            }
+          ]
+        },
+        {
+          "waterShiftMm": -0.0014537688736799184,
+          "bandFloor": 0.23935899857644977,
+          "fields": [
+            {
+              "field": 1,
+              "minimum": 0.33247785956957615
+            },
+            {
+              "field": 6,
+              "minimum": 0.2898488256625229
+            },
+            {
+              "field": 11,
+              "minimum": 0.23935899857644977
+            }
+          ]
+        },
+        {
+          "waterShiftMm": -0.0010537688736799184,
+          "bandFloor": 0.11161559991676671,
+          "fields": [
+            {
+              "field": 1,
+              "minimum": 0.26258589080665334
+            },
+            {
+              "field": 6,
+              "minimum": 0.17571489291352743
+            },
+            {
+              "field": 11,
+              "minimum": 0.11161559991676671
+            }
+          ]
+        }
+      ],
+      "usedRequestedFocusInterval": true,
+      "shimShiftMm": 0.0,
+      "trial": 12
+    }
+  ],
+  "shimSurface": null,
+  "scope": "Fixed trial errors, real ray aiming, meridional pose errors and one water-gap focus compensator."
+}

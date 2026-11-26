@@ -1,0 +1,259 @@
+{
+  "owxSha256": "b955816b4e27b49f3aa18d26cc7f0c8a34c5c5080533458d1ec169dcedb24268",
+  "sampleCounts": [
+    4097,
+    8193
+  ],
+  "shortestDistanceChangeMm": 2.7267077484793845e-13,
+  "physicalLenses": [
+    {
+      "frontSurface": 1,
+      "rearSurface": 2,
+      "material": "OHARA:S-NBH53V",
+      "meridionalShortestMm": 1.795690751104451,
+      "frontRadiusMm": 7.958099886401649,
+      "rearRadiusMm": 7.1423505183446245,
+      "centerThicknessMm": 4.899471665271166,
+      "nearestGridMm": 1.7956907511044515
+    },
+    {
+      "frontSurface": 3,
+      "rearSurface": 4,
+      "material": "OHARA:S-BSL7",
+      "meridionalShortestMm": 1.0315143581245323,
+      "frontRadiusMm": 1e-10,
+      "rearRadiusMm": 1e-10,
+      "centerThicknessMm": 1.0315143581245323,
+      "nearestGridMm": 1.0315143581245323
+    },
+    {
+      "frontSurface": 5,
+      "rearSurface": 6,
+      "material": "SCHOTT:N-LAF7",
+      "meridionalShortestMm": 1.1663074044654813,
+      "frontRadiusMm": 1e-10,
+      "rearRadiusMm": 1e-10,
+      "centerThicknessMm": 1.1663074044654804,
+      "nearestGridMm": 1.1663074044654813
+    },
+    {
+      "frontSurface": 6,
+      "rearSurface": 7,
+      "material": "OHARA:S-FPM2",
+      "meridionalShortestMm": 3.773295274495941,
+      "frontRadiusMm": 4.41923521216549,
+      "rearRadiusMm": 5.326605191915573,
+      "centerThicknessMm": 5.166143503660006,
+      "nearestGridMm": 3.773295274495941
+    },
+    {
+      "frontSurface": 8,
+      "rearSurface": 9,
+      "material": "SCHOTT:N-KZFS11",
+      "meridionalShortestMm": 1.2322614962241722,
+      "frontRadiusMm": 1e-10,
+      "rearRadiusMm": 1e-10,
+      "centerThicknessMm": 1.2322614962241725,
+      "nearestGridMm": 1.2322614962241722
+    },
+    {
+      "frontSurface": 9,
+      "rearSurface": 10,
+      "material": "OHARA:S-FPL53",
+      "meridionalShortestMm": 1.6370151976335796,
+      "frontRadiusMm": 5.5524360853911325,
+      "rearRadiusMm": 5.879036340237252,
+      "centerThicknessMm": 3.9701131676338552,
+      "nearestGridMm": 1.6370151976335763
+    },
+    {
+      "frontSurface": 11,
+      "rearSurface": 12,
+      "material": "OHARA:S-FPL53",
+      "meridionalShortestMm": 0.2226232084262986,
+      "frontRadiusMm": 6.191034136329882,
+      "rearRadiusMm": 6.177421123323638,
+      "centerThicknessMm": 4.017567646484012,
+      "nearestGridMm": 0.2226232084262986
+    },
+    {
+      "frontSurface": 12,
+      "rearSurface": 13,
+      "material": "SCHOTT:N-KZFS11",
+      "meridionalShortestMm": 0.2699691183715558,
+      "frontRadiusMm": 1e-10,
+      "rearRadiusMm": 1e-10,
+      "centerThicknessMm": 0.26996911837155685,
+      "nearestGridMm": 0.2699691183715558
+    },
+    {
+      "frontSurface": 15,
+      "rearSurface": 16,
+      "material": "OHARA:S-FPL53",
+      "meridionalShortestMm": 2.698502490633878,
+      "frontRadiusMm": 6.942560587122777,
+      "rearRadiusMm": 6.942560587122778,
+      "centerThicknessMm": 4.477592230860572,
+      "nearestGridMm": 2.698502490799368
+    },
+    {
+      "frontSurface": 16,
+      "rearSurface": 17,
+      "material": "SCHOTT:N-KZFS11",
+      "meridionalShortestMm": 0.8145021030756041,
+      "frontRadiusMm": 1e-10,
+      "rearRadiusMm": 1e-10,
+      "centerThicknessMm": 0.8145021030756047,
+      "nearestGridMm": 0.8145021030756041
+    },
+    {
+      "frontSurface": 17,
+      "rearSurface": 18,
+      "material": "OHARA:S-FPL53",
+      "meridionalShortestMm": 1.5221445291779783,
+      "frontRadiusMm": 7.022659360907962,
+      "rearRadiusMm": 7.16353933326603,
+      "centerThicknessMm": 5.6170505338891115,
+      "nearestGridMm": 1.5221445291779783
+    },
+    {
+      "frontSurface": 19,
+      "rearSurface": 20,
+      "material": "SCHOTT:N-LAF34",
+      "meridionalShortestMm": 2.4456733842263367,
+      "frontRadiusMm": 6.407429450105888,
+      "rearRadiusMm": 5.012997796877468,
+      "centerThicknessMm": 4.809423934630262,
+      "nearestGridMm": 2.4456733842263367
+    },
+    {
+      "frontSurface": 21,
+      "rearSurface": 22,
+      "material": "SCHOTT:N-LASF31A",
+      "meridionalShortestMm": 3.20189013468443,
+      "frontRadiusMm": 2.9615753836876326,
+      "rearRadiusMm": 1.0401251591532255,
+      "centerThicknessMm": 3.3580628197434206,
+      "nearestGridMm": 3.2018901375317466
+    },
+    {
+      "frontSurface": 22,
+      "rearSurface": 23,
+      "material": "CDGM:H-FK71A",
+      "meridionalShortestMm": 0.32194260410807074,
+      "frontRadiusMm": 1.6542889502503944,
+      "rearRadiusMm": 1.404772978128418,
+      "centerThicknessMm": 1.2476990733780506,
+      "nearestGridMm": 0.32194260410807074
+    }
+  ],
+  "surfaceSlopes": [
+    {
+      "surface": 1,
+      "maximumSlopeDeg": 47.54043421191421
+    },
+    {
+      "surface": 2,
+      "maximumSlopeDeg": 4.074399169135065
+    },
+    {
+      "surface": 3,
+      "maximumSlopeDeg": 5.814105932088038
+    },
+    {
+      "surface": 4,
+      "maximumSlopeDeg": 46.331346215019614
+    },
+    {
+      "surface": 5,
+      "maximumSlopeDeg": 41.331936939061386
+    },
+    {
+      "surface": 6,
+      "maximumSlopeDeg": 3.7967105079917296
+    },
+    {
+      "surface": 7,
+      "maximumSlopeDeg": 35.287705254134536
+    },
+    {
+      "surface": 8,
+      "maximumSlopeDeg": 10.405140212848528
+    },
+    {
+      "surface": 9,
+      "maximumSlopeDeg": 37.35968779944382
+    },
+    {
+      "surface": 10,
+      "maximumSlopeDeg": 18.098069409257356
+    },
+    {
+      "surface": 11,
+      "maximumSlopeDeg": 24.274275605431107
+    },
+    {
+      "surface": 12,
+      "maximumSlopeDeg": 45.08032577369141
+    },
+    {
+      "surface": 13,
+      "maximumSlopeDeg": 4.223074099366976
+    },
+    {
+      "surface": 14,
+      "maximumSlopeDeg": 2.0844083160439303e-10
+    },
+    {
+      "surface": 15,
+      "maximumSlopeDeg": 25.01617199493216
+    },
+    {
+      "surface": 16,
+      "maximumSlopeDeg": 2.0844083160439303e-10
+    },
+    {
+      "surface": 17,
+      "maximumSlopeDeg": 27.796693645627496
+    },
+    {
+      "surface": 18,
+      "maximumSlopeDeg": 31.071155147558216
+    },
+    {
+      "surface": 19,
+      "maximumSlopeDeg": 61.43605970105038
+    },
+    {
+      "surface": 20,
+      "maximumSlopeDeg": 21.13246334242413
+    },
+    {
+      "surface": 21,
+      "maximumSlopeDeg": 39.445219542998686
+    },
+    {
+      "surface": 22,
+      "maximumSlopeDeg": 57.53787946067218
+    },
+    {
+      "surface": 23,
+      "maximumSlopeDeg": 1.6675266528351443e-09
+    }
+  ],
+  "minimum": {
+    "frontSurface": 11,
+    "rearSurface": 12,
+    "material": "OHARA:S-FPL53",
+    "meridionalShortestMm": 0.2226232084262986,
+    "frontRadiusMm": 6.191034136329882,
+    "rearRadiusMm": 6.177421123323638,
+    "centerThicknessMm": 4.017567646484012,
+    "nearestGridMm": 0.2226232084262986
+  },
+  "maximumSlope": {
+    "surface": 19,
+    "maximumSlopeDeg": 61.43605970105038
+  },
+  "scope": "Nominal axisymmetric finished optical faces. Seating, bevel and hardware still need a drawing."
+}

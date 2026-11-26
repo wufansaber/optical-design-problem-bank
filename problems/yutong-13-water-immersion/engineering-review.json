@@ -1,6 +1,6 @@
 {
-  "owxSha256": "4939fcefcdcb5e8a3fb033b9843d6da296a55692d8d9d19999887f02f9c97ab7",
-  "zmxSha256": "64bf62ff057f2a37f217aaae930dffff0a45afcdff2ab9595b6c01d747e3fe62",
+  "owxSha256": "b955816b4e27b49f3aa18d26cc7f0c8a34c5c5080533458d1ec169dcedb24268",
+  "zmxSha256": "0ea8157fc519d4c713ecfe5cfe0abd85cde5fa14727fd172b3b734eddd27bc81",
   "fields": [
     0,
     1,
@@ -38,46 +38,48 @@
     1150.0
   ],
   "newZemaxMinimum": [
-    0.3200302053447576,
-    10,
+    0.35319774788005626,
+    1,
     1150.0
   ],
   "newOptiworkMinimum": [
-    0.3240573448024438,
-    10,
+    0.3636926191544127,
+    1,
     1150.0
   ],
   "minimumCommonRadiusGlassAxialThickness": {
     "firstSurface": 11,
     "secondSurface": 12,
-    "minimumAxialSeparationMm": 0.17348333778410918,
-    "radiusAtMinimumMm": 6.050070109335599,
-    "checkedRadiusMm": 6.050070109335599
+    "minimumAxialSeparationMm": 0.2283348259189104,
+    "radiusAtMinimumMm": 6.177421123323639,
+    "checkedRadiusMm": 6.177421123323639
   },
   "minimumMechanicalClearance": {
-    "firstSurface": 10,
-    "secondSurface": 11,
-    "minimumAxialSeparationMm": 0.08699999999999974,
+    "firstSurface": 18,
+    "secondSurface": 19,
+    "minimumAxialSeparationMm": 0.10900000000000176,
     "radiusAtMinimumMm": 0.0,
-    "checkedRadiusMm": 5.799032884329873
+    "checkedRadiusMm": 6.407429450105889
   },
   "minimumStopClearance": {
     "firstSurface": 13,
     "secondSurface": 14,
-    "minimumAxialSeparationMm": 0.0870000000000033,
+    "minimumAxialSeparationMm": 0.11370312545990302,
     "radiusAtMinimumMm": 0.0,
-    "checkedRadiusMm": 6.223425408887521
+    "checkedRadiusMm": 6.372042808832511
   },
   "minimumTaperAxialSpan": {
     "firstSurface": 22,
     "secondSurface": 23,
     "minimumAxialSeparationMm": 0.0,
-    "radiusAtMinimumMm": 1.5652082106059062,
-    "checkedRadiusMm": 1.5652082106059062,
-    "sidewallAxialSpanMm": 0.14675963803959036,
-    "rayEndpointClearanceMm": 0.029482863582529717
+    "radiusAtMinimumMm": 1.6542889502503946,
+    "checkedRadiusMm": 1.6542889502503946,
+    "sidewallAxialSpanMm": 0.2034424242775117,
+    "rayEndpointClearanceMm": 0.03261393209378127
   },
   "geometryStatus": "nominal sampled geometry",
   "manufacturingQualified": false,
-  "passes": true
+  "passes": true,
+  "maximumZemaxTangentialSagittalDifference": 0.005604139286798815,
+  "minimumZemaxBothAxes": 0.35319774788005626
 }
