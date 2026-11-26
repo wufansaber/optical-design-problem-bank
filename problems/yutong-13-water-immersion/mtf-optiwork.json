@@ -1,0 +1,406 @@
+{
+  "software": "Optiwork 1.2.2",
+  "owxSha256": "3d400bb733234c8d8567eef8351843f52d4973db48539c5d4feff58c5bd365d2",
+  "runs": [
+    {
+      "frequency": [
+        0.0,
+        100.0,
+        250.0,
+        500.0,
+        750.0,
+        1000.0,
+        1250.0,
+        1500.0,
+        1750.0,
+        2000.0,
+        2250.0,
+        2400.0
+      ],
+      "curves": [
+        {
+          "fieldIndex": 0,
+          "field": 0.0,
+          "fieldX": 0.0,
+          "phaseAliasing": false,
+          "warnings": [
+            "fast_image_cone_scalar_model"
+          ],
+          "maxNeighborOpdStepWaves": 0.011703776281843471,
+          "maxOpdSpanWaves": 0.10729818555109326,
+          "tangential": [
+            1.0,
+            0.937700051287525,
+            0.8401190636435263,
+            0.6942321222047694,
+            0.5568675886306587,
+            0.43192328584544815,
+            0.3160294659333549,
+            0.20765255967360058,
+            0.11202251396991342,
+            0.037761361893883405,
+            0.001525560835030902,
+            0.0
+          ],
+          "sagittal": [
+            1.0,
+            0.9377000512875271,
+            0.8401190636435178,
+            0.6942321222047931,
+            0.5568675886306622,
+            0.43192328584546785,
+            0.3160294659333306,
+            0.2076525596735901,
+            0.11202251396992771,
+            0.03776136189389414,
+            0.0015255608350306393,
+            0.0
+          ],
+          "axisConvention": "fixed_xy",
+          "diffractionCutoffLpMm": {
+            "sagittal": [
+              2124.554706971829,
+              2306.227467738923
+            ],
+            "tangential": [
+              2124.554706971829,
+              2306.227467738923
+            ]
+          }
+        },
+        {
+          "fieldIndex": 5,
+          "field": 4.368305413623469,
+          "fieldX": 0.0,
+          "phaseAliasing": false,
+          "warnings": [
+            "fast_image_cone_scalar_model"
+          ],
+          "maxNeighborOpdStepWaves": 0.01956732370387046,
+          "maxOpdSpanWaves": 1.13895817927272,
+          "tangential": [
+            1.0,
+            0.9328924210256035,
+            0.8117076525048698,
+            0.6067705491420687,
+            0.4192518088002269,
+            0.26727833109125243,
+            0.14789339102529192,
+            0.07140391171243243,
+            0.03445918573239704,
+            0.01808308058614659,
+            0.0017010060248286304,
+            0.0
+          ],
+          "sagittal": [
+            1.0,
+            0.9377429755008765,
+            0.8404837078893317,
+            0.694125102889193,
+            0.5565068257156677,
+            0.4304833105418912,
+            0.314064421954697,
+            0.20707594580866626,
+            0.11290493296857373,
+            0.038394446662510774,
+            0.0016506558719089081,
+            0.0
+          ],
+          "axisConvention": "fixed_xy",
+          "diffractionCutoffLpMm": {
+            "sagittal": [
+              2127.2493085751157,
+              2309.166440491323
+            ],
+            "tangential": [
+              2128.2792381552213,
+              2310.306280948833
+            ]
+          }
+        },
+        {
+          "fieldIndex": 10,
+          "field": 8.736610827246938,
+          "fieldX": 0.0,
+          "phaseAliasing": false,
+          "warnings": [
+            "fast_image_cone_scalar_model"
+          ],
+          "maxNeighborOpdStepWaves": 0.02786523462593049,
+          "maxOpdSpanWaves": 1.0559906231026852,
+          "tangential": [
+            1.0,
+            0.9231327503621984,
+            0.7661327446330656,
+            0.4553685713998805,
+            0.17360471889473109,
+            0.09860798618880465,
+            0.12565850391819247,
+            0.0941787396657102,
+            0.04431901746079013,
+            0.01180479417969352,
+            0.0022485477685501736,
+            0.0
+          ],
+          "sagittal": [
+            1.0,
+            0.932983790591543,
+            0.8237072740625493,
+            0.6666316297396904,
+            0.5259580560767982,
+            0.42038238280774903,
+            0.3130473539835369,
+            0.20462389152223953,
+            0.10807128711622224,
+            0.03847392883964527,
+            0.0020574217417083963,
+            0.0
+          ],
+          "axisConvention": "fixed_xy",
+          "diffractionCutoffLpMm": {
+            "sagittal": [
+              2135.914063162864,
+              2318.6168798638
+            ],
+            "tangential": [
+              2140.042695572365,
+              2323.2401996674057
+            ]
+          }
+        }
+      ],
+      "computed": true,
+      "unavailableFields": [],
+      "maxFrequencyLpMm": 2400.0,
+      "frequencyUnit": "lp/mm",
+      "diffractionCutoffRangeLpMm": {
+        "min": 2124.554706971829,
+        "max": 2323.2401996674057
+      },
+      "rangeExceedsAllDiffractionCutoffs": true,
+      "method": "scalar_fft_normalized_pupil",
+      "samples": 256,
+      "padding": 2,
+      "tier": "full",
+      "phaseAliasing": false,
+      "samplingStatus": "not_convergence_verified",
+      "unsupportedReason": null,
+      "warnings": [
+        "MTF field 0: fast_image_cone_scalar_model",
+        "MTF field 4.36831: fast_image_cone_scalar_model",
+        "MTF field 8.73661: fast_image_cone_scalar_model"
+      ],
+      "cacheMeta": {
+        "systemCacheHit": false,
+        "opticalKey": "b7e532f457db7c4ef6a30427658b8c573a2978b19e6743e3ef44d14a67eef485",
+        "resultCacheHits": 0,
+        "resultCacheFields": 3,
+        "sourceWavelengthCount": 3,
+        "uniqueWavelengthCount": 3,
+        "accelerator": "numba_float64"
+      },
+      "elapsedSeconds": 59.372429799987,
+      "label": "Scalar FFT MTF · 256×256 pupil samples · full; convergence requires verification"
+    },
+    {
+      "frequency": [
+        0.0,
+        100.0,
+        250.0,
+        500.0,
+        750.0,
+        1000.0,
+        1250.0,
+        1500.0,
+        1750.0,
+        2000.0,
+        2250.0,
+        2400.0
+      ],
+      "curves": [
+        {
+          "fieldIndex": 0,
+          "field": 0.0,
+          "fieldX": 0.0,
+          "phaseAliasing": false,
+          "warnings": [
+            "fast_image_cone_scalar_model"
+          ],
+          "maxNeighborOpdStepWaves": 0.006115442980008733,
+          "maxOpdSpanWaves": 0.10729850994786387,
+          "tangential": [
+            1.0,
+            0.9377037633920204,
+            0.8401315249150623,
+            0.6942971114231318,
+            0.5569448036375653,
+            0.43199355665902706,
+            0.31608386040447234,
+            0.20770653998354727,
+            0.1120225099021355,
+            0.037721070098212864,
+            0.001514730307128486,
+            0.0
+          ],
+          "sagittal": [
+            1.0,
+            0.937703763392026,
+            0.8401315249150751,
+            0.6942971114231209,
+            0.556944803637557,
+            0.43199355665903444,
+            0.3160838604044728,
+            0.20770653998354546,
+            0.11202250990213458,
+            0.03772107009821681,
+            0.0015147303071298222,
+            0.0
+          ],
+          "axisConvention": "fixed_xy",
+          "diffractionCutoffLpMm": {
+            "sagittal": [
+              2124.554706971829,
+              2306.227467738923
+            ],
+            "tangential": [
+              2124.554706971829,
+              2306.227467738923
+            ]
+          }
+        },
+        {
+          "fieldIndex": 5,
+          "field": 4.368305413623469,
+          "fieldX": 0.0,
+          "phaseAliasing": false,
+          "warnings": [
+            "fast_image_cone_scalar_model"
+          ],
+          "maxNeighborOpdStepWaves": 0.010310484137377063,
+          "maxOpdSpanWaves": 1.1423465383244131,
+          "tangential": [
+            1.0,
+            0.9329108006433908,
+            0.8117383982119801,
+            0.6068424707140443,
+            0.41932647065830775,
+            0.26733910751699025,
+            0.14793161945716846,
+            0.07143543971977102,
+            0.03445177306432386,
+            0.01808217114979575,
+            0.0016816373659382412,
+            0.0
+          ],
+          "sagittal": [
+            1.0,
+            0.9377464206372038,
+            0.8404956172330706,
+            0.6941829518044967,
+            0.5565717324399919,
+            0.43054620173528596,
+            0.31411546438856963,
+            0.20712864575942655,
+            0.11290881344910825,
+            0.038352447833202186,
+            0.0016335915305498582,
+            0.0
+          ],
+          "axisConvention": "fixed_xy",
+          "diffractionCutoffLpMm": {
+            "sagittal": [
+              2127.2493085751157,
+              2309.166440491323
+            ],
+            "tangential": [
+              2128.2792381552213,
+              2310.306280948833
+            ]
+          }
+        },
+        {
+          "fieldIndex": 10,
+          "field": 8.736610827246938,
+          "fieldX": 0.0,
+          "phaseAliasing": false,
+          "warnings": [
+            "fast_image_cone_scalar_model"
+          ],
+          "maxNeighborOpdStepWaves": 0.015120173140207083,
+          "maxOpdSpanWaves": 1.059525755005967,
+          "tangential": [
+            1.0,
+            0.9231369764909837,
+            0.7661561594582407,
+            0.45541466169348777,
+            0.17362848370174538,
+            0.09863106728257562,
+            0.12570049825681864,
+            0.09420115977919967,
+            0.044324916449609036,
+            0.011790615698726008,
+            0.0022340561540994917,
+            0.0
+          ],
+          "sagittal": [
+            1.0,
+            0.9329893152215696,
+            0.8237244802347958,
+            0.6666920487818202,
+            0.526024054013523,
+            0.4204547967930502,
+            0.3131115278310674,
+            0.20468283022320588,
+            0.1080831179686437,
+            0.038439652989697946,
+            0.002038836027273597,
+            0.0
+          ],
+          "axisConvention": "fixed_xy",
+          "diffractionCutoffLpMm": {
+            "sagittal": [
+              2135.914063162864,
+              2318.6168798638
+            ],
+            "tangential": [
+              2140.042695572365,
+              2323.2401996674057
+            ]
+          }
+        }
+      ],
+      "computed": true,
+      "unavailableFields": [],
+      "maxFrequencyLpMm": 2400.0,
+      "frequencyUnit": "lp/mm",
+      "diffractionCutoffRangeLpMm": {
+        "min": 2124.554706971829,
+        "max": 2323.2401996674057
+      },
+      "rangeExceedsAllDiffractionCutoffs": true,
+      "method": "scalar_fft_normalized_pupil",
+      "samples": 512,
+      "padding": 2,
+      "tier": "full",
+      "phaseAliasing": false,
+      "samplingStatus": "not_convergence_verified",
+      "unsupportedReason": null,
+      "warnings": [
+        "MTF field 0: fast_image_cone_scalar_model",
+        "MTF field 4.36831: fast_image_cone_scalar_model",
+        "MTF field 8.73661: fast_image_cone_scalar_model"
+      ],
+      "cacheMeta": {
+        "systemCacheHit": false,
+        "opticalKey": "b7e532f457db7c4ef6a30427658b8c573a2978b19e6743e3ef44d14a67eef485",
+        "resultCacheHits": 0,
+        "resultCacheFields": 3,
+        "sourceWavelengthCount": 3,
+        "uniqueWavelengthCount": 3,
+        "accelerator": "numba_float64"
+      },
+      "elapsedSeconds": 273.0575244000065,
+      "label": "Scalar FFT MTF · 512×512 pupil samples · full; convergence requires verification"
+    }
+  ]
+}
