@@ -33,7 +33,7 @@
 
 - [IODC 1994 Rochester](problems/iodc-1994-rochester/README.md) · 10 片方案，成品包络 14.435 cm³，完成 Optiwork 和 Zemax 复验。
 
-- [第十三届宇瞳杯水浸物镜](problems/yutong-13-water-immersion/README.md) · 三波长 41 场 Optiwork / Zemax 同处方复验，NA 0.903，最大 PV 0.2131 波，全谱垂轴色差 0.8273 µm。
+- [第十三届宇瞳杯水浸物镜](problems/yutong-13-water-immersion/README.md) · 三波长 41 场 Optiwork / Zemax 同处方复验，NA 0.902，最大 PV 0.1149 波，全谱垂轴色差 0.2408 µm。
 
 ## 题目索引
 
